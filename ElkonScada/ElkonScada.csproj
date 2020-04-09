@@ -1,0 +1,2327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE0416D9-4766-41D7-8748-CF9DB4AF4685}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ElkonScada</RootNamespace>
+    <AssemblyName>ElkonScada</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ElkonScada.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Elkon_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.4.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting, Version=1.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=1.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=1.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel, Version=1.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Server.Kestrel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Server.Kestrel.Https, Version=1.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.Server.Kestrel.Https.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.EnvironmentVariables, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.Configuration.EnvironmentVariables.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Physical, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.FileProviders.Physical.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileSystemGlobbing, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.ObjectPool, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.ObjectPool.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.PlatformAbstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.PlatformAbstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Microsoft.Net.Http.Headers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SRModbusTCP">
+      <HintPath>..\..\ElkonScadaCSharp_M_20191129_1518\ElkonScada\Library\SRModbusTCP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=1.4.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lw.zhang.OpcClient.UA.DA.1.0.0\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0001_Firmalar\FirmaDosyaYoluImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaDosyaYoluImport.Designer.cs">
+      <DependentUpon>FirmaDosyaYoluImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaBilgileriDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaBilgileriDuzenle.Designer.cs">
+      <DependentUpon>FirmaBilgileriDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaDosyaAdi.Designer.cs">
+      <DependentUpon>FirmaDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0001_Firmalar\Firmalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0001_Firmalar\Firmalar.Designer.cs">
+      <DependentUpon>Firmalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaSil.Designer.cs">
+      <DependentUpon>FirmaSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0001_Firmalar\SqlTableCheckFirmalar.cs" />
+    <Compile Include="0001_Firmalar\FirmaYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0001_Firmalar\FirmaYeni.Designer.cs">
+      <DependentUpon>FirmaYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0002_Araclar\AracBilgileriDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0002_Araclar\AracBilgileriDuzenle.Designer.cs">
+      <DependentUpon>AracBilgileriDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0002_Araclar\AracDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0002_Araclar\AracDosyaAdi.Designer.cs">
+      <DependentUpon>AracDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0002_Araclar\Araclar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0002_Araclar\Araclar.Designer.cs">
+      <DependentUpon>Araclar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0002_Araclar\AracDosyaYoluImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0002_Araclar\AracDosyaYoluImport.Designer.cs">
+      <DependentUpon>AracDosyaYoluImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0002_Araclar\AracSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0002_Araclar\AracSil.designer.cs">
+      <DependentUpon>AracSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0002_Araclar\SqlTableCheckAraclar.cs" />
+    <Compile Include="0002_Araclar\AracYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0002_Araclar\AracYeni.Designer.cs">
+      <DependentUpon>AracYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuDosyaYoluImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuDosyaYoluImport.Designer.cs">
+      <DependentUpon>SurucuDosyaYoluImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0003_Suruculer\SqlTableCheckSuruculer.cs" />
+    <Compile Include="0003_Suruculer\SurucuBilgileriDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuBilgileriDuzenle.Designer.cs">
+      <DependentUpon>SurucuBilgileriDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuDosyaAdi.Designer.cs">
+      <DependentUpon>SurucuDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0003_Suruculer\Suruculer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0003_Suruculer\Suruculer.Designer.cs">
+      <DependentUpon>Suruculer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuSil.designer.cs">
+      <DependentUpon>SurucuSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0003_Suruculer\SurucuYeni.Designer.cs">
+      <DependentUpon>SurucuYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeDosyaYoluImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeDosyaYoluImport.Designer.cs">
+      <DependentUpon>SantiyeDosyaYoluImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeBilgileriDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeBilgileriDuzenle.Designer.cs">
+      <DependentUpon>SantiyeBilgileriDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeDosyaAdi.Designer.cs">
+      <DependentUpon>SantiyeDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0004_Santiyeler\Santiyeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0004_Santiyeler\Santiyeler.Designer.cs">
+      <DependentUpon>Santiyeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeSil.Designer.cs">
+      <DependentUpon>SantiyeSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SqlTableCheckSantiyeler.cs" />
+    <Compile Include="0004_Santiyeler\SantiyeYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0004_Santiyeler\SantiyeYeni.Designer.cs">
+      <DependentUpon>SantiyeYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeFiber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeFiber.Designer.cs">
+      <DependentUpon>MalzemeFiber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeBilgileriDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeBilgileriDuzenle.Designer.cs">
+      <DependentUpon>MalzemeBilgileriDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeDosyaAdi.Designer.cs">
+      <DependentUpon>MalzemeDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0005_Malzemeler\Malzemeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0005_Malzemeler\Malzemeler.Designer.cs">
+      <DependentUpon>Malzemeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeSil.Designer.cs">
+      <DependentUpon>MalzemeSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0005_Malzemeler\SqlTableCheckMalzemeler.cs" />
+    <Compile Include="0005_Malzemeler\MalzemeYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0005_Malzemeler\MalzemeYeni.Designer.cs">
+      <DependentUpon>MalzemeYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\SqlTableCheckStokAlanlari.cs" />
+    <Compile Include="0006_StokAlanlari\StokAlaniDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlaniDuzenle.Designer.cs">
+      <DependentUpon>StokAlaniDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlaniHizliDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlaniHizliDuzenle.Designer.cs">
+      <DependentUpon>StokAlaniHizliDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlaniSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlaniSil.Designer.cs">
+      <DependentUpon>StokAlaniSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlanlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlanlari.Designer.cs">
+      <DependentUpon>StokAlanlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlaniDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0006_StokAlanlari\StokAlaniDosyaAdi.Designer.cs">
+      <DependentUpon>StokAlaniDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiBeton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiBeton.Designer.cs">
+      <DependentUpon>DayanimSinifiBeton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiDuzenle.Designer.cs">
+      <DependentUpon>DayanimSinifiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiDosyaAdi.Designer.cs">
+      <DependentUpon>DayanimSinifiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiSil.Designer.cs">
+      <DependentUpon>DayanimSinifiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\SqlTableCheckDayanimSinifi.cs" />
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_01_DayanimSinifi\DayanimSinifiYeni.Designer.cs">
+      <DependentUpon>DayanimSinifiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiBeton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiBeton.Designer.cs">
+      <DependentUpon>KivamSinifiBeton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiDosyaAdi.Designer.cs">
+      <DependentUpon>KivamSinifiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiDuzenle.Designer.cs">
+      <DependentUpon>KivamSinifiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiSil.Designer.cs">
+      <DependentUpon>KivamSinifiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\SqlTableCheckKivamSinifi.cs" />
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_02_KivamSinifi\KivamSinifiYeni.Designer.cs">
+      <DependentUpon>KivamSinifiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiBeton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiBeton.Designer.cs">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiBeton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiDosyaAdi.Designer.cs">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiDuzenle.Designer.cs">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiSil.Designer.cs">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\SqlTableCheckDonaKarsiDS.cs" />
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiYeni.Designer.cs">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiBeton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiBeton.Designer.cs">
+      <DependentUpon>SuyaKarsiDirencSinifiBeton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SqlTableCheckSuyaKarsiDS.cs" />
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiDosyaAdi.Designer.cs">
+      <DependentUpon>SuyaKarsiDirencSinifiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiDuzenle.Designer.cs">
+      <DependentUpon>SuyaKarsiDirencSinifiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiSil.Designer.cs">
+      <DependentUpon>SuyaKarsiDirencSinifiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiYeni.Designer.cs">
+      <DependentUpon>SuyaKarsiDirencSinifiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiBeton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiBeton.Designer.cs">
+      <DependentUpon>YogunlukSinifiBeton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\SqlTableCheckYogunlukSinifi.cs" />
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiYeni.Designer.cs">
+      <DependentUpon>YogunlukSinifiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiDosyaAdi.Designer.cs">
+      <DependentUpon>YogunlukSinifiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiDuzenle.Designer.cs">
+      <DependentUpon>YogunlukSinifiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_05_YogunlukSinifi\YogunlukSinifiSil.Designer.cs">
+      <DependentUpon>YogunlukSinifiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiBeton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiBeton.Designer.cs">
+      <DependentUpon>KlorurIcerigiSinifiBeton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiDosyaAdi.Designer.cs">
+      <DependentUpon>KlorurIcerigiSinifiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiDuzenle.Designer.cs">
+      <DependentUpon>KlorurIcerigiSinifiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiSil.Designer.cs">
+      <DependentUpon>KlorurIcerigiSinifiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\SqlTableCheckKlorurIcerigiSinifi.cs" />
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiYeni.Designer.cs">
+      <DependentUpon>KlorurIcerigiSinifiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipi.Designer.cs">
+      <DependentUpon>BetonTipi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiDosyaAdi.Designer.cs">
+      <DependentUpon>BetonTipiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiDuzenle.Designer.cs">
+      <DependentUpon>BetonTipiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiSil.Designer.cs">
+      <DependentUpon>BetonTipiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\BetonTipiYeni.Designer.cs">
+      <DependentUpon>BetonTipiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_07_BetonTipi\SqlTableCheckBetonTipi.cs" />
+    <Compile Include="0007_08_CevreselEtki\CevreselEtki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtki.Designer.cs">
+      <DependentUpon>CevreselEtki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiDosyaAdi.Designer.cs">
+      <DependentUpon>CevreselEtkiDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiDuzenle.Designer.cs">
+      <DependentUpon>CevreselEtkiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiSil.Designer.cs">
+      <DependentUpon>CevreselEtkiSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\SqlTableCheckCevreselEtki.cs" />
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_08_CevreselEtki\CevreselEtkiYeni.Designer.cs">
+      <DependentUpon>CevreselEtkiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteDuzenle.designer.cs">
+      <DependentUpon>ReceteDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteDosyaAdi.designer.cs">
+      <DependentUpon>ReceteDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\Recete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\Recete.designer.cs">
+      <DependentUpon>Recete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteDosyaYoluImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteDosyaYoluImport.designer.cs">
+      <DependentUpon>ReceteDosyaYoluImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteSil.designer.cs">
+      <DependentUpon>ReceteSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\SqlTableCheckReceteler.cs" />
+    <Compile Include="0007_ReceteReceipt\ReceteYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0007_ReceteReceipt\ReceteYeni.designer.cs">
+      <DependentUpon>ReceteYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisDosyaAdi.designer.cs">
+      <DependentUpon>SiparisDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisDuzenle.designer.cs">
+      <DependentUpon>SiparisDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisDosyaYoluImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisDosyaYoluImport.designer.cs">
+      <DependentUpon>SiparisDosyaYoluImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0008_Siparisler\Siparisler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0008_Siparisler\Siparisler.designer.cs">
+      <DependentUpon>Siparisler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisSil.designer.cs">
+      <DependentUpon>SiparisSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0008_Siparisler\SqlTableCheckSiparisler.cs" />
+    <Compile Include="0008_Siparisler\SiparisYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0008_Siparisler\SiparisYeni.designer.cs">
+      <DependentUpon>SiparisYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniDosyaAdi.Designer.cs">
+      <DependentUpon>UretimPlaniDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlanDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlanDuzenle.Designer.cs">
+      <DependentUpon>UretimPlanDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniSil.Designer.cs">
+      <DependentUpon>UretimPlaniSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniSiradaki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniSiradaki.Designer.cs">
+      <DependentUpon>UretimPlaniSiradaki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0009_UretimPlani\SqlTableCheckUretimPlani.cs" />
+    <Compile Include="0009_UretimPlani\UretimMiktariDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimMiktariDegistir.Designer.cs">
+      <DependentUpon>UretimMiktariDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlanlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlanlari.Designer.cs">
+      <DependentUpon>UretimPlanlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0009_UretimPlani\UretimPlaniYeni.Designer.cs">
+      <DependentUpon>UretimPlaniYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\KalanStokRaporu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\KalanStokRaporu.Designer.cs">
+      <DependentUpon>KalanStokRaporu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\KalanStokRaporuDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\KalanStokRaporuDosyaAdi.Designer.cs">
+      <DependentUpon>KalanStokRaporuDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\StokKayitlariSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\StokKayitlariSil.Designer.cs">
+      <DependentUpon>StokKayitlariSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\SqlTableCheckStokKayitlari.cs" />
+    <Compile Include="0010_StokKayitlari\StokKayitlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\StokKayitlari.Designer.cs">
+      <DependentUpon>StokKayitlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\StokKayitlariDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\StokKayitlariDosyaAdi.Designer.cs">
+      <DependentUpon>StokKayitlariDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\StokGirisiYeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0010_StokKayitlari\StokGirisiYeni.Designer.cs">
+      <DependentUpon>StokGirisiYeni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0011_ToplamHarcananMalzemeRaporu\SqlTableCheckToplamHarcananMR.cs" />
+    <Compile Include="0011_ToplamHarcananMalzemeRaporu\ToplamHarcananMalzemeRaporu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0011_ToplamHarcananMalzemeRaporu\ToplamHarcananMalzemeRaporu.Designer.cs">
+      <DependentUpon>ToplamHarcananMalzemeRaporu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0011_ToplamHarcananMalzemeRaporu\ToplamHarcananMalzemeRaporuDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0011_ToplamHarcananMalzemeRaporu\ToplamHarcananMalzemeRaporuDosyaAdi.Designer.cs">
+      <DependentUpon>ToplamHarcananMalzemeRaporuDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0012_MotorSureleri\MotorCalismaSureleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0012_MotorSureleri\MotorCalismaSureleri.Designer.cs">
+      <DependentUpon>MotorCalismaSureleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="0012_MotorSureleri\MotorDosyaAdi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0012_MotorSureleri\MotorDosyaAdi.Designer.cs">
+      <DependentUpon>MotorDosyaAdi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="002_Sayfalar\Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="002_Sayfalar\Anasayfa.designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="002_Sayfalar\KalibrasyonSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="002_Sayfalar\.Designer.cs">
+      <DependentUpon>KalibrasyonSayfasi.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="002_Sayfalar\Parametreler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="002_Sayfalar\Parametreler.Designer.cs">
+      <DependentUpon>Parametreler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\001_SantralTipiSecimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\001_SantralTipiSecimi.designer.cs">
+      <DependentUpon>001_SantralTipiSecimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\003_StokAlaniAgregaSecimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\003_StokAlaniAgregaSecimi.Designer.cs">
+      <DependentUpon>003_StokAlaniAgregaSecimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\0041_StokAlaniKatkiSuSecimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\0041_StokAlaniKatkiSuSecimi.designer.cs">
+      <DependentUpon>0041_StokAlaniKatkiSuSecimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\004_StokAlaniCimentoKatkiSuSecimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\004_StokAlaniCimentoKatkiSuSecimi.designer.cs">
+      <DependentUpon>004_StokAlaniCimentoKatkiSuSecimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\005_KantarKapasiteleri_OzelAyarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\005_KantarKapasiteleri_OzelAyarlar.designer.cs">
+      <DependentUpon>005_KantarKapasiteleri_OzelAyarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Compact_Secenekleri.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Compact_Secenekleri.Designer.cs">
+      <DependentUpon>Compact_Secenekleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Mixmaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Mixmaster.Designer.cs">
+      <DependentUpon>Mixmaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Mobil_Secenekler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Mobil_Secenekler.Designer.cs">
+      <DependentUpon>Mobil_Secenekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Quick_Secenekler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Quick_Secenekler.Designer.cs">
+      <DependentUpon>Quick_Secenekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Sabit_Secenekler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\00_SantralTipTemplate\Sabit_Secenekler.Designer.cs">
+      <DependentUpon>Sabit_Secenekler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="006_Konfigurator\002_MikserBunkerSecimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="006_Konfigurator\002_MikserBunkerSecimi.Designer.cs">
+      <DependentUpon>002_MikserBunkerSecimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\00_B1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\00_B1.Designer.cs">
+      <DependentUpon>00_B1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\01_B2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\01_B2.Designer.cs">
+      <DependentUpon>01_B2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\02_B3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\02_B3.Designer.cs">
+      <DependentUpon>02_B3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\03_B4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\03_B4.Designer.cs">
+      <DependentUpon>03_B4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\04_B5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\04_B5.Designer.cs">
+      <DependentUpon>04_B5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\05_B6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\00_Agrega\05_B6.Designer.cs">
+      <DependentUpon>05_B6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\CimentoKantar_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\CimentoKantar_Temp.Designer.cs">
+      <DependentUpon>CimentoKantar_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\Cimento_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\Cimento_Temp.designer.cs">
+      <DependentUpon>Cimento_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\DuzTartımKonveyor_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\DuzTartımKonveyor_Temp.designer.cs">
+      <DependentUpon>DuzTartımKonveyor_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\KatkiKantar_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\KatkiKantar_Temp.Designer.cs">
+      <DependentUpon>KatkiKantar_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\Katki_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\Katki_Temp.designer.cs">
+      <DependentUpon>Katki_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\kova_bandi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\kova_bandi.designer.cs">
+      <DependentUpon>kova_bandi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\MaviOrtaPompa_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\MaviOrtaPompa_Temp.designer.cs">
+      <DependentUpon>MaviOrtaPompa_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\Mixer_Temp_TW.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\Mixer_Temp_TW.designer.cs">
+      <DependentUpon>Mixer_Temp_TW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\OtoUretimBilgileri.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\OtoUretimBilgileri.Designer.cs">
+      <DependentUpon>OtoUretimBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\QuickTartimKovasi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\QuickTartimKovasi.designer.cs">
+      <DependentUpon>QuickTartimKovasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\SqlTableCheckMikserAkim.cs" />
+    <Compile Include="01_TempMainPage\SuBosaltButon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\SuBosaltButon.Designer.cs">
+      <DependentUpon>SuBosaltButon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\SuKantar_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\SuKantar_Temp.designer.cs">
+      <DependentUpon>SuKantar_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\Transferkonveyorbiriktirmesiz_Temp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\Transferkonveyorbiriktirmesiz_Temp.Designer.cs">
+      <DependentUpon>Transferkonveyorbiriktirmesiz_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\EnerjiAnalizoru.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\EnerjiAnalizoru.Designer.cs">
+      <DependentUpon>EnerjiAnalizoru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Agrega.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Agrega.Designer.cs">
+      <DependentUpon>Laumas_Agrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Cimento.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Cimento.Designer.cs">
+      <DependentUpon>Laumas_Cimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Katki.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Katki.Designer.cs">
+      <DependentUpon>Laumas_Katki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Su.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="100_LaumasAnalizorTemple\Laumas_Su.Designer.cs">
+      <DependentUpon>Laumas_Su.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ANASAYFA_TEMP\MainControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ANASAYFA_TEMP\MainControl.Designer.cs">
+      <DependentUpon>MainControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ANASAYFA_TEMP\MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ANASAYFA_TEMP\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClasses1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="01_TempMainPage\LaumasEnerjiAnalizoru.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_TempMainPage\LaumasEnerjiAnalizoru.designer.cs">
+      <DependentUpon>LaumasEnerjiAnalizoru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElkonScadaAraclarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ElkonScadaAraclarDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ElkonScadaFirmalarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ElkonScadaFirmalarDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ElkonScadaSantiyelerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ElkonScadaSantiyelerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ElkonScadaSuruculerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ElkonScadaSuruculerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\DilSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DilSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Localization\Localization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Localization.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="050_Programlar\ReadCompleteCallback.cs" />
+    <Compile Include="050_Programlar\WriteCompleteCallback.cs" />
+    <Compile Include="Properties\M001_Secimler.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M001_Secimler.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M002_YariOto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M002_YariOto.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M003_Manueller.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M003_Manueller.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M004_Parametreler.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M004_Parametreler.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M005_Modbus.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M005_Modbus.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M006_Uretim.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M006_Uretim.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M007_Cfg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M007_Cfg.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M008_CI522.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M008_CI522.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M009_HMI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M009_HMI.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M010_Alarm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M010_Alarm.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M011_ButonLar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M011_ButonLar.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M012_Lambalar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M012_Lambalar.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M013_KantarAnimasyon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M013_KantarAnimasyon.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M014_Genel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M014_Genel.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M015_Agrega.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M015_Agrega.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M016_Cimento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M016_Cimento.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M017_Su.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M017_Su.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M018_Katki.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M018_Katki.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\M101_Array.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>M101_Array.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\R004_Parametreler.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>R004_Parametreler.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\R006_Uretim.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>R006_Uretim.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\S000_Konfigrator_Tag.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>S000_Konfigrator_Tag.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\S002UretimResetleme_Tag.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>S002UretimResetleme_Tag.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Sys001_Anasayfa_System_Tag.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Sys001_Anasayfa_System_Tag.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Sys002_SistemAlarm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Sys002_SistemAlarm.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Sys003_UretimTags.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Sys003_UretimTags.settings</DependentUpon>
+    </Compile>
+    <Compile Include="System\Windows\Forms\Integration.cs" />
+    <Compile Include="System\Windows\Forms\Integration1.cs" />
+    <Compile Include="XX_Connection\000_ReceteGonder.cs" />
+    <Compile Include="XX_Connection\001_Read_M001_Secimler.cs" />
+    <Compile Include="XX_Connection\002_Read_M002_YariOto.cs" />
+    <Compile Include="XX_Connection\003_Read_M003_Manueller.cs" />
+    <Compile Include="XX_Connection\004_Read_M004_Parametreler.cs" />
+    <Compile Include="XX_Connection\005_Read_M005_Modbus.cs" />
+    <Compile Include="XX_Connection\006_Read_M006_Uretim.cs" />
+    <Compile Include="XX_Connection\007_Read_M007_Cfg.cs" />
+    <Compile Include="XX_Connection\008_Read_M008_CI522.cs" />
+    <Compile Include="XX_Connection\009_Read_M009_HMI.cs" />
+    <Compile Include="XX_Connection\010_Read_M010_Alarm.cs" />
+    <Compile Include="XX_Connection\011_Read_M011_Butonlar.cs" />
+    <Compile Include="XX_Connection\012_Read_M012_Lambalar.cs" />
+    <Compile Include="XX_Connection\013_Read_M013_KantarAnimasyon.cs" />
+    <Compile Include="XX_Connection\014_Read_M014_Genel.cs" />
+    <Compile Include="XX_Connection\015_Read_M015_Agrega.cs" />
+    <Compile Include="XX_Connection\016_Read_M016_Cimento.cs" />
+    <Compile Include="XX_Connection\017_Read_M017_Su.cs" />
+    <Compile Include="XX_Connection\018_Read_M018_Katki.cs" />
+    <Compile Include="XX_Connection\101_Read_M101_Array.cs" />
+    <Compile Include="XX_Connection\TabControlZ.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XX_Connection\HetWordTODouble.cs" />
+    <Compile Include="XX_Connection\ModbusConnection.cs" />
+    <Compile Include="XX_Connection\ToByte.cs" />
+    <Compile Include="XX_Connection\XX_IntToFloat.cs" />
+    <Compile Include="XX_Connection\ZZ_006_Read_R006_Uretim.cs" />
+    <Compile Include="xx_Hetlibrary\ButtonProperties.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="xx_Hetlibrary\ButtonProperties.Designer.cs">
+      <DependentUpon>ButtonProperties.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="xx_Hetlibrary\ButtonZ _HETMD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="xx_Hetlibrary\ModBusText_HetMD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="xx_Script\UretimResetleme.cs" />
+    <Compile Include="xx_SlumpMeter\AGauge.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="xx_SlumpMeter\AGauge.Designer.cs">
+      <DependentUpon>AGauge.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="0001_Firmalar\FirmaDosyaYoluImport.resx">
+      <DependentUpon>FirmaDosyaYoluImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0001_Firmalar\FirmaBilgileriDuzenle.resx">
+      <DependentUpon>FirmaBilgileriDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0001_Firmalar\FirmaDosyaAdi.resx">
+      <DependentUpon>FirmaDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0001_Firmalar\Firmalar.resx">
+      <DependentUpon>Firmalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0001_Firmalar\FirmaSil.resx">
+      <DependentUpon>FirmaSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0001_Firmalar\FirmaYeni.resx">
+      <DependentUpon>FirmaYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0002_Araclar\AracBilgileriDuzenle.resx">
+      <DependentUpon>AracBilgileriDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0002_Araclar\AracDosyaAdi.resx">
+      <DependentUpon>AracDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0002_Araclar\Araclar.resx">
+      <DependentUpon>Araclar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0002_Araclar\AracDosyaYoluImport.resx">
+      <DependentUpon>AracDosyaYoluImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0002_Araclar\AracSil.resx">
+      <DependentUpon>AracSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0002_Araclar\AracYeni.resx">
+      <DependentUpon>AracYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0003_Suruculer\SurucuDosyaYoluImport.resx">
+      <DependentUpon>SurucuDosyaYoluImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0003_Suruculer\SurucuBilgileriDuzenle.resx">
+      <DependentUpon>SurucuBilgileriDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0003_Suruculer\SurucuDosyaAdi.resx">
+      <DependentUpon>SurucuDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0003_Suruculer\Suruculer.resx">
+      <DependentUpon>Suruculer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0003_Suruculer\SurucuSil.resx">
+      <DependentUpon>SurucuSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0003_Suruculer\SurucuYeni.resx">
+      <DependentUpon>SurucuYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0004_Santiyeler\SantiyeDosyaYoluImport.resx">
+      <DependentUpon>SantiyeDosyaYoluImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0004_Santiyeler\SantiyeBilgileriDuzenle.resx">
+      <DependentUpon>SantiyeBilgileriDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0004_Santiyeler\SantiyeDosyaAdi.resx">
+      <DependentUpon>SantiyeDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0004_Santiyeler\Santiyeler.resx">
+      <DependentUpon>Santiyeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0004_Santiyeler\SantiyeSil.resx">
+      <DependentUpon>SantiyeSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0004_Santiyeler\SantiyeYeni.resx">
+      <DependentUpon>SantiyeYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0005_Malzemeler\MalzemeFiber.resx">
+      <DependentUpon>MalzemeFiber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0005_Malzemeler\MalzemeBilgileriDuzenle.resx">
+      <DependentUpon>MalzemeBilgileriDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0005_Malzemeler\MalzemeDosyaAdi.resx">
+      <DependentUpon>MalzemeDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0005_Malzemeler\Malzemeler.resx">
+      <DependentUpon>Malzemeler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0005_Malzemeler\MalzemeSil.resx">
+      <DependentUpon>MalzemeSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0005_Malzemeler\MalzemeYeni.resx">
+      <DependentUpon>MalzemeYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0006_StokAlanlari\StokAlaniDosyaAdi.resx">
+      <DependentUpon>StokAlaniDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0006_StokAlanlari\StokAlaniDuzenle.resx">
+      <DependentUpon>StokAlaniDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0006_StokAlanlari\StokAlaniHizliDuzenle.resx">
+      <DependentUpon>StokAlaniHizliDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0006_StokAlanlari\StokAlaniSil.resx">
+      <DependentUpon>StokAlaniSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0006_StokAlanlari\StokAlanlari.resx">
+      <DependentUpon>StokAlanlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_01_DayanimSinifi\DayanimSinifiBeton.resx">
+      <DependentUpon>DayanimSinifiBeton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_01_DayanimSinifi\DayanimSinifiDosyaAdi.resx">
+      <DependentUpon>DayanimSinifiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_01_DayanimSinifi\DayanimSinifiDuzenle.resx">
+      <DependentUpon>DayanimSinifiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_01_DayanimSinifi\DayanimSinifiSil.resx">
+      <DependentUpon>DayanimSinifiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_01_DayanimSinifi\DayanimSinifiYeni.resx">
+      <DependentUpon>DayanimSinifiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_02_KivamSinifi\KivamSinifiBeton.resx">
+      <DependentUpon>KivamSinifiBeton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_02_KivamSinifi\KivamSinifiDosyaAdi.resx">
+      <DependentUpon>KivamSinifiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_02_KivamSinifi\KivamSinifiDuzenle.resx">
+      <DependentUpon>KivamSinifiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_02_KivamSinifi\KivamSinifiSil.resx">
+      <DependentUpon>KivamSinifiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_02_KivamSinifi\KivamSinifiYeni.resx">
+      <DependentUpon>KivamSinifiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiBeton.resx">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiBeton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiDosyaAdi.resx">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiDuzenle.resx">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiSil.resx">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_03_DonaKarsiDayaniklilikSinifi\DonaKarsiDayaniklilikSinifiYeni.resx">
+      <DependentUpon>DonaKarsiDayaniklilikSinifiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiBeton.resx">
+      <DependentUpon>SuyaKarsiDirencSinifiBeton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiDosyaAdi.resx">
+      <DependentUpon>SuyaKarsiDirencSinifiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiDuzenle.resx">
+      <DependentUpon>SuyaKarsiDirencSinifiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiSil.resx">
+      <DependentUpon>SuyaKarsiDirencSinifiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_04_SuyaKarsiDirencSinifi\SuyaKarsiDirencSinifiYeni.resx">
+      <DependentUpon>SuyaKarsiDirencSinifiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_05_YogunlukSinifi\YogunlukSinifiBeton.resx">
+      <DependentUpon>YogunlukSinifiBeton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_05_YogunlukSinifi\YogunlukSinifiYeni.resx">
+      <DependentUpon>YogunlukSinifiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_05_YogunlukSinifi\YogunlukSinifiDosyaAdi.resx">
+      <DependentUpon>YogunlukSinifiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_05_YogunlukSinifi\YogunlukSinifiDuzenle.resx">
+      <DependentUpon>YogunlukSinifiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_05_YogunlukSinifi\YogunlukSinifiSil.resx">
+      <DependentUpon>YogunlukSinifiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiBeton.resx">
+      <DependentUpon>KlorurIcerigiSinifiBeton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiDosyaAdi.resx">
+      <DependentUpon>KlorurIcerigiSinifiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiDuzenle.resx">
+      <DependentUpon>KlorurIcerigiSinifiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiSil.resx">
+      <DependentUpon>KlorurIcerigiSinifiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_06_KlorurIcerigiSinifi\KlorurIcerigiSinifiYeni.resx">
+      <DependentUpon>KlorurIcerigiSinifiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_07_BetonTipi\BetonTipi.resx">
+      <DependentUpon>BetonTipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_07_BetonTipi\BetonTipiDosyaAdi.resx">
+      <DependentUpon>BetonTipiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_07_BetonTipi\BetonTipiDuzenle.resx">
+      <DependentUpon>BetonTipiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_07_BetonTipi\BetonTipiSil.resx">
+      <DependentUpon>BetonTipiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_07_BetonTipi\BetonTipiYeni.resx">
+      <DependentUpon>BetonTipiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_08_CevreselEtki\CevreselEtki.resx">
+      <DependentUpon>CevreselEtki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_08_CevreselEtki\CevreselEtkiDosyaAdi.resx">
+      <DependentUpon>CevreselEtkiDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_08_CevreselEtki\CevreselEtkiDuzenle.resx">
+      <DependentUpon>CevreselEtkiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_08_CevreselEtki\CevreselEtkiSil.resx">
+      <DependentUpon>CevreselEtkiSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_08_CevreselEtki\CevreselEtkiYeni.resx">
+      <DependentUpon>CevreselEtkiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_ReceteReceipt\ReceteDuzenle.resx">
+      <DependentUpon>ReceteDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_ReceteReceipt\ReceteDosyaAdi.resx">
+      <DependentUpon>ReceteDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_ReceteReceipt\Recete.resx">
+      <DependentUpon>Recete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_ReceteReceipt\ReceteDosyaYoluImport.resx">
+      <DependentUpon>ReceteDosyaYoluImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_ReceteReceipt\ReceteSil.resx">
+      <DependentUpon>ReceteSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0007_ReceteReceipt\ReceteYeni.resx">
+      <DependentUpon>ReceteYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0008_Siparisler\SiparisDosyaAdi.resx">
+      <DependentUpon>SiparisDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0008_Siparisler\SiparisDuzenle.resx">
+      <DependentUpon>SiparisDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0008_Siparisler\SiparisDosyaYoluImport.resx">
+      <DependentUpon>SiparisDosyaYoluImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0008_Siparisler\Siparisler.resx">
+      <DependentUpon>Siparisler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0008_Siparisler\SiparisSil.resx">
+      <DependentUpon>SiparisSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0008_Siparisler\SiparisYeni.resx">
+      <DependentUpon>SiparisYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0009_UretimPlani\UretimPlaniDosyaAdi.resx">
+      <DependentUpon>UretimPlaniDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0009_UretimPlani\UretimPlanDuzenle.resx">
+      <DependentUpon>UretimPlanDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0009_UretimPlani\UretimPlaniSil.resx">
+      <DependentUpon>UretimPlaniSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0009_UretimPlani\UretimPlaniSiradaki.resx">
+      <DependentUpon>UretimPlaniSiradaki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0009_UretimPlani\UretimMiktariDegistir.resx">
+      <DependentUpon>UretimMiktariDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0009_UretimPlani\UretimPlanlari.resx">
+      <DependentUpon>UretimPlanlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0009_UretimPlani\UretimPlaniYeni.resx">
+      <DependentUpon>UretimPlaniYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010_StokKayitlari\KalanStokRaporu.resx">
+      <DependentUpon>KalanStokRaporu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010_StokKayitlari\KalanStokRaporuDosyaAdi.resx">
+      <DependentUpon>KalanStokRaporuDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010_StokKayitlari\StokKayitlariSil.resx">
+      <DependentUpon>StokKayitlariSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010_StokKayitlari\StokKayitlari.resx">
+      <DependentUpon>StokKayitlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010_StokKayitlari\StokKayitlariDosyaAdi.resx">
+      <DependentUpon>StokKayitlariDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0010_StokKayitlari\StokGirisiYeni.resx">
+      <DependentUpon>StokGirisiYeni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0011_ToplamHarcananMalzemeRaporu\ToplamHarcananMalzemeRaporu.resx">
+      <DependentUpon>ToplamHarcananMalzemeRaporu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0011_ToplamHarcananMalzemeRaporu\ToplamHarcananMalzemeRaporuDosyaAdi.resx">
+      <DependentUpon>ToplamHarcananMalzemeRaporuDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0012_MotorSureleri\MotorCalismaSureleri.resx">
+      <DependentUpon>MotorCalismaSureleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0012_MotorSureleri\MotorDosyaAdi.resx">
+      <DependentUpon>MotorDosyaAdi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="002_Sayfalar\Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="002_Sayfalar\KalibrasyonSayfasi.resx">
+      <DependentUpon>KalibrasyonSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="002_Sayfalar\Parametreler.resx">
+      <DependentUpon>Parametreler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\001_SantralTipiSecimi.resx">
+      <DependentUpon>001_SantralTipiSecimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\003_StokAlaniAgregaSecimi.resx">
+      <DependentUpon>003_StokAlaniAgregaSecimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\0041_StokAlaniKatkiSuSecimi.resx">
+      <DependentUpon>0041_StokAlaniKatkiSuSecimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\004_StokAlaniCimentoKatkiSuSecimi.resx">
+      <DependentUpon>004_StokAlaniCimentoKatkiSuSecimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\005_KantarKapasiteleri_OzelAyarlar.resx">
+      <DependentUpon>005_KantarKapasiteleri_OzelAyarlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\00_SantralTipTemplate\Compact_Secenekleri.resx">
+      <DependentUpon>Compact_Secenekleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\00_SantralTipTemplate\Mixmaster.resx">
+      <DependentUpon>Mixmaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\00_SantralTipTemplate\Mobil_Secenekler.resx">
+      <DependentUpon>Mobil_Secenekler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\00_SantralTipTemplate\Quick_Secenekler.resx">
+      <DependentUpon>Quick_Secenekler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\00_SantralTipTemplate\Sabit_Secenekler.resx">
+      <DependentUpon>Sabit_Secenekler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="006_Konfigurator\002_MikserBunkerSecimi.resx">
+      <DependentUpon>002_MikserBunkerSecimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\00_Agrega\00_B1.resx">
+      <DependentUpon>00_B1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\00_Agrega\01_B2.resx">
+      <DependentUpon>01_B2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\00_Agrega\02_B3.resx">
+      <DependentUpon>02_B3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\00_Agrega\03_B4.resx">
+      <DependentUpon>03_B4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\00_Agrega\04_B5.resx">
+      <DependentUpon>04_B5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\00_Agrega\05_B6.resx">
+      <DependentUpon>05_B6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\CimentoKantar_Temp.resx">
+      <DependentUpon>CimentoKantar_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\Cimento_Temp.resx">
+      <DependentUpon>Cimento_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\DuzTartımKonveyor_Temp.resx">
+      <DependentUpon>DuzTartımKonveyor_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\KatkiKantar_Temp.resx">
+      <DependentUpon>KatkiKantar_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\Katki_Temp.resx">
+      <DependentUpon>Katki_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\kova_bandi.resx">
+      <DependentUpon>kova_bandi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\MaviOrtaPompa_Temp.resx">
+      <DependentUpon>MaviOrtaPompa_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\Mixer_Temp_TW.resx">
+      <DependentUpon>Mixer_Temp_TW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\OtoUretimBilgileri.resx">
+      <DependentUpon>OtoUretimBilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\QuickTartimKovasi.resx">
+      <DependentUpon>QuickTartimKovasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\SuBosaltButon.resx">
+      <DependentUpon>SuBosaltButon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\SuKantar_Temp.resx">
+      <DependentUpon>SuKantar_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\Transferkonveyorbiriktirmesiz_Temp.resx">
+      <DependentUpon>Transferkonveyorbiriktirmesiz_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="100_LaumasAnalizorTemple\EnerjiAnalizoru.resx">
+      <DependentUpon>EnerjiAnalizoru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="100_LaumasAnalizorTemple\Laumas_Agrega.resx">
+      <DependentUpon>Laumas_Agrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="100_LaumasAnalizorTemple\Laumas_Cimento.resx">
+      <DependentUpon>Laumas_Cimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="100_LaumasAnalizorTemple\Laumas_Katki.resx">
+      <DependentUpon>Laumas_Katki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="100_LaumasAnalizorTemple\Laumas_Su.resx">
+      <DependentUpon>Laumas_Su.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_TempMainPage\LaumasEnerjiAnalizoru.resx">
+      <DependentUpon>LaumasEnerjiAnalizoru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ANASAYFA_TEMP\MainControl.resx">
+      <DependentUpon>MainControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ANASAYFA_TEMP\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\Localization.en-US.resx" />
+    <EmbeddedResource Include="Localization\Localization.es-ES.resx" />
+    <EmbeddedResource Include="Localization\Localization.fr-FR.resx" />
+    <EmbeddedResource Include="Localization\Localization.hu-HU.resx" />
+    <EmbeddedResource Include="Localization\Localization.pl-PL.resx" />
+    <EmbeddedResource Include="Localization\Localization.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Localization.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\Localization.ru-RU.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="xx_Hetlibrary\ButtonProperties.resx">
+      <DependentUpon>ButtonProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="DataClasses1.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClasses1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataClasses1.dbml.layout">
+      <DependentUpon>DataClasses1.dbml</DependentUpon>
+    </None>
+    <None Include="ElkonScadaAraclarDataSet.xsc">
+      <DependentUpon>ElkonScadaAraclarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ElkonScadaAraclarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ElkonScadaAraclarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ElkonScadaAraclarDataSet.xss">
+      <DependentUpon>ElkonScadaAraclarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ElkonScadaFirmalarDataSet.xsc">
+      <DependentUpon>ElkonScadaFirmalarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ElkonScadaFirmalarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ElkonScadaFirmalarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ElkonScadaFirmalarDataSet.xss">
+      <DependentUpon>ElkonScadaFirmalarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ElkonScadaSantiyelerDataSet.xsc">
+      <DependentUpon>ElkonScadaSantiyelerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ElkonScadaSantiyelerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ElkonScadaSantiyelerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ElkonScadaSantiyelerDataSet.xss">
+      <DependentUpon>ElkonScadaSantiyelerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ElkonScadaSuruculerDataSet.xsc">
+      <DependentUpon>ElkonScadaSuruculerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ElkonScadaSuruculerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ElkonScadaSuruculerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ElkonScadaSuruculerDataSet.xss">
+      <DependentUpon>ElkonScadaSuruculerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Localization\DilSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DilSettings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\M001_Secimler.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M001_Secimler.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M002_YariOto.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M002_YariOto.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M003_Manueller.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M003_Manueller.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M004_Parametreler.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M004_Parametreler.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M005_Modbus.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M005_Modbus.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M006_Uretim.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M006_Uretim.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M007_Cfg.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M007_Cfg.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M008_CI522.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M008_CI522.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M009_HMI.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M009_HMI.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M010_Alarm.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M010_Alarm.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M011_ButonLar.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M011_ButonLar.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M012_Lambalar.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M012_Lambalar.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M013_KantarAnimasyon.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M013_KantarAnimasyon.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M014_Genel.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M014_Genel.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M015_Agrega.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M015_Agrega.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M016_Cimento.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M016_Cimento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M017_Su.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M017_Su.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M018_Katki.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M018_Katki.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\M101_Array.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>M101_Array.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\R004_Parametreler.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>R004_Parametreler.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\R006_Uretim.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>R006_Uretim.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\S000_Konfigrator_Tag.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>S000_Konfigrator_Tag.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\S002UretimResetleme_Tag.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>S002UretimResetleme_Tag.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\AgregaRun.gif" />
+    <Resource Include="Resources\BoSkatkiSilo.png" />
+    <Resource Include="Resources\Bunker.png" />
+    <Resource Include="Resources\GreenButton.png" />
+    <Resource Include="Resources\KatkiFault.png" />
+    <Resource Include="Resources\KatkiRun.png" />
+    <Resource Include="Resources\KatkiStop.png" />
+    <Resource Include="Resources\KatkiYikama.png" />
+    <Resource Include="Resources\Laumas.png" />
+    <Resource Include="Resources\MikserKapakAc_OFF.png" />
+    <Resource Include="Resources\MikserKapakAc_ON.png" />
+    <Resource Include="Resources\MikserKapakKapa_OFF.png" />
+    <Resource Include="Resources\MikserKapakKapa_ON.png" />
+    <Resource Include="Resources\MikserStart_OFF.png" />
+    <Resource Include="Resources\MikserStart_ON.png" />
+    <Resource Include="Resources\MikserStop_OFF.png" />
+    <Resource Include="Resources\MikserStop_ON.png" />
+    <Resource Include="Resources\MixerRun.gif" />
+    <Resource Include="Resources\MixerStop.png" />
+    <Resource Include="Resources\PanMixer.png" />
+    <Resource Include="Resources\PlaneStop.png" />
+    <Resource Include="Resources\PlanetRun.gif" />
+    <Resource Include="Resources\Red_Blink_Button.png" />
+    <Resource Include="Resources\Soklam_ON.png" />
+    <Resource Include="Resources\Soklama_OFF.png" />
+    <Resource Include="Resources\Transmikser.png" />
+    <Resource Include="Resources\Vibrator_OFF.png" />
+    <Resource Include="Resources\Vibrator_ON.png" />
+    <Resource Include="Resources\BaslaButon1_80_00000239.png" />
+    <Resource Include="Resources\elkon-logo_00000185.png" />
+    <Resource Include="Resources\Firmalar_0000009F.bmp" />
+    <Resource Include="Resources\Mixer_Planet_Blur.png" />
+    <Resource Include="Resources\Elkon_Icon.ico" />
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="Elkon_Icon.ico" />
+    <Resource Include="Resources\ABB_Logo.jpg" />
+    <Resource Include="Resources\Arrow_Blue_Down.png" />
+    <Resource Include="Resources\Arrow_Blue_Left.png" />
+    <Resource Include="Resources\Arrow_Blue_Right.png" />
+    <Resource Include="Resources\Arrow_Blue_Right_Midium.png" />
+    <Resource Include="Resources\Arrow_Blue_Up.png" />
+    <Resource Include="Resources\Arrow_Green_Down.png" />
+    <Resource Include="Resources\Arrow_Green_Left.png" />
+    <Resource Include="Resources\Arrow_Green_Right.png" />
+    <Resource Include="Resources\Arrow_Green_Right_Midium.png" />
+    <Resource Include="Resources\Arrow_Green_Up.png" />
+    <Resource Include="Resources\Arrow_Yellow_Right_Midium.png" />
+    <Resource Include="Resources\Button_Baslat_Mavi.png" />
+    <Resource Include="Resources\Flag_TR_Blur.png" />
+    <Resource Include="Resources\Flag_TR.png" />
+    <Resource Include="Resources\Agrega_Dokulme_01.png" />
+    <Resource Include="Resources\Agrega_Dokulme_02.png" />
+    <Resource Include="Resources\BetonTasima_Sol.png" />
+    <Resource Include="Resources\Planet_01.png" />
+    <Resource Include="Resources\Planet_02.png" />
+    <Resource Include="Resources\Planet_03.png" />
+    <Resource Include="Resources\Planet_04.png" />
+    <Resource Include="Resources\Planet_05.png" />
+    <Resource Include="Resources\Planet_06.png" />
+    <Resource Include="Resources\Planet_07.png" />
+    <Resource Include="Resources\Planet_08.png" />
+    <Resource Include="Resources\Planet_09.png" />
+    <Resource Include="Resources\Planet_10.png" />
+    <Resource Include="Resources\Katki_Kantar_02.png" />
+    <Resource Include="Resources\Katki_Kantar_03.png" />
+    <Resource Include="Resources\Katki_Kantar_04.png" />
+    <Resource Include="Resources\Katki_Kantar_05.png" />
+    <Resource Include="Resources\Katki_Kantar_06.png" />
+    <Resource Include="Resources\Katki_Kantar_07.png" />
+    <Resource Include="Resources\Katki_Kantar_08.png" />
+    <Resource Include="Resources\Katki_Kantar_09.png" />
+    <Resource Include="Resources\Katki_Kantar_10.png" />
+    <Resource Include="Resources\Katki_Kantar_11.png" />
+    <Resource Include="Resources\Katki_Kantar_12.png" />
+    <Resource Include="Resources\Katki_Kantar_13.png" />
+    <Resource Include="Resources\Katki_Kantar_14.png" />
+    <Resource Include="Resources\Katki_Kantar_15.png" />
+    <Resource Include="Resources\Katki_Kantar_16.png" />
+    <Resource Include="Resources\Katki_Kantar_17.png" />
+    <Resource Include="Resources\Katki_Kantar_01.png" />
+    <Resource Include="Resources\Cimento_Silo.png" />
+    <Resource Include="Resources\Cimento_Silo_Blur.png" />
+    <Resource Include="Resources\helezon_01.png" />
+    <Resource Include="Resources\helezon_02.png" />
+    <Resource Include="Resources\helezon_03.png" />
+    <Resource Include="Resources\helezon_04.png" />
+    <Resource Include="Resources\MM_304_Blur.jpg" />
+    <Resource Include="Resources\Panthera_60.PNG" />
+    <Resource Include="Resources\Panthera_60_Blur.png" />
+    <Resource Include="Resources\Pegasus_60.PNG" />
+    <Resource Include="Resources\Pegasus_60_Blur.png" />
+    <Resource Include="Resources\Quick_35.PNG" />
+    <Resource Include="Resources\Quick_35_Blur.png" />
+    <Resource Include="Resources\Quick_60.PNG" />
+    <Resource Include="Resources\Quick_60_1.PNG" />
+    <Resource Include="Resources\Quick_60_1_Blur.png" />
+    <Resource Include="Resources\Quick_60_Blur.png" />
+    <Resource Include="Resources\Quick_120.PNG" />
+    <Resource Include="Resources\Quick_120_1.PNG" />
+    <Resource Include="Resources\Quick_120_1_Blur.png" />
+    <Resource Include="Resources\Quick_120_Blur.png" />
+    <Resource Include="Resources\Quick_135.PNG" />
+    <Resource Include="Resources\Quick_135_Blur.png" />
+    <Resource Include="Resources\Bear_60.PNG" />
+    <Resource Include="Resources\Bear_60_Blur.png" />
+    <Resource Include="Resources\Eagle_30.PNG" />
+    <Resource Include="Resources\Eagle_30_Blur.png" />
+    <Resource Include="Resources\Elephant_150.PNG" />
+    <Resource Include="Resources\Elephant_150_Blur.png" />
+    <Resource Include="Resources\Elkomix_35.PNG" />
+    <Resource Include="Resources\Elkomix_35_Blur.png" />
+    <Resource Include="Resources\Elkomix_60.PNG" />
+    <Resource Include="Resources\Elkomix_60_Blur.png" />
+    <Resource Include="Resources\Elkomix_120.PNG" />
+    <Resource Include="Resources\Elkomix_120_Blur.png" />
+    <Resource Include="Resources\Elkomix_135.PNG" />
+    <Resource Include="Resources\Elkomix_135_Blur.png" />
+    <Resource Include="Resources\Elkomix_160.PNG" />
+    <Resource Include="Resources\Elkomix_160_Blur.png" />
+    <Resource Include="Resources\Elkomix_180.PNG" />
+    <Resource Include="Resources\Elkomix_180_1.PNG" />
+    <Resource Include="Resources\Elkomix_180_1_Blur.png" />
+    <Resource Include="Resources\Elkomix_180_Blur.png" />
+    <Resource Include="Resources\Jaguar_135.PNG" />
+    <Resource Include="Resources\Jaguar_135_2.PNG" />
+    <Resource Include="Resources\Jaguar_135_2_Blur.png" />
+    <Resource Include="Resources\Jaguar_135_Blur.png" />
+    <Resource Include="Resources\Lion_100.PNG" />
+    <Resource Include="Resources\Lion_100_Blur.png" />
+    <Resource Include="Resources\Mix.jpg" />
+    <Resource Include="Resources\Mix_Blur.jpg" />
+    <Resource Include="Resources\MM_302.jpg" />
+    <Resource Include="Resources\MM_302_Blur.jpg" />
+    <Resource Include="Resources\MM_304.jpg" />
+    <Resource Include="Resources\Bunker_04.png" />
+    <Resource Include="Resources\Bunker_04_Blur.png" />
+    <Resource Include="Resources\Bunker_03.png" />
+    <Resource Include="Resources\Bunker_Temp_Blur.png" />
+    <Resource Include="Resources\Bunker_02.png" />
+    <Resource Include="Resources\Button_Blue.png" />
+    <Resource Include="Resources\Button_Down Page_ON.png" />
+    <Resource Include="Resources\Button_Down_OFF.png" />
+    <Resource Include="Resources\Dil_Secenekleri.jpg" />
+    <Resource Include="Resources\Flag_FR_Blur.png" />
+    <Resource Include="Resources\Flag_FR.png" />
+    <Resource Include="Resources\Arrow_White_Left.png" />
+    <Resource Include="Resources\Add_Doc_Blue.png" />
+    <Resource Include="Resources\Button_Add_Doc_Green.png" />
+    <Resource Include="Resources\Button_Edit_Green.png" />
+    <Resource Include="Resources\Button_Edit_Blue.png" />
+    <Resource Include="Resources\Button_Edit2_Blue.png" />
+    <Resource Include="Resources\Button_Edit2_Green.png" />
+    <Resource Include="Resources\Button_Excell_Blue.png" />
+    <Resource Include="Resources\Button_Excell_Green.png" />
+    <Resource Include="Resources\Button_Delete_Green.png" />
+    <Resource Include="Resources\Button_Save_Blue.png" />
+    <Resource Include="Resources\Button_Save_Green.png" />
+    <Resource Include="Resources\Arrow_Left.png" />
+    <Resource Include="Resources\Flag_EN.png" />
+    <Resource Include="Resources\Flag_EN_Blur.png" />
+    <Resource Include="Resources\InlineTartimKonveyor_T_Type01.png" />
+    <Resource Include="Resources\InlineTartimKonveyor_Ters_01.png" />
+    <Resource Include="Resources\InlineTartimKonveyor_01.png" />
+    <Resource Include="Resources\InlineTartimKonveyor_02.png" />
+    <Resource Include="Resources\Flag_Spain.png" />
+    <Resource Include="Resources\Flag_Spain_Blur.png" />
+    <Resource Include="Resources\Katki_Pomp_SemiOto.png" />
+    <Resource Include="Resources\Kova_Konfig.png" />
+    <Resource Include="Resources\Kucuk_Vibrator.png" />
+    <Resource Include="Resources\Lamp_Alarm.png" />
+    <Resource Include="Resources\Lamp_Black.png" />
+    <Resource Include="Resources\Bunker_Lineer.png" />
+    <Resource Include="Resources\Logo_Araclar.bmp" />
+    <Resource Include="Resources\Logo_Elkon_İcon.jpg" />
+    <Resource Include="Resources\Logo_Firmalar.bmp" />
+    <Resource Include="Resources\Logo_Halici.png" />
+    <Resource Include="Resources\Logo_Icon.png" />
+    <Resource Include="Resources\Logo_IletisimSetting.bmp" />
+    <Resource Include="Resources\Logo_KontrolPaneli.bmp" />
+    <Resource Include="Resources\Logo_Loglar.bmp" />
+    <Resource Include="Resources\Logo_Santiyeler.bmp" />
+    <Resource Include="Resources\Logo_Setting.bmp" />
+    <Resource Include="Resources\Logo_User.bmp" />
+    <Resource Include="Resources\Mixer_TwinShaft_00.png" />
+    <Resource Include="Resources\Mixer_TwinShaft_01.png" />
+    <Resource Include="Resources\Mixer_TwinShaft_02.png" />
+    <Resource Include="Resources\Mixer_TwinShaft_03.png" />
+    <Resource Include="Resources\Mixer_TwinShaft_04.png" />
+    <Resource Include="Resources\Mixer_TwinShaft_05.png" />
+    <Resource Include="Resources\Flag_Macar.png" />
+    <Resource Include="Resources\Flag_Macar_Blur.png" />
+    <Resource Include="Resources\Logo_Malzemeler.bmp" />
+    <Resource Include="Resources\MM_Agrega_Bunker_Left.png" />
+    <Resource Include="Resources\MM_Agrega_Bunker_Right.png" />
+    <Resource Include="Resources\Mobil_Tartım_Konveyor.png" />
+    <Resource Include="Resources\Bekletme_Bunker.png" />
+    <Resource Include="Resources\Logo_User_Edit.png" />
+    <Resource Include="Resources\Logo_User_Add.png" />
+    <Resource Include="Resources\Mixer_Pan_00.png" />
+    <Resource Include="Resources\Mixer_Pan_01.png" />
+    <Resource Include="Resources\Mixer_Pan_02.png" />
+    <Resource Include="Resources\Mixer_Pan_03.png" />
+    <Resource Include="Resources\Mixer_Pan_04.png" />
+    <Resource Include="Resources\Mixer_Pan_Kapali.png" />
+    <Resource Include="Resources\Laumas_Panel.png" />
+    <Resource Include="Resources\EnerjiAnalizoru.png" />
+    <Resource Include="Resources\Mixer_Pan_OFF.png" />
+    <Resource Include="Resources\Logo_Parametreler.bmp" />
+    <Resource Include="Resources\Logo_Weight_Calb.jpg" />
+    <Resource Include="Resources\Flag_Polis_Blur.png" />
+    <Resource Include="Resources\Flag_Polis.png" />
+    <Resource Include="Resources\Logo_Recete.bmp" />
+    <Resource Include="Resources\Logo_Retim.bmp" />
+    <Resource Include="Resources\Flag_Russian.png" />
+    <Resource Include="Resources\Flag_Russian_Blur.png" />
+    <Resource Include="Resources\Agrega_Sabit_Konveyor.png" />
+    <Resource Include="Resources\Logo_Sayac.png" />
+    <Resource Include="Resources\Elkon_ServisDestek.jpg" />
+    <Resource Include="Resources\Logo_Driver.bmp" />
+    <Resource Include="Resources\Logo_Stoklar.bmp" />
+    <Resource Include="Resources\Stok_Islemler.bmp" />
+    <Resource Include="Resources\Tekli_Silo.png" />
+    <Resource Include="Resources\Torba_Silo.png" />
+    <Resource Include="Resources\Torba_Silo_Blur.png" />
+    <Resource Include="Resources\Mixer_TwinShaft_Blur.png" />
+    <Resource Include="Resources\Mixer_TwinShaft.png" />
+    <Resource Include="Resources\Lamp_Vibrator.png" />
+    <Resource Include="Resources\Logo_Help.bmp" />
+    <Resource Include="Resources\Lamp_Exit.bmp" />
+    <Resource Include="Resources\Button_UP_OFF.png" />
+    <Resource Include="Resources\Button_UP_ON.png" />
+    <Resource Include="Resources\Logo_Iletisim.bmp" />
+    <Resource Include="Resources\CimentoKantar_04.png" />
+    <Resource Include="Resources\CimentoKantar_05.png" />
+    <Resource Include="Resources\Cimento_06.png" />
+    <Resource Include="Resources\Cimento_07.png" />
+    <Resource Include="Resources\CimentoKantar_00.png" />
+    <Resource Include="Resources\CimentoKantar_01.png" />
+    <Resource Include="Resources\CimentoKantar_02.png" />
+    <Resource Include="Resources\CimentoKantar_03.png" />
+    <Resource Include="Resources\KatkiYikama - Copy.png" />
+    <Resource Include="Resources\Lamp_Green.png" />
+    <Resource Include="Resources\Lamp_Red.png" />
+    <Resource Include="Resources\Logo_Elkon.png" />
+    <Resource Include="Resources\QuickMaster_AgregaKantar.png" />
+    <Resource Include="Resources\Su_Kantar_01.png" />
+    <Resource Include="Resources\Su_Kantar_02.png" />
+    <Resource Include="Resources\Su_Kantar_03.png" />
+    <Resource Include="Resources\Su_Kantar_04.png" />
+    <Resource Include="Resources\Su_Kantar_05.png" />
+    <Resource Include="Resources\Su_Kantar_06.png" />
+    <Resource Include="Resources\Su_Kantar_07.png" />
+    <Resource Include="Resources\Su_Kantar_08.png" />
+    <Resource Include="Resources\Transfer_Konveyor.png" />
+    <Resource Include="Resources\Water_Pump_Blue.png" />
+    <Resource Include="Resources\Water_Pump_Blue_Blur.png" />
+    <Resource Include="Resources\Water_Pump_Gray.png" />
+    <Resource Include="Resources\Water_Pump_Red.png" />
+    <Resource Include="Resources\arrow_down_blue_small.png" />
+    <Resource Include="Resources\arrow_right_blue_small.png" />
+    <Resource Include="Resources\arrow_right_green_small.png" />
+    <Resource Include="Resources\BaslaButon_Blue.png" />
+    <Resource Include="Resources\BlackLamp.png" />
+    <Resource Include="Resources\Lamp_Vibrator_ON.png" />
+    <Resource Include="Resources\Lamp_Vibrator_OFF.png" />
+    <Resource Include="Resources\Logo_Nem.png" />
+    <Resource Include="Resources\Button_White.png" />
+    <Resource Include="Resources\Button_Yellow.png" />
+    <Resource Include="Resources\Lamp_Yellow.png" />
+    <Resource Include="Resources\Kova_Mid.png" />
+    <Resource Include="Resources\Kova_Up.png" />
+    <Resource Include="Resources\Kova_Down.png" />
+    <Resource Include="Resources\Mixer_TwinShaft_ON.gif" />
+    <Resource Include="Resources\Lamp_Gray.png" />
+    <Resource Include="Resources\Kompresor_OFF.png" />
+    <Resource Include="Resources\Kompresor_ON.png" />
+    <Resource Include="Resources\Korna_OFF.png" />
+    <Resource Include="Resources\Korna_ON.png" />
+    <Resource Include="Resources\Button_Stop_Green.png" />
+    <Resource Include="Resources\Button_Start_Blue.png" />
+    <Resource Include="Resources\Button_Stop_Red.png" />
+    <Resource Include="Resources\Button_Stop_.png" />
+    <Resource Include="Resources\Katki_Yikama.png" />
+    <Resource Include="Resources\Katki_Motor_Fault.png" />
+    <Resource Include="Resources\Katki_Motor_Run.png" />
+    <Resource Include="Resources\Katki_Motor_Stop.png" />
+    <Resource Include="Resources\Inline_Tartim_Konveyor_01.png" />
+    <Resource Include="Resources\Inline_Tartim_Konveyor_02.png" />
+    <Resource Include="Resources\Inline_Tartim_Konveyor_T_Type.png" />
+    <Resource Include="Resources\Inline_Tartim_Konveyor_Ters.png" />
+    <Resource Include="Resources\Inline_Tartim_Konveyor.png" />
+    <None Include="Properties\Sys001_Anasayfa_System_Tag.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Sys001_Anasayfa_System_Tag.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Sys002_SistemAlarm.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Sys002_SistemAlarm.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Sys003_UretimTags.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Sys003_UretimTags.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Agrega_Dokulme_ANM.gif" />
+    <None Include="Resources\Agrega_Dokulme_00.png" />
+    <None Include="Resources\Button_Green.png" />
+    <None Include="Resources\Button_Pressed.png" />
+    <None Include="Resources\Mixer_Planet.png" />
+    <None Include="Resources\Mixer_Pan_Blur.png" />
+    <None Include="Resources\Bunker_Kare_04.png" />
+    <None Include="Resources\Bunker_Kare_04_Blur.png" />
+    <None Include="Resources\Button_Green_2.png" />
+    <None Include="Resources\Lamp_Green_Kucuk.png" />
+    <None Include="Resources\Konfigrator_Tamamlansinmi.png" />
+    <None Include="Resources\Logo_Locked.png" />
+    <None Include="Resources\Logo_Unlocked.png" />
+    <None Include="Resources\Keys_Loked.png" />
+    <None Include="Resources\Keys_Open.png" />
+    <None Include="Resources\Konfigrator_OK.png" />
+    <None Include="Resources\Button_Exit.png" />
+    <None Include="Resources\KatkiPump_Config.png" />
+    <None Include="Resources\KatkiPump_Config_Blur.png" />
+    <None Include="Resources\Pipe_90_Sagalt_DarkRed.png" />
+    <None Include="Resources\Pipe_90_Sagalt_DodgerBlue.png" />
+    <None Include="Resources\Pipe_90_Sagalt_Gold.png" />
+    <None Include="Resources\Pipe_90_SagAlt_Gray.png" />
+    <None Include="Resources\Pipe_90_SagUst_DarkRed.png" />
+    <None Include="Resources\Pipe_90_SagUst_DodgerBlue.png" />
+    <None Include="Resources\Pipe_90_SagUst_Gold.png" />
+    <None Include="Resources\Pipe_90_SagUst_Gray.png" />
+    <None Include="Resources\Pipe_90_SolAlt_DarkRed.png" />
+    <None Include="Resources\Pipe_90_SolAlt_DodgerBlue.png" />
+    <None Include="Resources\Pipe_90_SolAlt_Gold.png" />
+    <None Include="Resources\Pipe_90_SolAlt_Gray.png" />
+    <None Include="Resources\Pipe_90_SolUst_DarkRed.png" />
+    <None Include="Resources\Pipe_90_SolUst_DodgerBlue.png" />
+    <None Include="Resources\Pipe_90_SolUst_Gold.png" />
+    <None Include="Resources\Pipe_90_SolUst_Gray.png" />
+    <None Include="Resources\Pipe_Horizontal _DodgerBlue.png" />
+    <None Include="Resources\Pipe_Horizontal _Gold.png" />
+    <None Include="Resources\Pipe_Horizontal _Gray.png" />
+    <None Include="Resources\Pipe_Horizontal_DarkRed.png" />
+    <None Include="Resources\Pipe_T_Sag_DarkRed.png" />
+    <None Include="Resources\Pipe_T_Sag_DodgerBlue.png" />
+    <None Include="Resources\Pipe_T_Sag_Gold.png" />
+    <None Include="Resources\Pipe_T_Sag_Gray.png" />
+    <None Include="Resources\Pipe_T_Sol_DarkRed.png" />
+    <None Include="Resources\Pipe_T_Sol_DodgerBlue.png" />
+    <None Include="Resources\Pipe_T_Sol_Gold.png" />
+    <None Include="Resources\Pipe_T_Sol_Gray.png" />
+    <None Include="Resources\Pipe_Vertical _DarkRed.png" />
+    <None Include="Resources\Pipe_Vertical _DodgerBlue.png" />
+    <None Include="Resources\Pipe_Vertical _Gold.png" />
+    <None Include="Resources\Pipe_Vertical _gray.png" />
+    <None Include="Resources\Lamp_Vibrator_ON_qs.png" />
+    <None Include="Resources\Lamp_Vibrator_ON_Q.png" />
+    <None Include="Resources\Lamp_Vibrator_Error.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\closeBlack.png" />
+    <Content Include="Set.Config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="004_ParametreSayfasiTemplate\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

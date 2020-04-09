@@ -1,0 +1,3975 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="arızaKayıtlarıToolStripMenuItem1" xml:space="preserve">
+    <value>ВСЕ ЗАПИСИ</value>
+  </data>
+  <data name="ES100_1" xml:space="preserve">
+    <value>Цемент</value>
+  </data>
+  <data name="ES1011_1" xml:space="preserve">
+    <value>Отчет по производству</value>
+  </data>
+  <data name="ES1012_1" xml:space="preserve">
+    <value>Детальный отчет по производству</value>
+  </data>
+  <data name="ES1014_1" xml:space="preserve">
+    <value>Отчет о статусе отправки автотранспорта</value>
+  </data>
+  <data name="ES1015_1" xml:space="preserve">
+    <value>Уровень заполненности, %</value>
+  </data>
+  <data name="ES1017_1" xml:space="preserve">
+    <value>Название узла</value>
+  </data>
+  <data name="ES1018_1" xml:space="preserve">
+    <value>Часы</value>
+  </data>
+  <data name="ES1019_1" xml:space="preserve">
+    <value>Минуты</value>
+  </data>
+  <data name="ES101_1" xml:space="preserve">
+    <value>Анализатор</value>
+  </data>
+  <data name="ES1020_1" xml:space="preserve">
+    <value>Электродвигатель промежуточного конвейера инертных</value>
+  </data>
+  <data name="ES1021_1" xml:space="preserve">
+    <value>Электродвигатель шнека цемента(1)</value>
+  </data>
+  <data name="ES1022_1" xml:space="preserve">
+    <value>Электродвигатель шнека цемента(2)</value>
+  </data>
+  <data name="ES1023_1" xml:space="preserve">
+    <value>Электродвигатель шнека цемента(3)</value>
+  </data>
+  <data name="ES1024_1" xml:space="preserve">
+    <value>Электродвигатель шнека цемента(4)</value>
+  </data>
+  <data name="ES1025_1" xml:space="preserve">
+    <value>Насос хим.добавок(1)</value>
+  </data>
+  <data name="ES1026_1" xml:space="preserve">
+    <value>Насос хим.добавок(2)</value>
+  </data>
+  <data name="ES1027_1" xml:space="preserve">
+    <value>Насос хим.добавок(3)</value>
+  </data>
+  <data name="ES1028_1" xml:space="preserve">
+    <value>Насос хим.добавок(4)</value>
+  </data>
+  <data name="ES1029_1" xml:space="preserve">
+    <value>Электродвигатель компрессора</value>
+  </data>
+  <data name="ES1030_1" xml:space="preserve">
+    <value>Электродвигатель скипа</value>
+  </data>
+  <data name="ES1031_1" xml:space="preserve">
+    <value>Электродвигатель смесителя</value>
+  </data>
+  <data name="ES1032_1" xml:space="preserve">
+    <value>Электродвигатель конвейера-дозатора</value>
+  </data>
+  <data name="ES1033_1" xml:space="preserve">
+    <value>Электродвигатель передаточного конвейера</value>
+  </data>
+  <data name="ES1034_1" xml:space="preserve">
+    <value>Время начала</value>
+  </data>
+  <data name="ES1035_1" xml:space="preserve">
+    <value>Время завершения</value>
+  </data>
+  <data name="ES1036_1" xml:space="preserve">
+    <value>Название стройплощадки</value>
+  </data>
+  <data name="ES1046_1" xml:space="preserve">
+    <value>Название рецепта</value>
+  </data>
+  <data name="ES1047_1" xml:space="preserve">
+    <value>Общее количество циклов</value>
+  </data>
+  <data name="ES1048_1" xml:space="preserve">
+    <value>Количество выполненных циклов</value>
+  </data>
+  <data name="ES1049_1" xml:space="preserve">
+    <value>Наличие на складе</value>
+  </data>
+  <data name="ES104_1" xml:space="preserve">
+    <value>Рецепт</value>
+  </data>
+  <data name="ES1052_1" xml:space="preserve">
+    <value>Укажите количество дополнительной воды</value>
+  </data>
+  <data name="ES1055_1" xml:space="preserve">
+    <value>График тока электродвигателя(-лей) смесителя</value>
+  </data>
+  <data name="ES1056_1" xml:space="preserve">
+    <value>Показать график тока электродвигателя(-лей) смесителя</value>
+  </data>
+  <data name="ES1057_1" xml:space="preserve">
+    <value>График тока электродвигателя(-лей) смесителя</value>
+  </data>
+  <data name="ES105_1" xml:space="preserve">
+    <value>Изготовленный объем бетона</value>
+  </data>
+  <data name="ES1061_1" xml:space="preserve">
+    <value>Обнулить данные по израсходованным материалам</value>
+  </data>
+  <data name="ES1066_1" xml:space="preserve">
+    <value>Первый цикл производства завершен.Подтвердите выгрузку бетона.</value>
+  </data>
+  <data name="ES1069_1" xml:space="preserve">
+    <value>Выберите другой силос для продолжения набора цемента(в текущем силосе закончился цемент).</value>
+  </data>
+  <data name="ES1071_1" xml:space="preserve">
+    <value>Приостановить загрузку материала</value>
+  </data>
+  <data name="ES1072_1" xml:space="preserve">
+    <value>Загрузка материала приостановлена</value>
+  </data>
+  <data name="ES1073_1" xml:space="preserve">
+    <value>Продолжить загрузку материала</value>
+  </data>
+  <data name="ES1074_1" xml:space="preserve">
+    <value>Продолжается загрузка материала</value>
+  </data>
+  <data name="ES107_1" xml:space="preserve">
+    <value>Инертные(2)</value>
+  </data>
+  <data name="ES10_1" xml:space="preserve">
+    <value>Действия по складам</value>
+  </data>
+  <data name="ES1126_1" xml:space="preserve">
+    <value>Время дезактивации кнопок ручного режима</value>
+  </data>
+  <data name="ES1134_1" xml:space="preserve">
+    <value>Дополнительное время работы конвейера-дозатора(сек)</value>
+  </data>
+  <data name="ES1135_1" xml:space="preserve">
+    <value>Нижний предел разгрузки конвейера-дозатора(кг)</value>
+  </data>
+  <data name="ES1136_1" xml:space="preserve">
+    <value>Время уравновешивания конвейера-дозатора(сек)</value>
+  </data>
+  <data name="ES1137_1" xml:space="preserve">
+    <value>Максимальная грузоподъемность конвейера-дозатора(кг)</value>
+  </data>
+  <data name="ES1138_1" xml:space="preserve">
+    <value>Дополнительное время работы промежуточного конвейера инертных</value>
+  </data>
+  <data name="ES1139_1" xml:space="preserve">
+    <value>Влажность инертных(1)</value>
+  </data>
+  <data name="ES113_1" xml:space="preserve">
+    <value>Госномер автотранспорта</value>
+  </data>
+  <data name="ES1140_1" xml:space="preserve">
+    <value>Влажность инертных(2)</value>
+  </data>
+  <data name="ES1141_1" xml:space="preserve">
+    <value>Влажность инертных(3)</value>
+  </data>
+  <data name="ES1142_1" xml:space="preserve">
+    <value>Влажность инертных(4)</value>
+  </data>
+  <data name="ES1143_1" xml:space="preserve">
+    <value>Влажность инертных(5)</value>
+  </data>
+  <data name="ES1144_1" xml:space="preserve">
+    <value>Влажность инертных(6)</value>
+  </data>
+  <data name="ES1145_1" xml:space="preserve">
+    <value>Вес, выгружаемый в конвейер-дозатор по инерции после команды стоп(кг) (1)</value>
+  </data>
+  <data name="ES1146_1" xml:space="preserve">
+    <value>Вес, выгружаемый в конвейер-дозатор по инерции после команды стоп(кг) (2)</value>
+  </data>
+  <data name="ES1147_1" xml:space="preserve">
+    <value>Вес, выгружаемый в конвейер-дозатор по инерции после команды стоп(кг) (3)</value>
+  </data>
+  <data name="ES1148_1" xml:space="preserve">
+    <value>Вес, выгружаемый в конвейер-дозатор по инерции после команды стоп(кг) (4)</value>
+  </data>
+  <data name="ES1149_1" xml:space="preserve">
+    <value>Вес, выгружаемый в конвейер-дозатор по инерции после команды стоп(кг) (5)</value>
+  </data>
+  <data name="ES114_1" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="ES1150_1" xml:space="preserve">
+    <value>Вес, выгружаемый в конвейер-дозатор по инерции после команды стоп(кг) (6)</value>
+  </data>
+  <data name="ES1151_1" xml:space="preserve">
+    <value>Ввести влажность инертных вручную(2)</value>
+  </data>
+  <data name="ES1152_1" xml:space="preserve">
+    <value>Автоматический учет влажности инертных с датчика(2)</value>
+  </data>
+  <data name="ES1153_1" xml:space="preserve">
+    <value>Ввести влажность инертных вручную(3)</value>
+  </data>
+  <data name="ES1154_1" xml:space="preserve">
+    <value>Автоматический учет влажности инертных с датчика(3)</value>
+  </data>
+  <data name="ES1155_1" xml:space="preserve">
+    <value>Расчет влажности инертных в %</value>
+  </data>
+  <data name="ES1156_1" xml:space="preserve">
+    <value>Максимальное время работы конвейера-дозатора(сек)</value>
+  </data>
+  <data name="ES1157_1" xml:space="preserve">
+    <value>Максимальное время выгрузки материалов из дозаторов(сек)</value>
+  </data>
+  <data name="ES1158_1" xml:space="preserve">
+    <value>Максимальное время работы привода шибера смесителя(сек)</value>
+  </data>
+  <data name="ES1159_1" xml:space="preserve">
+    <value>Максимальное время работы гудка(сек)</value>
+  </data>
+  <data name="ES1160_1" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя смесителя</value>
+  </data>
+  <data name="ES1161_1" xml:space="preserve">
+    <value>Допустимое время превышения тока нагрузки э-двигателя смесителя</value>
+  </data>
+  <data name="ES1162_1" xml:space="preserve">
+    <value>Максимальное время работы шнека цемента(сек)</value>
+  </data>
+  <data name="ES1163_1" xml:space="preserve">
+    <value>Нижний предел разгрузки дозатора(кг)</value>
+  </data>
+  <data name="ES1164_1" xml:space="preserve">
+    <value>Время уравновешивания дозатора хим.добавок(сек)</value>
+  </data>
+  <data name="ES1165_1" xml:space="preserve">
+    <value>Вес, выгружаемый в дозатор по инерции после поступления команды стоп(1) </value>
+  </data>
+  <data name="ES1166_1" xml:space="preserve">
+    <value>Вес, выгружаемый в дозатор по инерции после поступления команды стоп(2)</value>
+  </data>
+  <data name="ES1167_1" xml:space="preserve">
+    <value>Вес, выгружаемый в дозатор по инерции после поступления команды стоп(3)</value>
+  </data>
+  <data name="ES1168_1" xml:space="preserve">
+    <value>Вес, выгружаемый в дозатор по инерции после поступления команды стоп(4)</value>
+  </data>
+  <data name="ES1169_1" xml:space="preserve">
+    <value>Дополнительное время выгрузки из дозатора(сек)</value>
+  </data>
+  <data name="ES1170_1" xml:space="preserve">
+    <value>Время работы гидропривода шибера смесителя</value>
+  </data>
+  <data name="ES1171_1" xml:space="preserve">
+    <value>Время ожидания гидропривода шибера смесителя</value>
+  </data>
+  <data name="ES1173_1" xml:space="preserve">
+    <value>Объем смесителя</value>
+  </data>
+  <data name="ES1174_1" xml:space="preserve">
+    <value>Время ожидания вибратора дозатора цемента</value>
+  </data>
+  <data name="ES1175_1" xml:space="preserve">
+    <value>Время работы вибратора дозатора цемента</value>
+  </data>
+  <data name="ES1176_1" xml:space="preserve">
+    <value>Скорость выгрузки цемента из дозатора для включения вибратора</value>
+  </data>
+  <data name="ES1177_1" xml:space="preserve">
+    <value>Мгновенная скорость выгрузки цемента из дозатора</value>
+  </data>
+  <data name="ES1178_1" xml:space="preserve">
+    <value>Время ожидания вибратора бункера(2)</value>
+  </data>
+  <data name="ES1179_1" xml:space="preserve">
+    <value>Время работы вибратора бункера(2)</value>
+  </data>
+  <data name="ES117_1" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="ES1180_1" xml:space="preserve">
+    <value>Время ожидания вибратора бункера(3)</value>
+  </data>
+  <data name="ES1181_1" xml:space="preserve">
+    <value>Время работы вибратора бункера(3)</value>
+  </data>
+  <data name="ES1182_1" xml:space="preserve">
+    <value>Время работы вибратора дозатора цемента</value>
+  </data>
+  <data name="ES1194_1" xml:space="preserve">
+    <value>Укажите время перемешивания бетона</value>
+  </data>
+  <data name="ES1195_1" xml:space="preserve">
+    <value>Применить внесенные изменения в рецепте</value>
+  </data>
+  <data name="ES1197_1" xml:space="preserve">
+    <value>Укажите время выгрузки бетона из смесителя</value>
+  </data>
+  <data name="ES11_1" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="ES1201_1" xml:space="preserve">
+    <value>Калибровка  </value>
+  </data>
+  <data name="ES1202_1" xml:space="preserve">
+    <value>Языковые настройки</value>
+  </data>
+  <data name="ES1203_1" xml:space="preserve">
+    <value>Настройки ELKON</value>
+  </data>
+  <data name="ES1205_1" xml:space="preserve">
+    <value>Вы уверены, что хотите выйти из программы?</value>
+  </data>
+  <data name="ES1208_1" xml:space="preserve">
+    <value>Ручная распечатка накладной после окончания производства</value>
+  </data>
+  <data name="ES1209_1" xml:space="preserve">
+    <value>Автоматическая распечатка накладной после окончания каждого производства</value>
+  </data>
+  <data name="ES1210_1" xml:space="preserve">
+    <value>Настройки накладной</value>
+  </data>
+  <data name="ES1211_1" xml:space="preserve">
+    <value>Изменить накладную</value>
+  </data>
+  <data name="ES1213_1" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="ES1217_1" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя смесителя на цифровом амперметре(А)</value>
+  </data>
+  <data name="ES1218_1" xml:space="preserve">
+    <value>Минимальный ток нагрузки электродвигателя смесителя на цифровом ампереметре(А)</value>
+  </data>
+  <data name="ES1219_1" xml:space="preserve">
+    <value>Максимальный предел измерения цифрового апмериметра электродвигателя смесителя(А)</value>
+  </data>
+  <data name="ES1220_1" xml:space="preserve">
+    <value>Минимальный предел измерения цифрового апмериметра электродвигателя смесителя(А)</value>
+  </data>
+  <data name="ES1221_1" xml:space="preserve">
+    <value>Укажите максимальную грузоподъемность дозатора цемента </value>
+  </data>
+  <data name="ES1224_1" xml:space="preserve">
+    <value>Вход пользователя</value>
+  </data>
+  <data name="ES1231_1" xml:space="preserve">
+    <value>В системе обнаружено незаконченное производство, Вы уверенны что хотите выйти из системы?</value>
+  </data>
+  <data name="ES1233_1" xml:space="preserve">
+    <value>Вход в программу</value>
+  </data>
+  <data name="ES1234_1" xml:space="preserve">
+    <value>Выход из программы</value>
+  </data>
+  <data name="ES1235_1" xml:space="preserve">
+    <value>Вход в систему</value>
+  </data>
+  <data name="ES1236_1" xml:space="preserve">
+    <value>Выход из системы</value>
+  </data>
+  <data name="ES1238_1" xml:space="preserve">
+    <value>Часы</value>
+  </data>
+  <data name="ES1240_1" xml:space="preserve">
+    <value>Срок блокировки</value>
+  </data>
+  <data name="ES1241_0" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="ES1242_0" xml:space="preserve">
+    <value>км</value>
+  </data>
+  <data name="ES1243_0" xml:space="preserve">
+    <value>м3</value>
+  </data>
+  <data name="ES1245_0" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="ES1246_1" xml:space="preserve">
+    <value>Заблокировать</value>
+  </data>
+  <data name="ES1247_1" xml:space="preserve">
+    <value>Разблокировать</value>
+  </data>
+  <data name="ES1249_1" xml:space="preserve">
+    <value>Конфигурация систем дозирования воды и хим.добавок</value>
+  </data>
+  <data name="ES1250_1" xml:space="preserve">
+    <value>Конфигурация дозаторов воды и хим.добавок</value>
+  </data>
+  <data name="ES1254_1" xml:space="preserve">
+    <value>Укажите максимальную грузоподъемность дозатора воды</value>
+  </data>
+  <data name="ES1257_0" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES1258_0" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES125_1" xml:space="preserve">
+    <value>Название фирмы</value>
+  </data>
+  <data name="ES1265_0" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ES1266_0" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ES1269_0" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ES126_1" xml:space="preserve">
+    <value>Телефон, факс</value>
+  </data>
+  <data name="ES1270_0" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ES1273_0" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ES1274_0" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ES1277_0" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ES127_1" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="ES1282_1" xml:space="preserve">
+    <value>Введите количество силосов для микрокремнезема</value>
+  </data>
+  <data name="ES1285_1" xml:space="preserve">
+    <value>Введите предел взвешивания для дозатора микрокремнезема</value>
+  </data>
+  <data name="ES1287_1" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="ES1288_1" xml:space="preserve">
+    <value>Перед тем, как нажать на кнопку «Обнулить», убедитесь, что дозатор пуст и свободно висит на тензодатчиках.Страховочные шпильки не затянуты, посторонние предметы не мешают нормальной работе тензодатчика.</value>
+  </data>
+  <data name="ES1289_1" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="ES128_1" xml:space="preserve">
+    <value>Контактное лицо</value>
+  </data>
+  <data name="ES1291_1" xml:space="preserve">
+    <value>Обнуление дозатора успешно выполнено.Установите калибровочный груз на дозатор (см. «Таблицу максимального предела взвешивания дозаторов и требуемых калибровочных грузов» в кабине оператора).</value>
+  </data>
+  <data name="ES1292_1" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="ES1294_1" xml:space="preserve">
+    <value>Для проверки точности калибровки, постепенно убирайте калибровочные грузы с дозатора и сравнивайте вес оставшегося груза со значением на индикаторе.</value>
+  </data>
+  <data name="ES1299_1" xml:space="preserve">
+    <value>Выберите язык интерфейса</value>
+  </data>
+  <data name="ES129_1" xml:space="preserve">
+    <value>Код налогового органа</value>
+  </data>
+  <data name="ES12_1" xml:space="preserve">
+    <value>Настройки учетной записи пользователя</value>
+  </data>
+  <data name="ES1300_1" xml:space="preserve">
+    <value>Фирма с таким названием уже существует, введите пожалуйста другое название.</value>
+  </data>
+  <data name="ES1301_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1302_1" xml:space="preserve">
+    <value>Фирма с таким названием уже существует, введите пожалуйста другое название.</value>
+  </data>
+  <data name="ES1303_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1304_1" xml:space="preserve">
+    <value>Автотранспорт с таким госномером уже существует, введите пожалуйста другой госномер.</value>
+  </data>
+  <data name="ES1305_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1306_1" xml:space="preserve">
+    <value>Автотранспорт с таким госномером уже существует, введите пожалуйста другой госномер.</value>
+  </data>
+  <data name="ES1307_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1308_1" xml:space="preserve">
+    <value>Водитель с таким именем уже существует, введите пожалуйста другое имя.</value>
+  </data>
+  <data name="ES1309_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES130_1" xml:space="preserve">
+    <value>Номер налогоплательщика</value>
+  </data>
+  <data name="ES1310_1" xml:space="preserve">
+    <value>Водитель с таким именем уже существует, введите пожалуйста другое имя.</value>
+  </data>
+  <data name="ES1311_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1312_1" xml:space="preserve">
+    <value>Стройплощадка с таким названием уже существует, введите пожалуйста другое название.</value>
+  </data>
+  <data name="ES1313_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1314_1" xml:space="preserve">
+    <value>Стройплощадка с таким названием уже существует, введите пожалуйста другое название.</value>
+  </data>
+  <data name="ES1315_1" xml:space="preserve">
+    <value>Данный рецепт изменить нельзя, так как он уже отправлен на производство.Пожалуйста дождитесь окончания производства.</value>
+  </data>
+  <data name="ES1316_1" xml:space="preserve">
+    <value>Материал с таким названием уже существует, пожалуйста введите другое название.</value>
+  </data>
+  <data name="ES1317_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1318_1" xml:space="preserve">
+    <value>Материал с таким названием уже существует, пожалуйста введите другое название.</value>
+  </data>
+  <data name="ES1319_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES131_1" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ES1320_1" xml:space="preserve">
+    <value>Данный рецепт изменить нельзя, так как он уже отправлен на производство.Пожалуйста дождитесь окончания производства.</value>
+  </data>
+  <data name="ES1321_1" xml:space="preserve">
+    <value>Данный рецепт удалить нельзя, так как он уже используется в заказах.</value>
+  </data>
+  <data name="ES1322_1" xml:space="preserve">
+    <value>Данный рецепт удалить нельзя, так как он уже используется в заказах.</value>
+  </data>
+  <data name="ES1323_1" xml:space="preserve">
+    <value>Данный рецепт удалить нельзя, так как он уже отправлен на производство.</value>
+  </data>
+  <data name="ES1324_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста введите недостающую информацию.</value>
+  </data>
+  <data name="ES1325_1" xml:space="preserve">
+    <value>Данный заказ удалить нельзя, так как он уже внесен в план производства.</value>
+  </data>
+  <data name="ES1326_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста, введите недостающую информацию</value>
+  </data>
+  <data name="ES1327_1" xml:space="preserve">
+    <value>Нельзя вводить в заказе объём меньше, чем уже было изготовлено по заказу данного клиента.</value>
+  </data>
+  <data name="ES1328_1" xml:space="preserve">
+    <value>Нельзя вводить объем заказа больше, чем объем автотранспорта.</value>
+  </data>
+  <data name="ES1329_1" xml:space="preserve">
+    <value>Объем производства не может превышать объем заказа.</value>
+  </data>
+  <data name="ES1330_1" xml:space="preserve">
+    <value>Объем производства не может превышать оставшийся объем заказа.</value>
+  </data>
+  <data name="ES1331_1" xml:space="preserve">
+    <value>Максимально возможный объем производства</value>
+  </data>
+  <data name="ES1332_1" xml:space="preserve">
+    <value>Весь объем заказа выполнен.</value>
+  </data>
+  <data name="ES1333_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста, введите недостающую информацию.</value>
+  </data>
+  <data name="ES1334_1" xml:space="preserve">
+    <value>Данный план производства удалить нельзя, он уже отправлен в производство.</value>
+  </data>
+  <data name="ES1335_1" xml:space="preserve">
+    <value>Данный план производства изменить нельзя, он уже отправлен в производство.</value>
+  </data>
+  <data name="ES1336_1" xml:space="preserve">
+    <value>Нельзя вводить объем заказа больше, чем объем автотранспорта.</value>
+  </data>
+  <data name="ES1337_1" xml:space="preserve">
+    <value>Объем производства не может превышать объем заказа.</value>
+  </data>
+  <data name="ES1338_1" xml:space="preserve">
+    <value>Объем производства не может превышать оставшийся объем заказа.</value>
+  </data>
+  <data name="ES1339_1" xml:space="preserve">
+    <value>Максимально возможный объем производства</value>
+  </data>
+  <data name="ES1340_1" xml:space="preserve">
+    <value>Весь объем заказа выполнен.</value>
+  </data>
+  <data name="ES1341_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста, введите недостающую информацию.</value>
+  </data>
+  <data name="ES1342_1" xml:space="preserve">
+    <value>Данный план производства удалить нельзя, он уже отправлен в производство.</value>
+  </data>
+  <data name="ES1343_1" xml:space="preserve">
+    <value>Нельзя вводить объем заказа больше, чем объем автотранспорта</value>
+  </data>
+  <data name="ES1344_1" xml:space="preserve">
+    <value>Объем производства не может превышать объем заказа.</value>
+  </data>
+  <data name="ES1345_1" xml:space="preserve">
+    <value>Объем производства не может превышать оставшийся объем заказа.</value>
+  </data>
+  <data name="ES1346_1" xml:space="preserve">
+    <value>Максимально возможный объем производства</value>
+  </data>
+  <data name="ES1347_1" xml:space="preserve">
+    <value>Весь объем заказа выполнен.</value>
+  </data>
+  <data name="ES1348_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста, введите недостающую информацию</value>
+  </data>
+  <data name="ES1349_1" xml:space="preserve">
+    <value>Нельзя вводить объем заказа больше, чем объем автотранспорта.</value>
+  </data>
+  <data name="ES1350_1" xml:space="preserve">
+    <value>Объем производства не может превышать объем заказа.</value>
+  </data>
+  <data name="ES1351_1" xml:space="preserve">
+    <value>Объем производства не может превышать оставшийся объем заказа.</value>
+  </data>
+  <data name="ES1352_1" xml:space="preserve">
+    <value>Максимально возможный объем производства</value>
+  </data>
+  <data name="ES1353_1" xml:space="preserve">
+    <value>Весь объем заказа выполнен.</value>
+  </data>
+  <data name="ES1354_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста, введите недостающую информацию.</value>
+  </data>
+  <data name="ES1355_1" xml:space="preserve">
+    <value>Нет ни одного плана производства.Необходимо сначала создать план производства.</value>
+  </data>
+  <data name="ES1356_1" xml:space="preserve">
+    <value>Все производства, внесенные в план производства, уже выполнены.</value>
+  </data>
+  <data name="ES1357_1" xml:space="preserve">
+    <value>Чтобы запустить производство в автоматическом режиме, пожалуйста, сначала переведите систему в автоматический режим.</value>
+  </data>
+  <data name="ES1358_1" xml:space="preserve">
+    <value>Есть запущенное производство, пожалуйста, дождитесь его окончания.</value>
+  </data>
+  <data name="ES1359_1" xml:space="preserve">
+    <value>Есть незаполненные поля, пожалуйста, введите недостающую информацию.</value>
+  </data>
+  <data name="ES1360_1" xml:space="preserve">
+    <value>При пополнении склада нельзя ввести объём больше, чем номинальная вместимость самого склада.</value>
+  </data>
+  <data name="ES1361_1" xml:space="preserve">
+    <value>Производство еще не закончено, можете начать сначала или удалить его из плана производства</value>
+  </data>
+  <data name="ES1362_1" xml:space="preserve">
+    <value>Выберите</value>
+  </data>
+  <data name="ES1363_1" xml:space="preserve">
+    <value>Активный</value>
+  </data>
+  <data name="ES1364_1" xml:space="preserve">
+    <value>Пассивный</value>
+  </data>
+  <data name="ES1368_1" xml:space="preserve">
+    <value>Разрешение аналоговых входов ПЛК(бит)</value>
+  </data>
+  <data name="ES1375_1" xml:space="preserve">
+    <value>Серийный №</value>
+  </data>
+  <data name="ES1376_1" xml:space="preserve">
+    <value>Серийный №</value>
+  </data>
+  <data name="ES1377_0" xml:space="preserve">
+    <value>ABB</value>
+  </data>
+  <data name="ES1379_1" xml:space="preserve">
+    <value>Хим.добавки(1)</value>
+  </data>
+  <data name="ES1380_1" xml:space="preserve">
+    <value>Хим.добавки(2)</value>
+  </data>
+  <data name="ES1381_1" xml:space="preserve">
+    <value>Хим.добавки(3)</value>
+  </data>
+  <data name="ES1382_1" xml:space="preserve">
+    <value>Хим.добавки(4)</value>
+  </data>
+  <data name="ES1383_1" xml:space="preserve">
+    <value>Хим.добавки(5)</value>
+  </data>
+  <data name="ES1384_1" xml:space="preserve">
+    <value>A100 Сработала термозащита(авт.выкл.) электродвигателя смесителя</value>
+  </data>
+  <data name="ES1385_1" xml:space="preserve">
+    <value>A111 Запущен полный смеситель</value>
+  </data>
+  <data name="ES13_1" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ES1404_1" xml:space="preserve">
+    <value>C503 Перегруз дозатора цемента</value>
+  </data>
+  <data name="ES1405_1" xml:space="preserve">
+    <value>C601 Перегруз дозатора воды</value>
+  </data>
+  <data name="ES1406_1" xml:space="preserve">
+    <value>C701 Перегруз дозатора хим.добавок</value>
+  </data>
+  <data name="ES1407_1" xml:space="preserve">
+    <value>D402 Превышено максимальное время движения скипа</value>
+  </data>
+  <data name="ES1408_1" xml:space="preserve">
+    <value>E205 Недобор инертных на конвейер-дозатор по рецепту за заданное максимальное время</value>
+  </data>
+  <data name="ES1409_1" xml:space="preserve">
+    <value>F506 Дозатор цемента не достиг нижнего предела разгрузки за введенное максимальное время</value>
+  </data>
+  <data name="ES1410_1" xml:space="preserve">
+    <value>F206 Конвейер-дозатор не достиг нижнего предела разгрузки за введенное максимальное время</value>
+  </data>
+  <data name="ES1411_1" xml:space="preserve">
+    <value>G109 Сбои в работе шибера смесителя за заданное максимальное время</value>
+  </data>
+  <data name="ES1412_1" xml:space="preserve">
+    <value>G507 Сбои в работе поворотной заслонки дозатора цемента за заданное максимальное время</value>
+  </data>
+  <data name="ES1413_1" xml:space="preserve">
+    <value>G604 Сбои в работе поворотной заслонки дозатора воды за заданное максимальное время</value>
+  </data>
+  <data name="ES1414_1" xml:space="preserve">
+    <value>G704 Сбои в работе клапана дозатора хим.добавок за заданное максимальное время</value>
+  </data>
+  <data name="ES1415_1" xml:space="preserve">
+    <value>G801 Сбои в работе шибера бункера накопителя за заданное максимальное время</value>
+  </data>
+  <data name="ES1416_1" xml:space="preserve">
+    <value>H210 Фактический вес на конвейере-дозаторе превышает нижний предел разгрузки</value>
+  </data>
+  <data name="ES1417_1" xml:space="preserve">
+    <value>H510 Фактический вес на дозаторе цемента превышает нижний предел разгрузки</value>
+  </data>
+  <data name="ES1418_1" xml:space="preserve">
+    <value>H607 Фактический вес на дозаторе воды превышает нижний предел разгрузки</value>
+  </data>
+  <data name="ES1419_1" xml:space="preserve">
+    <value>H707 Фактический вес на дозаторе хим.добавок превышает нижний предел разгрузки</value>
+  </data>
+  <data name="ES1420_1" xml:space="preserve">
+    <value>K105 Сбои в работе автосмазчика/или его датчик вышел из строя</value>
+  </data>
+  <data name="ES1421_1" xml:space="preserve">
+    <value>K106 Перегрев электродвигателя смесителя(70° C)/или вышел из строя его термистор</value>
+  </data>
+  <data name="ES1422_1" xml:space="preserve">
+    <value>K107 Перегрев масла редуктора смесителя(70° C)/или вышел из строя датчик темпереатуры</value>
+  </data>
+  <data name="ES1423_1" xml:space="preserve">
+    <value>K108 Открылась крышка обслуживания смесителя/или сбились настройки датчика положения крышки/или датчик вышел из строя</value>
+  </data>
+  <data name="ES1424_1" xml:space="preserve">
+    <value>K404 Износился диск тормоза скипа/или сбились настройки диска/или сбились настройки датчика положения диска/или датчик вышел из строя</value>
+  </data>
+  <data name="ES1425_1" xml:space="preserve">
+    <value>K406 Скип не находится в нижнем положении/или сбились настройки датчика положения скипа/или датчик вышел из строя</value>
+  </data>
+  <data name="ES1426_1" xml:space="preserve">
+    <value>L208 Сработал тросовый аварийный выключатель конвейера-дозатора</value>
+  </data>
+  <data name="ES1427_1" xml:space="preserve">
+    <value>O110 Смеситель не работает</value>
+  </data>
+  <data name="ES1428_1" xml:space="preserve">
+    <value>XB46 Сбои в электропитании(перекос фазы-1)</value>
+  </data>
+  <data name="ES1429_1" xml:space="preserve">
+    <value>K407 Установлена перемычка на датчик положения диска тормоза скипа/или сбились настройки датчика положения диска/или датчик вышел из строя</value>
+  </data>
+  <data name="ES1430_1" xml:space="preserve">
+    <value>K405_Общая безопасность</value>
+  </data>
+  <data name="ES1431_1" xml:space="preserve">
+    <value>XB46 Общая ошибка</value>
+  </data>
+  <data name="ES1432_1" xml:space="preserve">
+    <value>A101-Сработала термозащита(авт.выкл.) электродвигателя гидростанции шибера смесителя</value>
+  </data>
+  <data name="ES1433_1" xml:space="preserve">
+    <value>A112 Смеситель остановился</value>
+  </data>
+  <data name="ES1434_1" xml:space="preserve">
+    <value>A200_1 Сработала термозащита(авт.выкл.) электродвигателя конвейера-дозатора(1)</value>
+  </data>
+  <data name="ES1435_1" xml:space="preserve">
+    <value>A201_1 Сработала термозащита(авт.выкл.) вибратора конвейера-дозатора(1)</value>
+  </data>
+  <data name="ES1437_1" xml:space="preserve">
+    <value>A202_2 Сработала термозащита(авт.выкл.) вибратора бункера(2)</value>
+  </data>
+  <data name="ES1438_1" xml:space="preserve">
+    <value>A202_3 Сработала термозащита(авт.выкл.) вибратора бункера(3)</value>
+  </data>
+  <data name="ES1439_1" xml:space="preserve">
+    <value>A300 Сработала термозащита(авт.выкл.) электродвигателя передаточного конвейера</value>
+  </data>
+  <data name="ES1440_1" xml:space="preserve">
+    <value>A400 Сработала термозащита(авт.выкл.) электродвигателя скипа</value>
+  </data>
+  <data name="ES1441_1" xml:space="preserve">
+    <value>A500 Сработала термозащита(авт.выкл.) электродвигателя шнека цемента</value>
+  </data>
+  <data name="ES1442_1" xml:space="preserve">
+    <value>A501 Сработала термозащита(авт.выкл.) вибратора дозатора цемента</value>
+  </data>
+  <data name="ES1443_1" xml:space="preserve">
+    <value>A800 Сработала термозащита(авт.выкл.) вибратора бункера накопителя</value>
+  </data>
+  <data name="ES1444_1" xml:space="preserve">
+    <value>A900 Сработала термозащита(авт.выкл.) электродвигателя компрессора</value>
+  </data>
+  <data name="ES1445_1" xml:space="preserve">
+    <value>B103 Превышен максимальный ток нагрузки электродвигателя смесителя</value>
+  </data>
+  <data name="ES1446_1" xml:space="preserve">
+    <value>B504_1 Превышен максимальный ток нагрузки электродвигателя шнека цемента(1)</value>
+  </data>
+  <data name="ES1447_1" xml:space="preserve">
+    <value>B504_2 Превышен максимальный ток нагрузки электродвигателя шнека цемента(2)</value>
+  </data>
+  <data name="ES1448_1" xml:space="preserve">
+    <value>B504_3 Превышен максимальный ток нагрузки электродвигателя шнека цемента(3)</value>
+  </data>
+  <data name="ES1449_1" xml:space="preserve">
+    <value>B504_4 Превышен максимальный ток нагрузки электродвигателя шнека цемента(4)</value>
+  </data>
+  <data name="ES1450_1" xml:space="preserve">
+    <value>C204 Перегруз конвейера-дозатора</value>
+  </data>
+  <data name="ES1451_1" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="ES1454_1" xml:space="preserve">
+    <value>Страница записи номинального тока электродвигателя смесителя</value>
+  </data>
+  <data name="ES1455_1" xml:space="preserve">
+    <value>Описание: на этой странице предоставляется возможность провести калибровку номинального тока электродвигателя смесителя.После определения потребляемого тока электродвигателем смесителя при работе в холостом режиме, система сравнивает это значение с фактическим значением тока при производстве после выгрузки бетона, тем самым определяя действительно ли смеситель пуст.Если электродвигатель смесителя потребляет тока больше, чем заданное, то материал для следующего цикла не поступает в смеситель.</value>
+  </data>
+  <data name="ES1457_1" xml:space="preserve">
+    <value>Определить и сохранить значение тока</value>
+  </data>
+  <data name="ES1458_1" xml:space="preserve">
+    <value>Adım 2 : Tolerans değerini belirtiniz.Bu tolerans değeri akım kontrolü yapılırken kaydedilen değerin ne kadar üzerine çıkabileceğini belirler ve yüzde olarak belirtilir.</value>
+  </data>
+  <data name="ES1459_1" xml:space="preserve">
+    <value>Шаг 1: переведите систему в ручной режим,  убедитесь, что смеситель пуст, после этого запустите смеситель.Затем нажмите на кнопку «Определить и сохранить значение тока». Процесс займет приблизительно 5 секунд.Дождитесь, чтобы значение тока отобразилось на индикаторе.</value>
+  </data>
+  <data name="ES1460_1" xml:space="preserve">
+    <value>Шаг 3: Проверьте таблицу внизу страницы: если процесс завершен успешно, то сохраненное значение должно равняться 0, а окончательный результат должен равняться 1.</value>
+  </data>
+  <data name="ES1461_1" xml:space="preserve">
+    <value>Дождитесь завершения этой операции(5 сек.)…</value>
+  </data>
+  <data name="ES1462_1" xml:space="preserve">
+    <value>Перейдите в ручной режим управления, включите смеситель и попробуйте снова.</value>
+  </data>
+  <data name="ES1463_1" xml:space="preserve">
+    <value>Сохранение значения тока</value>
+  </data>
+  <data name="ES1464_1" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="ES1467_1" xml:space="preserve">
+    <value>Полуавто.</value>
+  </data>
+  <data name="ES1468_1" xml:space="preserve">
+    <value>Полуавто.</value>
+  </data>
+  <data name="ES146_1" xml:space="preserve">
+    <value>Название фирмы</value>
+  </data>
+  <data name="ES1472_1" xml:space="preserve">
+    <value>Полуавто.</value>
+  </data>
+  <data name="ES1473_0" xml:space="preserve">
+    <value>Гц</value>
+  </data>
+  <data name="ES1474_1" xml:space="preserve">
+    <value>Конфигурация счетчиков воды и хим.добавок</value>
+  </data>
+  <data name="ES1475_1" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя смесителя(А)</value>
+  </data>
+  <data name="ES1476_0" xml:space="preserve">
+    <value>1350 кг</value>
+  </data>
+  <data name="ES1477_0" xml:space="preserve">
+    <value>2500 кг</value>
+  </data>
+  <data name="ES1478_0" xml:space="preserve">
+    <value>5000 кг</value>
+  </data>
+  <data name="ES1479_0" xml:space="preserve">
+    <value>7500 кг</value>
+  </data>
+  <data name="ES147_1" xml:space="preserve">
+    <value>Телефон, факс</value>
+  </data>
+  <data name="ES1480_0" xml:space="preserve">
+    <value>10000 кг</value>
+  </data>
+  <data name="ES1481_0" xml:space="preserve">
+    <value>1500 кг</value>
+  </data>
+  <data name="ES1485_1" xml:space="preserve">
+    <value>Недопустимое название рецепта</value>
+  </data>
+  <data name="ES1486_1" xml:space="preserve">
+    <value>O905 Нажата кнопка аварийного отключения </value>
+  </data>
+  <data name="ES1489_1" xml:space="preserve">
+    <value>Отправить рецепт в ПЛК</value>
+  </data>
+  <data name="ES148_1" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="ES1490_1" xml:space="preserve">
+    <value>Отправить рецепт в ПЛК</value>
+  </data>
+  <data name="ES1491_1" xml:space="preserve">
+    <value>Отправить рецепт    в ПЛК</value>
+  </data>
+  <data name="ES1493_1" xml:space="preserve">
+    <value>Допустимое время превышения тока нагрузки э-двигателя шнека цемента</value>
+  </data>
+  <data name="ES1494_1" xml:space="preserve">
+    <value>Пополнение</value>
+  </data>
+  <data name="ES1495_1" xml:space="preserve">
+    <value>Отчет по складам</value>
+  </data>
+  <data name="ES1496_1" xml:space="preserve">
+    <value>Отчет по производству</value>
+  </data>
+  <data name="ES1497_1" xml:space="preserve">
+    <value>Отчет по израсходованному материалу в ручном режиме</value>
+  </data>
+  <data name="ES1498_1" xml:space="preserve">
+    <value>Инертные(1)</value>
+  </data>
+  <data name="ES1499_1" xml:space="preserve">
+    <value>Инертные(2)</value>
+  </data>
+  <data name="ES149_1" xml:space="preserve">
+    <value>Контактное лицо</value>
+  </data>
+  <data name="ES1500_1" xml:space="preserve">
+    <value>Инертные(3)</value>
+  </data>
+  <data name="ES1501_1" xml:space="preserve">
+    <value>Инертные(4)</value>
+  </data>
+  <data name="ES1502_1" xml:space="preserve">
+    <value>Цемент(1)</value>
+  </data>
+  <data name="ES1503_1" xml:space="preserve">
+    <value>Цемент(2)</value>
+  </data>
+  <data name="ES1504_1" xml:space="preserve">
+    <value>Хим.добавки(1)</value>
+  </data>
+  <data name="ES1505_1" xml:space="preserve">
+    <value>Хим.добавки(2)</value>
+  </data>
+  <data name="ES1506_1" xml:space="preserve">
+    <value>Вода(1)</value>
+  </data>
+  <data name="ES1507_1" xml:space="preserve">
+    <value>Вода(2)</value>
+  </data>
+  <data name="ES1508_1" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="ES1509_1" xml:space="preserve">
+    <value>ELKOMIX-60 Quick Master(конвейер)</value>
+  </data>
+  <data name="ES150_1" xml:space="preserve">
+    <value>Код налогового органа</value>
+  </data>
+  <data name="ES1510_1" xml:space="preserve">
+    <value>ELKOMIX-90 Quick Master(конвейер)</value>
+  </data>
+  <data name="ES1511_1" xml:space="preserve">
+    <value>A600 Сработала термозащита(авт.выкл.) электродвигателя насоса выгрузки воды</value>
+  </data>
+  <data name="ES1512_1" xml:space="preserve">
+    <value>A700 Сработала термозащита(авт.выкл.) электродвигателя насоса хим.добавок</value>
+  </data>
+  <data name="ES1514_1" xml:space="preserve">
+    <value>L302 Сработал тросовый аварийный выключатель передаточного конвейера</value>
+  </data>
+  <data name="ES1516_1" xml:space="preserve">
+    <value>Есть запущенное производство, чтобы сбросить его, нажмите сначала на кнопку "Стоп".</value>
+  </data>
+  <data name="ES1517_1" xml:space="preserve">
+    <value>Есть запущенное производство, вы уверенны что хотите сбросить его?</value>
+  </data>
+  <data name="ES1518_0" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="ES1519_0" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ES151_1" xml:space="preserve">
+    <value>Номер налогоплательщика</value>
+  </data>
+  <data name="ES1520_0" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="ES1521_0" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="ES1522_0" xml:space="preserve">
+    <value>Magyar</value>
+  </data>
+  <data name="ES1524_1" xml:space="preserve">
+    <value>Настройки пользователя</value>
+  </data>
+  <data name="ES1525_1" xml:space="preserve">
+    <value>База данных клиентов</value>
+  </data>
+  <data name="ES1526_1" xml:space="preserve">
+    <value>Планирование производства и отчёты</value>
+  </data>
+  <data name="ES1527_1" xml:space="preserve">
+    <value>Дневной общий отчёт по производству в ручном режиме</value>
+  </data>
+  <data name="ES152_1" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ES1530_0" xml:space="preserve">
+    <value>Силос(2)</value>
+  </data>
+  <data name="ES1531_0" xml:space="preserve">
+    <value>Силос(3)</value>
+  </data>
+  <data name="ES1532_0" xml:space="preserve">
+    <value>Силос(4)</value>
+  </data>
+  <data name="ES1533_0" xml:space="preserve">
+    <value>Силос(1)</value>
+  </data>
+  <data name="ES1534_1" xml:space="preserve">
+    <value>Тип автотранспорта</value>
+  </data>
+  <data name="ES1535_1" xml:space="preserve">
+    <value>Грузовик</value>
+  </data>
+  <data name="ES1536_1" xml:space="preserve">
+    <value>Автомиксер</value>
+  </data>
+  <data name="ES1537_1" xml:space="preserve">
+    <value>Бетононасос</value>
+  </data>
+  <data name="ES1538_1" xml:space="preserve">
+    <value>Характеристики бетона</value>
+  </data>
+  <data name="ES1539_1" xml:space="preserve">
+    <value>Класс по прочности </value>
+  </data>
+  <data name="ES153_1" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="ES1540_1" xml:space="preserve">
+    <value>Класс по консистенции</value>
+  </data>
+  <data name="ES1541_1" xml:space="preserve">
+    <value>Марка по морозостойкости</value>
+  </data>
+  <data name="ES1542_1" xml:space="preserve">
+    <value>Марка по водонепроницаемости</value>
+  </data>
+  <data name="ES1543_1" xml:space="preserve">
+    <value>Марка по средней плотности бетона </value>
+  </data>
+  <data name="ES1544_1" xml:space="preserve">
+    <value>Класс по содержанию хлоридов</value>
+  </data>
+  <data name="ES1545_1" xml:space="preserve">
+    <value>Предельные значения состава бетона</value>
+  </data>
+  <data name="ES1546_1" xml:space="preserve">
+    <value>Максимальное водоцементное соотношение</value>
+  </data>
+  <data name="ES1547_1" xml:space="preserve">
+    <value>Минимальное содержание цемента, кг/м3</value>
+  </data>
+  <data name="ES1548_1" xml:space="preserve">
+    <value>Минимальный класс по прочности бетона</value>
+  </data>
+  <data name="ES1549_0" xml:space="preserve">
+    <value>Минимальный объем вовлеченного воздуха в бетоне,%</value>
+  </data>
+  <data name="ES1558_1" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="ES1559_1" xml:space="preserve">
+    <value>Описание 2</value>
+  </data>
+  <data name="ES1560_1" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="ES1561_1" xml:space="preserve">
+    <value>Экспорт</value>
+  </data>
+  <data name="ES1575_1" xml:space="preserve">
+    <value>Такая марка по морозостойкости уже существует, введите другую марку</value>
+  </data>
+  <data name="ES1576_1" xml:space="preserve">
+    <value>Такая марка по водонепроницаемости уже существует, введите другую марку</value>
+  </data>
+  <data name="ES1577_1" xml:space="preserve">
+    <value>Такая марка по средней плотности бетона уже существует, введите другую марку.</value>
+  </data>
+  <data name="ES1578_1" xml:space="preserve">
+    <value>Такой класс по содержанию хлоридов уже существует, введите другой класс.</value>
+  </data>
+  <data name="ES1582_1" xml:space="preserve">
+    <value>Данные завода-изготовителя бетона</value>
+  </data>
+  <data name="ES1583_1" xml:space="preserve">
+    <value>ФИО </value>
+  </data>
+  <data name="ES1584_1" xml:space="preserve">
+    <value>Факс</value>
+  </data>
+  <data name="ES1585_1" xml:space="preserve">
+    <value>Оператор</value>
+  </data>
+  <data name="ES1586_1" xml:space="preserve">
+    <value>Накладная №</value>
+  </data>
+  <data name="ES1587_1" xml:space="preserve">
+    <value>Время начала производства </value>
+  </data>
+  <data name="ES1588_1" xml:space="preserve">
+    <value>Объем поставляемого бетона, м3</value>
+  </data>
+  <data name="ES1589_1" xml:space="preserve">
+    <value>Время окончания производства</value>
+  </data>
+  <data name="ES158_1" xml:space="preserve">
+    <value>Вместимость</value>
+  </data>
+  <data name="ES1590_1" xml:space="preserve">
+    <value>Время прибытия бетона на стройплощадку</value>
+  </data>
+  <data name="ES1591_1" xml:space="preserve">
+    <value>Время начала разгрузки бетона на стройплощадке</value>
+  </data>
+  <data name="ES1592_1" xml:space="preserve">
+    <value>Время окончания разгрузки бетона на стройплощадке</value>
+  </data>
+  <data name="ES1593_1" xml:space="preserve">
+    <value>Вид отгрузки бетона </value>
+  </data>
+  <data name="ES1594_1" xml:space="preserve">
+    <value>Информация о заказе</value>
+  </data>
+  <data name="ES1595_1" xml:space="preserve">
+    <value>Максимальный размер заполнителя</value>
+  </data>
+  <data name="ES1596_1" xml:space="preserve">
+    <value>Тип цемента</value>
+  </data>
+  <data name="ES1597_1" xml:space="preserve">
+    <value>Класс цемента</value>
+  </data>
+  <data name="ES1598_1" xml:space="preserve">
+    <value>Тип хим.добавок</value>
+  </data>
+  <data name="ES1599_1" xml:space="preserve">
+    <value>Особые свойства</value>
+  </data>
+  <data name="ES15_1" xml:space="preserve">
+    <value>Страница производства</value>
+  </data>
+  <data name="ES1600_1" xml:space="preserve">
+    <value>Отгруженный бетон соответствует международным нормам EN 206-1.</value>
+  </data>
+  <data name="ES1601_1" xml:space="preserve">
+    <value>Любое добавление воды или добавок во время поставки бетона запрещено!</value>
+  </data>
+  <data name="ES1602_1" xml:space="preserve">
+    <value>Ответственность продавца ограничевается отгрузкой бетона, соответствующего стандартам.</value>
+  </data>
+  <data name="ES1603_1" xml:space="preserve">
+    <value>Полную ответственность за любые убытки, возникшие в результате укладки, уплотнения, выравнивания бетона и ухода за ним, а также времени выдержки в форме и опалубке, добавления во время или после отгрузки дополнительного компонента против воли/желания продавца, нестандартного ожидания бетона и неблагоприятных природных условий и т.п.несет покупатель.</value>
+  </data>
+  <data name="ES1604_1" xml:space="preserve">
+    <value>Должны быть соблюдены с точностью все действующие в стране правила по изготовлению, заливке и уходу за бетоном.</value>
+  </data>
+  <data name="ES1605_1" xml:space="preserve">
+    <value>Основная информация</value>
+  </data>
+  <data name="ES1606_1" xml:space="preserve">
+    <value>Информация о бетоне и о его составе</value>
+  </data>
+  <data name="ES1607_1" xml:space="preserve">
+    <value>Примечания</value>
+  </data>
+  <data name="ES1608_1" xml:space="preserve">
+    <value>Грузоотправитель</value>
+  </data>
+  <data name="ES1609_1" xml:space="preserve">
+    <value>Грузополучатель</value>
+  </data>
+  <data name="ES1610_1" xml:space="preserve">
+    <value>Подпись </value>
+  </data>
+  <data name="ES1611_1" xml:space="preserve">
+    <value>Адрес стройплощадки</value>
+  </data>
+  <data name="ES1612_1" xml:space="preserve">
+    <value>Описание - 1 (тип, класс и т.п.)</value>
+  </data>
+  <data name="ES1613_1" xml:space="preserve">
+    <value>Описание - 2 (макс.размер фракции, мм)</value>
+  </data>
+  <data name="ES1619_0" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="ES161_1" xml:space="preserve">
+    <value>ФИО водителя</value>
+  </data>
+  <data name="ES1620_0" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="ES1621_1" xml:space="preserve">
+    <value>Архив</value>
+  </data>
+  <data name="ES1622_1" xml:space="preserve">
+    <value>Сработала термозащита(авт.выкл.) вибраторов вибропитателя бункера(1)</value>
+  </data>
+  <data name="ES1623_1" xml:space="preserve">
+    <value>Сработала термозащита(авт.выкл.) вибраторов вибропитателя бункера(2)</value>
+  </data>
+  <data name="ES1624_1" xml:space="preserve">
+    <value>Сработала термозащита(авт.выкл.) вибраторов вибропитателя бункера(3)</value>
+  </data>
+  <data name="ES1625_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на вибрационной системе точной дозировки 1 (кг)</value>
+  </data>
+  <data name="ES1626_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на вибрационной системе точной дозировки 2 (кг)</value>
+  </data>
+  <data name="ES1627_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на вибрационной системе точной дозировки 3 (кг)</value>
+  </data>
+  <data name="ES1628_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на вибрационной системе точной дозировки 4 (кг)</value>
+  </data>
+  <data name="ES1629_1" xml:space="preserve">
+    <value>Удаленная помощь</value>
+  </data>
+  <data name="ES162_1" xml:space="preserve">
+    <value>Item1</value>
+  </data>
+  <data name="ES1630_0" xml:space="preserve">
+    <value>AnyDesk</value>
+  </data>
+  <data name="ES1631_0" xml:space="preserve">
+    <value>Alpemix</value>
+  </data>
+  <data name="ES1632_0" xml:space="preserve">
+    <value>Team Viewer</value>
+  </data>
+  <data name="ES1633_1" xml:space="preserve">
+    <value>Сбросить номер накладной</value>
+  </data>
+  <data name="ES163_1" xml:space="preserve">
+    <value>Item2</value>
+  </data>
+  <data name="ES1644_1" xml:space="preserve">
+    <value>Максимальное время открытого положения клапана загрузки воды(сек)</value>
+  </data>
+  <data name="ES1645_1" xml:space="preserve">
+    <value>Максимальное время работы насосов хим.добавок(сек)</value>
+  </data>
+  <data name="ES1652_1" xml:space="preserve">
+    <value>E702 Недобор хим.добавок в дозатор по рецепту за заданное максимальное время</value>
+  </data>
+  <data name="ES1653_1" xml:space="preserve">
+    <value>E602 Недобор воды в дозатор по рецепту за заданное максимальное время</value>
+  </data>
+  <data name="ES1654_1" xml:space="preserve">
+    <value>E505 Недобор цемента в дозатор по рецепту за заданное максимальное время</value>
+  </data>
+  <data name="ES1655_1" xml:space="preserve">
+    <value>F603 Дозатор воды не достиг нижнего предела разгрузки, за введенное максимальное время</value>
+  </data>
+  <data name="ES1656_1" xml:space="preserve">
+    <value>F703 Дозатор хим.добавок не достиг нижнего предела разгрузки, за введенное максимальное время</value>
+  </data>
+  <data name="ES1657_1" xml:space="preserve">
+    <value>Максимальное время выгрузки материалов из дозатора цемента(сек)</value>
+  </data>
+  <data name="ES1658_1" xml:space="preserve">
+    <value>Максимальное время выгрузки материалов из дозатора хим.добавок(сек)</value>
+  </data>
+  <data name="ES1659_1" xml:space="preserve">
+    <value>Максимальное время выгрузки материалов из дозатора воды(сек)</value>
+  </data>
+  <data name="ES1660_1" xml:space="preserve">
+    <value>Максимальное время открытого положения шиберов инертных(сек)</value>
+  </data>
+  <data name="ES1662_1" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="ES1663_1" xml:space="preserve">
+    <value>Счетчик есть</value>
+  </data>
+  <data name="ES1664_1" xml:space="preserve">
+    <value>Счетчика нет</value>
+  </data>
+  <data name="ES1665_1" xml:space="preserve">
+    <value>Дозатора нет</value>
+  </data>
+  <data name="ES1666_1" xml:space="preserve">
+    <value>Дозатор есть</value>
+  </data>
+  <data name="ES1667_1" xml:space="preserve">
+    <value>Накладная</value>
+  </data>
+  <data name="ES1671_1" xml:space="preserve">
+    <value>Шибер с двумя пневмоцилиндрами(инертные)</value>
+  </data>
+  <data name="ES1672_1" xml:space="preserve">
+    <value>Шибер с одним пневмоцилиндром(инертные)</value>
+  </data>
+  <data name="ES1674_1" xml:space="preserve">
+    <value>Тестирование силового шкафа на фабрике</value>
+  </data>
+  <data name="ES1675_1" xml:space="preserve">
+    <value>Автосмазчик смесителя включен</value>
+  </data>
+  <data name="ES1676_1" xml:space="preserve">
+    <value>Рецепт для симуляции</value>
+  </data>
+  <data name="ES1677_0" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="ES1678_0" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="ES1679_0" xml:space="preserve">
+    <value>кг</value>
+  </data>
+  <data name="ES1680_1" xml:space="preserve">
+    <value>Режим симуляции для ELKOMIX-35 Quick Master</value>
+  </data>
+  <data name="ES1681_1" xml:space="preserve">
+    <value>Режим симуляции для ELKOMIX-60 Quick Master</value>
+  </data>
+  <data name="ES1682_0" xml:space="preserve">
+    <value>m^3</value>
+  </data>
+  <data name="ES1683_1" xml:space="preserve">
+    <value>Коэффициент трансформатора тока электропитания(/5)</value>
+  </data>
+  <data name="ES1684_1" xml:space="preserve">
+    <value>Коэффициент трансформатора тока электродвигателя смесителя(/5)</value>
+  </data>
+  <data name="ES1685_1" xml:space="preserve">
+    <value>Коэффициент трансформатора тока электродвигателя шнека(/5)</value>
+  </data>
+  <data name="ES1686_0" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="ES1691_1" xml:space="preserve">
+    <value>Время пополнения склада</value>
+  </data>
+  <data name="ES1693_1" xml:space="preserve">
+    <value>Количество пополнения</value>
+  </data>
+  <data name="ES1694_1" xml:space="preserve">
+    <value>Пополнивший склад</value>
+  </data>
+  <data name="ES1696_1" xml:space="preserve">
+    <value>Данные успешно экспортированы в Excel файл</value>
+  </data>
+  <data name="ES1697_1" xml:space="preserve">
+    <value>Выберите модель завода</value>
+  </data>
+  <data name="ES1703_1" xml:space="preserve">
+    <value>Общее количество не должно превышать 5-и</value>
+  </data>
+  <data name="ES1704_1" xml:space="preserve">
+    <value>Общее количество не должно превышать 6-и</value>
+  </data>
+  <data name="ES1708_1" xml:space="preserve">
+    <value>Такой класс по прочности уже существует, введите другой класс</value>
+  </data>
+  <data name="ES1709_1" xml:space="preserve">
+    <value>Такой класс по консистенции уже существует, введите другой класс</value>
+  </data>
+  <data name="ES1711_1" xml:space="preserve">
+    <value>Отображать в накладной текст стандартных примечаний - 1</value>
+  </data>
+  <data name="ES1712_1" xml:space="preserve">
+    <value>Не отображать в накладной текст стандартных примечаний - 1</value>
+  </data>
+  <data name="ES1713_1" xml:space="preserve">
+    <value>Силос</value>
+  </data>
+  <data name="ES1714_1" xml:space="preserve">
+    <value>Бункер</value>
+  </data>
+  <data name="ES1715_1" xml:space="preserve">
+    <value>Время уравновешивания дозатора цемента(сек)</value>
+  </data>
+  <data name="ES1716_1" xml:space="preserve">
+    <value>Нижний предел разгрузки дозатора(кг)</value>
+  </data>
+  <data name="ES1717_1" xml:space="preserve">
+    <value>Дополнительное время выгрузки из дозатора(сек)</value>
+  </data>
+  <data name="ES1719_1" xml:space="preserve">
+    <value>Нижний предел разгрузки дозатора(кг)</value>
+  </data>
+  <data name="ES1720_1" xml:space="preserve">
+    <value>Дополнительное время выгрузки из дозатора(сек)</value>
+  </data>
+  <data name="ES1721_1" xml:space="preserve">
+    <value>Разница веса инертных(1), кг</value>
+  </data>
+  <data name="ES1722_1" xml:space="preserve">
+    <value>Разница веса инертных(2), кг</value>
+  </data>
+  <data name="ES1723_1" xml:space="preserve">
+    <value>Разница веса инертных(3), кг</value>
+  </data>
+  <data name="ES1724_1" xml:space="preserve">
+    <value>Разница веса инертных(4), кг</value>
+  </data>
+  <data name="ES1725_1" xml:space="preserve">
+    <value>Разница веса цемента(1), кг</value>
+  </data>
+  <data name="ES1726_1" xml:space="preserve">
+    <value>Разница веса цемента(2), кг</value>
+  </data>
+  <data name="ES1727_1" xml:space="preserve">
+    <value>Разница веса хим.добавок(1), кг</value>
+  </data>
+  <data name="ES1728_1" xml:space="preserve">
+    <value>Разница веса хим.добавок(2), кг</value>
+  </data>
+  <data name="ES1729_1" xml:space="preserve">
+    <value>Разница веса воды(1), кг</value>
+  </data>
+  <data name="ES1730_1" xml:space="preserve">
+    <value>Разница веса воды(2), кг</value>
+  </data>
+  <data name="ES1733_1" xml:space="preserve">
+    <value>Заданный вес инертных(3), кг</value>
+  </data>
+  <data name="ES1734_1" xml:space="preserve">
+    <value>Заданный вес инертных(2), кг</value>
+  </data>
+  <data name="ES1735_1" xml:space="preserve">
+    <value>Заданный вес инертных(1), кг</value>
+  </data>
+  <data name="ES1736_1" xml:space="preserve">
+    <value>Заданный вес инертных(4), кг</value>
+  </data>
+  <data name="ES1737_1" xml:space="preserve">
+    <value>Заданный вес цемента(1), кг</value>
+  </data>
+  <data name="ES1738_1" xml:space="preserve">
+    <value>Заданный вес цемента(2), кг</value>
+  </data>
+  <data name="ES1739_1" xml:space="preserve">
+    <value>Заданный вес хим.добавок(1), кг</value>
+  </data>
+  <data name="ES1740_1" xml:space="preserve">
+    <value>Заданный вес хим.добавок(2), кг</value>
+  </data>
+  <data name="ES1741_1" xml:space="preserve">
+    <value>Заданный вес воды(1), кг</value>
+  </data>
+  <data name="ES1742_1" xml:space="preserve">
+    <value>Заданный вес воды(2), кг</value>
+  </data>
+  <data name="ES1744_1" xml:space="preserve">
+    <value>Инертные(1)</value>
+  </data>
+  <data name="ES1745_1" xml:space="preserve">
+    <value>Инертные(2)</value>
+  </data>
+  <data name="ES1746_1" xml:space="preserve">
+    <value>Инертные(3)</value>
+  </data>
+  <data name="ES1747_1" xml:space="preserve">
+    <value>Инертные(4)</value>
+  </data>
+  <data name="ES1748_1" xml:space="preserve">
+    <value>Цемент(1)</value>
+  </data>
+  <data name="ES1749_1" xml:space="preserve">
+    <value>Цемент(2)</value>
+  </data>
+  <data name="ES1750_1" xml:space="preserve">
+    <value>Цемент(3)</value>
+  </data>
+  <data name="ES1751_1" xml:space="preserve">
+    <value>Цемент(4)</value>
+  </data>
+  <data name="ES1752_1" xml:space="preserve">
+    <value>Хим.добавки(1)</value>
+  </data>
+  <data name="ES1753_1" xml:space="preserve">
+    <value>Хим.добавки(3)</value>
+  </data>
+  <data name="ES1754_1" xml:space="preserve">
+    <value>Хим.добавки(2)</value>
+  </data>
+  <data name="ES1755_1" xml:space="preserve">
+    <value>Хим.добавки(4)</value>
+  </data>
+  <data name="ES1756_1" xml:space="preserve">
+    <value>Вода(1)</value>
+  </data>
+  <data name="ES1757_1" xml:space="preserve">
+    <value>Вода(2)</value>
+  </data>
+  <data name="ES1759_1" xml:space="preserve">
+    <value>A203-1 Сработала термозащита(авт.выкл.) вибраторов вибропитателя бункера(1)</value>
+  </data>
+  <data name="ES1760_1" xml:space="preserve">
+    <value>A203-2 Сработала термозащита(авт.выкл.) вибраторов вибропитателя бункера(2)</value>
+  </data>
+  <data name="ES1761_1" xml:space="preserve">
+    <value>A203-3 Сработала термозащита(авт.выкл.) вибраторов вибропитателя бункера(3)</value>
+  </data>
+  <data name="ES1767_1" xml:space="preserve">
+    <value>Доступ к журналу действий</value>
+  </data>
+  <data name="ES1768_1" xml:space="preserve">
+    <value>Право на выход из программы</value>
+  </data>
+  <data name="ES1769_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить данные новой компании</value>
+  </data>
+  <data name="ES1770_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить данные нового автотранспорта</value>
+  </data>
+  <data name="ES1771_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить данные новой стройплощадки</value>
+  </data>
+  <data name="ES1772_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить данные нового водителя</value>
+  </data>
+  <data name="ES1773_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить данные нового материала</value>
+  </data>
+  <data name="ES1774_1" xml:space="preserve">
+    <value>Редактирование мест складирования</value>
+  </data>
+  <data name="ES1775_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить новый рецепт</value>
+  </data>
+  <data name="ES1776_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить новый заказ</value>
+  </data>
+  <data name="ES1777_1" xml:space="preserve">
+    <value>Добавить, удалить или изменить новый план производства</value>
+  </data>
+  <data name="ES1778_1" xml:space="preserve">
+    <value>Право доступа к отчету производства</value>
+  </data>
+  <data name="ES1779_1" xml:space="preserve">
+    <value>Право доступа к детальному отчету производства</value>
+  </data>
+  <data name="ES1780_1" xml:space="preserve">
+    <value>Право доступа к отчету о статусе отправки транспортных средств</value>
+  </data>
+  <data name="ES1781_1" xml:space="preserve">
+    <value>Право доступа к общему отчету по израсходованному материалу(АВТО и РУЧН)</value>
+  </data>
+  <data name="ES1782_1" xml:space="preserve">
+    <value>Право доступа к отчету по продажам</value>
+  </data>
+  <data name="ES1783_1" xml:space="preserve">
+    <value>Право доступа к отчету по израсходованному материалу в ручном режиме</value>
+  </data>
+  <data name="ES1784_1" xml:space="preserve">
+    <value>Право доступа к времени работы электродвигателей</value>
+  </data>
+  <data name="ES1785_1" xml:space="preserve">
+    <value>Вести запись инвентаря</value>
+  </data>
+  <data name="ES1786_1" xml:space="preserve">
+    <value>Право доступа к отчету по количеству на складе</value>
+  </data>
+  <data name="ES1787_1" xml:space="preserve">
+    <value>Право доступа к отчету по пополнению складов</value>
+  </data>
+  <data name="ES1788_1" xml:space="preserve">
+    <value>Право доступа к настройкам пользователя</value>
+  </data>
+  <data name="ES1789_1" xml:space="preserve">
+    <value>Право доступа к настройкам калибровки</value>
+  </data>
+  <data name="ES17_1" xml:space="preserve">
+    <value>Журнал событий(логи)</value>
+  </data>
+  <data name="ES1801_1" xml:space="preserve">
+    <value>Дополнительное время работы передаточного конвейера(сек)</value>
+  </data>
+  <data name="ES1805_1" xml:space="preserve">
+    <value>Смеситель пустой</value>
+  </data>
+  <data name="ES1806_1" xml:space="preserve">
+    <value>Смеситель полный</value>
+  </data>
+  <data name="ES1807_1" xml:space="preserve">
+    <value>Производство в режиме ожидания</value>
+  </data>
+  <data name="ES1808_1" xml:space="preserve">
+    <value>Производство продолжается</value>
+  </data>
+  <data name="ES1811_1" xml:space="preserve">
+    <value>Максимальное время работы передаточного конвейера(сек)</value>
+  </data>
+  <data name="ES1812_1" xml:space="preserve">
+    <value>Выгрузка</value>
+  </data>
+  <data name="ES1816_1" xml:space="preserve">
+    <value>Внимание! Высокое напряжение!</value>
+  </data>
+  <data name="ES1817_1" xml:space="preserve">
+    <value>Внимание! Низкое напряжение!</value>
+  </data>
+  <data name="ES1818_1" xml:space="preserve">
+    <value>D902-1 Сбои в электропитании(перекос фазы-1)</value>
+  </data>
+  <data name="ES1819_1" xml:space="preserve">
+    <value>D902-2 Сбои в электропитании(перекос фазы-2)</value>
+  </data>
+  <data name="ES1820_1" xml:space="preserve">
+    <value>D902-3 Сбои в электропитании(перекос фазы-3)</value>
+  </data>
+  <data name="ES1821_1" xml:space="preserve">
+    <value>Открыть шибер смесителя</value>
+  </data>
+  <data name="ES1832_1" xml:space="preserve">
+    <value>Кнопка без фиксации</value>
+  </data>
+  <data name="ES1833_1" xml:space="preserve">
+    <value>Кнопка с фиксацией</value>
+  </data>
+  <data name="ES1843_1" xml:space="preserve">
+    <value>Создать новый заказ</value>
+  </data>
+  <data name="ES1844_1" xml:space="preserve">
+    <value>Создать новый план производства</value>
+  </data>
+  <data name="ES1845_1" xml:space="preserve">
+    <value>Ввести вручную</value>
+  </data>
+  <data name="ES1846_1" xml:space="preserve">
+    <value>цикл, фактический вес, кг</value>
+  </data>
+  <data name="ES1847_1" xml:space="preserve">
+    <value>Заданный вес на один цикл, кг</value>
+  </data>
+  <data name="ES1849_1" xml:space="preserve">
+    <value>O910 Система в АВТО режиме</value>
+  </data>
+  <data name="ES1850_1" xml:space="preserve">
+    <value>O911 Система в РУЧН.режиме</value>
+  </data>
+  <data name="ES1851_1" xml:space="preserve">
+    <value>O912 Система в ПОЛУАВТ режиме</value>
+  </data>
+  <data name="ES1853_1" xml:space="preserve">
+    <value>Отображать в накладной текст стандартных примечаний - 2</value>
+  </data>
+  <data name="ES1854_1" xml:space="preserve">
+    <value>Не отображать в накладной текст стандартных примечаний - 2</value>
+  </data>
+  <data name="ES1855_1" xml:space="preserve">
+    <value>Отображать в накладной текст стандартных примечаний - 3</value>
+  </data>
+  <data name="ES1856_1" xml:space="preserve">
+    <value>Не отображать в накладной текст стандартных примечаний - 3</value>
+  </data>
+  <data name="ES1857_1" xml:space="preserve">
+    <value>Отображать в накладной текст стандартных примечаний - 4</value>
+  </data>
+  <data name="ES1858_1" xml:space="preserve">
+    <value>Не отображать в накладной текст стандартных примечаний - 4</value>
+  </data>
+  <data name="ES1859_1" xml:space="preserve">
+    <value>Отображать в накладной текст стандартных примечаний - 5</value>
+  </data>
+  <data name="ES1860_1" xml:space="preserve">
+    <value>Не отображать в накладной текст стандартных примечаний - 5</value>
+  </data>
+  <data name="ES1862_1" xml:space="preserve">
+    <value>№ Производства</value>
+  </data>
+  <data name="ES191_1" xml:space="preserve">
+    <value>Название рецепта</value>
+  </data>
+  <data name="ES192_1" xml:space="preserve">
+    <value>сек.</value>
+  </data>
+  <data name="ES193_1" xml:space="preserve">
+    <value>кг</value>
+  </data>
+  <data name="ES1941_1" xml:space="preserve">
+    <value>Обнулить код производства</value>
+  </data>
+  <data name="ES1946_1" xml:space="preserve">
+    <value>Серийное производство</value>
+  </data>
+  <data name="ES1947_1" xml:space="preserve">
+    <value>Тип бетона</value>
+  </data>
+  <data name="ES1948_1" xml:space="preserve">
+    <value>Введите другой тип бетона</value>
+  </data>
+  <data name="ES194_1" xml:space="preserve">
+    <value>Инертные(1)</value>
+  </data>
+  <data name="ES1959_1" xml:space="preserve">
+    <value>Транспортное средство</value>
+  </data>
+  <data name="ES1960_1" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="ES1961_1" xml:space="preserve">
+    <value>Стройплощадка / Организация</value>
+  </data>
+  <data name="ES1962_1" xml:space="preserve">
+    <value>Время прибытя</value>
+  </data>
+  <data name="ES1963_1" xml:space="preserve">
+    <value>Время отправления</value>
+  </data>
+  <data name="ES1965_0" xml:space="preserve">
+    <value>Polskie</value>
+  </data>
+  <data name="ES1966_1" xml:space="preserve">
+    <value>Производство остановлено</value>
+  </data>
+  <data name="ES1967_1" xml:space="preserve">
+    <value>Производство сброшено</value>
+  </data>
+  <data name="ES1968_1" xml:space="preserve">
+    <value>Производство закончено</value>
+  </data>
+  <data name="ES1969_1" xml:space="preserve">
+    <value>Новое производство началось</value>
+  </data>
+  <data name="ES1970_1" xml:space="preserve">
+    <value>Производство продолжается с момента остановки</value>
+  </data>
+  <data name="ES1971_1" xml:space="preserve">
+    <value>Производство не закончено</value>
+  </data>
+  <data name="ES197_1" xml:space="preserve">
+    <value>Инертные(2)</value>
+  </data>
+  <data name="ES198_1" xml:space="preserve">
+    <value>Инертные(3)</value>
+  </data>
+  <data name="ES1996_1" xml:space="preserve">
+    <value>Общий объем заказа, м3</value>
+  </data>
+  <data name="ES1997_1" xml:space="preserve">
+    <value>Оставшийся объем заказа, м3</value>
+  </data>
+  <data name="ES199_1" xml:space="preserve">
+    <value>Инертные(4)</value>
+  </data>
+  <data name="ES19_1" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="ES1_1" xml:space="preserve">
+    <value>Неисправность</value>
+  </data>
+  <data name="ES2001_0" xml:space="preserve">
+    <value>Выберите другую ёмкость для продолжения набора хим.добавки(в текущей емкости закончилась хим.добавка).</value>
+  </data>
+  <data name="ES2003_0" xml:space="preserve">
+    <value>Выберите другой бункер для продолжения набора инертных материалов(в текущем бункере закончились инертные материалы)</value>
+  </data>
+  <data name="ES2009_0" xml:space="preserve">
+    <value>Время открытия шибера выгрузки смесителя</value>
+  </data>
+  <data name="ES2014_0" xml:space="preserve">
+    <value>Выберите материал, который хотите поменять</value>
+  </data>
+  <data name="ES2022_0" xml:space="preserve">
+    <value>Материалы, которые вы хотите поменять, должны быть одного типа</value>
+  </data>
+  <data name="ES2023_1" xml:space="preserve">
+    <value>Изменить склад</value>
+  </data>
+  <data name="ES2025_0" xml:space="preserve">
+    <value>Выберите новый материал для изменения материала на складе</value>
+  </data>
+  <data name="ES2030_0" xml:space="preserve">
+    <value>Фиброволокно</value>
+  </data>
+  <data name="ES2031_0" xml:space="preserve">
+    <value>Фактический вес фиброволокна(1), kg</value>
+  </data>
+  <data name="ES2032_0" xml:space="preserve">
+    <value>Фактический вес фиброволокна(2), kg</value>
+  </data>
+  <data name="ES2033_0" xml:space="preserve">
+    <value>Фактический вес фиброволокна(3), kg</value>
+  </data>
+  <data name="ES2061_0" xml:space="preserve">
+    <value>Марка автотранспорта</value>
+  </data>
+  <data name="ES2064_0" xml:space="preserve">
+    <value>Объем возвращенного бетона</value>
+  </data>
+  <data name="ES2065_0" xml:space="preserve">
+    <value>Класс возвращенного бетона</value>
+  </data>
+  <data name="ES2066_0" xml:space="preserve">
+    <value>Описание возвращенного бетона</value>
+  </data>
+  <data name="ES2067_0" xml:space="preserve">
+    <value>№ производства возвращенного бетона</value>
+  </data>
+  <data name="ES206_1" xml:space="preserve">
+    <value>Перемешивание</value>
+  </data>
+  <data name="ES2073_0" xml:space="preserve">
+    <value>Страница управления производством</value>
+  </data>
+  <data name="ES2074_0" xml:space="preserve">
+    <value>Страница управления производством-Панель управления</value>
+  </data>
+  <data name="ES2075_0" xml:space="preserve">
+    <value>Страница управления производством-Панель управления-Действия по производству</value>
+  </data>
+  <data name="ES2076_0" xml:space="preserve">
+    <value>Страница управления производством-Настройки</value>
+  </data>
+  <data name="ES2077_0" xml:space="preserve">
+    <value>Страница управления производством-Настройки-Сохранить</value>
+  </data>
+  <data name="ES2078_0" xml:space="preserve">
+    <value>Страница управления производством-Настройки-Получить данные из ПЛК</value>
+  </data>
+  <data name="ES2079_0" xml:space="preserve">
+    <value>Страница управления производством-Настройки-Отправить данные в ПЛК</value>
+  </data>
+  <data name="ES207_1" xml:space="preserve">
+    <value>Выгрузка</value>
+  </data>
+  <data name="ES2080_0" xml:space="preserve">
+    <value>Данные по производству</value>
+  </data>
+  <data name="ES2081_0" xml:space="preserve">
+    <value>Данные по производству-Фирмы</value>
+  </data>
+  <data name="ES2082_0" xml:space="preserve">
+    <value>Данные по производству-Фирмы-Внести новые данные</value>
+  </data>
+  <data name="ES2083_0" xml:space="preserve">
+    <value>Данные по производству-Фирмы-Обновить данные</value>
+  </data>
+  <data name="ES2084_0" xml:space="preserve">
+    <value>Данные по производству-Фирмы-Удалить запись</value>
+  </data>
+  <data name="ES2085_0" xml:space="preserve">
+    <value>Данные по производству-Транспортные средства</value>
+  </data>
+  <data name="ES2086_0" xml:space="preserve">
+    <value>Данные по производству-Транспортные средства-Внести новые данные</value>
+  </data>
+  <data name="ES2087_0" xml:space="preserve">
+    <value>Данные по производству-Транспортные средства-Обновить данные</value>
+  </data>
+  <data name="ES2088_0" xml:space="preserve">
+    <value>Данные по производству-Транспортные средства-Удалить запись</value>
+  </data>
+  <data name="ES2089_0" xml:space="preserve">
+    <value>Данные по производству-Стройплощадки</value>
+  </data>
+  <data name="ES208_1" xml:space="preserve">
+    <value>Цемент</value>
+  </data>
+  <data name="ES2090_0" xml:space="preserve">
+    <value>Данные по производству-Стройплощадки-Внести новые данные</value>
+  </data>
+  <data name="ES2091_0" xml:space="preserve">
+    <value>Данные по производству-Стройплощадки-Обновить данные</value>
+  </data>
+  <data name="ES2092_0" xml:space="preserve">
+    <value>Данные по производству-Стройплощадки-Удалить запись</value>
+  </data>
+  <data name="ES2093_0" xml:space="preserve">
+    <value>Данные по производству-Водители-Внести новые данные</value>
+  </data>
+  <data name="ES2094_0" xml:space="preserve">
+    <value>Данные по производству-Водители-Обновить данные</value>
+  </data>
+  <data name="ES2095_0" xml:space="preserve">
+    <value>Данные по производству-Водители-Удалить запись</value>
+  </data>
+  <data name="ES2096_0" xml:space="preserve">
+    <value>Данные по производству-Материалы</value>
+  </data>
+  <data name="ES2097_0" xml:space="preserve">
+    <value>Данные по производству-Материалы-Внести новые данные</value>
+  </data>
+  <data name="ES2098_0" xml:space="preserve">
+    <value>Данные по производству-Материалы-Обновить данные</value>
+  </data>
+  <data name="ES2099_0" xml:space="preserve">
+    <value>Данные по производству-Материалы-Удалить запись</value>
+  </data>
+  <data name="ES209_1" xml:space="preserve">
+    <value>Хим.добавки</value>
+  </data>
+  <data name="ES20_1" xml:space="preserve">
+    <value>Window1</value>
+  </data>
+  <data name="ES2100_0" xml:space="preserve">
+    <value>Данные по производству-Места складирования</value>
+  </data>
+  <data name="ES2101_0" xml:space="preserve">
+    <value>Данные по производству-Места складирования-Внести новые данные</value>
+  </data>
+  <data name="ES2102_0" xml:space="preserve">
+    <value>Данные по производству-Места складирования-Обновить данные</value>
+  </data>
+  <data name="ES2103_0" xml:space="preserve">
+    <value>Данные по производству-Места складирования-Удалить запись</value>
+  </data>
+  <data name="ES2104_0" xml:space="preserve">
+    <value>Данные по производству-Решение неисправности</value>
+  </data>
+  <data name="ES2105_0" xml:space="preserve">
+    <value>Данные по производству-Решение неисправности-Внести новые данные</value>
+  </data>
+  <data name="ES2106_0" xml:space="preserve">
+    <value>Данные по производству-Решение неисправности-Обновить данные</value>
+  </data>
+  <data name="ES2107_0" xml:space="preserve">
+    <value>Данные по производству-Решение неисправности-Удалить запись</value>
+  </data>
+  <data name="ES2108_0" xml:space="preserve">
+    <value>Рецепты-Данные рецепта</value>
+  </data>
+  <data name="ES2109_0" xml:space="preserve">
+    <value>Рецепты-Данные рецепта-Внести новые данные</value>
+  </data>
+  <data name="ES210_1" xml:space="preserve">
+    <value>Время задержки выгрузки материалов в смеситель</value>
+  </data>
+  <data name="ES2110_0" xml:space="preserve">
+    <value>Рецепты-Данные рецепта-Обновить данные</value>
+  </data>
+  <data name="ES2111_0" xml:space="preserve">
+    <value>Рецепты-Данные рецепта-Удалить запись</value>
+  </data>
+  <data name="ES2112_0" xml:space="preserve">
+    <value>Рецепты-Данные рецепта-Отправить данные в ПЛК</value>
+  </data>
+  <data name="ES2113_0" xml:space="preserve">
+    <value>Производство</value>
+  </data>
+  <data name="ES2114_0" xml:space="preserve">
+    <value>Производство-План производства</value>
+  </data>
+  <data name="ES2115_0" xml:space="preserve">
+    <value>Производство-План производства-Внести новые данные</value>
+  </data>
+  <data name="ES2116_0" xml:space="preserve">
+    <value>Производство-План производства-Обновить данные</value>
+  </data>
+  <data name="ES2117_0" xml:space="preserve">
+    <value>Производство-План производства-Удалить запись</value>
+  </data>
+  <data name="ES2118_0" xml:space="preserve">
+    <value>Производство-План производства заказа</value>
+  </data>
+  <data name="ES2119_0" xml:space="preserve">
+    <value>Производство-План производства заказа-Внести новые данные</value>
+  </data>
+  <data name="ES211_1" xml:space="preserve">
+    <value>Состав бетона</value>
+  </data>
+  <data name="ES2120_0" xml:space="preserve">
+    <value>Производство-План производства заказа-Обновить данные</value>
+  </data>
+  <data name="ES2121_0" xml:space="preserve">
+    <value>Производство-Отчет по производству</value>
+  </data>
+  <data name="ES2122_0" xml:space="preserve">
+    <value>Производство-Отчет по производству в ручном режиме</value>
+  </data>
+  <data name="ES2123_0" xml:space="preserve">
+    <value>Производство-Время работы электродвигателя</value>
+  </data>
+  <data name="ES2124_0" xml:space="preserve">
+    <value>Действия по складам</value>
+  </data>
+  <data name="ES2125_0" xml:space="preserve">
+    <value>Действия по складам-Внести новые данные</value>
+  </data>
+  <data name="ES2126_0" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="ES2127_0" xml:space="preserve">
+    <value>Отчеты-Отчет по производству</value>
+  </data>
+  <data name="ES2128_0" xml:space="preserve">
+    <value>Отчеты-Отчет по складам</value>
+  </data>
+  <data name="ES2129_0" xml:space="preserve">
+    <value>Отчеты-Отчет по складам-Отчет по складским материалам</value>
+  </data>
+  <data name="ES212_1" xml:space="preserve">
+    <value>Настройки смесителя</value>
+  </data>
+  <data name="ES2130_0" xml:space="preserve">
+    <value>Отчеты-Отчет по складам-Отчет по пополнению склада</value>
+  </data>
+  <data name="ES2131_0" xml:space="preserve">
+    <value>Отчеты-Отчет по складам-Отчет по израсходованным материалам</value>
+  </data>
+  <data name="ES2132_0" xml:space="preserve">
+    <value>Настройки пользователя</value>
+  </data>
+  <data name="ES2133_0" xml:space="preserve">
+    <value>Настройки пользователя-Пользователи и группы</value>
+  </data>
+  <data name="ES2134_0" xml:space="preserve">
+    <value>Настройки пользователя-Пользователи и группы-Внести новые данные</value>
+  </data>
+  <data name="ES2135_0" xml:space="preserve">
+    <value>Настройки пользователя-Пользователи и группы-Обновить данные</value>
+  </data>
+  <data name="ES2136_0" xml:space="preserve">
+    <value>Воздействие на окружающую среду</value>
+  </data>
+  <data name="ES213_1" xml:space="preserve">
+    <value>Калибровать</value>
+  </data>
+  <data name="ES21_1" xml:space="preserve">
+    <value>Фирмы</value>
+  </data>
+  <data name="ES220_1" xml:space="preserve">
+    <value>Цемент(1)</value>
+  </data>
+  <data name="ES225_1" xml:space="preserve">
+    <value>Аэрация цемента</value>
+  </data>
+  <data name="ES22_1" xml:space="preserve">
+    <value>Транспортные средства</value>
+  </data>
+  <data name="ES239_1" xml:space="preserve">
+    <value>Страница калибровки</value>
+  </data>
+  <data name="ES23_1" xml:space="preserve">
+    <value>Стройплощадки</value>
+  </data>
+  <data name="ES240_1" xml:space="preserve">
+    <value>Обнулить</value>
+  </data>
+  <data name="ES241_1" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="ES246_1" xml:space="preserve">
+    <value>Время уравновешивания конвейера-дозатора</value>
+  </data>
+  <data name="ES24_1" xml:space="preserve">
+    <value>Водители</value>
+  </data>
+  <data name="ES2512_1" xml:space="preserve">
+    <value>Расчет влажности инертных в кг</value>
+  </data>
+  <data name="ES25_1" xml:space="preserve">
+    <value>Материалы</value>
+  </data>
+  <data name="ES264_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на системе точной дозировки(кг) 1</value>
+  </data>
+  <data name="ES265_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на системе точной дозировки(кг) 2</value>
+  </data>
+  <data name="ES266_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на системе точной дозировки(кг) 3</value>
+  </data>
+  <data name="ES267_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на системе точной дозировки(кг) 4</value>
+  </data>
+  <data name="ES268_1" xml:space="preserve">
+    <value>Ручной</value>
+  </data>
+  <data name="ES269_1" xml:space="preserve">
+    <value>Автоматический</value>
+  </data>
+  <data name="ES26_1" xml:space="preserve">
+    <value>Места складирования</value>
+  </data>
+  <data name="ES2714_1" xml:space="preserve">
+    <value>Разница веса цемента(3), кг</value>
+  </data>
+  <data name="ES2715_1" xml:space="preserve">
+    <value>Разница веса цемента(4), кг</value>
+  </data>
+  <data name="ES2716_1" xml:space="preserve">
+    <value>Заданный вес цемента(3), кг</value>
+  </data>
+  <data name="ES2717_1" xml:space="preserve">
+    <value>Заданный вес цемента(4), кг</value>
+  </data>
+  <data name="ES2718_1" xml:space="preserve">
+    <value>Фактический вес цемента(3)</value>
+  </data>
+  <data name="ES2719_1" xml:space="preserve">
+    <value>Фактический вес цемента(4)</value>
+  </data>
+  <data name="ES2725_1" xml:space="preserve">
+    <value>Отчет тока двигателя смесителя</value>
+  </data>
+  <data name="ES2735_1" xml:space="preserve">
+    <value>Распечатать параметры</value>
+  </data>
+  <data name="ES2742_0" xml:space="preserve">
+    <value>D-класс </value>
+  </data>
+  <data name="ES2743_0" xml:space="preserve">
+    <value>C-класс </value>
+  </data>
+  <data name="ES2744_0" xml:space="preserve">
+    <value>B-класс </value>
+  </data>
+  <data name="ES2745_0" xml:space="preserve">
+    <value>A-класс </value>
+  </data>
+  <data name="ES2746_0" xml:space="preserve">
+    <value>E-класс </value>
+  </data>
+  <data name="ES2747_0" xml:space="preserve">
+    <value>F-класс </value>
+  </data>
+  <data name="ES2748_0" xml:space="preserve">
+    <value>G-класс </value>
+  </data>
+  <data name="ES2749_0" xml:space="preserve">
+    <value>H-класс </value>
+  </data>
+  <data name="ES2750_0" xml:space="preserve">
+    <value>K-класс </value>
+  </data>
+  <data name="ES2751_0" xml:space="preserve">
+    <value>L-класс </value>
+  </data>
+  <data name="ES2752_0" xml:space="preserve">
+    <value>M-класс </value>
+  </data>
+  <data name="ES2753_0" xml:space="preserve">
+    <value>N-класс </value>
+  </data>
+  <data name="ES2754_0" xml:space="preserve">
+    <value>O-класс </value>
+  </data>
+  <data name="ES2756_0" xml:space="preserve">
+    <value>A100</value>
+  </data>
+  <data name="ES2757_0" xml:space="preserve">
+    <value>A111</value>
+  </data>
+  <data name="ES2758_0" xml:space="preserve">
+    <value>A112</value>
+  </data>
+  <data name="ES2759_0" xml:space="preserve">
+    <value>A200</value>
+  </data>
+  <data name="ES2761_0" xml:space="preserve">
+    <value>A201</value>
+  </data>
+  <data name="ES2762_0" xml:space="preserve">
+    <value>A202</value>
+  </data>
+  <data name="ES2763_0" xml:space="preserve">
+    <value>A203</value>
+  </data>
+  <data name="ES2764_0" xml:space="preserve">
+    <value>A300</value>
+  </data>
+  <data name="ES2765_0" xml:space="preserve">
+    <value>A400</value>
+  </data>
+  <data name="ES2766_0" xml:space="preserve">
+    <value>A500</value>
+  </data>
+  <data name="ES2767_0" xml:space="preserve">
+    <value>A501</value>
+  </data>
+  <data name="ES2768_0" xml:space="preserve">
+    <value>A800</value>
+  </data>
+  <data name="ES2769_0" xml:space="preserve">
+    <value>A900</value>
+  </data>
+  <data name="ES276_1" xml:space="preserve">
+    <value>Максимальное время работы конвейера-дозатора</value>
+  </data>
+  <data name="ES2770_0" xml:space="preserve">
+    <value>A600</value>
+  </data>
+  <data name="ES2771_0" xml:space="preserve">
+    <value>A700</value>
+  </data>
+  <data name="ES2773_0" xml:space="preserve">
+    <value>B103</value>
+  </data>
+  <data name="ES2774_0" xml:space="preserve">
+    <value>B504</value>
+  </data>
+  <data name="ES2775_0" xml:space="preserve">
+    <value>D902</value>
+  </data>
+  <data name="ES2776_0" xml:space="preserve">
+    <value>C204</value>
+  </data>
+  <data name="ES2777_0" xml:space="preserve">
+    <value>C503</value>
+  </data>
+  <data name="ES2778_0" xml:space="preserve">
+    <value>C601</value>
+  </data>
+  <data name="ES2779_0" xml:space="preserve">
+    <value>C701</value>
+  </data>
+  <data name="ES2780_0" xml:space="preserve">
+    <value>E205</value>
+  </data>
+  <data name="ES2781_0" xml:space="preserve">
+    <value>E505</value>
+  </data>
+  <data name="ES2782_0" xml:space="preserve">
+    <value>E602</value>
+  </data>
+  <data name="ES2783_0" xml:space="preserve">
+    <value>E702</value>
+  </data>
+  <data name="ES2784_0" xml:space="preserve">
+    <value>F206</value>
+  </data>
+  <data name="ES2785_0" xml:space="preserve">
+    <value>F506</value>
+  </data>
+  <data name="ES2786_0" xml:space="preserve">
+    <value>F603</value>
+  </data>
+  <data name="ES2787_0" xml:space="preserve">
+    <value>F703</value>
+  </data>
+  <data name="ES2788_0" xml:space="preserve">
+    <value>G109</value>
+  </data>
+  <data name="ES2789_0" xml:space="preserve">
+    <value>G507</value>
+  </data>
+  <data name="ES2790_0" xml:space="preserve">
+    <value>G604</value>
+  </data>
+  <data name="ES2791_0" xml:space="preserve">
+    <value>G704</value>
+  </data>
+  <data name="ES2792_0" xml:space="preserve">
+    <value>G801</value>
+  </data>
+  <data name="ES2793_0" xml:space="preserve">
+    <value>H210</value>
+  </data>
+  <data name="ES2794_0" xml:space="preserve">
+    <value>H510</value>
+  </data>
+  <data name="ES2795_0" xml:space="preserve">
+    <value>H607</value>
+  </data>
+  <data name="ES2796_0" xml:space="preserve">
+    <value>H707</value>
+  </data>
+  <data name="ES2797_0" xml:space="preserve">
+    <value>K105</value>
+  </data>
+  <data name="ES2798_0" xml:space="preserve">
+    <value>K106</value>
+  </data>
+  <data name="ES2799_0" xml:space="preserve">
+    <value>K107</value>
+  </data>
+  <data name="ES27_1" xml:space="preserve">
+    <value>Детальный отчет по производству</value>
+  </data>
+  <data name="ES2800_0" xml:space="preserve">
+    <value>K108</value>
+  </data>
+  <data name="ES2801_0" xml:space="preserve">
+    <value>K404</value>
+  </data>
+  <data name="ES2802_0" xml:space="preserve">
+    <value>K406</value>
+  </data>
+  <data name="ES2803_0" xml:space="preserve">
+    <value>L208</value>
+  </data>
+  <data name="ES2804_0" xml:space="preserve">
+    <value>L302</value>
+  </data>
+  <data name="ES2805_0" xml:space="preserve">
+    <value>O110</value>
+  </data>
+  <data name="ES2807_1" xml:space="preserve">
+    <value>Журнал событий/фильтр событий</value>
+  </data>
+  <data name="ES2808_0" xml:space="preserve">
+    <value>O905</value>
+  </data>
+  <data name="ES2809_0" xml:space="preserve">
+    <value>O910</value>
+  </data>
+  <data name="ES2810_0" xml:space="preserve">
+    <value>O911</value>
+  </data>
+  <data name="ES2811_0" xml:space="preserve">
+    <value>O907</value>
+  </data>
+  <data name="ES2813_1" xml:space="preserve">
+    <value>Список неисправностей</value>
+  </data>
+  <data name="ES2822_1" xml:space="preserve">
+    <value>Сбросить фильтр</value>
+  </data>
+  <data name="ES2823_1" xml:space="preserve">
+    <value>График тока электродвигателя смесителя</value>
+  </data>
+  <data name="ES2824_1" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="ES2825_1" xml:space="preserve">
+    <value>Серийный номер</value>
+  </data>
+  <data name="ES2826_1" xml:space="preserve">
+    <value>Код силового шкафа </value>
+  </data>
+  <data name="ES2827_1" xml:space="preserve">
+    <value>Код пульта управления</value>
+  </data>
+  <data name="ES2828_1" xml:space="preserve">
+    <value>Код программного ключа</value>
+  </data>
+  <data name="ES2829_1" xml:space="preserve">
+    <value>Данные завода</value>
+  </data>
+  <data name="ES2830_1" xml:space="preserve">
+    <value>Город/Страна</value>
+  </data>
+  <data name="ES2831_1" xml:space="preserve">
+    <value>Показать детальную накладную</value>
+  </data>
+  <data name="ES2832_1" xml:space="preserve">
+    <value>Показать стандартную накладную</value>
+  </data>
+  <data name="ES2833_1" xml:space="preserve">
+    <value>Пожалуйста введите заново логин и пароль</value>
+  </data>
+  <data name="ES2838_1" xml:space="preserve">
+    <value>Отчет производства в Полуавт.режиме</value>
+  </data>
+  <data name="ES2845_1" xml:space="preserve">
+    <value>Заданный вес хим.добавок(3), кг</value>
+  </data>
+  <data name="ES2846_1" xml:space="preserve">
+    <value>Заданный вес хим.добавок(4), кг</value>
+  </data>
+  <data name="ES2847_1" xml:space="preserve">
+    <value>Фактический вес хим.добавок(3), кг</value>
+  </data>
+  <data name="ES2848_1" xml:space="preserve">
+    <value>Фактический вес хим.добавок(4), кг</value>
+  </data>
+  <data name="ES2849_1" xml:space="preserve">
+    <value>Разница веса хим.добавок(3), кг</value>
+  </data>
+  <data name="ES2850_1" xml:space="preserve">
+    <value>Разница веса хим.добавок(4), кг</value>
+  </data>
+  <data name="ES2853_1" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="ES2854_0" xml:space="preserve">
+    <value>Время уравновешивания дозатора воды(сек.)</value>
+  </data>
+  <data name="ES2858_1" xml:space="preserve">
+    <value>Ток электродвигателя смесителя</value>
+  </data>
+  <data name="ES285_1" xml:space="preserve">
+    <value>Время ожидания аэрации в силосе(сек)</value>
+  </data>
+  <data name="ES2866_0" xml:space="preserve">
+    <value>объем смесителя уменьшен</value>
+  </data>
+  <data name="ES286_1" xml:space="preserve">
+    <value>Время работы аэрации в силосе(сек)</value>
+  </data>
+  <data name="ES2900_1" xml:space="preserve">
+    <value>B504_5_Превышен максимальный ток нагрузки электродвигателя шнека цемента(5)</value>
+  </data>
+  <data name="ES2901_1" xml:space="preserve">
+    <value>Фактический вес инертных(5), кг</value>
+  </data>
+  <data name="ES2902_1" xml:space="preserve">
+    <value>Фактический вес инертных(6), кг</value>
+  </data>
+  <data name="ES2903_1" xml:space="preserve">
+    <value>Фактический вес цемента(5)</value>
+  </data>
+  <data name="ES2904_1" xml:space="preserve">
+    <value>Фактический вес цемента(6)</value>
+  </data>
+  <data name="ES2905_1" xml:space="preserve">
+    <value>Фактический вес хим.добавок(5), кг</value>
+  </data>
+  <data name="ES2906_1" xml:space="preserve">
+    <value>Фактический вес хим.добавок(6), кг</value>
+  </data>
+  <data name="ES2907_1" xml:space="preserve">
+    <value>Фактический вес воды(3), кг</value>
+  </data>
+  <data name="ES2908_1" xml:space="preserve">
+    <value>Фактический вес воды(4), кг</value>
+  </data>
+  <data name="ES2909_1" xml:space="preserve">
+    <value>Заданный вес инертных(5), кг</value>
+  </data>
+  <data name="ES2910_1" xml:space="preserve">
+    <value>Заданный вес инертных(6), кг</value>
+  </data>
+  <data name="ES2911_1" xml:space="preserve">
+    <value>Заданный вес цемента(5), кг</value>
+  </data>
+  <data name="ES2912_1" xml:space="preserve">
+    <value>Заданный вес цемента(6), кг</value>
+  </data>
+  <data name="ES2913_1" xml:space="preserve">
+    <value>Заданный вес хим.добавок(5), кг</value>
+  </data>
+  <data name="ES2914_1" xml:space="preserve">
+    <value>Заданный вес хим.добавок(6), кг</value>
+  </data>
+  <data name="ES2915_1" xml:space="preserve">
+    <value>Заданный вес воды(3), кг</value>
+  </data>
+  <data name="ES2916_1" xml:space="preserve">
+    <value>Заданный вес воды(4), кг</value>
+  </data>
+  <data name="ES2917_1" xml:space="preserve">
+    <value>Разница веса хим.добавок(5), кг</value>
+  </data>
+  <data name="ES2918_1" xml:space="preserve">
+    <value>Разница веса хим.добавок(6), кг</value>
+  </data>
+  <data name="ES2919_1" xml:space="preserve">
+    <value>Разница веса воды(3), кг</value>
+  </data>
+  <data name="ES2920_1" xml:space="preserve">
+    <value>Разница веса воды(4), кг</value>
+  </data>
+  <data name="ES2921_1" xml:space="preserve">
+    <value>Разница веса цемента(5), кг</value>
+  </data>
+  <data name="ES2922_1" xml:space="preserve">
+    <value>Разница веса цемента(6), кг</value>
+  </data>
+  <data name="ES2923_1" xml:space="preserve">
+    <value>Разница веса инертных(5), кг</value>
+  </data>
+  <data name="ES2924_1" xml:space="preserve">
+    <value>Разница веса инертных(6), кг</value>
+  </data>
+  <data name="ES2925_0" xml:space="preserve">
+    <value>совокупный(5)</value>
+  </data>
+  <data name="ES2926_0" xml:space="preserve">
+    <value>совокупный(6)</value>
+  </data>
+  <data name="ES2927_0" xml:space="preserve">
+    <value>цемент(5)</value>
+  </data>
+  <data name="ES2928_0" xml:space="preserve">
+    <value>цемент(6)</value>
+  </data>
+  <data name="ES2929_0" xml:space="preserve">
+    <value>Хим.добавки(5)</value>
+  </data>
+  <data name="ES2930_0" xml:space="preserve">
+    <value>Хим.добавки(6)</value>
+  </data>
+  <data name="ES2931_0" xml:space="preserve">
+    <value>Вода(3)</value>
+  </data>
+  <data name="ES2932_0" xml:space="preserve">
+    <value>Вода(4)</value>
+  </data>
+  <data name="ES2933_1" xml:space="preserve">
+    <value>Требуемый вес инертных, взвешиваемый на системе точной дозировки(кг) 5</value>
+  </data>
+  <data name="ES2960_0" xml:space="preserve">
+    <value>Выполнена калибровка дозатора инертных материалов </value>
+  </data>
+  <data name="ES2961_0" xml:space="preserve">
+    <value>Выполнена калибровка дозатора цемента</value>
+  </data>
+  <data name="ES2962_0" xml:space="preserve">
+    <value>Выполнена калибровка дозатора хим.добавок</value>
+  </data>
+  <data name="ES2963_0" xml:space="preserve">
+    <value>Выполнена калибровка дозатора воды</value>
+  </data>
+  <data name="ES2965_0" xml:space="preserve">
+    <value>Максимальная грузоподъемность дозатора цемента</value>
+  </data>
+  <data name="ES2966_0" xml:space="preserve">
+    <value>Максимальная грузоподъемность дозатора хим.добавок</value>
+  </data>
+  <data name="ES2967_0" xml:space="preserve">
+    <value>Максимальная грузоподъемность дозатора воды</value>
+  </data>
+  <data name="ES2968_0" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя шнека цемента(5)</value>
+  </data>
+  <data name="ES2969_0" xml:space="preserve">
+    <value>сек.</value>
+  </data>
+  <data name="ES2970_0" xml:space="preserve">
+    <value>Фактический вес материала выше веса, указанного в рецепте </value>
+  </data>
+  <data name="ES2971_1" xml:space="preserve">
+    <value>.Разница за цикл(кг)</value>
+  </data>
+  <data name="ES2972_1" xml:space="preserve">
+    <value>Разница за цикл(%)</value>
+  </data>
+  <data name="ES2974_1" xml:space="preserve">
+    <value>Показать отчет анализа материалов</value>
+  </data>
+  <data name="ES2981_1" xml:space="preserve">
+    <value>Отчет анализа материалов</value>
+  </data>
+  <data name="ES2982_1" xml:space="preserve">
+    <value>Допустимая погрешность между фактическим и заданным весом(%)</value>
+  </data>
+  <data name="ES2984_1" xml:space="preserve">
+    <value>Вес, выгружаемый в дозатор по инерции после поступления команды стоп(5)</value>
+  </data>
+  <data name="ES2985_1" xml:space="preserve">
+    <value>кг/сек.</value>
+  </data>
+  <data name="ES2986_1" xml:space="preserve">
+    <value>Отображать/Не отображать в накладной текст стандартных примечаний</value>
+  </data>
+  <data name="ES2987_1" xml:space="preserve">
+    <value>Выбор распечатки накладной Автоматически / Ручной</value>
+  </data>
+  <data name="ES2988_0" xml:space="preserve">
+    <value>сек.</value>
+  </data>
+  <data name="ES298_1" xml:space="preserve">
+    <value>Время выгрузки инертных из скипа в смеситель(сек)</value>
+  </data>
+  <data name="ES2990_0" xml:space="preserve">
+    <value>B504_1 Превышен максимальный ток нагрузки электродвигателя шнека цемента(1)</value>
+  </data>
+  <data name="ES2991_0" xml:space="preserve">
+    <value>B504_2 Превышен максимальный ток нагрузки электродвигателя шнека цемента(2)</value>
+  </data>
+  <data name="ES2992_0" xml:space="preserve">
+    <value>B504_3 Превышен максимальный ток нагрузки электродвигателя шнека цемента(3)</value>
+  </data>
+  <data name="ES2993_0" xml:space="preserve">
+    <value>B504_4 Превышен максимальный ток нагрузки электродвигателя шнека цемента(4)</value>
+  </data>
+  <data name="ES2994_0" xml:space="preserve">
+    <value>D902-1 Сбои в электропитании(перекос фазы-1)</value>
+  </data>
+  <data name="ES2995_0" xml:space="preserve">
+    <value>D902-2 Сбои в электропитании(перекос фазы-2)</value>
+  </data>
+  <data name="ES2996_0" xml:space="preserve">
+    <value>D902-3 Сбои в электропитании(перекос фазы-3)</value>
+  </data>
+  <data name="ES2997_0" xml:space="preserve">
+    <value>Внимание! Низкое напряжение!</value>
+  </data>
+  <data name="ES2998_0" xml:space="preserve">
+    <value>Внимание! Низкое напряжение!</value>
+  </data>
+  <data name="ES2999_0" xml:space="preserve">
+    <value>Внимание! Низкое напряжение!</value>
+  </data>
+  <data name="ES299_1" xml:space="preserve">
+    <value>Время движения скипа до промежуточной точки(сек)</value>
+  </data>
+  <data name="ES29_1" xml:space="preserve">
+    <value>Статус отгрузки автотранспорта</value>
+  </data>
+  <data name="ES2_1" xml:space="preserve">
+    <value>Komut</value>
+  </data>
+  <data name="ES3000_0" xml:space="preserve">
+    <value>объем смесителя уменьшен</value>
+  </data>
+  <data name="ES3001_0" xml:space="preserve">
+    <value>O907 Соединение к ПЛК прервано</value>
+  </data>
+  <data name="ES3002_0" xml:space="preserve">
+    <value>O906 Соединение к ПЛК осуществлено</value>
+  </data>
+  <data name="ES3003_0" xml:space="preserve">
+    <value>Производство остановлено</value>
+  </data>
+  <data name="ES3004_0" xml:space="preserve">
+    <value>Производство продолжается с момента остановки</value>
+  </data>
+  <data name="ES3005_0" xml:space="preserve">
+    <value>Производство сброшено</value>
+  </data>
+  <data name="ES3006_0" xml:space="preserve">
+    <value>Производство не закончено</value>
+  </data>
+  <data name="ES3007_0" xml:space="preserve">
+    <value>Производство закончено</value>
+  </data>
+  <data name="ES3008_0" xml:space="preserve">
+    <value>Новое производство началось</value>
+  </data>
+  <data name="ES3009_0" xml:space="preserve">
+    <value>Внимание! Высокое напряжение!</value>
+  </data>
+  <data name="ES300_1" xml:space="preserve">
+    <value>Максимальное время движения скипа(сек)</value>
+  </data>
+  <data name="ES3010_0" xml:space="preserve">
+    <value>Внимание! Высокое напряжение!</value>
+  </data>
+  <data name="ES3011_0" xml:space="preserve">
+    <value>Внимание! Высокое напряжение!</value>
+  </data>
+  <data name="ES3012_0" xml:space="preserve">
+    <value>Фактический вес материала ниже веса, указанного в рецепте </value>
+  </data>
+  <data name="ES3013_0" xml:space="preserve">
+    <value>Силос(5)</value>
+  </data>
+  <data name="ES3014_1" xml:space="preserve">
+    <value>Нижний предел напряжения</value>
+  </data>
+  <data name="ES3015_1" xml:space="preserve">
+    <value>Верхний предел напряжения</value>
+  </data>
+  <data name="ES3017_1" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="ES3019_1" xml:space="preserve">
+    <value>Путь к файлу</value>
+  </data>
+  <data name="ES3020_1" xml:space="preserve">
+    <value>Данные успешно импортированы с Excel файла</value>
+  </data>
+  <data name="ES3021_0" xml:space="preserve">
+    <value>Резервное копирование данных SQL</value>
+  </data>
+  <data name="ES3022_0" xml:space="preserve">
+    <value>Восстановление данных SQL</value>
+  </data>
+  <data name="ES3023_1" xml:space="preserve">
+    <value>Подтверждаете ли закрытие программы чтобы начать процесс восстановления?</value>
+  </data>
+  <data name="ES3029_0" xml:space="preserve">
+    <value>Помощь</value>
+  </data>
+  <data name="ES3030_0" xml:space="preserve">
+    <value>Журнал событий/Помощь</value>
+  </data>
+  <data name="ES3031_0" xml:space="preserve">
+    <value>Коды неисправностей</value>
+  </data>
+  <data name="ES3032_0" xml:space="preserve">
+    <value>Сделать резервное копирование данных SQL</value>
+  </data>
+  <data name="ES3033_0" xml:space="preserve">
+    <value>Подтверждаете ли закрытие программы чтобы начать процесс восстановления?</value>
+  </data>
+  <data name="ES3034_0" xml:space="preserve">
+    <value>Mixmaster 2x5</value>
+  </data>
+  <data name="ES3035_0" xml:space="preserve">
+    <value>Mixmaster 4x5</value>
+  </data>
+  <data name="ES3036_0" xml:space="preserve">
+    <value>Заводы модели Mixmaster</value>
+  </data>
+  <data name="ES3037_0" xml:space="preserve">
+    <value>Конвейера подачи бетона нет</value>
+  </data>
+  <data name="ES3038_0" xml:space="preserve">
+    <value>Конвейер подачи бетона есть</value>
+  </data>
+  <data name="ES303_1" xml:space="preserve">
+    <value>Время работы автосмазчика(сек)</value>
+  </data>
+  <data name="ES3043_0" xml:space="preserve">
+    <value>Нижний предел выгрузки смесителя</value>
+  </data>
+  <data name="ES3044_0" xml:space="preserve">
+    <value>Дополнительное время работы конвейера подачи бетона</value>
+  </data>
+  <data name="ES3045_0" xml:space="preserve">
+    <value>A202-1-Сработала термозащита(авт.выкл.) вибратора бункера(1)</value>
+  </data>
+  <data name="ES3046_0" xml:space="preserve">
+    <value>A202-4-Сработала термозащита(авт.выкл.) вибратора бункера(4)</value>
+  </data>
+  <data name="ES3047_0" xml:space="preserve">
+    <value>L201-1-Сработал тросовый аварийный выключатель бункера(1)</value>
+  </data>
+  <data name="ES3048_0" xml:space="preserve">
+    <value>L201-2-Сработал тросовый аварийный выключатель бункера(2)</value>
+  </data>
+  <data name="ES3049_0" xml:space="preserve">
+    <value>L201-3-Сработал тросовый аварийный выключатель бункера(3)</value>
+  </data>
+  <data name="ES3050_0" xml:space="preserve">
+    <value>L201-4-Сработал тросовый аварийный выключатель бункера(4)</value>
+  </data>
+  <data name="ES3051_0" xml:space="preserve">
+    <value>A901_Сработала термозащита(авт.выкл.) электродвигателя конвейера подачи бетона</value>
+  </data>
+  <data name="ES3052_0" xml:space="preserve">
+    <value>H101_Фактический вес на смесителе превышает нижний предел разгрузки</value>
+  </data>
+  <data name="ES3053_1" xml:space="preserve">
+    <value>Электродвигатель шнека цемента(5)</value>
+  </data>
+  <data name="ES3054_1" xml:space="preserve">
+    <value>Насос хим.добавок(5)</value>
+  </data>
+  <data name="ES3055_0" xml:space="preserve">
+    <value>Активный текст1</value>
+  </data>
+  <data name="ES3056_0" xml:space="preserve">
+    <value>Активный текст2</value>
+  </data>
+  <data name="ES3057_0" xml:space="preserve">
+    <value>ошибка</value>
+  </data>
+  <data name="ES3058_0" xml:space="preserve">
+    <value>Активный текст3</value>
+  </data>
+  <data name="ES305_1" xml:space="preserve">
+    <value>Время ожидания работы автосмазчика(сек)</value>
+  </data>
+  <data name="ES306_1" xml:space="preserve">
+    <value>Промежуточный конвейер инертных есть/нет</value>
+  </data>
+  <data name="ES30_1" xml:space="preserve">
+    <value>Отчет по израсходованным материалам</value>
+  </data>
+  <data name="ES310_1" xml:space="preserve">
+    <value>Есть</value>
+  </data>
+  <data name="ES311_1" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ES316_1" xml:space="preserve">
+    <value>Скорость выгрузки инертных из конвейера-дозатора для включения вибратора</value>
+  </data>
+  <data name="ES318_1" xml:space="preserve">
+    <value>Время ожидания вибратора конвейера-дозатора(сек)</value>
+  </data>
+  <data name="ES319_1" xml:space="preserve">
+    <value>Время работы вибратора конвейера-дозатора(сек)</value>
+  </data>
+  <data name="ES322_1" xml:space="preserve">
+    <value>Мгновенная скорость выгрузки инертных из конвейера-дозатора</value>
+  </data>
+  <data name="ES324_1" xml:space="preserve">
+    <value>Скорость выгрузки цемента из дозатора для включения вибратора</value>
+  </data>
+  <data name="ES325_1" xml:space="preserve">
+    <value>Время ожидания вибратора дозатора цемента</value>
+  </data>
+  <data name="ES326_1" xml:space="preserve">
+    <value>Время работы вибратора дозатора цемента</value>
+  </data>
+  <data name="ES32_1" xml:space="preserve">
+    <value>Остаток на складе</value>
+  </data>
+  <data name="ES331_1" xml:space="preserve">
+    <value>Настройки инертных</value>
+  </data>
+  <data name="ES332_1" xml:space="preserve">
+    <value>Настройки предупреждений о неисправностях</value>
+  </data>
+  <data name="ES333_1" xml:space="preserve">
+    <value>Настройки цемента</value>
+  </data>
+  <data name="ES334_1" xml:space="preserve">
+    <value>Настройки хим.добавок</value>
+  </data>
+  <data name="ES335_1" xml:space="preserve">
+    <value>Настройки скипа</value>
+  </data>
+  <data name="ES336_1" xml:space="preserve">
+    <value>Настройки смесителя</value>
+  </data>
+  <data name="ES337_1" xml:space="preserve">
+    <value>Системные настройки</value>
+  </data>
+  <data name="ES338_1" xml:space="preserve">
+    <value>Настройки воды</value>
+  </data>
+  <data name="ES339_1" xml:space="preserve">
+    <value>Настройки вибраторов</value>
+  </data>
+  <data name="ES33_1" xml:space="preserve">
+    <value>Отчет по продажам</value>
+  </data>
+  <data name="ES341_1" xml:space="preserve">
+    <value>Ручной</value>
+  </data>
+  <data name="ES342_1" xml:space="preserve">
+    <value>Автоматический</value>
+  </data>
+  <data name="ES345_1" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="ES346_1" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="ES349_1" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="ES34_1" xml:space="preserve">
+    <value>Учет веса материалов в ручном режиме</value>
+  </data>
+  <data name="ES351_1" xml:space="preserve">
+    <value>Инертные</value>
+  </data>
+  <data name="ES353_1" xml:space="preserve">
+    <value>Компрессор</value>
+  </data>
+  <data name="ES354_1" xml:space="preserve">
+    <value>Гудок</value>
+  </data>
+  <data name="ES355_1" xml:space="preserve">
+    <value>Режим управления</value>
+  </data>
+  <data name="ES356_1" xml:space="preserve">
+    <value>Старт</value>
+  </data>
+  <data name="ES357_1" xml:space="preserve">
+    <value>Стоп</value>
+  </data>
+  <data name="ES35_1" xml:space="preserve">
+    <value>Время работы электродвигателей</value>
+  </data>
+  <data name="ES360_1" xml:space="preserve">
+    <value>Фильтр смесительного блока</value>
+  </data>
+  <data name="ES36_1" xml:space="preserve">
+    <value>Пополнение склада</value>
+  </data>
+  <data name="ES376_1" xml:space="preserve">
+    <value>Фильтр(1)</value>
+  </data>
+  <data name="ES377_1" xml:space="preserve">
+    <value>Фильтр(2)</value>
+  </data>
+  <data name="ES378_1" xml:space="preserve">
+    <value>Фильтр(3)</value>
+  </data>
+  <data name="ES379_1" xml:space="preserve">
+    <value>Фильтр(4)</value>
+  </data>
+  <data name="ES382_1" xml:space="preserve">
+    <value>№ п/п</value>
+  </data>
+  <data name="ES385_1" xml:space="preserve">
+    <value>Номер налогоплательщика</value>
+  </data>
+  <data name="ES386_1" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="ES389_1" xml:space="preserve">
+    <value>Название файла</value>
+  </data>
+  <data name="ES391_1" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ES394_1" xml:space="preserve">
+    <value>Название фирмы</value>
+  </data>
+  <data name="ES395_1" xml:space="preserve">
+    <value>Госномер автотранспорта</value>
+  </data>
+  <data name="ES396_1" xml:space="preserve">
+    <value>Вместимость</value>
+  </data>
+  <data name="ES3_1" xml:space="preserve">
+    <value>Системное сообщение</value>
+  </data>
+  <data name="ES401_1" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="ES402_1" xml:space="preserve">
+    <value>Телефон, факс</value>
+  </data>
+  <data name="ES403_1" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="ES404_1" xml:space="preserve">
+    <value>ФИО водителя</value>
+  </data>
+  <data name="ES405_1" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="ES409_1" xml:space="preserve">
+    <value>Название стройплощадки</value>
+  </data>
+  <data name="ES410_1" xml:space="preserve">
+    <value>Расстояние</value>
+  </data>
+  <data name="ES411_1" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ES412_1" xml:space="preserve">
+    <value>Название стройплощадки</value>
+  </data>
+  <data name="ES413_1" xml:space="preserve">
+    <value>Расстояние</value>
+  </data>
+  <data name="ES414_1" xml:space="preserve">
+    <value>Название фирмы</value>
+  </data>
+  <data name="ES415_1" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ES419_1" xml:space="preserve">
+    <value>Название материала</value>
+  </data>
+  <data name="ES425_1" xml:space="preserve">
+    <value>Название склада</value>
+  </data>
+  <data name="ES426_1" xml:space="preserve">
+    <value>Описание - 1 (тип, класс и т.п.)</value>
+  </data>
+  <data name="ES42_1" xml:space="preserve">
+    <value>Отчет по складам</value>
+  </data>
+  <data name="ES432_1" xml:space="preserve">
+    <value>Название материала</value>
+  </data>
+  <data name="ES433_1" xml:space="preserve">
+    <value>Критический уровень</value>
+  </data>
+  <data name="ES436_1" xml:space="preserve">
+    <value>Название материала</value>
+  </data>
+  <data name="ES437_1" xml:space="preserve">
+    <value>Вместимость</value>
+  </data>
+  <data name="ES438_1" xml:space="preserve">
+    <value>Критический уровень</value>
+  </data>
+  <data name="ES441_1" xml:space="preserve">
+    <value>Информация о рецепте</value>
+  </data>
+  <data name="ES442_1" xml:space="preserve">
+    <value>Название рецепта</value>
+  </data>
+  <data name="ES443_1" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ES444_1" xml:space="preserve">
+    <value>Описание </value>
+  </data>
+  <data name="ES448_1" xml:space="preserve">
+    <value>Название рецепта</value>
+  </data>
+  <data name="ES44_1" xml:space="preserve">
+    <value>Ежемесячный отчет по производству</value>
+  </data>
+  <data name="ES45_1" xml:space="preserve">
+    <value>Отчет месячного капиталооборота</value>
+  </data>
+  <data name="ES46_1" xml:space="preserve">
+    <value>Отчет по складским материалам</value>
+  </data>
+  <data name="ES47_1" xml:space="preserve">
+    <value>Отчет по пополнению склада</value>
+  </data>
+  <data name="ES493_1" xml:space="preserve">
+    <value>Инертные(5)</value>
+  </data>
+  <data name="ES494_1" xml:space="preserve">
+    <value>Инертные(6)</value>
+  </data>
+  <data name="ES495_1" xml:space="preserve">
+    <value>Инертные(7)</value>
+  </data>
+  <data name="ES496_1" xml:space="preserve">
+    <value>Инертные(8)</value>
+  </data>
+  <data name="ES497_1" xml:space="preserve">
+    <value>Инертные(9)</value>
+  </data>
+  <data name="ES498_1" xml:space="preserve">
+    <value>Инертные(10)</value>
+  </data>
+  <data name="ES499_1" xml:space="preserve">
+    <value>Цемент(2)</value>
+  </data>
+  <data name="ES500_1" xml:space="preserve">
+    <value>Цемент(3)</value>
+  </data>
+  <data name="ES501_1" xml:space="preserve">
+    <value>Цемент(4)</value>
+  </data>
+  <data name="ES502_1" xml:space="preserve">
+    <value>Цемент(5)</value>
+  </data>
+  <data name="ES503_1" xml:space="preserve">
+    <value>Цемент(6)</value>
+  </data>
+  <data name="ES504_1" xml:space="preserve">
+    <value>Цемент(7)</value>
+  </data>
+  <data name="ES505_1" xml:space="preserve">
+    <value>Цемент(8)</value>
+  </data>
+  <data name="ES506_1" xml:space="preserve">
+    <value>Цемент(9)</value>
+  </data>
+  <data name="ES507_1" xml:space="preserve">
+    <value>Цемент(10)</value>
+  </data>
+  <data name="ES509_1" xml:space="preserve">
+    <value>Вода(3)</value>
+  </data>
+  <data name="ES510_1" xml:space="preserve">
+    <value>Вода(4)</value>
+  </data>
+  <data name="ES511_1" xml:space="preserve">
+    <value>Вода(5)</value>
+  </data>
+  <data name="ES512_1" xml:space="preserve">
+    <value>Вода(6)</value>
+  </data>
+  <data name="ES513_1" xml:space="preserve">
+    <value>Вода(7)</value>
+  </data>
+  <data name="ES514_1" xml:space="preserve">
+    <value>Вода(8)</value>
+  </data>
+  <data name="ES515_1" xml:space="preserve">
+    <value>Вода(9)</value>
+  </data>
+  <data name="ES516_1" xml:space="preserve">
+    <value>Вода(10)</value>
+  </data>
+  <data name="ES517_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES518_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES519_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES520_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES521_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES522_1" xml:space="preserve">
+    <value>Хим.добавки(6)</value>
+  </data>
+  <data name="ES523_1" xml:space="preserve">
+    <value>Хим.добавки(7)</value>
+  </data>
+  <data name="ES524_1" xml:space="preserve">
+    <value>Хим.добавки(8)</value>
+  </data>
+  <data name="ES525_1" xml:space="preserve">
+    <value>Хим.добавки(9)</value>
+  </data>
+  <data name="ES526_1" xml:space="preserve">
+    <value>Хим.добавки(10)</value>
+  </data>
+  <data name="ES528_1" xml:space="preserve">
+    <value>Время ожидания выгрузки цемента в смеситель</value>
+  </data>
+  <data name="ES529_1" xml:space="preserve">
+    <value>Время ожидания выгрузки хим.добавок в смеситель</value>
+  </data>
+  <data name="ES530_1" xml:space="preserve">
+    <value>Время ожидания выгрузки воды в смеситель</value>
+  </data>
+  <data name="ES554_1" xml:space="preserve">
+    <value>Выберите тип смесителя</value>
+  </data>
+  <data name="ES555_1" xml:space="preserve">
+    <value>Выберите тип бункера инертных материалов</value>
+  </data>
+  <data name="ES559_1" xml:space="preserve">
+    <value>Датчик влажности не установлен</value>
+  </data>
+  <data name="ES560_1" xml:space="preserve">
+    <value>Датчик влажности установлен</value>
+  </data>
+  <data name="ES561_1" xml:space="preserve">
+    <value>Вибрационная система точной дозировки - нет</value>
+  </data>
+  <data name="ES562_1" xml:space="preserve">
+    <value>Вибрационная система точной дозировки - есть</value>
+  </data>
+  <data name="ES563_1" xml:space="preserve">
+    <value>Вибратор не установлен</value>
+  </data>
+  <data name="ES564_1" xml:space="preserve">
+    <value>Вибратор установлен</value>
+  </data>
+  <data name="ES572_1" xml:space="preserve">
+    <value>Укажите количество силосов для цемента</value>
+  </data>
+  <data name="ES573_1" xml:space="preserve">
+    <value>Укажите количество насосов хим.добавок</value>
+  </data>
+  <data name="ES574_1" xml:space="preserve">
+    <value>Укажите количество насосов воды</value>
+  </data>
+  <data name="ES576_1" xml:space="preserve">
+    <value>Укажите количество бункеров </value>
+  </data>
+  <data name="ES57_1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="ES581_1" xml:space="preserve">
+    <value>Тип смесителя и бункера инертных материалов</value>
+  </data>
+  <data name="ES582_1" xml:space="preserve">
+    <value>Конфигурация бункера инертных материалов</value>
+  </data>
+  <data name="ES583_1" xml:space="preserve">
+    <value>Выбор мест складирования для цемента, воды и хим.добавок</value>
+  </data>
+  <data name="ES585_1" xml:space="preserve">
+    <value>Работа конфигуратора завершена успешно</value>
+  </data>
+  <data name="ES587_1" xml:space="preserve">
+    <value>Модель бетонного завода заданной конфигурации</value>
+  </data>
+  <data name="ES588_1" xml:space="preserve">
+    <value>Крестообразный</value>
+  </data>
+  <data name="ES589_1" xml:space="preserve">
+    <value>Линейный</value>
+  </data>
+  <data name="ES590_1" xml:space="preserve">
+    <value>Планетарный</value>
+  </data>
+  <data name="ES591_1" xml:space="preserve">
+    <value>Тарельчатый</value>
+  </data>
+  <data name="ES592_1" xml:space="preserve">
+    <value>Двухвалковый</value>
+  </data>
+  <data name="ES593_1" xml:space="preserve">
+    <value>ELKOMIX-35 Quick Master(скип)</value>
+  </data>
+  <data name="ES595_1" xml:space="preserve">
+    <value>ELKOMIX-120 Quick Master(скип)</value>
+  </data>
+  <data name="ES596_1" xml:space="preserve">
+    <value>ELKOMIX-135 Quick Master(скип)</value>
+  </data>
+  <data name="ES597_1" xml:space="preserve">
+    <value>Компактные бетонные заводы(скип)</value>
+  </data>
+  <data name="ES598_1" xml:space="preserve">
+    <value>Компактные бетонные заводы(конвейер)</value>
+  </data>
+  <data name="ES599_1" xml:space="preserve">
+    <value>Мобильные бетонные заводы</value>
+  </data>
+  <data name="ES5_1" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="ES600_1" xml:space="preserve">
+    <value>Стационарные бетонные заводы</value>
+  </data>
+  <data name="ES602_1" xml:space="preserve">
+    <value>ELKOMIX-120 Quick Master(конвейер)</value>
+  </data>
+  <data name="ES605_1" xml:space="preserve">
+    <value>ELKOMIX-135 Quick Master(конвейер)</value>
+  </data>
+  <data name="ES606_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-30 Eagle</value>
+  </data>
+  <data name="ES607_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 Pegasus</value>
+  </data>
+  <data name="ES608_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 Panthera</value>
+  </data>
+  <data name="ES609_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 Bear</value>
+  </data>
+  <data name="ES610_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-100 Lion</value>
+  </data>
+  <data name="ES611_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-135 Jaguar</value>
+  </data>
+  <data name="ES612_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-150 Elephant</value>
+  </data>
+  <data name="ES613_1" xml:space="preserve">
+    <value>Elkomix - 35 </value>
+  </data>
+  <data name="ES614_1" xml:space="preserve">
+    <value>Elkomix - 60</value>
+  </data>
+  <data name="ES615_1" xml:space="preserve">
+    <value>Elkomix - 120</value>
+  </data>
+  <data name="ES616_1" xml:space="preserve">
+    <value>Elkomix - 135 </value>
+  </data>
+  <data name="ES617_1" xml:space="preserve">
+    <value>Elkomix - 180</value>
+  </data>
+  <data name="ES618_1" xml:space="preserve">
+    <value>Elkomix - 160</value>
+  </data>
+  <data name="ES621_1" xml:space="preserve">
+    <value>ELKOMIX-60 Quick Master(скип)</value>
+  </data>
+  <data name="ES622_1" xml:space="preserve">
+    <value>Тип и модель бетонного завода</value>
+  </data>
+  <data name="ES623_1" xml:space="preserve">
+    <value>Выберите тип бетонного завода</value>
+  </data>
+  <data name="ES625_1" xml:space="preserve">
+    <value>Выберите модель бетонного завода</value>
+  </data>
+  <data name="ES626_1" xml:space="preserve">
+    <value>Выбранный тип</value>
+  </data>
+  <data name="ES627_1" xml:space="preserve">
+    <value>Выбранная модель</value>
+  </data>
+  <data name="ES637_1" xml:space="preserve">
+    <value>Параметры анализатора</value>
+  </data>
+  <data name="ES638_1" xml:space="preserve">
+    <value>Соотношение коэффициентов трансформаторов тока(ТТ электродвигателя смесителя/ТТ электропитания)</value>
+  </data>
+  <data name="ES639_1" xml:space="preserve">
+    <value>Коэффициент трансформатора тока электродвигателя шнека</value>
+  </data>
+  <data name="ES640_1" xml:space="preserve">
+    <value>Коэффициент трансформатора тока электропитания(/5)</value>
+  </data>
+  <data name="ES641_1" xml:space="preserve">
+    <value>Соотношение коэффициентов трансформаторов тока(ТТ электродвигателя смесителя/ТТ электропитания)</value>
+  </data>
+  <data name="ES642_1" xml:space="preserve">
+    <value>Cоотношение коэффициентoв трансформаторов тока(ТТ электродвигателя шнека/ТТ электропитания)</value>
+  </data>
+  <data name="ES643_1" xml:space="preserve">
+    <value>Вычислить соотношение коэффициентов трансформаторов</value>
+  </data>
+  <data name="ES645_1" xml:space="preserve">
+    <value>Мгновенный ток электродвигателя смесителя</value>
+  </data>
+  <data name="ES646_1" xml:space="preserve">
+    <value>Мгновенный ток электродвигателя шнека</value>
+  </data>
+  <data name="ES647_1" xml:space="preserve">
+    <value>Напряжение</value>
+  </data>
+  <data name="ES648_1" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя шнека цемента(1)</value>
+  </data>
+  <data name="ES649_1" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя шнека цемента(2)</value>
+  </data>
+  <data name="ES650_1" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя шнека цемента(3)</value>
+  </data>
+  <data name="ES651_1" xml:space="preserve">
+    <value>Максимальный ток нагрузки электродвигателя шнека цемента(4)</value>
+  </data>
+  <data name="ES653_1" xml:space="preserve">
+    <value>Актуальное значение анализатора</value>
+  </data>
+  <data name="ES654_1" xml:space="preserve">
+    <value>Укажите максимальную грузоподъемность конвейера-дозатора </value>
+  </data>
+  <data name="ES656_1" xml:space="preserve">
+    <value>Укажите максимальную грузоподъемность дозатора хим.добавок </value>
+  </data>
+  <data name="ES658_1" xml:space="preserve">
+    <value>Максимальные токи нагрузки электродвигателей шнеков цемента</value>
+  </data>
+  <data name="ES661_1" xml:space="preserve">
+    <value>Кнопки индикатора заблокированы</value>
+  </data>
+  <data name="ES662_1" xml:space="preserve">
+    <value>Кнопки индикатора разблокированы</value>
+  </data>
+  <data name="ES665_1" xml:space="preserve">
+    <value>Управление блокировкой кнопок весовых индикаторов</value>
+  </data>
+  <data name="ES672_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES673_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES674_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES675_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES676_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES677_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES679_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES680_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES681_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES682_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES683_1" xml:space="preserve">
+    <value>Фильтр(5)</value>
+  </data>
+  <data name="ES684_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES685_1" xml:space="preserve">
+    <value>Фильтр(6)</value>
+  </data>
+  <data name="ES686_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES687_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES688_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES689_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES690_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES691_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES693_1" xml:space="preserve">
+    <value>Промывка дозатора хим.добавок</value>
+  </data>
+  <data name="ES697_1" xml:space="preserve">
+    <value>Со скипом</value>
+  </data>
+  <data name="ES698_1" xml:space="preserve">
+    <value>С Т-образным конвейером-дозатором</value>
+  </data>
+  <data name="ES6_1" xml:space="preserve">
+    <value>Управление производством</value>
+  </data>
+  <data name="ES700_1" xml:space="preserve">
+    <value>С передаточным конвейером</value>
+  </data>
+  <data name="ES701_1" xml:space="preserve">
+    <value>С конвейером-дозатором линейного типа</value>
+  </data>
+  <data name="ES714_1" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="ES715_1" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="ES729_1" xml:space="preserve">
+    <value>Текущий рецепт</value>
+  </data>
+  <data name="ES735_1" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="ES740_1" xml:space="preserve">
+    <value>Отправить рецепт                       в ПЛК</value>
+  </data>
+  <data name="ES747_1" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="ES753_1" xml:space="preserve">
+    <value>Изменить рецепт</value>
+  </data>
+  <data name="ES757_1" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ES75_1" xml:space="preserve">
+    <value>Вода(1)</value>
+  </data>
+  <data name="ES762_1" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ES764_1" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ES76_1" xml:space="preserve">
+    <value>Вода(2)</value>
+  </data>
+  <data name="ES772_1" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ES773_1" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ES776_1" xml:space="preserve">
+    <value>Конвертировать в Excel</value>
+  </data>
+  <data name="ES780_1" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ES781_1" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="ES786_1" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="ES789_1" xml:space="preserve">
+    <value>Конфигуратор</value>
+  </data>
+  <data name="ES791_1" xml:space="preserve">
+    <value>Завершить работу конфигуратора</value>
+  </data>
+  <data name="ES795_1" xml:space="preserve">
+    <value>Тормоз отпущен</value>
+  </data>
+  <data name="ES798_1" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="ES799_1" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ES7_1" xml:space="preserve">
+    <value>Данные клиентов</value>
+  </data>
+  <data name="ES806_1" xml:space="preserve">
+    <value>Название материала</value>
+  </data>
+  <data name="ES807_1" xml:space="preserve">
+    <value>Название материала</value>
+  </data>
+  <data name="ES808_1" xml:space="preserve">
+    <value>ФИО водителя</value>
+  </data>
+  <data name="ES809_1" xml:space="preserve">
+    <value>ФИО водителя</value>
+  </data>
+  <data name="ES810_1" xml:space="preserve">
+    <value>Название стройплощадки</value>
+  </data>
+  <data name="ES812_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES813_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES819_1" xml:space="preserve">
+    <value>300 кг</value>
+  </data>
+  <data name="ES820_1" xml:space="preserve">
+    <value>600 кг</value>
+  </data>
+  <data name="ES821_1" xml:space="preserve">
+    <value>1200 кг</value>
+  </data>
+  <data name="ES822_1" xml:space="preserve">
+    <value>1800 кг</value>
+  </data>
+  <data name="ES823_1" xml:space="preserve">
+    <value>2400 кг</value>
+  </data>
+  <data name="ES824_1" xml:space="preserve">
+    <value>30 кг</value>
+  </data>
+  <data name="ES825_1" xml:space="preserve">
+    <value>50 кг</value>
+  </data>
+  <data name="ES826_1" xml:space="preserve">
+    <value>100 кг</value>
+  </data>
+  <data name="ES827_1" xml:space="preserve">
+    <value>200 кг</value>
+  </data>
+  <data name="ES828_1" xml:space="preserve">
+    <value>900 кг</value>
+  </data>
+  <data name="ES834_1" xml:space="preserve">
+    <value>Название фирмы</value>
+  </data>
+  <data name="ES838_1" xml:space="preserve">
+    <value>Вы уверены, что хотите удалить?</value>
+  </data>
+  <data name="ES839_1" xml:space="preserve">
+    <value>Укажите название файла</value>
+  </data>
+  <data name="ES83_1" xml:space="preserve">
+    <value>Заданный вес</value>
+  </data>
+  <data name="ES841_1" xml:space="preserve">
+    <value>Заказ №</value>
+  </data>
+  <data name="ES842_1" xml:space="preserve">
+    <value>Госномер автотранспорта</value>
+  </data>
+  <data name="ES843_1" xml:space="preserve">
+    <value>Заказы</value>
+  </data>
+  <data name="ES844_1" xml:space="preserve">
+    <value>№ п/п</value>
+  </data>
+  <data name="ES845_1" xml:space="preserve">
+    <value>Заказ №</value>
+  </data>
+  <data name="ES846_1" xml:space="preserve">
+    <value>Название стройплощадки</value>
+  </data>
+  <data name="ES848_1" xml:space="preserve">
+    <value>Объем, подлежащий к производству, м3</value>
+  </data>
+  <data name="ES849_1" xml:space="preserve">
+    <value>Общий объем заказа, м3</value>
+  </data>
+  <data name="ES84_1" xml:space="preserve">
+    <value>Фактический вес</value>
+  </data>
+  <data name="ES850_1" xml:space="preserve">
+    <value>Остаток</value>
+  </data>
+  <data name="ES853_1" xml:space="preserve">
+    <value>Укажите название файла</value>
+  </data>
+  <data name="ES856_1" xml:space="preserve">
+    <value>Объем заказа</value>
+  </data>
+  <data name="ES85_1" xml:space="preserve">
+    <value>Влажность, %</value>
+  </data>
+  <data name="ES864_1" xml:space="preserve">
+    <value>Обнулить код заказа</value>
+  </data>
+  <data name="ES866_1" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="ES867_1" xml:space="preserve">
+    <value>Подтвердить запуск следующего производства по плану</value>
+  </data>
+  <data name="ES86_1" xml:space="preserve">
+    <value>Разница</value>
+  </data>
+  <data name="ES872_1" xml:space="preserve">
+    <value>Время начала</value>
+  </data>
+  <data name="ES873_1" xml:space="preserve">
+    <value>Время завершения</value>
+  </data>
+  <data name="ES875_1" xml:space="preserve">
+    <value>Госномер автотранспорта</value>
+  </data>
+  <data name="ES876_1" xml:space="preserve">
+    <value>ФИО водителя</value>
+  </data>
+  <data name="ES885_1" xml:space="preserve">
+    <value>Дополнительная вода(1)</value>
+  </data>
+  <data name="ES886_1" xml:space="preserve">
+    <value>Дополнительная вода(2)</value>
+  </data>
+  <data name="ES891_1" xml:space="preserve">
+    <value>Фактический вес инертных(1), кг</value>
+  </data>
+  <data name="ES892_1" xml:space="preserve">
+    <value>Фактический вес инертных(2), кг</value>
+  </data>
+  <data name="ES893_1" xml:space="preserve">
+    <value>Фактический вес инертных(3), кг</value>
+  </data>
+  <data name="ES894_1" xml:space="preserve">
+    <value>Фактический вес инертных(4), кг</value>
+  </data>
+  <data name="ES895_1" xml:space="preserve">
+    <value>Фактический вес цемента(1), кг</value>
+  </data>
+  <data name="ES896_1" xml:space="preserve">
+    <value>Фактический вес цемента(2), кг</value>
+  </data>
+  <data name="ES897_1" xml:space="preserve">
+    <value>Фактический вес хим.добавок(1), кг</value>
+  </data>
+  <data name="ES898_1" xml:space="preserve">
+    <value>Фактический вес хим.добавок(2), кг</value>
+  </data>
+  <data name="ES899_1" xml:space="preserve">
+    <value>Фактический вес воды(1), кг</value>
+  </data>
+  <data name="ES89_1" xml:space="preserve">
+    <value>Название фирмы</value>
+  </data>
+  <data name="ES8_1" xml:space="preserve">
+    <value>Рецепты</value>
+  </data>
+  <data name="ES900_1" xml:space="preserve">
+    <value>Фактический вес воды(2), кг</value>
+  </data>
+  <data name="ES901_1" xml:space="preserve">
+    <value>Новое пополнение склада</value>
+  </data>
+  <data name="ES902_1" xml:space="preserve">
+    <value>Изменить данные по складу</value>
+  </data>
+  <data name="ES904_1" xml:space="preserve">
+    <value>Подтвердить удаление данных по складу</value>
+  </data>
+  <data name="ES907_1" xml:space="preserve">
+    <value>Название склада</value>
+  </data>
+  <data name="ES908_1" xml:space="preserve">
+    <value>Название материала</value>
+  </data>
+  <data name="ES909_1" xml:space="preserve">
+    <value>Пополнение</value>
+  </data>
+  <data name="ES910_1" xml:space="preserve">
+    <value>Номер места складирования</value>
+  </data>
+  <data name="ES912_1" xml:space="preserve">
+    <value>Дата пополнения</value>
+  </data>
+  <data name="ES917_1" xml:space="preserve">
+    <value>Обнулить места складирования</value>
+  </data>
+  <data name="ES918_1" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ES91_1" xml:space="preserve">
+    <value>Госномер автотранспорта</value>
+  </data>
+  <data name="ES923_1" xml:space="preserve">
+    <value>Выберите дозатор для калибровки.</value>
+  </data>
+  <data name="ES929_1" xml:space="preserve">
+    <value>Нажмите на кнопку «Завершить»</value>
+  </data>
+  <data name="ES931_1" xml:space="preserve">
+    <value>1-этап</value>
+  </data>
+  <data name="ES932_1" xml:space="preserve">
+    <value>2-этап</value>
+  </data>
+  <data name="ES933_1" xml:space="preserve">
+    <value>3-этап</value>
+  </data>
+  <data name="ES936_1" xml:space="preserve">
+    <value>Изготовленный объем бетона</value>
+  </data>
+  <data name="ES939_1" xml:space="preserve">
+    <value>Изготовленный объем бетона</value>
+  </data>
+  <data name="ES93_1" xml:space="preserve">
+    <value>ФИО водителя</value>
+  </data>
+  <data name="ES942_1" xml:space="preserve">
+    <value>Обнулить код инвентаря</value>
+  </data>
+  <data name="ES946_1" xml:space="preserve">
+    <value>Название стройплощадки</value>
+  </data>
+  <data name="ES949_1" xml:space="preserve">
+    <value>Пополнение</value>
+  </data>
+  <data name="ES950_1" xml:space="preserve">
+    <value>Рецепт</value>
+  </data>
+  <data name="ES952_1" xml:space="preserve">
+    <value>Заказ № </value>
+  </data>
+  <data name="ES953_1" xml:space="preserve">
+    <value>Госномер автотранспорта</value>
+  </data>
+  <data name="ES954_1" xml:space="preserve">
+    <value>ФИО водителя</value>
+  </data>
+  <data name="ES955_1" xml:space="preserve">
+    <value>Остаток</value>
+  </data>
+  <data name="ES956_1" xml:space="preserve">
+    <value>Изготовленный объем бетона</value>
+  </data>
+  <data name="ES958_1" xml:space="preserve">
+    <value>Предварительный просмотр накладной</value>
+  </data>
+  <data name="ES95_1" xml:space="preserve">
+    <value>Пополнение</value>
+  </data>
+  <data name="ES961_1" xml:space="preserve">
+    <value>Нажмите на кнопку и удерживайте ее нажатой в течение 3 сек.</value>
+  </data>
+  <data name="ES962_1" xml:space="preserve">
+    <value>Укажите вес калибровочного груза, установленного на дозатор</value>
+  </data>
+  <data name="ES965_1" xml:space="preserve">
+    <value>План производства</value>
+  </data>
+  <data name="ES966_1" xml:space="preserve">
+    <value>Заказы</value>
+  </data>
+  <data name="ES96_1" xml:space="preserve">
+    <value>Инертные</value>
+  </data>
+  <data name="ES97_1" xml:space="preserve">
+    <value>Инертные(1)</value>
+  </data>
+  <data name="ES98_1" xml:space="preserve">
+    <value>Вода</value>
+  </data>
+  <data name="ES99_1" xml:space="preserve">
+    <value>Хим.добавки</value>
+  </data>
+  <data name="ES9_1" xml:space="preserve">
+    <value>Производство</value>
+  </data>
+  <data name="firmaadi" xml:space="preserve">
+    <value>Название компании</value>
+  </data>
+  <data name="hatamsg" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgarac" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgbetontipi" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgcevreseletki" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgdayanim" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgdon" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgfirma" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgkivam" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgklorursinifi" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgmalzeme" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgstok" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgsurucu" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="hatamsgyogunluk" xml:space="preserve">
+    <value>Это поле не может быть пустым</value>
+  </data>
+  <data name="kalanmiktar" xml:space="preserve">
+    <value>Оставшееся количество</value>
+  </data>
+  <data name="MalzemeTipi" xml:space="preserve">
+    <value>Тип материала</value>
+  </data>
+  <data name="receteadi" xml:space="preserve">
+    <value>Имя квитанции</value>
+  </data>
+  <data name="reçetelerToolStripMenuItem1" xml:space="preserve">
+    <value>предписания</value>
+  </data>
+  <data name="santiyeadi" xml:space="preserve">
+    <value>Название сайта</value>
+  </data>
+  <data name="siparismiktari" xml:space="preserve">
+    <value>Сумма заказа</value>
+  </data>
+  <data name="siparisno" xml:space="preserve">
+    <value>Заказ №</value>
+  </data>
+  <data name="sirano" xml:space="preserve">
+    <value>последовательности №</value>
+  </data>
+  <data name="yapilanmiktar" xml:space="preserve">
+    <value>Сумма Сделано</value>
+  </data>
+</root>

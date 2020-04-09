@@ -1,0 +1,1341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="StoktaBulunanKatki1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 49</value>
+  </data>
+  <data name="StoktaBulunanKatki1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StoktaBulunanKatki1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki1.Name" xml:space="preserve">
+    <value>StoktaBulunanKatki1</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki1.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="XB5_Katki1Istenen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 69</value>
+  </data>
+  <data name="XB5_Katki1Istenen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB5_Katki1Istenen.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki1Istenen.Name" xml:space="preserve">
+    <value>XB5_Katki1Istenen</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki1Istenen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki1Istenen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki1Istenen.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="XB19_Katki1Verilen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 88</value>
+  </data>
+  <data name="XB19_Katki1Verilen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB19_Katki1Verilen.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki1Verilen.Name" xml:space="preserve">
+    <value>XB19_Katki1Verilen</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki1Verilen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki1Verilen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki1Verilen.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="XB19_Katki2Verilen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 88</value>
+  </data>
+  <data name="XB19_Katki2Verilen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB19_Katki2Verilen.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki2Verilen.Name" xml:space="preserve">
+    <value>XB19_Katki2Verilen</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki2Verilen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki2Verilen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki2Verilen.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="XB5_Katki2Istenen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 69</value>
+  </data>
+  <data name="XB5_Katki2Istenen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB5_Katki2Istenen.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki2Istenen.Name" xml:space="preserve">
+    <value>XB5_Katki2Istenen</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki2Istenen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki2Istenen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki2Istenen.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="StoktaBulunanKatki2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 49</value>
+  </data>
+  <data name="StoktaBulunanKatki2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="StoktaBulunanKatki2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki2.Name" xml:space="preserve">
+    <value>StoktaBulunanKatki2</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki2.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="XB19_Katki3Verilen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 88</value>
+  </data>
+  <data name="XB19_Katki3Verilen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB19_Katki3Verilen.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki3Verilen.Name" xml:space="preserve">
+    <value>XB19_Katki3Verilen</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki3Verilen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki3Verilen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki3Verilen.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="XB5_Katki3Istenen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 69</value>
+  </data>
+  <data name="XB5_Katki3Istenen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB5_Katki3Istenen.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki3Istenen.Name" xml:space="preserve">
+    <value>XB5_Katki3Istenen</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki3Istenen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki3Istenen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki3Istenen.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="StoktaBulunanKatki3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 49</value>
+  </data>
+  <data name="StoktaBulunanKatki3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="StoktaBulunanKatki3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki3.Name" xml:space="preserve">
+    <value>StoktaBulunanKatki3</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki3.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="XB19_Katki4Verilen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 88</value>
+  </data>
+  <data name="XB19_Katki4Verilen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB19_Katki4Verilen.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki4Verilen.Name" xml:space="preserve">
+    <value>XB19_Katki4Verilen</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki4Verilen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki4Verilen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki4Verilen.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="XB5_Katki4Istenen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 69</value>
+  </data>
+  <data name="XB5_Katki4Istenen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB5_Katki4Istenen.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki4Istenen.Name" xml:space="preserve">
+    <value>XB5_Katki4Istenen</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki4Istenen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki4Istenen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki4Istenen.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="StoktaBulunanKatki4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 49</value>
+  </data>
+  <data name="StoktaBulunanKatki4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="StoktaBulunanKatki4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki4.Name" xml:space="preserve">
+    <value>StoktaBulunanKatki4</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki4.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="XB19_Katki5Verilen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 88</value>
+  </data>
+  <data name="XB19_Katki5Verilen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB19_Katki5Verilen.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki5Verilen.Name" xml:space="preserve">
+    <value>XB19_Katki5Verilen</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki5Verilen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki5Verilen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB19_Katki5Verilen.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="XB5_Katki5Istenen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 69</value>
+  </data>
+  <data name="XB5_Katki5Istenen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="XB5_Katki5Istenen.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki5Istenen.Name" xml:space="preserve">
+    <value>XB5_Katki5Istenen</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki5Istenen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki5Istenen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;XB5_Katki5Istenen.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="StoktaBulunanKatki5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 49</value>
+  </data>
+  <data name="StoktaBulunanKatki5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="StoktaBulunanKatki5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki5.Name" xml:space="preserve">
+    <value>StoktaBulunanKatki5</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StoktaBulunanKatki5.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Katkiboru1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 200</value>
+  </data>
+  <data name="Katkiboru1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="Katkiboru1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru1.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru1.Name" xml:space="preserve">
+    <value>Katkiboru1</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Katkiboru9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 244</value>
+  </data>
+  <data name="Katkiboru9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 8</value>
+  </data>
+  <data name="Katkiboru9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru9.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru9.Name" xml:space="preserve">
+    <value>Katkiboru9</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru9.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Katkiboru8_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru8_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 234</value>
+  </data>
+  <data name="Katkiboru8_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 8</value>
+  </data>
+  <data name="Katkiboru8_2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru8_2.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_2.Name" xml:space="preserve">
+    <value>Katkiboru8_2</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Katkiboru8_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru8_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 244</value>
+  </data>
+  <data name="Katkiboru8_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 8</value>
+  </data>
+  <data name="Katkiboru8_1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru8_1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_1.Name" xml:space="preserve">
+    <value>Katkiboru8_1</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru8_1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Katkiboru7_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru7_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 234</value>
+  </data>
+  <data name="Katkiboru7_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 8</value>
+  </data>
+  <data name="Katkiboru7_2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru7_2.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_2.Name" xml:space="preserve">
+    <value>Katkiboru7_2</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Katkiboru7_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru7_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 244</value>
+  </data>
+  <data name="Katkiboru7_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 8</value>
+  </data>
+  <data name="Katkiboru7_1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru7_1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_1.Name" xml:space="preserve">
+    <value>Katkiboru7_1</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru7_1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Katkiboru6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 244</value>
+  </data>
+  <data name="Katkiboru6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 8</value>
+  </data>
+  <data name="Katkiboru6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru6.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru6.Name" xml:space="preserve">
+    <value>Katkiboru6</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru6.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="is_ButonKatkiYikama.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="is_ButonKatkiYikama.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="is_ButonKatkiYikama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 294</value>
+  </data>
+  <data name="is_ButonKatkiYikama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 63</value>
+  </data>
+  <data name="is_ButonKatkiYikama.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatkiYikama.Name" xml:space="preserve">
+    <value>is_ButonKatkiYikama</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatkiYikama.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatkiYikama.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatkiYikama.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Katki5KritikBlink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katki5KritikBlink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 48</value>
+  </data>
+  <data name="Katki5KritikBlink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 20</value>
+  </data>
+  <data name="Katki5KritikBlink.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katki5KritikBlink.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;Katki5KritikBlink.Name" xml:space="preserve">
+    <value>Katki5KritikBlink</value>
+  </data>
+  <data name="&gt;&gt;Katki5KritikBlink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katki5KritikBlink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katki5KritikBlink.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Katki4KritikBlink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katki4KritikBlink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 48</value>
+  </data>
+  <data name="Katki4KritikBlink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 20</value>
+  </data>
+  <data name="Katki4KritikBlink.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katki4KritikBlink.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Katki4KritikBlink.Name" xml:space="preserve">
+    <value>Katki4KritikBlink</value>
+  </data>
+  <data name="&gt;&gt;Katki4KritikBlink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katki4KritikBlink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katki4KritikBlink.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Katki3KritikBlink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katki3KritikBlink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 48</value>
+  </data>
+  <data name="Katki3KritikBlink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 20</value>
+  </data>
+  <data name="Katki3KritikBlink.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katki3KritikBlink.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Katki3KritikBlink.Name" xml:space="preserve">
+    <value>Katki3KritikBlink</value>
+  </data>
+  <data name="&gt;&gt;Katki3KritikBlink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katki3KritikBlink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katki3KritikBlink.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Katki2KritikBlink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katki2KritikBlink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 48</value>
+  </data>
+  <data name="Katki2KritikBlink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 20</value>
+  </data>
+  <data name="Katki2KritikBlink.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katki2KritikBlink.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Katki2KritikBlink.Name" xml:space="preserve">
+    <value>Katki2KritikBlink</value>
+  </data>
+  <data name="&gt;&gt;Katki2KritikBlink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katki2KritikBlink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katki2KritikBlink.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Katki1KritikBlink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katki1KritikBlink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 48</value>
+  </data>
+  <data name="Katki1KritikBlink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 20</value>
+  </data>
+  <data name="Katki1KritikBlink.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katki1KritikBlink.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Katki1KritikBlink.Name" xml:space="preserve">
+    <value>Katki1KritikBlink</value>
+  </data>
+  <data name="&gt;&gt;Katki1KritikBlink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katki1KritikBlink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katki1KritikBlink.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="KatkiMotor5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KatkiMotor5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 122</value>
+  </data>
+  <data name="KatkiMotor5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 80</value>
+  </data>
+  <data name="KatkiMotor5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="KatkiMotor5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor5.Name" xml:space="preserve">
+    <value>KatkiMotor5</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor5.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="KatkiMotor4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KatkiMotor4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 122</value>
+  </data>
+  <data name="KatkiMotor4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 80</value>
+  </data>
+  <data name="KatkiMotor4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="KatkiMotor4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor4.Name" xml:space="preserve">
+    <value>KatkiMotor4</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor4.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="KatkiMotor3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KatkiMotor3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 122</value>
+  </data>
+  <data name="KatkiMotor3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 80</value>
+  </data>
+  <data name="KatkiMotor3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="KatkiMotor3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor3.Name" xml:space="preserve">
+    <value>KatkiMotor3</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor3.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="KatkiMotor2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KatkiMotor2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 122</value>
+  </data>
+  <data name="KatkiMotor2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 80</value>
+  </data>
+  <data name="KatkiMotor2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="KatkiMotor2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor2.Name" xml:space="preserve">
+    <value>KatkiMotor2</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor2.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="KatkiMotor1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KatkiMotor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 122</value>
+  </data>
+  <data name="KatkiMotor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 80</value>
+  </data>
+  <data name="KatkiMotor1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="KatkiMotor1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor1.Name" xml:space="preserve">
+    <value>KatkiMotor1</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KatkiMotor1.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="is_ButonKatki5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="is_ButonKatki5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="is_ButonKatki5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 209</value>
+  </data>
+  <data name="is_ButonKatki5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 63</value>
+  </data>
+  <data name="is_ButonKatki5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki5.Name" xml:space="preserve">
+    <value>is_ButonKatki5</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki5.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="is_ButonKatki4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="is_ButonKatki4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="is_ButonKatki4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 209</value>
+  </data>
+  <data name="is_ButonKatki4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 63</value>
+  </data>
+  <data name="is_ButonKatki4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki4.Name" xml:space="preserve">
+    <value>is_ButonKatki4</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki4.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="is_ButonKatki3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="is_ButonKatki3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="is_ButonKatki3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 209</value>
+  </data>
+  <data name="is_ButonKatki3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 63</value>
+  </data>
+  <data name="is_ButonKatki3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki3.Name" xml:space="preserve">
+    <value>is_ButonKatki3</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="is_ButonKatki2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="is_ButonKatki2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="is_ButonKatki2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 209</value>
+  </data>
+  <data name="is_ButonKatki2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 63</value>
+  </data>
+  <data name="is_ButonKatki2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki2.Name" xml:space="preserve">
+    <value>is_ButonKatki2</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki2.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="is_ButonKatki1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="is_ButonKatki1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="is_ButonKatki1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 209</value>
+  </data>
+  <data name="is_ButonKatki1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 63</value>
+  </data>
+  <data name="is_ButonKatki1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki1.Name" xml:space="preserve">
+    <value>is_ButonKatki1</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;is_ButonKatki1.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="KatkiYikama.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="KatkiYikama.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 259</value>
+  </data>
+  <data name="KatkiYikama.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 84</value>
+  </data>
+  <data name="KatkiYikama.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="KatkiYikama.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;KatkiYikama.Name" xml:space="preserve">
+    <value>KatkiYikama</value>
+  </data>
+  <data name="&gt;&gt;KatkiYikama.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;KatkiYikama.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;KatkiYikama.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="Katkiboru2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 200</value>
+  </data>
+  <data name="Katkiboru2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="Katkiboru2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru2.Name" xml:space="preserve">
+    <value>Katkiboru2</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Katkiboru3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 200</value>
+  </data>
+  <data name="Katkiboru3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="Katkiboru3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru3.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru3.Name" xml:space="preserve">
+    <value>Katkiboru3</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Katkiboru4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 200</value>
+  </data>
+  <data name="Katkiboru4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="Katkiboru4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru4.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru4.Name" xml:space="preserve">
+    <value>Katkiboru4</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Katkiboru5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 200</value>
+  </data>
+  <data name="Katkiboru5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="Katkiboru5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru5.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru5.Name" xml:space="preserve">
+    <value>Katkiboru5</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Katkiboru10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 251</value>
+  </data>
+  <data name="Katkiboru10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 50</value>
+  </data>
+  <data name="Katkiboru10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru10.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru10.Name" xml:space="preserve">
+    <value>Katkiboru10</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru10.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="Katkiboru12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 323</value>
+  </data>
+  <data name="Katkiboru12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 8</value>
+  </data>
+  <data name="Katkiboru12.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru12.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru12.Name" xml:space="preserve">
+    <value>Katkiboru12</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Katkiboru11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkiboru11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 323</value>
+  </data>
+  <data name="Katkiboru11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 8</value>
+  </data>
+  <data name="Katkiboru11.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru11.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru11.Name" xml:space="preserve">
+    <value>Katkiboru11</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru11.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Katkisayacboru1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Katkisayacboru1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 293</value>
+  </data>
+  <data name="Katkisayacboru1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 8</value>
+  </data>
+  <data name="Katkisayacboru1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkisayacboru1.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;Katkisayacboru1.Name" xml:space="preserve">
+    <value>Katkisayacboru1</value>
+  </data>
+  <data name="&gt;&gt;Katkisayacboru1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkisayacboru1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkisayacboru1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Katkiboru13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 301</value>
+  </data>
+  <data name="Katkiboru13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>8, 50</value>
+  </data>
+  <data name="Katkiboru13.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Katkiboru13.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru13.Name" xml:space="preserve">
+    <value>Katkiboru13</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Katkiboru13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 363</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Katki_Temp</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

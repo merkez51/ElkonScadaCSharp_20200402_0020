@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ElkonScadaReceteler" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MSCSOVP\SQLEXPRESS;Initial Catalog=ElkonScadaReceteler;Integrated Security=True" SettingsObjectName="ElkonScada.Properties.Settings" SettingsPropertyName="ElkonScadaRecetelerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Receteler" Member="Recetelers">
+    <Type Name="Receteler">
+      <Column Name="SiraNo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ReceteAdi" Type="System.String" DbType="Char(250)" CanBeNull="true" />
+      <Column Name="ReceteAciklama" Type="System.String" DbType="Char(250)" CanBeNull="true" />
+      <Column Name="ReceteAgrega1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteAgrega2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteAgrega3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteAgrega4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteAgrega5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteAgrega6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteCimento1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteCimento2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteCimento3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteCimento4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteCimento5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteCimento6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteSu1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteSu2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteSu3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteSu4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteSu5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteSu6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteKatki1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteKatki2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteKatki3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteKatki4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteKatki5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteKatki6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteCimentoGecikmeSuresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceteKatkıGecikmeSuresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceteSuGecikmeSuresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceteMikserBosaltmaSuresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceteMikserKaristirmaSuresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceteMikserKapakAcmaSuresi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReceteDurum" Type="System.String" DbType="Char(250)" CanBeNull="true" />
+      <Column Name="ReceteDayanimSinifi" Type="System.String" DbType="Char(250)" CanBeNull="true" />
+      <Column Name="ReceteKivamSinifi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteDonaKarsiDayaniklikSinifi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteSuyaKarsiDirencSinifi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteYogunlukSinifi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteBetonTipi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteCevreselEtki" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteKlorurIcerigiSinifi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteMaxSuCimOrani" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ReceteMinCimIcerigi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteMinBetonDayanimSinifi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+      <Column Name="ReceteMinBetonHavaIcerigi" Type="System.String" DbType="Char(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,3972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="arızaKayıtlarıToolStripMenuItem1" xml:space="preserve">
+    <value>MINDEN RÖVID</value>
+  </data>
+  <data name="ES100_1" xml:space="preserve">
+    <value>Cement</value>
+  </data>
+  <data name="ES1011_1" xml:space="preserve">
+    <value>Termelési eredmény</value>
+  </data>
+  <data name="ES1012_1" xml:space="preserve">
+    <value>Részletes ermelési eredmény</value>
+  </data>
+  <data name="ES1014_1" xml:space="preserve">
+    <value>Jármű kiszállítás állapotjelentés</value>
+  </data>
+  <data name="ES1015_1" xml:space="preserve">
+    <value>Raktározás százalék</value>
+  </data>
+  <data name="ES1017_1" xml:space="preserve">
+    <value>Motor neve</value>
+  </data>
+  <data name="ES1018_1" xml:space="preserve">
+    <value>Óra</value>
+  </data>
+  <data name="ES1019_1" xml:space="preserve">
+    <value>Perc</value>
+  </data>
+  <data name="ES101_1" xml:space="preserve">
+    <value>Elemzés</value>
+  </data>
+  <data name="ES1020_1" xml:space="preserve">
+    <value>Köztes szalag motor</value>
+  </data>
+  <data name="ES1021_1" xml:space="preserve">
+    <value>Cement csiga 1 motor</value>
+  </data>
+  <data name="ES1022_1" xml:space="preserve">
+    <value>Cement csiga 2 motor</value>
+  </data>
+  <data name="ES1023_1" xml:space="preserve">
+    <value>Cement csiga 3 motor</value>
+  </data>
+  <data name="ES1024_1" xml:space="preserve">
+    <value>cement csiga 4 motor</value>
+  </data>
+  <data name="ES1025_1" xml:space="preserve">
+    <value>Vegyszer pumpa 1</value>
+  </data>
+  <data name="ES1026_1" xml:space="preserve">
+    <value>Vegyszer pumpa 2</value>
+  </data>
+  <data name="ES1027_1" xml:space="preserve">
+    <value>vegyszer pumpa 3</value>
+  </data>
+  <data name="ES1028_1" xml:space="preserve">
+    <value>Vegyszer pumpa 4</value>
+  </data>
+  <data name="ES1029_1" xml:space="preserve">
+    <value>Kompresszor</value>
+  </data>
+  <data name="ES1030_1" xml:space="preserve">
+    <value>Felvonó tartály motor</value>
+  </data>
+  <data name="ES1031_1" xml:space="preserve">
+    <value>keverő motor</value>
+  </data>
+  <data name="ES1032_1" xml:space="preserve">
+    <value>T szalag motor</value>
+  </data>
+  <data name="ES1033_1" xml:space="preserve">
+    <value>Szállító szalag motor</value>
+  </data>
+  <data name="ES1034_1" xml:space="preserve">
+    <value>Kezdési idő</value>
+  </data>
+  <data name="ES1035_1" xml:space="preserve">
+    <value>Befejezési idő</value>
+  </data>
+  <data name="ES1036_1" xml:space="preserve">
+    <value>Terület</value>
+  </data>
+  <data name="ES1046_1" xml:space="preserve">
+    <value>Recept</value>
+  </data>
+  <data name="ES1047_1" xml:space="preserve">
+    <value>Teljes száma a keveréseknek</value>
+  </data>
+  <data name="ES1048_1" xml:space="preserve">
+    <value>Teljes száma az elkészült keverésnek</value>
+  </data>
+  <data name="ES1049_1" xml:space="preserve">
+    <value>Leltár</value>
+  </data>
+  <data name="ES104_1" xml:space="preserve">
+    <value>Recept</value>
+  </data>
+  <data name="ES1052_1" xml:space="preserve">
+    <value>További víz mennyiség</value>
+  </data>
+  <data name="ES1055_1" xml:space="preserve">
+    <value>Keverő áram diagram</value>
+  </data>
+  <data name="ES1056_1" xml:space="preserve">
+    <value>Keverő áram diagram mutat</value>
+  </data>
+  <data name="ES1057_1" xml:space="preserve">
+    <value>Keverő működési áram diagaram</value>
+  </data>
+  <data name="ES105_1" xml:space="preserve">
+    <value>Elkészített mennyiség</value>
+  </data>
+  <data name="ES1061_1" xml:space="preserve">
+    <value>Felhasznát anyag visszaállítás</value>
+  </data>
+  <data name="ES1066_1" xml:space="preserve">
+    <value>Az első keverés kész, ha ki akarja üríteni a mixerautóba, akkor nyomja meg az igen gombot.</value>
+  </data>
+  <data name="ES1069_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1071_1" xml:space="preserve">
+    <value>Megállítás használata</value>
+  </data>
+  <data name="ES1072_1" xml:space="preserve">
+    <value>Leállít</value>
+  </data>
+  <data name="ES1073_1" xml:space="preserve">
+    <value>Nyitás használata</value>
+  </data>
+  <data name="ES1074_1" xml:space="preserve">
+    <value>Használat folytatódik</value>
+  </data>
+  <data name="ES107_1" xml:space="preserve">
+    <value>Adalékanyag 2</value>
+  </data>
+  <data name="ES10_1" xml:space="preserve">
+    <value>Leltár műveletek</value>
+  </data>
+  <data name="ES1126_1" xml:space="preserve">
+    <value>Visszaállítási idő a kézi gombokhoz</value>
+  </data>
+  <data name="ES1134_1" xml:space="preserve">
+    <value>Adalékanyag szállító további működési idő</value>
+  </data>
+  <data name="ES1135_1" xml:space="preserve">
+    <value>Adalékanyag mérleg tartály/keverő elfogadot kiadási határ, miután öresnek számít</value>
+  </data>
+  <data name="ES1136_1" xml:space="preserve">
+    <value>Adalékanyag mérleg tartály/keverő kiegyenlítési idő</value>
+  </data>
+  <data name="ES1137_1" xml:space="preserve">
+    <value>Adalékanyag mérleg tartály/keverő túltöltési határ</value>
+  </data>
+  <data name="ES1138_1" xml:space="preserve">
+    <value>Közbenső szalag további működési idő</value>
+  </data>
+  <data name="ES1139_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány 1</value>
+  </data>
+  <data name="ES113_1" xml:space="preserve">
+    <value>Rendszám</value>
+  </data>
+  <data name="ES1140_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány 2</value>
+  </data>
+  <data name="ES1141_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány 3</value>
+  </data>
+  <data name="ES1142_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány 4</value>
+  </data>
+  <data name="ES1143_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány 5</value>
+  </data>
+  <data name="ES1144_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány 6</value>
+  </data>
+  <data name="ES1145_1" xml:space="preserve">
+    <value>Kiadott mennyiség az adalékanyag szalagról a jelzés után 1</value>
+  </data>
+  <data name="ES1146_1" xml:space="preserve">
+    <value>Kiadott mennyiség az adalékanyag szalagról a jelzés után 2</value>
+  </data>
+  <data name="ES1147_1" xml:space="preserve">
+    <value>Kiadott mennyiség az adalékanyag szalagról a jelzés után 3</value>
+  </data>
+  <data name="ES1148_1" xml:space="preserve">
+    <value>Kiadott mennyiség az adalékanyag szalagról a jelzés után 4</value>
+  </data>
+  <data name="ES1149_1" xml:space="preserve">
+    <value>Kiadott mennyiség az adalékanyag szalagról a jelzés után 5</value>
+  </data>
+  <data name="ES114_1" xml:space="preserve">
+    <value>Magyarázat</value>
+  </data>
+  <data name="ES1150_1" xml:space="preserve">
+    <value>Kiadott mennyiség az adalékanyag szalagról a jelzés után 6</value>
+  </data>
+  <data name="ES1151_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány kézi bevitel 2</value>
+  </data>
+  <data name="ES1152_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány a nedvesség szondától 2</value>
+  </data>
+  <data name="ES1153_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány kézi bevitel 3</value>
+  </data>
+  <data name="ES1154_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség arány a nedvesség szondától 3</value>
+  </data>
+  <data name="ES1155_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség számítás %</value>
+  </data>
+  <data name="ES1156_1" xml:space="preserve">
+    <value>Afdalékanyag szállító max.működési ideje</value>
+  </data>
+  <data name="ES1157_1" xml:space="preserve">
+    <value>Mérlegtartály maximum kiadási idő</value>
+  </data>
+  <data name="ES1158_1" xml:space="preserve">
+    <value>Keverő kiadó ajtó pneumatikus szelep maximum működési ideje</value>
+  </data>
+  <data name="ES1159_1" xml:space="preserve">
+    <value>Kürt maximum működési idő</value>
+  </data>
+  <data name="ES1160_1" xml:space="preserve">
+    <value>Keverő motor túláram határ</value>
+  </data>
+  <data name="ES1161_1" xml:space="preserve">
+    <value>Keverő motor túláram elfogadható időtartama</value>
+  </data>
+  <data name="ES1162_1" xml:space="preserve">
+    <value>Cemetn csiga motor max.működéi idő</value>
+  </data>
+  <data name="ES1163_1" xml:space="preserve">
+    <value>Mérleg tartály kiadási határ miután üresnek tekinthető</value>
+  </data>
+  <data name="ES1164_1" xml:space="preserve">
+    <value>Mérleg tartály kiegyenlítési idő</value>
+  </data>
+  <data name="ES1165_1" xml:space="preserve">
+    <value>Betöltési mennyiség a tartály mérlegbe a jelzés után 1</value>
+  </data>
+  <data name="ES1166_1" xml:space="preserve">
+    <value>Betöltési mennyiség a tartály mérlegbe a jelzés után 2</value>
+  </data>
+  <data name="ES1167_1" xml:space="preserve">
+    <value>Betöltési mennyiség a tartály mérlegbe a jelzés után 3</value>
+  </data>
+  <data name="ES1168_1" xml:space="preserve">
+    <value>Betöltési mennyiség a tartály mérlegbe a jelzés után 4</value>
+  </data>
+  <data name="ES1169_1" xml:space="preserve">
+    <value>Vegyszer mérleg tartály további kiadási idő</value>
+  </data>
+  <data name="ES1170_1" xml:space="preserve">
+    <value>Keverő kiadó ajtó pneumatikus szelep működési ideje</value>
+  </data>
+  <data name="ES1171_1" xml:space="preserve">
+    <value>Keverő kiadó ajtó pneumatikus szelep várakozási ideje</value>
+  </data>
+  <data name="ES1173_1" xml:space="preserve">
+    <value>Keverő méret</value>
+  </data>
+  <data name="ES1174_1" xml:space="preserve">
+    <value>Cement mérleg tartály vibrátor várakozási idő</value>
+  </data>
+  <data name="ES1175_1" xml:space="preserve">
+    <value>Cement mérleg tartály vibrátor működési idő</value>
+  </data>
+  <data name="ES1176_1" xml:space="preserve">
+    <value>Kiadási gyorsítási határ a cement tartály mérleg vibrátor indításához</value>
+  </data>
+  <data name="ES1177_1" xml:space="preserve">
+    <value>Cement tartály azonnali kiadási gyorsítás</value>
+  </data>
+  <data name="ES1178_1" xml:space="preserve">
+    <value>Adalékanyag bunker vibrátor várakozási idő 2</value>
+  </data>
+  <data name="ES1179_1" xml:space="preserve">
+    <value>Adalékanyag bunker vibrátor működési idő 2</value>
+  </data>
+  <data name="ES117_1" xml:space="preserve">
+    <value>Dátum</value>
+  </data>
+  <data name="ES1180_1" xml:space="preserve">
+    <value>Adalékanyag bunker vibrátor várakozási idő 3</value>
+  </data>
+  <data name="ES1181_1" xml:space="preserve">
+    <value>Adalékanyag bunker vibrátor működési idő 3</value>
+  </data>
+  <data name="ES1182_1" xml:space="preserve">
+    <value>Cement mérleg tartály vibrátor működési idő</value>
+  </data>
+  <data name="ES1194_1" xml:space="preserve">
+    <value>Adja meg a keverési időt</value>
+  </data>
+  <data name="ES1195_1" xml:space="preserve">
+    <value>Bevitt érték frissítés a receptben</value>
+  </data>
+  <data name="ES1197_1" xml:space="preserve">
+    <value>Adja meg a keverő kiadási időt</value>
+  </data>
+  <data name="ES11_1" xml:space="preserve">
+    <value>Jelentések</value>
+  </data>
+  <data name="ES1201_1" xml:space="preserve">
+    <value>Kalibráció</value>
+  </data>
+  <data name="ES1202_1" xml:space="preserve">
+    <value>Nyelv választás</value>
+  </data>
+  <data name="ES1203_1" xml:space="preserve">
+    <value>Speciális beállítások</value>
+  </data>
+  <data name="ES1205_1" xml:space="preserve">
+    <value>Biztosan be szeretné fejezni a programot?</value>
+  </data>
+  <data name="ES1208_1" xml:space="preserve">
+    <value>Szállítólevél manuális nyomtatás</value>
+  </data>
+  <data name="ES1209_1" xml:space="preserve">
+    <value>A gyártás végén minden termelésről automatikus szállító levél nyomtatás</value>
+  </data>
+  <data name="ES1210_1" xml:space="preserve">
+    <value>Szállítóleveél beállítás</value>
+  </data>
+  <data name="ES1211_1" xml:space="preserve">
+    <value>Szállítólevél szerkeztés</value>
+  </data>
+  <data name="ES1213_1" xml:space="preserve">
+    <value>Mozog lefelé</value>
+  </data>
+  <data name="ES1217_1" xml:space="preserve">
+    <value>Keverő áram kijelző túláram határ</value>
+  </data>
+  <data name="ES1218_1" xml:space="preserve">
+    <value>Keverő áram kijelező áramcsükkenési határ</value>
+  </data>
+  <data name="ES1219_1" xml:space="preserve">
+    <value>Keverő áram kijelző maximum érték</value>
+  </data>
+  <data name="ES1220_1" xml:space="preserve">
+    <value>Keverő áramkijelző minimális érték</value>
+  </data>
+  <data name="ES1221_1" xml:space="preserve">
+    <value>Kérjük adja meg a cement mérleg tartály térfogatát</value>
+  </data>
+  <data name="ES1224_1" xml:space="preserve">
+    <value>Bejelentkezés</value>
+  </data>
+  <data name="ES1231_1" xml:space="preserve">
+    <value>Jelenleg folyik a termelés, ki akarsz jelentezni?</value>
+  </data>
+  <data name="ES1233_1" xml:space="preserve">
+    <value>Belépés a programba</value>
+  </data>
+  <data name="ES1234_1" xml:space="preserve">
+    <value>Kilépés a programból</value>
+  </data>
+  <data name="ES1235_1" xml:space="preserve">
+    <value>Belépés</value>
+  </data>
+  <data name="ES1236_1" xml:space="preserve">
+    <value>Kilépés</value>
+  </data>
+  <data name="ES1238_1" xml:space="preserve">
+    <value>Idő</value>
+  </data>
+  <data name="ES1240_1" xml:space="preserve">
+    <value>Gép zárás dátuma</value>
+  </data>
+  <data name="ES1241_0" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="ES1242_0" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="ES1243_0" xml:space="preserve">
+    <value>m^3</value>
+  </data>
+  <data name="ES1245_0" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="ES1246_1" xml:space="preserve">
+    <value>Zár</value>
+  </data>
+  <data name="ES1247_1" xml:space="preserve">
+    <value>Kinyit</value>
+  </data>
+  <data name="ES1249_1" xml:space="preserve">
+    <value>Vegyszer és víz raktárterület meghatározás oldal</value>
+  </data>
+  <data name="ES1250_1" xml:space="preserve">
+    <value>Mérlegtartály szivattyú kiválasztás</value>
+  </data>
+  <data name="ES1254_1" xml:space="preserve">
+    <value>Adja meg a víz mérleg tartály kapacitását</value>
+  </data>
+  <data name="ES1257_0" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES1258_0" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES125_1" xml:space="preserve">
+    <value>Cég neve</value>
+  </data>
+  <data name="ES1265_0" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ES1266_0" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ES1269_0" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ES126_1" xml:space="preserve">
+    <value>Telefonszám</value>
+  </data>
+  <data name="ES1270_0" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ES1273_0" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ES1274_0" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ES1277_0" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ES127_1" xml:space="preserve">
+    <value>Cím</value>
+  </data>
+  <data name="ES1282_1" xml:space="preserve">
+    <value>Adja meg a mikroszilikát mennyiségét</value>
+  </data>
+  <data name="ES1285_1" xml:space="preserve">
+    <value>Adja meg a mikroszilikát tartály kapacitását.</value>
+  </data>
+  <data name="ES1287_1" xml:space="preserve">
+    <value>Figyelmeztetés visszaállítás előtt</value>
+  </data>
+  <data name="ES1288_1" xml:space="preserve">
+    <value>Mielőtt megnyomja a reset gombot, győződjön meg róla, hogy a mérlegtölcsér üres, és a mérőcellák szabadon mozognak. (Győződjön meg róla, hogy semmilyen más tárgy nincs a mérlegtartályon, mely nyomást gyakorolhat rá.</value>
+  </data>
+  <data name="ES1289_1" xml:space="preserve">
+    <value>Figyelmeztetés kalibráció előtt</value>
+  </data>
+  <data name="ES128_1" xml:space="preserve">
+    <value>Érintett személy</value>
+  </data>
+  <data name="ES1291_1" xml:space="preserve">
+    <value>Visszaállítás befejeződött.Helyezze a kalibráló súlyt a mérlegtartályra. (Ellenőrízze a megfelelő kalibráló súlyt a táblázatból a vezérlő kabin falán.)</value>
+  </data>
+  <data name="ES1292_1" xml:space="preserve">
+    <value>Ellenőrízze a kalibráció pontosságát.</value>
+  </data>
+  <data name="ES1294_1" xml:space="preserve">
+    <value>A kalibráció pontosságának az ellenőrzésére, taávolítson el egy-egy súlyt, és hasonlítsa össza a kijelzőn az értékkel.</value>
+  </data>
+  <data name="ES1299_1" xml:space="preserve">
+    <value>Válasszon felhasználói nyelvet.</value>
+  </data>
+  <data name="ES129_1" xml:space="preserve">
+    <value>Adó adminisztráció</value>
+  </data>
+  <data name="ES12_1" xml:space="preserve">
+    <value>Felhasználói műveletek</value>
+  </data>
+  <data name="ES1300_1" xml:space="preserve">
+    <value>Adjon meg egy másik cég nevet</value>
+  </data>
+  <data name="ES1301_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1302_1" xml:space="preserve">
+    <value>Adjon meg egy másik cég nevet</value>
+  </data>
+  <data name="ES1303_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1304_1" xml:space="preserve">
+    <value>Adjon meg egy másik rendszámot</value>
+  </data>
+  <data name="ES1305_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1306_1" xml:space="preserve">
+    <value>Adjon meg egy másik rendszámot</value>
+  </data>
+  <data name="ES1307_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1308_1" xml:space="preserve">
+    <value>Adjon meg egy másik sofőr nevet</value>
+  </data>
+  <data name="ES1309_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES130_1" xml:space="preserve">
+    <value>Adó szám</value>
+  </data>
+  <data name="ES1310_1" xml:space="preserve">
+    <value>Adjon meg egy másik sofőr nevet</value>
+  </data>
+  <data name="ES1311_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1312_1" xml:space="preserve">
+    <value>Adjon meg egy másik munkaterületet</value>
+  </data>
+  <data name="ES1313_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1314_1" xml:space="preserve">
+    <value>Adjon meg egy másik munkaterületet</value>
+  </data>
+  <data name="ES1315_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1316_1" xml:space="preserve">
+    <value>Kérjük adjon meg egy másik anyagot</value>
+  </data>
+  <data name="ES1317_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1318_1" xml:space="preserve">
+    <value>Kérjük adjon meg egy másik anyagot</value>
+  </data>
+  <data name="ES1319_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES131_1" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="ES1320_1" xml:space="preserve">
+    <value>Ha a termelés befejeződött, a receptet nem lehet megváltoztatni</value>
+  </data>
+  <data name="ES1321_1" xml:space="preserve">
+    <value>A recepetet, melyet törölni kíván, használatban van a megrendelésekben</value>
+  </data>
+  <data name="ES1322_1" xml:space="preserve">
+    <value>A recepetet, melyet törölni kíván, használatban van a megrendelésekben</value>
+  </data>
+  <data name="ES1323_1" xml:space="preserve">
+    <value>A PLC</value>
+  </data>
+  <data name="ES1324_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1325_1" xml:space="preserve">
+    <value>A megrendelés, melyet törölni szeretne, létezik a termelési tervben</value>
+  </data>
+  <data name="ES1326_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1327_1" xml:space="preserve">
+    <value>Az új rendelési mennyiség nem lehet kevesebb, mint a termelt mennyiség</value>
+  </data>
+  <data name="ES1328_1" xml:space="preserve">
+    <value>A mennyiség nem haladhatja meg a mixerautó kapacitását</value>
+  </data>
+  <data name="ES1329_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a rendelt mennyiséget</value>
+  </data>
+  <data name="ES1330_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a hátramaradó rendelt mennyiséget</value>
+  </data>
+  <data name="ES1331_1" xml:space="preserve">
+    <value>A maximum mennyiség, melyet gyártani lehet</value>
+  </data>
+  <data name="ES1332_1" xml:space="preserve">
+    <value>A teljesen termelt rendelési mennyiség</value>
+  </data>
+  <data name="ES1333_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1334_1" xml:space="preserve">
+    <value>A használt terv a termelésben törölhetetlen.</value>
+  </data>
+  <data name="ES1335_1" xml:space="preserve">
+    <value>A gyártás során felhasznált terv nem szerkezthető</value>
+  </data>
+  <data name="ES1336_1" xml:space="preserve">
+    <value>A mennyiség nem haladhatja meg a mixerautó kapacitását</value>
+  </data>
+  <data name="ES1337_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a rendelt mennyiséget</value>
+  </data>
+  <data name="ES1338_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a hátramaradó rendelt mennyiséget</value>
+  </data>
+  <data name="ES1339_1" xml:space="preserve">
+    <value>A maximum mennyiség, melyet gyártani lehet</value>
+  </data>
+  <data name="ES1340_1" xml:space="preserve">
+    <value>A teljesen termelt rendelési mennyiség</value>
+  </data>
+  <data name="ES1341_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1342_1" xml:space="preserve">
+    <value>A használt terv a termelésben törölhetetlen.</value>
+  </data>
+  <data name="ES1343_1" xml:space="preserve">
+    <value>A mennyiség nem haladhatja meg a mixerautó kapacitását</value>
+  </data>
+  <data name="ES1344_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a rendelt mennyiséget</value>
+  </data>
+  <data name="ES1345_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a hátramaradó rendelt mennyiséget</value>
+  </data>
+  <data name="ES1346_1" xml:space="preserve">
+    <value>A maximum mennyiség, melyet gyártani lehet</value>
+  </data>
+  <data name="ES1347_1" xml:space="preserve">
+    <value>A teljesen termelt rendelési mennyiség</value>
+  </data>
+  <data name="ES1348_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1349_1" xml:space="preserve">
+    <value>A mennyiség nem haladhatja meg a mixerautó kapacitását</value>
+  </data>
+  <data name="ES1350_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a rendelt mennyiséget</value>
+  </data>
+  <data name="ES1351_1" xml:space="preserve">
+    <value>A mennyiség, melyet elő kell állítani, nem haladhatja meg a hátramaradó rendelt mennyiséget</value>
+  </data>
+  <data name="ES1352_1" xml:space="preserve">
+    <value>A maximum mennyiség, melyet gyártani lehet</value>
+  </data>
+  <data name="ES1353_1" xml:space="preserve">
+    <value>A teljesen termelt rendelési mennyiség</value>
+  </data>
+  <data name="ES1354_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1355_1" xml:space="preserve">
+    <value>Nem ütemezett gyártás</value>
+  </data>
+  <data name="ES1356_1" xml:space="preserve">
+    <value>Az ütemezett gyártás befelyeződött, nincs további kimutatható termelési terv</value>
+  </data>
+  <data name="ES1357_1" xml:space="preserve">
+    <value>Az automata gyártási rendszerben, válassza az automata gyártási módot</value>
+  </data>
+  <data name="ES1358_1" xml:space="preserve">
+    <value>A termelés folyamatos</value>
+  </data>
+  <data name="ES1359_1" xml:space="preserve">
+    <value>Kérjük adja meg teljes részleteséggel</value>
+  </data>
+  <data name="ES1360_1" xml:space="preserve">
+    <value>Ön nem tud bevinni több anyagot, mint a raktárterület kapacitása.</value>
+  </data>
+  <data name="ES1361_1" xml:space="preserve">
+    <value>A termelés befejeződött, lehet folytatni vagy törölni a termelési tervet</value>
+  </data>
+  <data name="ES1362_1" xml:space="preserve">
+    <value>Málaszt</value>
+  </data>
+  <data name="ES1363_1" xml:space="preserve">
+    <value>Aktív</value>
+  </data>
+  <data name="ES1364_1" xml:space="preserve">
+    <value>Passzív</value>
+  </data>
+  <data name="ES1368_1" xml:space="preserve">
+    <value>PLC analóg bemenet felbontás</value>
+  </data>
+  <data name="ES1375_1" xml:space="preserve">
+    <value>GÉP ID</value>
+  </data>
+  <data name="ES1376_1" xml:space="preserve">
+    <value>GÉP ID : </value>
+  </data>
+  <data name="ES1377_0" xml:space="preserve">
+    <value>ABB</value>
+  </data>
+  <data name="ES1379_1" xml:space="preserve">
+    <value>Vegyszer 1</value>
+  </data>
+  <data name="ES1380_1" xml:space="preserve">
+    <value>Vegyszer 2</value>
+  </data>
+  <data name="ES1381_1" xml:space="preserve">
+    <value>Vegyszer 3</value>
+  </data>
+  <data name="ES1382_1" xml:space="preserve">
+    <value>Vegyszer 4</value>
+  </data>
+  <data name="ES1383_1" xml:space="preserve">
+    <value>Vegyszer 5</value>
+  </data>
+  <data name="ES1384_1" xml:space="preserve">
+    <value>A100_Keverő motor TMS hiba</value>
+  </data>
+  <data name="ES1385_1" xml:space="preserve">
+    <value>A111_A keverés már megkezdődött, bár volt benne anyag.</value>
+  </data>
+  <data name="ES13_1" xml:space="preserve">
+    <value>Beállítások</value>
+  </data>
+  <data name="ES1404_1" xml:space="preserve">
+    <value>C503_Cement mérlegtartály túltöltési hiba</value>
+  </data>
+  <data name="ES1405_1" xml:space="preserve">
+    <value>C601_Víztartály túltöltési hiba</value>
+  </data>
+  <data name="ES1406_1" xml:space="preserve">
+    <value>C701_Vegyszer mérlegtartály túltöltési hiba</value>
+  </data>
+  <data name="ES1407_1" xml:space="preserve">
+    <value>D402_A maximális mozgási időt a felvonó tartály meghaladta.</value>
+  </data>
+  <data name="ES1408_1" xml:space="preserve">
+    <value>E205_A recept szerinti adalékanyag mennyiséget nem lehet betölteni a mérleg tartályba a meghatározot maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1409_1" xml:space="preserve">
+    <value>F506_A cement tartály nem tudta elérni az üresnek elfogadott értéket a meghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1410_1" xml:space="preserve">
+    <value>F206_A mérlegszalag nem tudta elérni az üresnek elfogadott értéket a meghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1411_1" xml:space="preserve">
+    <value>G109_A keverő kiadó ajtót nem lehet nyitni/zárni a heghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1412_1" xml:space="preserve">
+    <value>G507_A cement tartály kiadó ajtót nem lehet nyitni/zárni a heghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1413_1" xml:space="preserve">
+    <value>G604_A víz tartály kiadó ajtót nem lehet nyitni/zárni a heghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1414_1" xml:space="preserve">
+    <value>G704_A vegyszer tartály kiadó ajtót nem lehet nyitni/zárni a heghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1415_1" xml:space="preserve">
+    <value>G801_A tároló tartály kiadó ajtót nem lehet nyitni/zárni a heghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1416_1" xml:space="preserve">
+    <value>H210_A mérlegszalagon a súly több mint az üresnek elfogadott érték.</value>
+  </data>
+  <data name="ES1417_1" xml:space="preserve">
+    <value>H510_A cement tartályban a súly több mint az üresnek elfogadott érték.</value>
+  </data>
+  <data name="ES1418_1" xml:space="preserve">
+    <value>H607_A víz tartályban a súly több mint az üresnek elfogadott érték.</value>
+  </data>
+  <data name="ES1419_1" xml:space="preserve">
+    <value>H707_A vegyszer tartályban a súly több mint az üresnek elfogadott érték.</value>
+  </data>
+  <data name="ES1420_1" xml:space="preserve">
+    <value>K105_Keverő automata zsírzás hiba, vagy a kapcsoló meghibásodott</value>
+  </data>
+  <data name="ES1421_1" xml:space="preserve">
+    <value>K106_A keverő motor túlmelegedett(70 ° C) /vagy a termosztát meghibásodott.</value>
+  </data>
+  <data name="ES1422_1" xml:space="preserve">
+    <value>A keverő sebességváltó olaj túlmelegedett(70 ° C) /vagy az érzékelő meghibásodott.</value>
+  </data>
+  <data name="ES1423_1" xml:space="preserve">
+    <value>K108_Keverő karbantartási ajtó nyiva /vagy a kapcsoló beállításon állítani kell, vagy a kapcsoló meghibásodott.</value>
+  </data>
+  <data name="ES1424_1" xml:space="preserve">
+    <value>A felvonó fékbetét elkopott/ vagy a beállításon korrigálni kell/ vagy a fék kapcsoló beállításán állítani kell/vagy elromlott</value>
+  </data>
+  <data name="ES1425_1" xml:space="preserve">
+    <value>A felvonó tartály nincs az alsó pozícióban /vagy a pozíció kapcsoló beállításon állítani kell, vagy a kapcsoló meghibásodott.</value>
+  </data>
+  <data name="ES1426_1" xml:space="preserve">
+    <value>Mérleg szalag húzózsinór kapcsoló behúzva</value>
+  </data>
+  <data name="ES1427_1" xml:space="preserve">
+    <value>A keverő nem működik</value>
+  </data>
+  <data name="ES1428_1" xml:space="preserve">
+    <value>XB46_Fázis hiba(1)</value>
+  </data>
+  <data name="ES1429_1" xml:space="preserve">
+    <value>XB46_A felvonó csille fék kapcsoló ki van iktatva, tévesen van beállítva vagy elromlott</value>
+  </data>
+  <data name="ES1430_1" xml:space="preserve">
+    <value>Általános biztonság</value>
+  </data>
+  <data name="ES1431_1" xml:space="preserve">
+    <value>XB46_Általános hiba</value>
+  </data>
+  <data name="ES1432_1" xml:space="preserve">
+    <value>Hidraulikus ajtó hiba</value>
+  </data>
+  <data name="ES1433_1" xml:space="preserve">
+    <value>Keverő megállt</value>
+  </data>
+  <data name="ES1434_1" xml:space="preserve">
+    <value>Mérő szalag 1 motor TMS hiba</value>
+  </data>
+  <data name="ES1435_1" xml:space="preserve">
+    <value>Mérő szalag 1 vibrátor TMS hiba</value>
+  </data>
+  <data name="ES1437_1" xml:space="preserve">
+    <value>Adalékanyag tároló 2 vibrátor TMS hiba</value>
+  </data>
+  <data name="ES1438_1" xml:space="preserve">
+    <value>Adalékanyag tároló 3 vibrátor TMS hiba</value>
+  </data>
+  <data name="ES1439_1" xml:space="preserve">
+    <value>Szállító szalag motor TMS hiba</value>
+  </data>
+  <data name="ES1440_1" xml:space="preserve">
+    <value>Felvonó motor TMS hiba</value>
+  </data>
+  <data name="ES1441_1" xml:space="preserve">
+    <value>Cement csiga motor TMS hiba</value>
+  </data>
+  <data name="ES1442_1" xml:space="preserve">
+    <value>Cement mérő tartály vibrátor TMS hiba</value>
+  </data>
+  <data name="ES1443_1" xml:space="preserve">
+    <value>Adalékanyag tároló tartály vobrátor TMS hiba</value>
+  </data>
+  <data name="ES1444_1" xml:space="preserve">
+    <value>Kompresszor motor TMS hiba</value>
+  </data>
+  <data name="ES1445_1" xml:space="preserve">
+    <value>Keverő motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES1446_1" xml:space="preserve">
+    <value>Cement csiga 1 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES1447_1" xml:space="preserve">
+    <value>Cement csiga 2 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES1448_1" xml:space="preserve">
+    <value>Cement csiga 3 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES1449_1" xml:space="preserve">
+    <value>Cement csiga 4 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES1450_1" xml:space="preserve">
+    <value>Mérő szalag tartály túltöltési hiba</value>
+  </data>
+  <data name="ES1451_1" xml:space="preserve">
+    <value>Támogatás</value>
+  </data>
+  <data name="ES1454_1" xml:space="preserve">
+    <value>Keverő névleges aktuális felvételi felülete</value>
+  </data>
+  <data name="ES1455_1" xml:space="preserve">
+    <value>Leírás : Amikor a keverő üresjáratban fut, meg kell határozni, hogy mennyi áramot húz, ezt az értéket összehasonlítja az aktuális veszi, ha a keverő üresnek minősül az automatikus gyártás, és ez érthető, hogy a keverő valóban üres. Ha a keverő túl aktuális, a keverő nem veszi a következő körben.</value>
+  </data>
+  <data name="ES1457_1" xml:space="preserve">
+    <value>Aktuális érték rögzítése és mentése</value>
+  </data>
+  <data name="ES1458_1" xml:space="preserve">
+    <value>2. lépés : Adja meg a tűréshatárt. Ez a tűrésérték határozza meg, hogy a rögzített érték mennyit haladhatja meg az aktuális érték ellenőrzése során, és százalékban van megadva.</value>
+  </data>
+  <data name="ES1459_1" xml:space="preserve">
+    <value>1. lépés: Kézi a kapcsolót, és győződjön meg róla, hogy a keverő üres, és indítsa el a mixer. Ezután nyomja meg az alábbi gombot, hogy rögzítse az áram, hogy a mixer húzza tétlen. Ez a folyamat 5 másodpercig tart. Várja meg, amíg az aktuális érték az alábbi mutatóra kerül.</value>
+  </data>
+  <data name="ES1460_1" xml:space="preserve">
+    <value>3. lépés: Ellenőrizze az alábbi táblázatot, ha a műveletek sikeresen befejeződtek, az aktuális felvételi bitnek 0-nak kell lennie, és a bit eredményeként a tranzakciónak 1-nek kell lennie.</value>
+  </data>
+  <data name="ES1461_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1462_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1463_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1464_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1467_1" xml:space="preserve">
+    <value>Félautomata</value>
+  </data>
+  <data name="ES1468_1" xml:space="preserve">
+    <value>Félig automatikus</value>
+  </data>
+  <data name="ES146_1" xml:space="preserve">
+    <value>Cég neveı</value>
+  </data>
+  <data name="ES1472_1" xml:space="preserve">
+    <value>Félig automatikus</value>
+  </data>
+  <data name="ES1473_0" xml:space="preserve">
+    <value>Hz</value>
+  </data>
+  <data name="ES1474_1" xml:space="preserve">
+    <value>Víz és additív Sayac beállítások</value>
+  </data>
+  <data name="ES1475_1" xml:space="preserve">
+    <value>Keverő túlfolyási határa</value>
+  </data>
+  <data name="ES1476_0" xml:space="preserve">
+    <value>1350 kg</value>
+  </data>
+  <data name="ES1477_0" xml:space="preserve">
+    <value>2500 kg</value>
+  </data>
+  <data name="ES1478_0" xml:space="preserve">
+    <value>5000 kg</value>
+  </data>
+  <data name="ES1479_0" xml:space="preserve">
+    <value>7500 kg</value>
+  </data>
+  <data name="ES147_1" xml:space="preserve">
+    <value>Telefonszáma</value>
+  </data>
+  <data name="ES1480_0" xml:space="preserve">
+    <value>10000 kg</value>
+  </data>
+  <data name="ES1481_0" xml:space="preserve">
+    <value>1500 kg</value>
+  </data>
+  <data name="ES1485_1" xml:space="preserve">
+    <value>Receipt name is incorrect</value>
+  </data>
+  <data name="ES1486_1" xml:space="preserve">
+    <value>O905_Emergency Button Was Pressed</value>
+  </data>
+  <data name="ES1489_1" xml:space="preserve">
+    <value>Recept küldés</value>
+  </data>
+  <data name="ES148_1" xml:space="preserve">
+    <value>Címe</value>
+  </data>
+  <data name="ES1490_1" xml:space="preserve">
+    <value>Recept küldés</value>
+  </data>
+  <data name="ES1491_1" xml:space="preserve">
+    <value>Recept küldés</value>
+  </data>
+  <data name="ES1493_1" xml:space="preserve">
+    <value>Csiga túláram határ működési idő</value>
+  </data>
+  <data name="ES1494_1" xml:space="preserve">
+    <value>Benaplózott mennyiség</value>
+  </data>
+  <data name="ES1495_1" xml:space="preserve">
+    <value>Készletregisztrációs jelentés</value>
+  </data>
+  <data name="ES1496_1" xml:space="preserve">
+    <value>Az élet vége</value>
+  </data>
+  <data name="ES1497_1" xml:space="preserve">
+    <value>A ManualUretim eredményei</value>
+  </data>
+  <data name="ES1498_1" xml:space="preserve">
+    <value>Kézi összesítés1</value>
+  </data>
+  <data name="ES1499_1" xml:space="preserve">
+    <value>Kézi összesítés2</value>
+  </data>
+  <data name="ES149_1" xml:space="preserve">
+    <value>Érintett személy</value>
+  </data>
+  <data name="ES1500_1" xml:space="preserve">
+    <value>Kézi összesítés3</value>
+  </data>
+  <data name="ES1501_1" xml:space="preserve">
+    <value>Kézi összesítés4</value>
+  </data>
+  <data name="ES1502_1" xml:space="preserve">
+    <value>Kézi cement1</value>
+  </data>
+  <data name="ES1503_1" xml:space="preserve">
+    <value>Kézi cement2</value>
+  </data>
+  <data name="ES1504_1" xml:space="preserve">
+    <value>Kézi hozzájárulás1</value>
+  </data>
+  <data name="ES1505_1" xml:space="preserve">
+    <value>Kézi hozzájárulás2</value>
+  </data>
+  <data name="ES1506_1" xml:space="preserve">
+    <value>Kézi víz1</value>
+  </data>
+  <data name="ES1507_1" xml:space="preserve">
+    <value>Kézi víz2</value>
+  </data>
+  <data name="ES1508_1" xml:space="preserve">
+    <value>Felhasználónév</value>
+  </data>
+  <data name="ES1509_1" xml:space="preserve">
+    <value>Elkomix-60 Compact Master</value>
+  </data>
+  <data name="ES150_1" xml:space="preserve">
+    <value>Adó adminisztrációi</value>
+  </data>
+  <data name="ES1510_1" xml:space="preserve">
+    <value>Elkomix-90 Compact Master</value>
+  </data>
+  <data name="ES1511_1" xml:space="preserve">
+    <value>AL_A600 Víz mérleg tartály ürítő szivattyú motor TMS hiba</value>
+  </data>
+  <data name="ES1512_1" xml:space="preserve">
+    <value>AL_A700 Vegyszer szivattyú motor TMS hiba</value>
+  </data>
+  <data name="ES1514_1" xml:space="preserve">
+    <value>L302 Szállító szalag húzózsinór kapcsoló behúzva</value>
+  </data>
+  <data name="ES1516_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1517_1" xml:space="preserve">
+    <value>Nem teljes a termelés. Biztosan folytatja az alaphelyzetbe állítási folyamatot?</value>
+  </data>
+  <data name="ES1518_0" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="ES1519_0" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ES151_1" xml:space="preserve">
+    <value>Adó szám</value>
+  </data>
+  <data name="ES1520_0" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="ES1521_0" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="ES1522_0" xml:space="preserve">
+    <value>Magyar</value>
+  </data>
+  <data name="ES1524_1" xml:space="preserve">
+    <value>Paraméterek</value>
+  </data>
+  <data name="ES1525_1" xml:space="preserve">
+    <value>Vevő adatai</value>
+  </data>
+  <data name="ES1526_1" xml:space="preserve">
+    <value>Termeléstervezés és jelentések</value>
+  </data>
+  <data name="ES1527_1" xml:space="preserve">
+    <value>Azonnali manuális gyártási eredmények</value>
+  </data>
+  <data name="ES152_1" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="ES1530_0" xml:space="preserve">
+    <value>Silo 2</value>
+  </data>
+  <data name="ES1531_0" xml:space="preserve">
+    <value>Silo 3</value>
+  </data>
+  <data name="ES1532_0" xml:space="preserve">
+    <value>Silo 4</value>
+  </data>
+  <data name="ES1533_0" xml:space="preserve">
+    <value>Silo 1</value>
+  </data>
+  <data name="ES1534_1" xml:space="preserve">
+    <value>Jármű típusa</value>
+  </data>
+  <data name="ES1535_1" xml:space="preserve">
+    <value>Teherautó</value>
+  </data>
+  <data name="ES1536_1" xml:space="preserve">
+    <value>Transzmixer</value>
+  </data>
+  <data name="ES1537_1" xml:space="preserve">
+    <value>Szivattyú</value>
+  </data>
+  <data name="ES1538_1" xml:space="preserve">
+    <value>Konkrét tulajdonságok</value>
+  </data>
+  <data name="ES1539_1" xml:space="preserve">
+    <value>Erő osztály</value>
+  </data>
+  <data name="ES153_1" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ES1540_1" xml:space="preserve">
+    <value>Konzisztenciaosztály</value>
+  </data>
+  <data name="ES1541_1" xml:space="preserve">
+    <value>Dona ellenálló osztály</value>
+  </data>
+  <data name="ES1542_1" xml:space="preserve">
+    <value>Vízállósági osztály</value>
+  </data>
+  <data name="ES1543_1" xml:space="preserve">
+    <value>Sűrűségosztály</value>
+  </data>
+  <data name="ES1544_1" xml:space="preserve">
+    <value>Klorid tartalom osztály</value>
+  </data>
+  <data name="ES1545_1" xml:space="preserve">
+    <value>A betonkeverési arányok határértékei</value>
+  </data>
+  <data name="ES1546_1" xml:space="preserve">
+    <value>Maximális víz/cement arány</value>
+  </data>
+  <data name="ES1547_1" xml:space="preserve">
+    <value>Minimális cementtartalom</value>
+  </data>
+  <data name="ES1548_1" xml:space="preserve">
+    <value>Minimális betonellenállási osztály</value>
+  </data>
+  <data name="ES1549_0" xml:space="preserve">
+    <value>Minimális levegőtartalma beton</value>
+  </data>
+  <data name="ES1558_1" xml:space="preserve">
+    <value>Magyarázat</value>
+  </data>
+  <data name="ES1559_1" xml:space="preserve">
+    <value>Magyarázat 2</value>
+  </data>
+  <data name="ES1560_1" xml:space="preserve">
+    <value>Új</value>
+  </data>
+  <data name="ES1561_1" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ES1575_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1576_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1577_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1578_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1582_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1583_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1584_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1585_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1586_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1587_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1588_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1589_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES158_1" xml:space="preserve">
+    <value>Kapacitás</value>
+  </data>
+  <data name="ES1590_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1591_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1592_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1593_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1594_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1595_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1596_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1597_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1598_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1599_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES15_1" xml:space="preserve">
+    <value>Kezelőpanel</value>
+  </data>
+  <data name="ES1600_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1601_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1602_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1603_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1604_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1605_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1606_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1607_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1608_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1609_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1610_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1611_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1612_1" xml:space="preserve">
+    <value>1. leírás (cement és adalékanyag típusa)</value>
+  </data>
+  <data name="ES1613_1" xml:space="preserve">
+    <value>2. leírás (legnagyobb névleges szemcseméret és erősség osztály)</value>
+  </data>
+  <data name="ES1619_0" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ES161_1" xml:space="preserve">
+    <value>Sofőr</value>
+  </data>
+  <data name="ES1620_0" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="ES1621_1" xml:space="preserve">
+    <value>Történelem</value>
+  </data>
+  <data name="ES1622_1" xml:space="preserve">
+    <value>Vibrátor takarmány TMS hiba Hálózat1</value>
+  </data>
+  <data name="ES1623_1" xml:space="preserve">
+    <value>Vibrátor takarmány TMS hiba Hálózat2</value>
+  </data>
+  <data name="ES1624_1" xml:space="preserve">
+    <value>Vibrátor takarmány TMS hiba Hálózat3</value>
+  </data>
+  <data name="ES1625_1" xml:space="preserve">
+    <value>A takarmányból szükséges aggregált mennyiség az aggregált vibrátorral 1</value>
+  </data>
+  <data name="ES1626_1" xml:space="preserve">
+    <value>A takarmányból szükséges aggregált mennyiség az aggregált vibrátorral 2</value>
+  </data>
+  <data name="ES1627_1" xml:space="preserve">
+    <value>A takarmányból szükséges aggregált mennyiség az aggregált vibrátorral 3</value>
+  </data>
+  <data name="ES1628_1" xml:space="preserve">
+    <value>A takarmányból szükséges aggregált mennyiség az aggregált vibrátorral 4</value>
+  </data>
+  <data name="ES1629_1" xml:space="preserve">
+    <value>Távoli kapcsolat</value>
+  </data>
+  <data name="ES162_1" xml:space="preserve">
+    <value>Tétel 1</value>
+  </data>
+  <data name="ES1630_0" xml:space="preserve">
+    <value>AnyDesk</value>
+  </data>
+  <data name="ES1631_0" xml:space="preserve">
+    <value>Alpemix</value>
+  </data>
+  <data name="ES1632_0" xml:space="preserve">
+    <value>Team Viewer</value>
+  </data>
+  <data name="ES1633_1" xml:space="preserve">
+    <value>Nullázza a feladási sz</value>
+  </data>
+  <data name="ES163_1" xml:space="preserve">
+    <value>Tétel 2</value>
+  </data>
+  <data name="ES1644_1" xml:space="preserve">
+    <value>A vízszelep maximális üzemideje</value>
+  </data>
+  <data name="ES1645_1" xml:space="preserve">
+    <value>Adalékanyag-szivattyú maximális üzemideje</value>
+  </data>
+  <data name="ES1652_1" xml:space="preserve">
+    <value>E702_A recept szerinti vegyszer mennyiséget nem lehet betölteni a mérleg tartályba a meghatározot maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1653_1" xml:space="preserve">
+    <value>E602_A recept szerinti víz mennyiséget nem lehet betölteni a mérleg tartályba a meghatározot maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1654_1" xml:space="preserve">
+    <value>E505_A recept szerinti cement mennyiséget nem lehet betölteni a mérleg tartályba a meghatározot maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1655_1" xml:space="preserve">
+    <value>F603_A víz tartály nem tudta elérni az üresnek elfogadott értéket a meghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1656_1" xml:space="preserve">
+    <value>F703_A vegyszer tartály nem tudta elérni az üresnek elfogadott értéket a meghatározott maximális időtartamon belül.</value>
+  </data>
+  <data name="ES1657_1" xml:space="preserve">
+    <value>A cementburkolat maximális kisülési ideje</value>
+  </data>
+  <data name="ES1658_1" xml:space="preserve">
+    <value>Adalékanyag maximális kisülési ideje</value>
+  </data>
+  <data name="ES1659_1" xml:space="preserve">
+    <value>A vízborító maximális ürítési ideje</value>
+  </data>
+  <data name="ES1660_1" xml:space="preserve">
+    <value>Összesített takaró maximális kisülési ideje</value>
+  </data>
+  <data name="ES1662_1" xml:space="preserve">
+    <value>Neve</value>
+  </data>
+  <data name="ES1663_1" xml:space="preserve">
+    <value>Van egy pult</value>
+  </data>
+  <data name="ES1664_1" xml:space="preserve">
+    <value>Nincs számláló</value>
+  </data>
+  <data name="ES1665_1" xml:space="preserve">
+    <value>Nincs skála</value>
+  </data>
+  <data name="ES1666_1" xml:space="preserve">
+    <value>ott mérlegek</value>
+  </data>
+  <data name="ES1667_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1671_1" xml:space="preserve">
+    <value>Kettős borítással rendelkezik</value>
+  </data>
+  <data name="ES1672_1" xml:space="preserve">
+    <value>Nincs dupla fedél</value>
+  </data>
+  <data name="ES1674_1" xml:space="preserve">
+    <value>Kenési útmutató</value>
+  </data>
+  <data name="ES1675_1" xml:space="preserve">
+    <value>Automatikus kenés</value>
+  </data>
+  <data name="ES1676_1" xml:space="preserve">
+    <value>tettetés</value>
+  </data>
+  <data name="ES1677_0" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="ES1678_0" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="ES1679_0" xml:space="preserve">
+    <value>Kg</value>
+  </data>
+  <data name="ES1680_1" xml:space="preserve">
+    <value>Quick 35 tettetés</value>
+  </data>
+  <data name="ES1681_1" xml:space="preserve">
+    <value>Compact 60 tettetés</value>
+  </data>
+  <data name="ES1682_0" xml:space="preserve">
+    <value>m^3</value>
+  </data>
+  <data name="ES1683_1" xml:space="preserve">
+    <value>Főáram-transzformátor</value>
+  </data>
+  <data name="ES1684_1" xml:space="preserve">
+    <value>Keverő áramváltó</value>
+  </data>
+  <data name="ES1685_1" xml:space="preserve">
+    <value>Spirálátalakító</value>
+  </data>
+  <data name="ES1686_0" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="ES1691_1" xml:space="preserve">
+    <value>Készletbeviteli idő</value>
+  </data>
+  <data name="ES1693_1" xml:space="preserve">
+    <value>Bevitt mennyiség</value>
+  </data>
+  <data name="ES1694_1" xml:space="preserve">
+    <value>Felhasználó részvénykönyveléssel</value>
+  </data>
+  <data name="ES1696_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1697_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1703_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1704_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1708_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1709_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1711_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1712_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1713_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1714_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1715_1" xml:space="preserve">
+    <value>Cement skála kiegyensúlyozási ideje (másodpercben)</value>
+  </data>
+  <data name="ES1716_1" xml:space="preserve">
+    <value>Az adalékanyag skála üresként elfogadva (kg)</value>
+  </data>
+  <data name="ES1717_1" xml:space="preserve">
+    <value>Çimento kantarı ek boşaltma süresi(sn)</value>
+  </data>
+  <data name="ES1719_1" xml:space="preserve">
+    <value>Cement skála további ürítési idő (másodpercben)</value>
+  </data>
+  <data name="ES1720_1" xml:space="preserve">
+    <value>Víz skála további ürítési idő (másodpercben)</value>
+  </data>
+  <data name="ES1721_1" xml:space="preserve">
+    <value>Különbség aggregált 1</value>
+  </data>
+  <data name="ES1722_1" xml:space="preserve">
+    <value>Különbség aggregált 2</value>
+  </data>
+  <data name="ES1723_1" xml:space="preserve">
+    <value>Különbség aggregált 3</value>
+  </data>
+  <data name="ES1724_1" xml:space="preserve">
+    <value>Különbség aggregált 4</value>
+  </data>
+  <data name="ES1725_1" xml:space="preserve">
+    <value>Különbség cement 1</value>
+  </data>
+  <data name="ES1726_1" xml:space="preserve">
+    <value>Különbség cement 2</value>
+  </data>
+  <data name="ES1727_1" xml:space="preserve">
+    <value>Különbség-hozzájárulás 1</value>
+  </data>
+  <data name="ES1728_1" xml:space="preserve">
+    <value>Különbség-hozzájárulás 2</value>
+  </data>
+  <data name="ES1729_1" xml:space="preserve">
+    <value>Különbség a vízben 1</value>
+  </data>
+  <data name="ES1730_1" xml:space="preserve">
+    <value>Különbség a vízben 2</value>
+  </data>
+  <data name="ES1733_1" xml:space="preserve">
+    <value>A kívánt aggregátum (3) értéke, kg</value>
+  </data>
+  <data name="ES1734_1" xml:space="preserve">
+    <value>A kívánt aggregátum (2) értéke, kg</value>
+  </data>
+  <data name="ES1735_1" xml:space="preserve">
+    <value>İstenen agrega(1) değeri, kg</value>
+  </data>
+  <data name="ES1736_1" xml:space="preserve">
+    <value>İstenen agrega(4) değeri, kg</value>
+  </data>
+  <data name="ES1737_1" xml:space="preserve">
+    <value>A kívánt cement (1) értéke, kg</value>
+  </data>
+  <data name="ES1738_1" xml:space="preserve">
+    <value>A kívánt cement (2) értéke, kg</value>
+  </data>
+  <data name="ES1739_1" xml:space="preserve">
+    <value>Kívánt hozzájárulás (1) értéke, kg</value>
+  </data>
+  <data name="ES1740_1" xml:space="preserve">
+    <value>Kívánt hozzájárulás (2) értéke, kg</value>
+  </data>
+  <data name="ES1741_1" xml:space="preserve">
+    <value>Kívánt víz (1) értéke, kg</value>
+  </data>
+  <data name="ES1742_1" xml:space="preserve">
+    <value>Kívánt víz (2) értéke, kg</value>
+  </data>
+  <data name="ES1744_1" xml:space="preserve">
+    <value>Kihasznált aggregátum 1</value>
+  </data>
+  <data name="ES1745_1" xml:space="preserve">
+    <value>Kihasznált aggregátum 2</value>
+  </data>
+  <data name="ES1746_1" xml:space="preserve">
+    <value>Kihasznált aggregátum 3</value>
+  </data>
+  <data name="ES1747_1" xml:space="preserve">
+    <value>Kihasznált aggregátum 4</value>
+  </data>
+  <data name="ES1748_1" xml:space="preserve">
+    <value>Az elhasznált cement 1</value>
+  </data>
+  <data name="ES1749_1" xml:space="preserve">
+    <value>Az elhasznált cement 2</value>
+  </data>
+  <data name="ES1750_1" xml:space="preserve">
+    <value>Az elhasznált cement 3</value>
+  </data>
+  <data name="ES1751_1" xml:space="preserve">
+    <value>Az elhasznált cement 4</value>
+  </data>
+  <data name="ES1752_1" xml:space="preserve">
+    <value>Elköltött hozzájárulás 1</value>
+  </data>
+  <data name="ES1753_1" xml:space="preserve">
+    <value>Elköltött hozzájárulás 3</value>
+  </data>
+  <data name="ES1754_1" xml:space="preserve">
+    <value>Elköltött hozzájárulás 2</value>
+  </data>
+  <data name="ES1755_1" xml:space="preserve">
+    <value>Elköltött hozzájárulás 4</value>
+  </data>
+  <data name="ES1756_1" xml:space="preserve">
+    <value>Kiégett víz 1</value>
+  </data>
+  <data name="ES1757_1" xml:space="preserve">
+    <value>Kiégett víz 2</value>
+  </data>
+  <data name="ES1759_1" xml:space="preserve">
+    <value>Adalékanyag tároló 1 vibrációs adagoló vibrátorok TMS hiba</value>
+  </data>
+  <data name="ES1760_1" xml:space="preserve">
+    <value>Adalékanyag tároló 2 vibrációs adagoló vibrátorok TMS hiba</value>
+  </data>
+  <data name="ES1761_1" xml:space="preserve">
+    <value>Adalékanyag tároló 3 vibrációs adagoló vibrátorok TMS hiba</value>
+  </data>
+  <data name="ES1767_1" xml:space="preserve">
+    <value>Hozzáférés a naplókhoz</value>
+  </data>
+  <data name="ES1768_1" xml:space="preserve">
+    <value>Felhatalmazás a program bezárására</value>
+  </data>
+  <data name="ES1769_1" xml:space="preserve">
+    <value>Új cég hozzáadása, törlése vagy javítása</value>
+  </data>
+  <data name="ES1770_1" xml:space="preserve">
+    <value>Új eszköz törlése vagy javítása</value>
+  </data>
+  <data name="ES1771_1" xml:space="preserve">
+    <value>Új webhely hozzáadása, törlése vagy javítása</value>
+  </data>
+  <data name="ES1772_1" xml:space="preserve">
+    <value>Új illesztőprogramok hozzáadása, törlése vagy javítása</value>
+  </data>
+  <data name="ES1773_1" xml:space="preserve">
+    <value>Új anyag hozzáadása, törlés vagy javítás</value>
+  </data>
+  <data name="ES1774_1" xml:space="preserve">
+    <value>Raktárterületek szerkesztése</value>
+  </data>
+  <data name="ES1775_1" xml:space="preserve">
+    <value>Új recept hozzáadása, törlése vagy javítása</value>
+  </data>
+  <data name="ES1776_1" xml:space="preserve">
+    <value>Új rendelések hozzáadása, törlése vagy javítása</value>
+  </data>
+  <data name="ES1777_1" xml:space="preserve">
+    <value>Új termelési terv hozzáadása, törlése vagy javítása</value>
+  </data>
+  <data name="ES1778_1" xml:space="preserve">
+    <value>Hozzáférés a termelési eredmények jelentéséhez</value>
+  </data>
+  <data name="ES1779_1" xml:space="preserve">
+    <value>Hozzáférés a részletes termelési eredmények jelentéshez</value>
+  </data>
+  <data name="ES1780_1" xml:space="preserve">
+    <value>Hozzáférés a járműszállítás állapotjelentéséhez</value>
+  </data>
+  <data name="ES1781_1" xml:space="preserve">
+    <value>Hozzáférés a teljes kiadott anyag jelentéshez</value>
+  </data>
+  <data name="ES1782_1" xml:space="preserve">
+    <value>Hozzáférés az értékesítési jelentéshez</value>
+  </data>
+  <data name="ES1783_1" xml:space="preserve">
+    <value>Hozzáférés a kézi gyártási eredményekhez</value>
+  </data>
+  <data name="ES1784_1" xml:space="preserve">
+    <value>Hozzáférés a motor futási idejéhez</value>
+  </data>
+  <data name="ES1785_1" xml:space="preserve">
+    <value>Leltári nyilvántartások készítése</value>
+  </data>
+  <data name="ES1786_1" xml:space="preserve">
+    <value>Hozzáférés a mennyiségi készlet jelentéséhez</value>
+  </data>
+  <data name="ES1787_1" xml:space="preserve">
+    <value>Hozzáférés a készletbeviteli jelentéshez</value>
+  </data>
+  <data name="ES1788_1" xml:space="preserve">
+    <value>A felhasználói beállítások elérése</value>
+  </data>
+  <data name="ES1789_1" xml:space="preserve">
+    <value>A kalibrációs beállítások elérése</value>
+  </data>
+  <data name="ES17_1" xml:space="preserve">
+    <value>Naplók</value>
+  </data>
+  <data name="ES1801_1" xml:space="preserve">
+    <value>Transzfer sáv kiegészítő munkaidő</value>
+  </data>
+  <data name="ES1805_1" xml:space="preserve">
+    <value>Keverő üres</value>
+  </data>
+  <data name="ES1806_1" xml:space="preserve">
+    <value>Keverő tele</value>
+  </data>
+  <data name="ES1807_1" xml:space="preserve">
+    <value>Folyamatban</value>
+  </data>
+  <data name="ES1808_1" xml:space="preserve">
+    <value>termelés</value>
+  </data>
+  <data name="ES1811_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1812_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1816_1" xml:space="preserve">
+    <value>Vigyázat! Magas feszültség</value>
+  </data>
+  <data name="ES1817_1" xml:space="preserve">
+    <value>Vigyázat! Alacsony feszültség</value>
+  </data>
+  <data name="ES1818_1" xml:space="preserve">
+    <value>D902-1_Fázis hibai - (1)</value>
+  </data>
+  <data name="ES1819_1" xml:space="preserve">
+    <value>D902-2_Fázis hiba - (2)</value>
+  </data>
+  <data name="ES1820_1" xml:space="preserve">
+    <value>D902-3_Fázis hiba - (3)</value>
+  </data>
+  <data name="ES1821_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1832_1" xml:space="preserve">
+    <value>Kézi gombok rugóval berakva</value>
+  </data>
+  <data name="ES1833_1" xml:space="preserve">
+    <value>Kézi gombok mutatás és húzás</value>
+  </data>
+  <data name="ES1843_1" xml:space="preserve">
+    <value>Új rendelés</value>
+  </data>
+  <data name="ES1844_1" xml:space="preserve">
+    <value>Új termelési terv</value>
+  </data>
+  <data name="ES1845_1" xml:space="preserve">
+    <value>Kézi bevitel</value>
+  </data>
+  <data name="ES1846_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1847_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1849_1" xml:space="preserve">
+    <value>O910_A rendszer automatikus</value>
+  </data>
+  <data name="ES1850_1" xml:space="preserve">
+    <value>O911_A rendszer a kézikönyvben</value>
+  </data>
+  <data name="ES1851_1" xml:space="preserve">
+    <value>A rendszer félig automatikus</value>
+  </data>
+  <data name="ES1853_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1854_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1855_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1856_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1857_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1858_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1859_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1860_1" xml:space="preserve">
+    <value>Jelenítse meg a fuvarlevél szövegét</value>
+  </data>
+  <data name="ES1862_1" xml:space="preserve">
+    <value>Gyártási szám</value>
+  </data>
+  <data name="ES191_1" xml:space="preserve">
+    <value>Recept</value>
+  </data>
+  <data name="ES192_1" xml:space="preserve">
+    <value>Másodperc</value>
+  </data>
+  <data name="ES193_1" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="ES1941_1" xml:space="preserve">
+    <value>Alaphelyzetbe állítja a gyártási kódot</value>
+  </data>
+  <data name="ES1946_1" xml:space="preserve">
+    <value>Tömegtermelés</value>
+  </data>
+  <data name="ES1947_1" xml:space="preserve">
+    <value>Beton típus</value>
+  </data>
+  <data name="ES1948_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES194_1" xml:space="preserve">
+    <value>Adalékanyag 1</value>
+  </data>
+  <data name="ES1959_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1960_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1961_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1962_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1963_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES1965_0" xml:space="preserve">
+    <value>Polskie</value>
+  </data>
+  <data name="ES1966_1" xml:space="preserve">
+    <value>A gyártás leállt</value>
+  </data>
+  <data name="ES1967_1" xml:space="preserve">
+    <value>Termelés visszaállítása</value>
+  </data>
+  <data name="ES1968_1" xml:space="preserve">
+    <value>A gyártás befejeződött</value>
+  </data>
+  <data name="ES1969_1" xml:space="preserve">
+    <value>Megkezdődött az új gyártás</value>
+  </data>
+  <data name="ES1970_1" xml:space="preserve">
+    <value>Folytatja a gyártást</value>
+  </data>
+  <data name="ES1971_1" xml:space="preserve">
+    <value>A gyártás sikertelen</value>
+  </data>
+  <data name="ES197_1" xml:space="preserve">
+    <value>Adalékanyag 2</value>
+  </data>
+  <data name="ES198_1" xml:space="preserve">
+    <value>Adalékanyag 3</value>
+  </data>
+  <data name="ES1996_1" xml:space="preserve">
+    <value>Teljes rendelési mennyiség, m3</value>
+  </data>
+  <data name="ES1997_1" xml:space="preserve">
+    <value>Hátralévő mennyiség, m3</value>
+  </data>
+  <data name="ES199_1" xml:space="preserve">
+    <value>Adalékanyag 4</value>
+  </data>
+  <data name="ES19_1" xml:space="preserve">
+    <value>Kilép</value>
+  </data>
+  <data name="ES1_1" xml:space="preserve">
+    <value>Riasztás</value>
+  </data>
+  <data name="ES2001_0" xml:space="preserve">
+    <value>Válasszon egy másik silót az adalékanyag-vásárlás folytatásához (a jelenlegi silóban nem maradhat cement).</value>
+  </data>
+  <data name="ES2003_0" xml:space="preserve">
+    <value>Válasszon egy másik bunkert az aggregált bevitel folytatásához (az aktuális bunkerben nem maradt aggregátum).</value>
+  </data>
+  <data name="ES2009_0" xml:space="preserve">
+    <value>Konyhai ajtó nyitvatartási ideje</value>
+  </data>
+  <data name="ES2014_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2022_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2023_1" xml:space="preserve">
+    <value>változás</value>
+  </data>
+  <data name="ES2025_0" xml:space="preserve">
+    <value>Válassza az Új anyag elemet a készletben lévő anyag cseréjéhez</value>
+  </data>
+  <data name="ES2030_0" xml:space="preserve">
+    <value>Szálas anyag</value>
+  </data>
+  <data name="ES2031_0" xml:space="preserve">
+    <value>Alınan fiber(1) değeri, kg</value>
+  </data>
+  <data name="ES2032_0" xml:space="preserve">
+    <value>Alınan fiber(2) değeri, kg</value>
+  </data>
+  <data name="ES2033_0" xml:space="preserve">
+    <value>Alınan fiber(3) değeri, kg</value>
+  </data>
+  <data name="ES2061_0" xml:space="preserve">
+    <value>Jármű márka</value>
+  </data>
+  <data name="ES2064_0" xml:space="preserve">
+    <value>Visszatért betonmennyiség</value>
+  </data>
+  <data name="ES2065_0" xml:space="preserve">
+    <value>Vissza beton osztály</value>
+  </data>
+  <data name="ES2066_0" xml:space="preserve">
+    <value>Visszatérés a konkrét leíráshoz</value>
+  </data>
+  <data name="ES2067_0" xml:space="preserve">
+    <value>Vissza a gyártási szám</value>
+  </data>
+  <data name="ES206_1" xml:space="preserve">
+    <value>Keverési idő</value>
+  </data>
+  <data name="ES2073_0" xml:space="preserve">
+    <value>Tranzakciós oldal</value>
+  </data>
+  <data name="ES2074_0" xml:space="preserve">
+    <value>Tranzakciós oldal-Vezérlőpult</value>
+  </data>
+  <data name="ES2075_0" xml:space="preserve">
+    <value>Folyamatlap-Vezérlőpult-előállítási folyamat</value>
+  </data>
+  <data name="ES2076_0" xml:space="preserve">
+    <value>Folyamatlap-paraméterek</value>
+  </data>
+  <data name="ES2077_0" xml:space="preserve">
+    <value>Folyamatlap-paraméterek -Mentés</value>
+  </data>
+  <data name="ES2078_0" xml:space="preserve">
+    <value>Folyamatoldali paraméterek - Olvassa el a PLC-től</value>
+  </data>
+  <data name="ES2079_0" xml:space="preserve">
+    <value>Tranzakciós oldal-paraméterek - Küldés a PLC-nek</value>
+  </data>
+  <data name="ES207_1" xml:space="preserve">
+    <value>Keverő kiadási idő</value>
+  </data>
+  <data name="ES2080_0" xml:space="preserve">
+    <value>A folyamat leírása</value>
+  </data>
+  <data name="ES2081_0" xml:space="preserve">
+    <value>Folyamatleírás - cégek</value>
+  </data>
+  <data name="ES2082_0" xml:space="preserve">
+    <value>Folyamatleírás-cégek - új regisztráció</value>
+  </data>
+  <data name="ES2083_0" xml:space="preserve">
+    <value>Folyamatdefiníció-cégek - regisztráció frissítése</value>
+  </data>
+  <data name="ES2084_0" xml:space="preserve">
+    <value>Folyamatdefiníció-cégek - regisztráció törlése</value>
+  </data>
+  <data name="ES2085_0" xml:space="preserve">
+    <value>Folyamatmeghatározás - eszközök</value>
+  </data>
+  <data name="ES2086_0" xml:space="preserve">
+    <value>A folyamat meghatározása - eszközök - új regisztráció</value>
+  </data>
+  <data name="ES2087_0" xml:space="preserve">
+    <value>Folyamatdefiníció-eszközök-regisztráció frissítése</value>
+  </data>
+  <data name="ES2088_0" xml:space="preserve">
+    <value>A folyamat meghatározása - építkezési helyek</value>
+  </data>
+  <data name="ES2089_0" xml:space="preserve">
+    <value>A folyamat meghatározása - építkezési helyek</value>
+  </data>
+  <data name="ES208_1" xml:space="preserve">
+    <value>Cement</value>
+  </data>
+  <data name="ES2090_0" xml:space="preserve">
+    <value>A folyamat meghatározása - Építési helyek - Új regisztráció</value>
+  </data>
+  <data name="ES2091_0" xml:space="preserve">
+    <value>Folyamatmeghatározás - Építési helyek-regisztráció frissítése</value>
+  </data>
+  <data name="ES2092_0" xml:space="preserve">
+    <value>A folyamat meghatározása - Építési helyek-törlés</value>
+  </data>
+  <data name="ES2093_0" xml:space="preserve">
+    <value>Folyamatmeghatározás-illesztőprogramok - új rekord</value>
+  </data>
+  <data name="ES2094_0" xml:space="preserve">
+    <value>A folyamat meghatározása - Illesztőprogramok - Frissítés frissítése</value>
+  </data>
+  <data name="ES2095_0" xml:space="preserve">
+    <value>A folyamat meghatározása - Illesztőprogramok - A regisztráció törlése</value>
+  </data>
+  <data name="ES2096_0" xml:space="preserve">
+    <value>A folyamat meghatározása - Anyagok</value>
+  </data>
+  <data name="ES2097_0" xml:space="preserve">
+    <value>A folyamat meghatározása-anyagok-új rekord</value>
+  </data>
+  <data name="ES2098_0" xml:space="preserve">
+    <value>Folyamatdefiníció-anyagok-nyilvántartás frissítése</value>
+  </data>
+  <data name="ES2099_0" xml:space="preserve">
+    <value>A folyamat leírása-anyagok-regisztráció törlése</value>
+  </data>
+  <data name="ES209_1" xml:space="preserve">
+    <value>Vegyyszer</value>
+  </data>
+  <data name="ES20_1" xml:space="preserve">
+    <value>Ablak 1</value>
+  </data>
+  <data name="ES2100_0" xml:space="preserve">
+    <value>Folyamatmeghatározás-raktárterületek</value>
+  </data>
+  <data name="ES2101_0" xml:space="preserve">
+    <value>A tranzakció-részvényterületek meghatározása - új regisztráció</value>
+  </data>
+  <data name="ES2102_0" xml:space="preserve">
+    <value>Folyamatmeghatározás - Készletterületek - Rekordfrissítés</value>
+  </data>
+  <data name="ES2103_0" xml:space="preserve">
+    <value>Folyamat meghatározása - raktárterületek-regisztráció Törlés</value>
+  </data>
+  <data name="ES2104_0" xml:space="preserve">
+    <value>A folyamat meghatározása - riasztási megoldások</value>
+  </data>
+  <data name="ES2105_0" xml:space="preserve">
+    <value>A folyamat meghatározása - Riasztási megoldások - Új regisztráció</value>
+  </data>
+  <data name="ES2106_0" xml:space="preserve">
+    <value>Folyamat meghatározása - Riasztási megoldások - Felvétel frissítése</value>
+  </data>
+  <data name="ES2107_0" xml:space="preserve">
+    <value>Folyamatmeghatározás - riasztási megoldások - regisztráció törlése</value>
+  </data>
+  <data name="ES2108_0" xml:space="preserve">
+    <value>Receptek-recept leírása</value>
+  </data>
+  <data name="ES2109_0" xml:space="preserve">
+    <value>Receptek-Receptek leírás-Új regisztráció</value>
+  </data>
+  <data name="ES210_1" xml:space="preserve">
+    <value>Idő késleltetés</value>
+  </data>
+  <data name="ES2110_0" xml:space="preserve">
+    <value>Receptek- Receptek leírása- Regisztráció frissítése</value>
+  </data>
+  <data name="ES2111_0" xml:space="preserve">
+    <value>Receptek- Receptek leírása- Regisztráció törlése</value>
+  </data>
+  <data name="ES2112_0" xml:space="preserve">
+    <value>Receptek - Receptek leírása - Küldés a PLC-nek</value>
+  </data>
+  <data name="ES2113_0" xml:space="preserve">
+    <value>Termelés</value>
+  </data>
+  <data name="ES2114_0" xml:space="preserve">
+    <value>Termelés - Tervezési terv</value>
+  </data>
+  <data name="ES2115_0" xml:space="preserve">
+    <value>Termelés- Termelési terv - Új rekord</value>
+  </data>
+  <data name="ES2116_0" xml:space="preserve">
+    <value>Termelés- Termelési terv- Regisztráció frissítése</value>
+  </data>
+  <data name="ES2117_0" xml:space="preserve">
+    <value>Termelés - Termelési terv - Nem regisztráció</value>
+  </data>
+  <data name="ES2118_0" xml:space="preserve">
+    <value>Termelés - rendelési gyártási terv</value>
+  </data>
+  <data name="ES2119_0" xml:space="preserve">
+    <value>Termelés - Rendelési gyártási terv - Új regisztráció</value>
+  </data>
+  <data name="ES211_1" xml:space="preserve">
+    <value>Mérleg paraméterei</value>
+  </data>
+  <data name="ES2120_0" xml:space="preserve">
+    <value>Termelés - Megrendelés Tervezési terv - Regisztráció frissítése</value>
+  </data>
+  <data name="ES2121_0" xml:space="preserve">
+    <value>Termelés - Termelési eredmények</value>
+  </data>
+  <data name="ES2122_0" xml:space="preserve">
+    <value>Gyártás - Kézi gyártási eredmények</value>
+  </data>
+  <data name="ES2123_0" xml:space="preserve">
+    <value>Termelés - motor futási ideje</value>
+  </data>
+  <data name="ES2124_0" xml:space="preserve">
+    <value>Leltár muveletek</value>
+  </data>
+  <data name="ES2125_0" xml:space="preserve">
+    <value>Készlet tranzakciók - új regisztráció</value>
+  </data>
+  <data name="ES2126_0" xml:space="preserve">
+    <value>Jelentés</value>
+  </data>
+  <data name="ES2127_0" xml:space="preserve">
+    <value>Jelentés-készítési jelentések</value>
+  </data>
+  <data name="ES2128_0" xml:space="preserve">
+    <value>Jelentés-készlet jelentések</value>
+  </data>
+  <data name="ES2129_0" xml:space="preserve">
+    <value>Jelentés- Készletjelentés- Mennyiség Készletjelentés</value>
+  </data>
+  <data name="ES212_1" xml:space="preserve">
+    <value>Keverő paraméterei</value>
+  </data>
+  <data name="ES2130_0" xml:space="preserve">
+    <value>Jelentés- Készletjelentések- Készletkötési jelentés</value>
+  </data>
+  <data name="ES2131_0" xml:space="preserve">
+    <value>Jelentés-készletjelentés - Összes anyagköltség-jelentés</value>
+  </data>
+  <data name="ES2132_0" xml:space="preserve">
+    <value>Felhasználói muveletek</value>
+  </data>
+  <data name="ES2133_0" xml:space="preserve">
+    <value>Felhasználói műveletek -Felhasználók és csoportok</value>
+  </data>
+  <data name="ES2134_0" xml:space="preserve">
+    <value>Felhasználói műveletek --- Felhasználók és csoportok - Új regisztráció</value>
+  </data>
+  <data name="ES2135_0" xml:space="preserve">
+    <value>Felhasználói tevékenységek - felhasználók és csoportok - frissítés frissítése</value>
+  </data>
+  <data name="ES2136_0" xml:space="preserve">
+    <value>Környezeti hatás</value>
+  </data>
+  <data name="ES213_1" xml:space="preserve">
+    <value>Kalibráció</value>
+  </data>
+  <data name="ES21_1" xml:space="preserve">
+    <value>Cégek</value>
+  </data>
+  <data name="ES220_1" xml:space="preserve">
+    <value>Cement 1</value>
+  </data>
+  <data name="ES225_1" xml:space="preserve">
+    <value>Levegő shokk</value>
+  </data>
+  <data name="ES22_1" xml:space="preserve">
+    <value>Járművek</value>
+  </data>
+  <data name="ES239_1" xml:space="preserve">
+    <value>Kalibráció oldal</value>
+  </data>
+  <data name="ES23_1" xml:space="preserve">
+    <value>Munkaterület</value>
+  </data>
+  <data name="ES240_1" xml:space="preserve">
+    <value>Visszaállít</value>
+  </data>
+  <data name="ES241_1" xml:space="preserve">
+    <value>Vége</value>
+  </data>
+  <data name="ES246_1" xml:space="preserve">
+    <value>Adalékanyag mérleg tartály egyensúlyba hozás idő</value>
+  </data>
+  <data name="ES24_1" xml:space="preserve">
+    <value>Sofőrök</value>
+  </data>
+  <data name="ES2512_1" xml:space="preserve">
+    <value>Adalékanyag nedvesség számítás kg</value>
+  </data>
+  <data name="ES25_1" xml:space="preserve">
+    <value>Anyagok</value>
+  </data>
+  <data name="ES264_1" xml:space="preserve">
+    <value>Kért pontos mennyiség soradagoló mérlegkapu 1</value>
+  </data>
+  <data name="ES265_1" xml:space="preserve">
+    <value>Kért pontos mennyiség soradagoló mérlegkapu 2</value>
+  </data>
+  <data name="ES266_1" xml:space="preserve">
+    <value>Kért pontos mennyiség soradagoló mérlegkapu 3</value>
+  </data>
+  <data name="ES267_1" xml:space="preserve">
+    <value>Kért pontos mennyiség soradagoló mérlegkapu 4</value>
+  </data>
+  <data name="ES268_1" xml:space="preserve">
+    <value>Kézi</value>
+  </data>
+  <data name="ES269_1" xml:space="preserve">
+    <value>Automata</value>
+  </data>
+  <data name="ES26_1" xml:space="preserve">
+    <value>Raktár terület</value>
+  </data>
+  <data name="ES2714_1" xml:space="preserve">
+    <value>Cement (3) különbség, kg</value>
+  </data>
+  <data name="ES2715_1" xml:space="preserve">
+    <value>Cement (4) különbség, kg</value>
+  </data>
+  <data name="ES2716_1" xml:space="preserve">
+    <value>A kívánt cement (3) értéke, kg</value>
+  </data>
+  <data name="ES2717_1" xml:space="preserve">
+    <value>A kívánt cement (4) értéke, kg</value>
+  </data>
+  <data name="ES2718_1" xml:space="preserve">
+    <value>A kapott cement értéke (3), kg</value>
+  </data>
+  <data name="ES2719_1" xml:space="preserve">
+    <value>A kapott cement értéke (4), kg</value>
+  </data>
+  <data name="ES2725_1" xml:space="preserve">
+    <value>Keverő áramlási jelentés</value>
+  </data>
+  <data name="ES2735_1" xml:space="preserve">
+    <value>Paraméter kimenet</value>
+  </data>
+  <data name="ES2742_0" xml:space="preserve">
+    <value>D-Class</value>
+  </data>
+  <data name="ES2743_0" xml:space="preserve">
+    <value>C-Class</value>
+  </data>
+  <data name="ES2744_0" xml:space="preserve">
+    <value>B-Class</value>
+  </data>
+  <data name="ES2745_0" xml:space="preserve">
+    <value>A-Class</value>
+  </data>
+  <data name="ES2746_0" xml:space="preserve">
+    <value>E-Class</value>
+  </data>
+  <data name="ES2747_0" xml:space="preserve">
+    <value>F-Class</value>
+  </data>
+  <data name="ES2748_0" xml:space="preserve">
+    <value>G-Class</value>
+  </data>
+  <data name="ES2749_0" xml:space="preserve">
+    <value>H-Class</value>
+  </data>
+  <data name="ES2750_0" xml:space="preserve">
+    <value>K-Class</value>
+  </data>
+  <data name="ES2751_0" xml:space="preserve">
+    <value>L-Class</value>
+  </data>
+  <data name="ES2752_0" xml:space="preserve">
+    <value>M-Class</value>
+  </data>
+  <data name="ES2753_0" xml:space="preserve">
+    <value>N-Class</value>
+  </data>
+  <data name="ES2754_0" xml:space="preserve">
+    <value>O-Class</value>
+  </data>
+  <data name="ES2756_0" xml:space="preserve">
+    <value>A100</value>
+  </data>
+  <data name="ES2757_0" xml:space="preserve">
+    <value>A111</value>
+  </data>
+  <data name="ES2758_0" xml:space="preserve">
+    <value>A112</value>
+  </data>
+  <data name="ES2759_0" xml:space="preserve">
+    <value>A200</value>
+  </data>
+  <data name="ES2761_0" xml:space="preserve">
+    <value>A201</value>
+  </data>
+  <data name="ES2762_0" xml:space="preserve">
+    <value>A202</value>
+  </data>
+  <data name="ES2763_0" xml:space="preserve">
+    <value>A203</value>
+  </data>
+  <data name="ES2764_0" xml:space="preserve">
+    <value>A300</value>
+  </data>
+  <data name="ES2765_0" xml:space="preserve">
+    <value>A400</value>
+  </data>
+  <data name="ES2766_0" xml:space="preserve">
+    <value>A500</value>
+  </data>
+  <data name="ES2767_0" xml:space="preserve">
+    <value>A501</value>
+  </data>
+  <data name="ES2768_0" xml:space="preserve">
+    <value>A800</value>
+  </data>
+  <data name="ES2769_0" xml:space="preserve">
+    <value>A900</value>
+  </data>
+  <data name="ES276_1" xml:space="preserve">
+    <value>Mérleg szalag maximum futási idő</value>
+  </data>
+  <data name="ES2770_0" xml:space="preserve">
+    <value>A600</value>
+  </data>
+  <data name="ES2771_0" xml:space="preserve">
+    <value>A700</value>
+  </data>
+  <data name="ES2773_0" xml:space="preserve">
+    <value>B103</value>
+  </data>
+  <data name="ES2774_0" xml:space="preserve">
+    <value>B504</value>
+  </data>
+  <data name="ES2775_0" xml:space="preserve">
+    <value>D902</value>
+  </data>
+  <data name="ES2776_0" xml:space="preserve">
+    <value>C204</value>
+  </data>
+  <data name="ES2777_0" xml:space="preserve">
+    <value>C503</value>
+  </data>
+  <data name="ES2778_0" xml:space="preserve">
+    <value>C601</value>
+  </data>
+  <data name="ES2779_0" xml:space="preserve">
+    <value>C701</value>
+  </data>
+  <data name="ES2780_0" xml:space="preserve">
+    <value>E205</value>
+  </data>
+  <data name="ES2781_0" xml:space="preserve">
+    <value>E505</value>
+  </data>
+  <data name="ES2782_0" xml:space="preserve">
+    <value>E602</value>
+  </data>
+  <data name="ES2783_0" xml:space="preserve">
+    <value>E702</value>
+  </data>
+  <data name="ES2784_0" xml:space="preserve">
+    <value>F206</value>
+  </data>
+  <data name="ES2785_0" xml:space="preserve">
+    <value>F506</value>
+  </data>
+  <data name="ES2786_0" xml:space="preserve">
+    <value>F603</value>
+  </data>
+  <data name="ES2787_0" xml:space="preserve">
+    <value>F703</value>
+  </data>
+  <data name="ES2788_0" xml:space="preserve">
+    <value>G109</value>
+  </data>
+  <data name="ES2789_0" xml:space="preserve">
+    <value>G507</value>
+  </data>
+  <data name="ES2790_0" xml:space="preserve">
+    <value>G604</value>
+  </data>
+  <data name="ES2791_0" xml:space="preserve">
+    <value>G704</value>
+  </data>
+  <data name="ES2792_0" xml:space="preserve">
+    <value>G801</value>
+  </data>
+  <data name="ES2793_0" xml:space="preserve">
+    <value>H210</value>
+  </data>
+  <data name="ES2794_0" xml:space="preserve">
+    <value>H510</value>
+  </data>
+  <data name="ES2795_0" xml:space="preserve">
+    <value>H607</value>
+  </data>
+  <data name="ES2796_0" xml:space="preserve">
+    <value>H707</value>
+  </data>
+  <data name="ES2797_0" xml:space="preserve">
+    <value>K105</value>
+  </data>
+  <data name="ES2798_0" xml:space="preserve">
+    <value>K106</value>
+  </data>
+  <data name="ES2799_0" xml:space="preserve">
+    <value>K107</value>
+  </data>
+  <data name="ES27_1" xml:space="preserve">
+    <value>Részletes termelési eredmények</value>
+  </data>
+  <data name="ES2800_0" xml:space="preserve">
+    <value>K108</value>
+  </data>
+  <data name="ES2801_0" xml:space="preserve">
+    <value>K404</value>
+  </data>
+  <data name="ES2802_0" xml:space="preserve">
+    <value>K406</value>
+  </data>
+  <data name="ES2803_0" xml:space="preserve">
+    <value>L208</value>
+  </data>
+  <data name="ES2804_0" xml:space="preserve">
+    <value>L302</value>
+  </data>
+  <data name="ES2805_0" xml:space="preserve">
+    <value>O110</value>
+  </data>
+  <data name="ES2807_1" xml:space="preserve">
+    <value>Hiba nyilvántartások / naplók Szűrés</value>
+  </data>
+  <data name="ES2808_0" xml:space="preserve">
+    <value>O905</value>
+  </data>
+  <data name="ES2809_0" xml:space="preserve">
+    <value>O910</value>
+  </data>
+  <data name="ES2810_0" xml:space="preserve">
+    <value>O911</value>
+  </data>
+  <data name="ES2811_0" xml:space="preserve">
+    <value>O907</value>
+  </data>
+  <data name="ES2813_1" xml:space="preserve">
+    <value>ALARM</value>
+  </data>
+  <data name="ES2822_1" xml:space="preserve">
+    <value>A szűrő törlése</value>
+  </data>
+  <data name="ES2823_1" xml:space="preserve">
+    <value>Termelési keverő folyamatábrája</value>
+  </data>
+  <data name="ES2824_1" xml:space="preserve">
+    <value>Termelési riasztások</value>
+  </data>
+  <data name="ES2825_1" xml:space="preserve">
+    <value>Munkarendelés</value>
+  </data>
+  <data name="ES2826_1" xml:space="preserve">
+    <value>Power Board kód</value>
+  </data>
+  <data name="ES2827_1" xml:space="preserve">
+    <value>Az irányító testület kódja</value>
+  </data>
+  <data name="ES2828_1" xml:space="preserve">
+    <value>Dongle kód</value>
+  </data>
+  <data name="ES2829_1" xml:space="preserve">
+    <value>Gépi információk</value>
+  </data>
+  <data name="ES2830_1" xml:space="preserve">
+    <value>Ország / Város</value>
+  </data>
+  <data name="ES2831_1" xml:space="preserve">
+    <value>Részletes fuvarlevél</value>
+  </data>
+  <data name="ES2832_1" xml:space="preserve">
+    <value>Normál fuvarlevél</value>
+  </data>
+  <data name="ES2833_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2838_1" xml:space="preserve">
+    <value>Félautomata termelési eredmények</value>
+  </data>
+  <data name="ES2845_1" xml:space="preserve">
+    <value>Kívánt hozzájárulás (3) értéke, kg</value>
+  </data>
+  <data name="ES2846_1" xml:space="preserve">
+    <value>Kívánt hozzájárulás (4) értéke, kg</value>
+  </data>
+  <data name="ES2847_1" xml:space="preserve">
+    <value>A kapott hozzájárulás (3) értéke, kg</value>
+  </data>
+  <data name="ES2848_1" xml:space="preserve">
+    <value>A kapott hozzájárulás (4) értéke, kg</value>
+  </data>
+  <data name="ES2849_1" xml:space="preserve">
+    <value>Adalék (3) különbség, kg</value>
+  </data>
+  <data name="ES2850_1" xml:space="preserve">
+    <value>Adalék (4) különbség, kg</value>
+  </data>
+  <data name="ES2853_1" xml:space="preserve">
+    <value>törlés</value>
+  </data>
+  <data name="ES2854_0" xml:space="preserve">
+    <value>Víz skála kiegyensúlyozási idő (másodpercben)</value>
+  </data>
+  <data name="ES2858_1" xml:space="preserve">
+    <value>Keverő motor áram</value>
+  </data>
+  <data name="ES285_1" xml:space="preserve">
+    <value>Cement levegőztető várakozási idő</value>
+  </data>
+  <data name="ES2866_0" xml:space="preserve">
+    <value>Csökkent a keverőmennyiség</value>
+  </data>
+  <data name="ES286_1" xml:space="preserve">
+    <value>Cement levegőztető várakozási idő</value>
+  </data>
+  <data name="ES2900_1" xml:space="preserve">
+    <value>Cement csiga 5 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES2901_1" xml:space="preserve">
+    <value>A kapott összesített érték (5), kg</value>
+  </data>
+  <data name="ES2902_1" xml:space="preserve">
+    <value>Az alkalmazott aggregátum (6) értéke, kg</value>
+  </data>
+  <data name="ES2903_1" xml:space="preserve">
+    <value>A kapott cement értéke (5), kg</value>
+  </data>
+  <data name="ES2904_1" xml:space="preserve">
+    <value>A kapott cement értéke (6), kg</value>
+  </data>
+  <data name="ES2905_1" xml:space="preserve">
+    <value>A beérkezett hozzájárulás értéke (5), kg</value>
+  </data>
+  <data name="ES2906_1" xml:space="preserve">
+    <value>A kapott hozzájárulás (6) értéke, kg</value>
+  </data>
+  <data name="ES2907_1" xml:space="preserve">
+    <value>Vízfelvétel (3) értéke, kg</value>
+  </data>
+  <data name="ES2908_1" xml:space="preserve">
+    <value>Vízfelvétel (4) értéke, kg</value>
+  </data>
+  <data name="ES2909_1" xml:space="preserve">
+    <value>A kívánt aggregátum (5) értéke, kg</value>
+  </data>
+  <data name="ES2910_1" xml:space="preserve">
+    <value>A kívánt aggregátum (6) értéke, kg</value>
+  </data>
+  <data name="ES2911_1" xml:space="preserve">
+    <value>A kívánt cement (5) értéke, kg</value>
+  </data>
+  <data name="ES2912_1" xml:space="preserve">
+    <value>A kívánt cement (6) értéke, kg</value>
+  </data>
+  <data name="ES2913_1" xml:space="preserve">
+    <value>Kívánt hozzájárulás (5) értéke, kg</value>
+  </data>
+  <data name="ES2914_1" xml:space="preserve">
+    <value>Kívánt hozzájárulás (6) értéke, kg</value>
+  </data>
+  <data name="ES2915_1" xml:space="preserve">
+    <value>Kívánt víz (3) értéke, kg</value>
+  </data>
+  <data name="ES2916_1" xml:space="preserve">
+    <value>Kívánt víz (4) értéke, kg</value>
+  </data>
+  <data name="ES2917_1" xml:space="preserve">
+    <value>Adalék (5) különbség, kg</value>
+  </data>
+  <data name="ES2918_1" xml:space="preserve">
+    <value>Adalék (6) különbség, kg</value>
+  </data>
+  <data name="ES2919_1" xml:space="preserve">
+    <value>Víz (3) különbség, kg</value>
+  </data>
+  <data name="ES2920_1" xml:space="preserve">
+    <value>Víz (4) különbség, kg</value>
+  </data>
+  <data name="ES2921_1" xml:space="preserve">
+    <value>Cement (5) különbség, kg</value>
+  </data>
+  <data name="ES2922_1" xml:space="preserve">
+    <value>Cement (6) különbség, kg</value>
+  </data>
+  <data name="ES2923_1" xml:space="preserve">
+    <value>Összesített (5) különbség, kg</value>
+  </data>
+  <data name="ES2924_1" xml:space="preserve">
+    <value>Összesített (6) különbség, kg</value>
+  </data>
+  <data name="ES2925_0" xml:space="preserve">
+    <value>Aggregátum (5)</value>
+  </data>
+  <data name="ES2926_0" xml:space="preserve">
+    <value>Aggregátum (6)</value>
+  </data>
+  <data name="ES2927_0" xml:space="preserve">
+    <value>Cement (5)</value>
+  </data>
+  <data name="ES2928_0" xml:space="preserve">
+    <value>Cement (6)</value>
+  </data>
+  <data name="ES2929_0" xml:space="preserve">
+    <value>Hozzájárulás (5)</value>
+  </data>
+  <data name="ES2930_0" xml:space="preserve">
+    <value>Hozzájárulás (6)</value>
+  </data>
+  <data name="ES2931_0" xml:space="preserve">
+    <value>Víz (3)</value>
+  </data>
+  <data name="ES2932_0" xml:space="preserve">
+    <value>Víz (4)</value>
+  </data>
+  <data name="ES2933_1" xml:space="preserve">
+    <value>Kért pontos mennyiség soradagoló mérlegkapu 5</value>
+  </data>
+  <data name="ES2960_0" xml:space="preserve">
+    <value>Összesített mérleg kalibrálás</value>
+  </data>
+  <data name="ES2961_0" xml:space="preserve">
+    <value>Cement mérleg kalibrálása</value>
+  </data>
+  <data name="ES2962_0" xml:space="preserve">
+    <value>Kiegészítő mérleg skálájaYapıldı</value>
+  </data>
+  <data name="ES2963_0" xml:space="preserve">
+    <value>Vízmérleg kalibrálása</value>
+  </data>
+  <data name="ES2965_0" xml:space="preserve">
+    <value>Cement skála maximális súlya</value>
+  </data>
+  <data name="ES2966_0" xml:space="preserve">
+    <value>Az adalékanyag maximális súlya</value>
+  </data>
+  <data name="ES2967_0" xml:space="preserve">
+    <value>Víz skála maximális súly</value>
+  </data>
+  <data name="ES2968_0" xml:space="preserve">
+    <value>Spiral5 túl az áramhatáron</value>
+  </data>
+  <data name="ES2969_0" xml:space="preserve">
+    <value>Másodperc</value>
+  </data>
+  <data name="ES2970_0" xml:space="preserve">
+    <value>A vényköteles összeg meghaladta</value>
+  </data>
+  <data name="ES2971_1" xml:space="preserve">
+    <value>Túra különbség, kg</value>
+  </data>
+  <data name="ES2972_1" xml:space="preserve">
+    <value>A túra százaléka</value>
+  </data>
+  <data name="ES2974_1" xml:space="preserve">
+    <value>A túra anyagának elemzési jelentése</value>
+  </data>
+  <data name="ES2981_1" xml:space="preserve">
+    <value>Anyag-elemzési jelentés</value>
+  </data>
+  <data name="ES2982_1" xml:space="preserve">
+    <value>A vényköteles teljes túllépés százaléka</value>
+  </data>
+  <data name="ES2984_1" xml:space="preserve">
+    <value>Betöltési mennyiség a tartály mérlegbe a jelzés után 5</value>
+  </data>
+  <data name="ES2985_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2986_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2987_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2988_0" xml:space="preserve">
+    <value>Másodperc</value>
+  </data>
+  <data name="ES298_1" xml:space="preserve">
+    <value>Felvonó vödör felső pozítcióban tartási idő</value>
+  </data>
+  <data name="ES2990_0" xml:space="preserve">
+    <value>Cement csiga 1 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES2991_0" xml:space="preserve">
+    <value>Cement csiga 2 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES2992_0" xml:space="preserve">
+    <value>Cement csiga 3 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES2993_0" xml:space="preserve">
+    <value>Cement csiga 4 motor meghaladta a túláram határt</value>
+  </data>
+  <data name="ES2994_0" xml:space="preserve">
+    <value>D902-1_Fázis hiba - (1)</value>
+  </data>
+  <data name="ES2995_0" xml:space="preserve">
+    <value>D902-2_Fázis hibai - (2)</value>
+  </data>
+  <data name="ES2996_0" xml:space="preserve">
+    <value>D902-3_Fázis hibai - (3)</value>
+  </data>
+  <data name="ES2997_0" xml:space="preserve">
+    <value>Vigyázat! Alacsony feszültség</value>
+  </data>
+  <data name="ES2998_0" xml:space="preserve">
+    <value>Vigyázat! Alacsony feszültség</value>
+  </data>
+  <data name="ES2999_0" xml:space="preserve">
+    <value>Vigyázat! Alacsony feszültség</value>
+  </data>
+  <data name="ES299_1" xml:space="preserve">
+    <value>Felvonó vödör köztes haladási idő</value>
+  </data>
+  <data name="ES29_1" xml:space="preserve">
+    <value>Jármű szállítási állapot</value>
+  </data>
+  <data name="ES2_1" xml:space="preserve">
+    <value>Utasítás</value>
+  </data>
+  <data name="ES3000_0" xml:space="preserve">
+    <value>Csökkent a keverőmennyiség</value>
+  </data>
+  <data name="ES3001_0" xml:space="preserve">
+    <value>O907_Nincs kapcsolat</value>
+  </data>
+  <data name="ES3002_0" xml:space="preserve">
+    <value>O906_A kapcsolat létrejött</value>
+  </data>
+  <data name="ES3003_0" xml:space="preserve">
+    <value>A gyártás leállt</value>
+  </data>
+  <data name="ES3004_0" xml:space="preserve">
+    <value>Folytatja a gyártást</value>
+  </data>
+  <data name="ES3005_0" xml:space="preserve">
+    <value>Termelés visszaállítása</value>
+  </data>
+  <data name="ES3006_0" xml:space="preserve">
+    <value>A gyártás sikertelen</value>
+  </data>
+  <data name="ES3007_0" xml:space="preserve">
+    <value>A gyártás befejeződött</value>
+  </data>
+  <data name="ES3008_0" xml:space="preserve">
+    <value>Megkezdődött az új gyártás</value>
+  </data>
+  <data name="ES3009_0" xml:space="preserve">
+    <value>Vigyázat! Magas feszültség</value>
+  </data>
+  <data name="ES300_1" xml:space="preserve">
+    <value>Felvonó vödör maximális haladási idő</value>
+  </data>
+  <data name="ES3010_0" xml:space="preserve">
+    <value>Vigyázat! Magas feszültség</value>
+  </data>
+  <data name="ES3011_0" xml:space="preserve">
+    <value>Vigyázat! Magas feszültség</value>
+  </data>
+  <data name="ES3012_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES3013_0" xml:space="preserve">
+    <value>Silo(5)</value>
+  </data>
+  <data name="ES3014_1" xml:space="preserve">
+    <value>Feszültség alacsony határérték</value>
+  </data>
+  <data name="ES3015_1" xml:space="preserve">
+    <value>Magas feszültség</value>
+  </data>
+  <data name="ES3017_1" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ES3019_1" xml:space="preserve">
+    <value>Fájl elérési útja</value>
+  </data>
+  <data name="ES3020_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES3021_0" xml:space="preserve">
+    <value>SQL biztonsági mentés</value>
+  </data>
+  <data name="ES3022_0" xml:space="preserve">
+    <value>SQL visszaállítás</value>
+  </data>
+  <data name="ES3023_1" xml:space="preserve">
+    <value>Jóváhagyja a visszaállítási program bezárását?</value>
+  </data>
+  <data name="ES3029_0" xml:space="preserve">
+    <value>Kérjen segítséget</value>
+  </data>
+  <data name="ES3030_1" xml:space="preserve">
+    <value>Hiba nyilvántartás / Segítség</value>
+  </data>
+  <data name="ES3031_0" xml:space="preserve">
+    <value>Riasztási kódok</value>
+  </data>
+  <data name="ES3032_0" xml:space="preserve">
+    <value>SQL biztonsági mentés</value>
+  </data>
+  <data name="ES3033_0" xml:space="preserve">
+    <value>Geri yükleme işlemini için programın kapatılmasını onaylıyor musunuz?</value>
+  </data>
+  <data name="ES3034_0" xml:space="preserve">
+    <value>Mixmaster 2x5</value>
+  </data>
+  <data name="ES3035_0" xml:space="preserve">
+    <value>Mixmaster 4x5</value>
+  </data>
+  <data name="ES3036_0" xml:space="preserve">
+    <value>Mixmaster növények</value>
+  </data>
+  <data name="ES3037_0" xml:space="preserve">
+    <value>Nincs konkrét szállítószalag</value>
+  </data>
+  <data name="ES3038_0" xml:space="preserve">
+    <value>Betonszállító szállítószalaggal rendelkezik</value>
+  </data>
+  <data name="ES303_1" xml:space="preserve">
+    <value>Zsírzó motor működési idő</value>
+  </data>
+  <data name="ES3043_0" xml:space="preserve">
+    <value>Keverő kisülési alacsony határérték</value>
+  </data>
+  <data name="ES3044_0" xml:space="preserve">
+    <value>Betonszalag szállítószalag kiegészítő munkaidő</value>
+  </data>
+  <data name="ES3045_0" xml:space="preserve">
+    <value>A202-1-Agrega bunker(1) vibrátor TMS hibás működése</value>
+  </data>
+  <data name="ES3046_0" xml:space="preserve">
+    <value>A202-4-Agrega bunker(4) vibrátor TMS hibás működése</value>
+  </data>
+  <data name="ES3047_0" xml:space="preserve">
+    <value>L201-Agrega Bunker 1 PullChord Çekildi</value>
+  </data>
+  <data name="ES3048_0" xml:space="preserve">
+    <value>L201-2-Agrega Bunker 2 PullCord Çekildi</value>
+  </data>
+  <data name="ES3049_0" xml:space="preserve">
+    <value>L201-3-Agrega Bunker 3 PullCord Çekildi</value>
+  </data>
+  <data name="ES3050_0" xml:space="preserve">
+    <value>L201-4-Agrega Bunker 4 PullCord filmre</value>
+  </data>
+  <data name="ES3051_0" xml:space="preserve">
+    <value>A901_Beton szállítószalag szállítószalag termikus hulladék</value>
+  </data>
+  <data name="ES3052_0" xml:space="preserve">
+    <value>H101_A keverő kisülési korlátja meghaladta</value>
+  </data>
+  <data name="ES3053_1" xml:space="preserve">
+    <value>cement csiga 5 motor</value>
+  </data>
+  <data name="ES3054_1" xml:space="preserve">
+    <value>Vegyszer pumpa 5</value>
+  </data>
+  <data name="ES3055_0" xml:space="preserve">
+    <value>Active Text1</value>
+  </data>
+  <data name="ES3056_0" xml:space="preserve">
+    <value>Active Text2</value>
+  </data>
+  <data name="ES3057_0" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ES3058_0" xml:space="preserve">
+    <value>Active Text3</value>
+  </data>
+  <data name="ES305_1" xml:space="preserve">
+    <value>Zsírzó motor várakozási idő</value>
+  </data>
+  <data name="ES306_1" xml:space="preserve">
+    <value>Közbenső szalag rendelkezésre áll/nem áll rendelkezésre</value>
+  </data>
+  <data name="ES30_1" xml:space="preserve">
+    <value>Teljes anyagfelhasználás jelentés</value>
+  </data>
+  <data name="ES310_1" xml:space="preserve">
+    <value>Rendelkezésre áll</value>
+  </data>
+  <data name="ES311_1" xml:space="preserve">
+    <value>Nem áll rendelkezésre</value>
+  </data>
+  <data name="ES316_1" xml:space="preserve">
+    <value>Szalag mérleg vibrátor működési határ</value>
+  </data>
+  <data name="ES318_1" xml:space="preserve">
+    <value>Szalag mérleg vibrátor várakozási idő</value>
+  </data>
+  <data name="ES319_1" xml:space="preserve">
+    <value>Szalag mérleg vibrátor működési idő</value>
+  </data>
+  <data name="ES322_1" xml:space="preserve">
+    <value>Szalag mérleg kiadási sebesség</value>
+  </data>
+  <data name="ES324_1" xml:space="preserve">
+    <value>Cement vibrátor müködési limit</value>
+  </data>
+  <data name="ES325_1" xml:space="preserve">
+    <value>Cement vibrátor várakozái idő</value>
+  </data>
+  <data name="ES326_1" xml:space="preserve">
+    <value>Cement Vibrátor működési idő</value>
+  </data>
+  <data name="ES32_1" xml:space="preserve">
+    <value>Megmaradó készletjelentés</value>
+  </data>
+  <data name="ES331_1" xml:space="preserve">
+    <value>Adalékanyag beállítás</value>
+  </data>
+  <data name="ES332_1" xml:space="preserve">
+    <value>Riasztás beállítás</value>
+  </data>
+  <data name="ES333_1" xml:space="preserve">
+    <value>Cement beállítás</value>
+  </data>
+  <data name="ES334_1" xml:space="preserve">
+    <value>Vegyszer beállítás</value>
+  </data>
+  <data name="ES335_1" xml:space="preserve">
+    <value>Felvonó vödör beállítás</value>
+  </data>
+  <data name="ES336_1" xml:space="preserve">
+    <value>Keverő beállítás</value>
+  </data>
+  <data name="ES337_1" xml:space="preserve">
+    <value>Különleges beállítások</value>
+  </data>
+  <data name="ES338_1" xml:space="preserve">
+    <value>Víz beállítás</value>
+  </data>
+  <data name="ES339_1" xml:space="preserve">
+    <value>Vibrátor beállítás</value>
+  </data>
+  <data name="ES33_1" xml:space="preserve">
+    <value>Értékesítési jelentés</value>
+  </data>
+  <data name="ES341_1" xml:space="preserve">
+    <value>Keverő kézi</value>
+  </data>
+  <data name="ES342_1" xml:space="preserve">
+    <value>Keverő automata</value>
+  </data>
+  <data name="ES345_1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ES346_1" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ES349_1" xml:space="preserve">
+    <value>Visszaállít</value>
+  </data>
+  <data name="ES34_1" xml:space="preserve">
+    <value>Kézi termelési eredmény</value>
+  </data>
+  <data name="ES351_1" xml:space="preserve">
+    <value>Adalékanyag</value>
+  </data>
+  <data name="ES353_1" xml:space="preserve">
+    <value>Kompresszor</value>
+  </data>
+  <data name="ES354_1" xml:space="preserve">
+    <value>Kürt</value>
+  </data>
+  <data name="ES355_1" xml:space="preserve">
+    <value>Automata/kézi</value>
+  </data>
+  <data name="ES356_1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ES357_1" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ES35_1" xml:space="preserve">
+    <value>Motor munkóra</value>
+  </data>
+  <data name="ES360_1" xml:space="preserve">
+    <value>Keverp block filter</value>
+  </data>
+  <data name="ES36_1" xml:space="preserve">
+    <value>Leltár nyilvántartás</value>
+  </data>
+  <data name="ES376_1" xml:space="preserve">
+    <value>Filter1</value>
+  </data>
+  <data name="ES377_1" xml:space="preserve">
+    <value>Filter2</value>
+  </data>
+  <data name="ES378_1" xml:space="preserve">
+    <value>Filter3</value>
+  </data>
+  <data name="ES379_1" xml:space="preserve">
+    <value>Filter4</value>
+  </data>
+  <data name="ES382_1" xml:space="preserve">
+    <value>Sorszám</value>
+  </data>
+  <data name="ES385_1" xml:space="preserve">
+    <value>Adó szám</value>
+  </data>
+  <data name="ES386_1" xml:space="preserve">
+    <value>Oké.</value>
+  </data>
+  <data name="ES389_1" xml:space="preserve">
+    <value>Fálj neve</value>
+  </data>
+  <data name="ES391_1" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="ES394_1" xml:space="preserve">
+    <value>Cég</value>
+  </data>
+  <data name="ES395_1" xml:space="preserve">
+    <value>Rendszám</value>
+  </data>
+  <data name="ES396_1" xml:space="preserve">
+    <value>Kapacitás</value>
+  </data>
+  <data name="ES3_1" xml:space="preserve">
+    <value>Rendszer üzenet</value>
+  </data>
+  <data name="ES401_1" xml:space="preserve">
+    <value>Cím:</value>
+  </data>
+  <data name="ES402_1" xml:space="preserve">
+    <value>Telefonszám</value>
+  </data>
+  <data name="ES403_1" xml:space="preserve">
+    <value>Magyarázat</value>
+  </data>
+  <data name="ES404_1" xml:space="preserve">
+    <value>Sofőr neve</value>
+  </data>
+  <data name="ES405_1" xml:space="preserve">
+    <value>Magyarázat</value>
+  </data>
+  <data name="ES409_1" xml:space="preserve">
+    <value>Építési terület neve</value>
+  </data>
+  <data name="ES410_1" xml:space="preserve">
+    <value>Távolság</value>
+  </data>
+  <data name="ES411_1" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="ES412_1" xml:space="preserve">
+    <value>Építési terület neve</value>
+  </data>
+  <data name="ES413_1" xml:space="preserve">
+    <value>Távolság</value>
+  </data>
+  <data name="ES414_1" xml:space="preserve">
+    <value>Cég</value>
+  </data>
+  <data name="ES415_1" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="ES419_1" xml:space="preserve">
+    <value>Anyag neve</value>
+  </data>
+  <data name="ES425_1" xml:space="preserve">
+    <value>Raktárterület</value>
+  </data>
+  <data name="ES426_1" xml:space="preserve">
+    <value>Típus</value>
+  </data>
+  <data name="ES42_1" xml:space="preserve">
+    <value>Készlet jelentések</value>
+  </data>
+  <data name="ES432_1" xml:space="preserve">
+    <value>Anyag</value>
+  </data>
+  <data name="ES433_1" xml:space="preserve">
+    <value>Kritikus szint</value>
+  </data>
+  <data name="ES436_1" xml:space="preserve">
+    <value>Anyag</value>
+  </data>
+  <data name="ES437_1" xml:space="preserve">
+    <value>Kapacitás</value>
+  </data>
+  <data name="ES438_1" xml:space="preserve">
+    <value>Kritikus szint</value>
+  </data>
+  <data name="ES441_1" xml:space="preserve">
+    <value>Recept információ</value>
+  </data>
+  <data name="ES442_1" xml:space="preserve">
+    <value>Recept neveı</value>
+  </data>
+  <data name="ES443_1" xml:space="preserve">
+    <value>Állapot</value>
+  </data>
+  <data name="ES444_1" xml:space="preserve">
+    <value>Magyarázat</value>
+  </data>
+  <data name="ES448_1" xml:space="preserve">
+    <value>Recept neve</value>
+  </data>
+  <data name="ES44_1" xml:space="preserve">
+    <value>Havi termelési jelentés</value>
+  </data>
+  <data name="ES45_1" xml:space="preserve">
+    <value>Havi bevételi jelentés</value>
+  </data>
+  <data name="ES46_1" xml:space="preserve">
+    <value>Miktar Stok Raporu</value>
+  </data>
+  <data name="ES47_1" xml:space="preserve">
+    <value>Leltár bejegyzés jelentés</value>
+  </data>
+  <data name="ES493_1" xml:space="preserve">
+    <value>Adalékanyag 5</value>
+  </data>
+  <data name="ES494_1" xml:space="preserve">
+    <value>Adalékanyag 6</value>
+  </data>
+  <data name="ES495_1" xml:space="preserve">
+    <value>Adalékanyag 7</value>
+  </data>
+  <data name="ES496_1" xml:space="preserve">
+    <value>Adalékanyag 8</value>
+  </data>
+  <data name="ES497_1" xml:space="preserve">
+    <value>Adalékanyag 9</value>
+  </data>
+  <data name="ES498_1" xml:space="preserve">
+    <value>Adalékanyag 10</value>
+  </data>
+  <data name="ES499_1" xml:space="preserve">
+    <value>Cement2</value>
+  </data>
+  <data name="ES500_1" xml:space="preserve">
+    <value>Cement3</value>
+  </data>
+  <data name="ES501_1" xml:space="preserve">
+    <value>Cement4</value>
+  </data>
+  <data name="ES502_1" xml:space="preserve">
+    <value>Cement5</value>
+  </data>
+  <data name="ES503_1" xml:space="preserve">
+    <value>Cement6</value>
+  </data>
+  <data name="ES504_1" xml:space="preserve">
+    <value>Cement7</value>
+  </data>
+  <data name="ES505_1" xml:space="preserve">
+    <value>Cement8</value>
+  </data>
+  <data name="ES506_1" xml:space="preserve">
+    <value>Cement9</value>
+  </data>
+  <data name="ES507_1" xml:space="preserve">
+    <value>Cement10</value>
+  </data>
+  <data name="ES509_1" xml:space="preserve">
+    <value>Víz3</value>
+  </data>
+  <data name="ES510_1" xml:space="preserve">
+    <value>Víz4</value>
+  </data>
+  <data name="ES511_1" xml:space="preserve">
+    <value>Víz5</value>
+  </data>
+  <data name="ES512_1" xml:space="preserve">
+    <value>Víz6</value>
+  </data>
+  <data name="ES513_1" xml:space="preserve">
+    <value>Víz7</value>
+  </data>
+  <data name="ES514_1" xml:space="preserve">
+    <value>Víz8</value>
+  </data>
+  <data name="ES515_1" xml:space="preserve">
+    <value>Víz9</value>
+  </data>
+  <data name="ES516_1" xml:space="preserve">
+    <value>Víz10</value>
+  </data>
+  <data name="ES517_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES518_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES519_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES520_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES521_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES522_1" xml:space="preserve">
+    <value>Vegyszer6</value>
+  </data>
+  <data name="ES523_1" xml:space="preserve">
+    <value>Vegyszer7</value>
+  </data>
+  <data name="ES524_1" xml:space="preserve">
+    <value>Vegyszer8</value>
+  </data>
+  <data name="ES525_1" xml:space="preserve">
+    <value>Vegyszer9</value>
+  </data>
+  <data name="ES526_1" xml:space="preserve">
+    <value>Vegyszer10</value>
+  </data>
+  <data name="ES528_1" xml:space="preserve">
+    <value>Cement késleltetési idő</value>
+  </data>
+  <data name="ES529_1" xml:space="preserve">
+    <value>Vegyszer késleltetési idő</value>
+  </data>
+  <data name="ES530_1" xml:space="preserve">
+    <value>Víz késleltetési idő</value>
+  </data>
+  <data name="ES554_1" xml:space="preserve">
+    <value>Keverő típus választás</value>
+  </data>
+  <data name="ES555_1" xml:space="preserve">
+    <value>Soradagoló típus választás</value>
+  </data>
+  <data name="ES559_1" xml:space="preserve">
+    <value>Nedvesség szonda nem elérhető</value>
+  </data>
+  <data name="ES560_1" xml:space="preserve">
+    <value>Nedvesség szonda elérhető</value>
+  </data>
+  <data name="ES561_1" xml:space="preserve">
+    <value>A pontos adalékanyag mérleg ajtó nem elérhető</value>
+  </data>
+  <data name="ES562_1" xml:space="preserve">
+    <value>A pontos adalékanyag mérleg ajtó elérhető</value>
+  </data>
+  <data name="ES563_1" xml:space="preserve">
+    <value>Vibrátor nem elérhető</value>
+  </data>
+  <data name="ES564_1" xml:space="preserve">
+    <value>Vibrátor elérhető</value>
+  </data>
+  <data name="ES572_1" xml:space="preserve">
+    <value>Adja meg a számát a cement silóknak</value>
+  </data>
+  <data name="ES573_1" xml:space="preserve">
+    <value>Adja meg a számát a vegyszer pumpáknak</value>
+  </data>
+  <data name="ES574_1" xml:space="preserve">
+    <value>Adja meg a számát a víz pumpáknak</value>
+  </data>
+  <data name="ES576_1" xml:space="preserve">
+    <value>Adja meg a számát az soradagoló rekeszeinek</value>
+  </data>
+  <data name="ES57_1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="ES581_1" xml:space="preserve">
+    <value>Soradagoló és keverő típus választás oldal</value>
+  </data>
+  <data name="ES582_1" xml:space="preserve">
+    <value>Adalékanyag raktárterület hozzárendelés oldal</value>
+  </data>
+  <data name="ES583_1" xml:space="preserve">
+    <value>Cement vegyszer és víz raktárterület hozzárendelés oldal</value>
+  </data>
+  <data name="ES585_1" xml:space="preserve">
+    <value>A gép interfész telepítés sikeresen befejeződött</value>
+  </data>
+  <data name="ES587_1" xml:space="preserve">
+    <value>Betongyár választás az interfészen</value>
+  </data>
+  <data name="ES588_1" xml:space="preserve">
+    <value>Négyszög alakú tároló rekesz</value>
+  </data>
+  <data name="ES589_1" xml:space="preserve">
+    <value>Sorsilós rendszer</value>
+  </data>
+  <data name="ES590_1" xml:space="preserve">
+    <value>Bolygómúves dob</value>
+  </data>
+  <data name="ES591_1" xml:space="preserve">
+    <value>Függőleges tengelyű dob</value>
+  </data>
+  <data name="ES592_1" xml:space="preserve">
+    <value>Vizszintes dupla tengelyű dob</value>
+  </data>
+  <data name="ES593_1" xml:space="preserve">
+    <value>Elkomix-35 Quick Master</value>
+  </data>
+  <data name="ES595_1" xml:space="preserve">
+    <value>Elkomix-120 Quick Master</value>
+  </data>
+  <data name="ES596_1" xml:space="preserve">
+    <value>Elkomix-135 Quick Master</value>
+  </data>
+  <data name="ES597_1" xml:space="preserve">
+    <value>Quick betonkeverő</value>
+  </data>
+  <data name="ES598_1" xml:space="preserve">
+    <value>Kompakt betonkeverő</value>
+  </data>
+  <data name="ES599_1" xml:space="preserve">
+    <value>Mobil betonkeverő</value>
+  </data>
+  <data name="ES5_1" xml:space="preserve">
+    <value>Gomb</value>
+  </data>
+  <data name="ES600_1" xml:space="preserve">
+    <value>Stabil betonkeverő</value>
+  </data>
+  <data name="ES602_1" xml:space="preserve">
+    <value>Elkomix-120 CompactMaster</value>
+  </data>
+  <data name="ES605_1" xml:space="preserve">
+    <value>Elkomix-135 Compact Master</value>
+  </data>
+  <data name="ES606_1" xml:space="preserve">
+    <value>Mobile Master-30 Eagle</value>
+  </data>
+  <data name="ES607_1" xml:space="preserve">
+    <value>Mobile Master-60 Pegasus</value>
+  </data>
+  <data name="ES608_1" xml:space="preserve">
+    <value>Mobile Master-60 Panthera</value>
+  </data>
+  <data name="ES609_1" xml:space="preserve">
+    <value>Mobile Master-60 Bear</value>
+  </data>
+  <data name="ES610_1" xml:space="preserve">
+    <value>Mobile Master-100 Lion</value>
+  </data>
+  <data name="ES611_1" xml:space="preserve">
+    <value>Mobile Master-135 Jaguar</value>
+  </data>
+  <data name="ES612_1" xml:space="preserve">
+    <value>Mobile Master-150 Elephant</value>
+  </data>
+  <data name="ES613_1" xml:space="preserve">
+    <value>Elkomix 35 </value>
+  </data>
+  <data name="ES614_1" xml:space="preserve">
+    <value>Elkomix 60</value>
+  </data>
+  <data name="ES615_1" xml:space="preserve">
+    <value>Elkomix 120</value>
+  </data>
+  <data name="ES616_1" xml:space="preserve">
+    <value>Elkomix 135 </value>
+  </data>
+  <data name="ES617_1" xml:space="preserve">
+    <value>Elkomix 180</value>
+  </data>
+  <data name="ES618_1" xml:space="preserve">
+    <value>Elkomix 160</value>
+  </data>
+  <data name="ES621_1" xml:space="preserve">
+    <value>Elkomix-60 Quick Master</value>
+  </data>
+  <data name="ES622_1" xml:space="preserve">
+    <value>Üzem választó oldal</value>
+  </data>
+  <data name="ES623_1" xml:space="preserve">
+    <value>Üzem típus választás</value>
+  </data>
+  <data name="ES625_1" xml:space="preserve">
+    <value>Üzem modell választás</value>
+  </data>
+  <data name="ES626_1" xml:space="preserve">
+    <value>Választott típus</value>
+  </data>
+  <data name="ES627_1" xml:space="preserve">
+    <value>Választott modell</value>
+  </data>
+  <data name="ES637_1" xml:space="preserve">
+    <value>Energia analizátor paraméterek</value>
+  </data>
+  <data name="ES638_1" xml:space="preserve">
+    <value>Nyomásmérő konverziós arány</value>
+  </data>
+  <data name="ES639_1" xml:space="preserve">
+    <value>Cement csiga konverziós arány</value>
+  </data>
+  <data name="ES640_1" xml:space="preserve">
+    <value>Fő áramváltó arány</value>
+  </data>
+  <data name="ES641_1" xml:space="preserve">
+    <value>Keverő áramváltó arány</value>
+  </data>
+  <data name="ES642_1" xml:space="preserve">
+    <value>Cement csiga áramlás transzformátor arány</value>
+  </data>
+  <data name="ES643_1" xml:space="preserve">
+    <value>Autamata nyomásmérő arány kalkulátor</value>
+  </data>
+  <data name="ES645_1" xml:space="preserve">
+    <value>Keverő nyomás 3</value>
+  </data>
+  <data name="ES646_1" xml:space="preserve">
+    <value>Cement csiga áramlás</value>
+  </data>
+  <data name="ES647_1" xml:space="preserve">
+    <value>Feszültség</value>
+  </data>
+  <data name="ES648_1" xml:space="preserve">
+    <value>Csiga 1 túláram határ</value>
+  </data>
+  <data name="ES649_1" xml:space="preserve">
+    <value>Csiga 2 túláram határ</value>
+  </data>
+  <data name="ES650_1" xml:space="preserve">
+    <value>Csiga 3 túláram határ</value>
+  </data>
+  <data name="ES651_1" xml:space="preserve">
+    <value>Csiga 4 túláram határ</value>
+  </data>
+  <data name="ES653_1" xml:space="preserve">
+    <value>Tényleges analizátor értékek</value>
+  </data>
+  <data name="ES654_1" xml:space="preserve">
+    <value>Agrega Kantar Kapasitesini Belirtiniz :</value>
+  </data>
+  <data name="ES656_1" xml:space="preserve">
+    <value>Adja meg a vegyszer mérleg tartály térfogatát</value>
+  </data>
+  <data name="ES658_1" xml:space="preserve">
+    <value>Csiag áram határ</value>
+  </data>
+  <data name="ES661_1" xml:space="preserve">
+    <value>Billentyűzár</value>
+  </data>
+  <data name="ES662_1" xml:space="preserve">
+    <value>Billentyűzet nyitva</value>
+  </data>
+  <data name="ES665_1" xml:space="preserve">
+    <value>Kijelző billentyűzet ellenőrzés</value>
+  </data>
+  <data name="ES672_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES673_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES674_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES675_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES676_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES677_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES679_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES680_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES681_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES682_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES683_1" xml:space="preserve">
+    <value>Filter5</value>
+  </data>
+  <data name="ES684_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES685_1" xml:space="preserve">
+    <value>Filter6</value>
+  </data>
+  <data name="ES686_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES687_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES688_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES689_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES690_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES691_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES693_1" xml:space="preserve">
+    <value>Mosás</value>
+  </data>
+  <data name="ES697_1" xml:space="preserve">
+    <value>Felvonó tartály</value>
+  </data>
+  <data name="ES698_1" xml:space="preserve">
+    <value>T szalag</value>
+  </data>
+  <data name="ES6_1" xml:space="preserve">
+    <value>Műveleti oldalak</value>
+  </data>
+  <data name="ES700_1" xml:space="preserve">
+    <value>Szállító szalag vibrátor</value>
+  </data>
+  <data name="ES701_1" xml:space="preserve">
+    <value>Egyenes szalag</value>
+  </data>
+  <data name="ES714_1" xml:space="preserve">
+    <value>Le</value>
+  </data>
+  <data name="ES715_1" xml:space="preserve">
+    <value>Fel</value>
+  </data>
+  <data name="ES729_1" xml:space="preserve">
+    <value>Folyamatban lévő recept neve</value>
+  </data>
+  <data name="ES735_1" xml:space="preserve">
+    <value>Mentés</value>
+  </data>
+  <data name="ES740_1" xml:space="preserve">
+    <value>Recept küldés</value>
+  </data>
+  <data name="ES747_1" xml:space="preserve">
+    <value>Új recept</value>
+  </data>
+  <data name="ES753_1" xml:space="preserve">
+    <value>Recept szerkesztés</value>
+  </data>
+  <data name="ES757_1" xml:space="preserve">
+    <value>Recept törlés</value>
+  </data>
+  <data name="ES75_1" xml:space="preserve">
+    <value>Víz 1</value>
+  </data>
+  <data name="ES762_1" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="ES764_1" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="ES76_1" xml:space="preserve">
+    <value>Víz 2</value>
+  </data>
+  <data name="ES772_1" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="ES773_1" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="ES776_1" xml:space="preserve">
+    <value>Exportálás excelbe</value>
+  </data>
+  <data name="ES780_1" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="ES781_1" xml:space="preserve">
+    <value>Törlés</value>
+  </data>
+  <data name="ES786_1" xml:space="preserve">
+    <value>Szerkeszt</value>
+  </data>
+  <data name="ES789_1" xml:space="preserve">
+    <value>Létrehoz</value>
+  </data>
+  <data name="ES791_1" xml:space="preserve">
+    <value>Vége</value>
+  </data>
+  <data name="ES795_1" xml:space="preserve">
+    <value>Fék nyitva</value>
+  </data>
+  <data name="ES798_1" xml:space="preserve">
+    <value>Igen</value>
+  </data>
+  <data name="ES799_1" xml:space="preserve">
+    <value>Nem</value>
+  </data>
+  <data name="ES7_1" xml:space="preserve">
+    <value>Művelet leírás</value>
+  </data>
+  <data name="ES806_1" xml:space="preserve">
+    <value>Anyag neve</value>
+  </data>
+  <data name="ES807_1" xml:space="preserve">
+    <value>Anyag neve</value>
+  </data>
+  <data name="ES808_1" xml:space="preserve">
+    <value>Sofőr</value>
+  </data>
+  <data name="ES809_1" xml:space="preserve">
+    <value>Sofőr neve</value>
+  </data>
+  <data name="ES810_1" xml:space="preserve">
+    <value>Terület neve</value>
+  </data>
+  <data name="ES812_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES813_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES819_1" xml:space="preserve">
+    <value>300 kg</value>
+  </data>
+  <data name="ES820_1" xml:space="preserve">
+    <value>600 kg</value>
+  </data>
+  <data name="ES821_1" xml:space="preserve">
+    <value>1200 kg</value>
+  </data>
+  <data name="ES822_1" xml:space="preserve">
+    <value>1800 kg</value>
+  </data>
+  <data name="ES823_1" xml:space="preserve">
+    <value>2400 kg</value>
+  </data>
+  <data name="ES824_1" xml:space="preserve">
+    <value>30 kg</value>
+  </data>
+  <data name="ES825_1" xml:space="preserve">
+    <value>50 kg</value>
+  </data>
+  <data name="ES826_1" xml:space="preserve">
+    <value>100 kg</value>
+  </data>
+  <data name="ES827_1" xml:space="preserve">
+    <value>200 kg</value>
+  </data>
+  <data name="ES828_1" xml:space="preserve">
+    <value>900 kg</value>
+  </data>
+  <data name="ES834_1" xml:space="preserve">
+    <value>Cég</value>
+  </data>
+  <data name="ES838_1" xml:space="preserve">
+    <value>Biztos benne hogy törölni akarja?</value>
+  </data>
+  <data name="ES839_1" xml:space="preserve">
+    <value>Írja be a fajl nevét</value>
+  </data>
+  <data name="ES83_1" xml:space="preserve">
+    <value>Kért</value>
+  </data>
+  <data name="ES841_1" xml:space="preserve">
+    <value>rendelés száma</value>
+  </data>
+  <data name="ES842_1" xml:space="preserve">
+    <value>Jármű</value>
+  </data>
+  <data name="ES843_1" xml:space="preserve">
+    <value>Rendelések</value>
+  </data>
+  <data name="ES844_1" xml:space="preserve">
+    <value>Sorszám</value>
+  </data>
+  <data name="ES845_1" xml:space="preserve">
+    <value>Rendelés száma</value>
+  </data>
+  <data name="ES846_1" xml:space="preserve">
+    <value>Terülez</value>
+  </data>
+  <data name="ES848_1" xml:space="preserve">
+    <value>Előállított mennyiség</value>
+  </data>
+  <data name="ES849_1" xml:space="preserve">
+    <value>Teljes mennyiség</value>
+  </data>
+  <data name="ES84_1" xml:space="preserve">
+    <value>Adott</value>
+  </data>
+  <data name="ES850_1" xml:space="preserve">
+    <value>Fennmaradó mennyiség</value>
+  </data>
+  <data name="ES853_1" xml:space="preserve">
+    <value>Írja be a fajl nevét</value>
+  </data>
+  <data name="ES856_1" xml:space="preserve">
+    <value>Rendelt mennyiség</value>
+  </data>
+  <data name="ES85_1" xml:space="preserve">
+    <value>Nedvesség</value>
+  </data>
+  <data name="ES864_1" xml:space="preserve">
+    <value>Rendelési kód visszaállítás</value>
+  </data>
+  <data name="ES866_1" xml:space="preserve">
+    <value>Mozog fel</value>
+  </data>
+  <data name="ES867_1" xml:space="preserve">
+    <value>Termelés tervezett sorrendjének megerősítése ablak</value>
+  </data>
+  <data name="ES86_1" xml:space="preserve">
+    <value>Különbség</value>
+  </data>
+  <data name="ES872_1" xml:space="preserve">
+    <value>Kezdési idő</value>
+  </data>
+  <data name="ES873_1" xml:space="preserve">
+    <value>Befejezési idő</value>
+  </data>
+  <data name="ES875_1" xml:space="preserve">
+    <value>Jármű rendszám</value>
+  </data>
+  <data name="ES876_1" xml:space="preserve">
+    <value>Sofőr neve</value>
+  </data>
+  <data name="ES885_1" xml:space="preserve">
+    <value>Extra víz 1</value>
+  </data>
+  <data name="ES886_1" xml:space="preserve">
+    <value>Extra víz 2</value>
+  </data>
+  <data name="ES891_1" xml:space="preserve">
+    <value>Adott adalékanyag 1</value>
+  </data>
+  <data name="ES892_1" xml:space="preserve">
+    <value>Adott adalékanyag 2</value>
+  </data>
+  <data name="ES893_1" xml:space="preserve">
+    <value>Adott adalékanyag 3</value>
+  </data>
+  <data name="ES894_1" xml:space="preserve">
+    <value>Adott adalékanyag 4</value>
+  </data>
+  <data name="ES895_1" xml:space="preserve">
+    <value>Adott cement 1</value>
+  </data>
+  <data name="ES896_1" xml:space="preserve">
+    <value>Adott cement 2</value>
+  </data>
+  <data name="ES897_1" xml:space="preserve">
+    <value>Adott vegyszer 1</value>
+  </data>
+  <data name="ES898_1" xml:space="preserve">
+    <value>Adott vegyszer 2</value>
+  </data>
+  <data name="ES899_1" xml:space="preserve">
+    <value>Adott víz 1</value>
+  </data>
+  <data name="ES89_1" xml:space="preserve">
+    <value>Cég</value>
+  </data>
+  <data name="ES8_1" xml:space="preserve">
+    <value>Receptek</value>
+  </data>
+  <data name="ES900_1" xml:space="preserve">
+    <value>Adott víz 2</value>
+  </data>
+  <data name="ES901_1" xml:space="preserve">
+    <value>Új leltár nyitás</value>
+  </data>
+  <data name="ES902_1" xml:space="preserve">
+    <value>Leltár információ szerkesztés</value>
+  </data>
+  <data name="ES904_1" xml:space="preserve">
+    <value>Leltár nyilvántartás törlés megerősítés</value>
+  </data>
+  <data name="ES907_1" xml:space="preserve">
+    <value>Raktár terület</value>
+  </data>
+  <data name="ES908_1" xml:space="preserve">
+    <value>Anyag</value>
+  </data>
+  <data name="ES909_1" xml:space="preserve">
+    <value>Mennyiség</value>
+  </data>
+  <data name="ES910_1" xml:space="preserve">
+    <value>Leltár szám</value>
+  </data>
+  <data name="ES912_1" xml:space="preserve">
+    <value>Leltár bejegyzés dátuma</value>
+  </data>
+  <data name="ES917_1" xml:space="preserve">
+    <value>Leltár visszaállítás</value>
+  </data>
+  <data name="ES918_1" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ES91_1" xml:space="preserve">
+    <value>Jármű rendszám</value>
+  </data>
+  <data name="ES923_1" xml:space="preserve">
+    <value>Kalibrálni kell</value>
+  </data>
+  <data name="ES929_1" xml:space="preserve">
+    <value>Vége gomb</value>
+  </data>
+  <data name="ES931_1" xml:space="preserve">
+    <value>1. Lépés</value>
+  </data>
+  <data name="ES932_1" xml:space="preserve">
+    <value>2. Lépés</value>
+  </data>
+  <data name="ES933_1" xml:space="preserve">
+    <value>3. Lépés</value>
+  </data>
+  <data name="ES936_1" xml:space="preserve">
+    <value>Termelt mennyiség</value>
+  </data>
+  <data name="ES939_1" xml:space="preserve">
+    <value>Termelt mennyiség</value>
+  </data>
+  <data name="ES93_1" xml:space="preserve">
+    <value>Sofőr</value>
+  </data>
+  <data name="ES942_1" xml:space="preserve">
+    <value>Leltár kód visszaállítás</value>
+  </data>
+  <data name="ES946_1" xml:space="preserve">
+    <value>Terület</value>
+  </data>
+  <data name="ES949_1" xml:space="preserve">
+    <value>Mennyiség</value>
+  </data>
+  <data name="ES950_1" xml:space="preserve">
+    <value>Recept</value>
+  </data>
+  <data name="ES952_1" xml:space="preserve">
+    <value>Rendelés száma</value>
+  </data>
+  <data name="ES953_1" xml:space="preserve">
+    <value>Jármű</value>
+  </data>
+  <data name="ES954_1" xml:space="preserve">
+    <value>Sofőr</value>
+  </data>
+  <data name="ES955_1" xml:space="preserve">
+    <value>Hátralévő</value>
+  </data>
+  <data name="ES956_1" xml:space="preserve">
+    <value>Termelt</value>
+  </data>
+  <data name="ES958_1" xml:space="preserve">
+    <value>Szállító levél előnézet</value>
+  </data>
+  <data name="ES95_1" xml:space="preserve">
+    <value>Mennyiség</value>
+  </data>
+  <data name="ES961_1" xml:space="preserve">
+    <value>Nyomja meg a gombot 3 másodpercre</value>
+  </data>
+  <data name="ES962_1" xml:space="preserve">
+    <value>Please enter the weight on weigh hopper</value>
+  </data>
+  <data name="ES965_1" xml:space="preserve">
+    <value>Termelési tervek</value>
+  </data>
+  <data name="ES966_1" xml:space="preserve">
+    <value>Rendelések</value>
+  </data>
+  <data name="ES96_1" xml:space="preserve">
+    <value>Adalékanyag</value>
+  </data>
+  <data name="ES97_1" xml:space="preserve">
+    <value>Adalékanyag 1</value>
+  </data>
+  <data name="ES98_1" xml:space="preserve">
+    <value>Víz</value>
+  </data>
+  <data name="ES99_1" xml:space="preserve">
+    <value>Vegyszer</value>
+  </data>
+  <data name="ES9_1" xml:space="preserve">
+    <value>Termelés</value>
+  </data>
+  <data name="firmaadi" xml:space="preserve">
+    <value>Cég Neve</value>
+  </data>
+  <data name="hatamsg" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgarac" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgbetontipi" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgdayanim" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgdon" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgfirma" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgkivam" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgklorursinifi" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgmalzeme" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgstok" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgsurucu" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="hatamsgyogunluk" xml:space="preserve">
+    <value>A mező nem lehet üres</value>
+  </data>
+  <data name="kalanmiktar" xml:space="preserve">
+    <value>Fennmaradó összeg</value>
+  </data>
+  <data name="MalzemeTipi" xml:space="preserve">
+    <value>Anyag típusa</value>
+  </data>
+  <data name="receteadi" xml:space="preserve">
+    <value>Recept neve</value>
+  </data>
+  <data name="reçetelerToolStripMenuItem1" xml:space="preserve">
+    <value>Receptek</value>
+  </data>
+  <data name="santiyeadi" xml:space="preserve">
+    <value>Webhely Neve</value>
+  </data>
+  <data name="siparismiktari" xml:space="preserve">
+    <value>Rendelési összeg</value>
+  </data>
+  <data name="siparisno" xml:space="preserve">
+    <value>Rendelési szám</value>
+  </data>
+  <data name="sirano" xml:space="preserve">
+    <value>Sorszám</value>
+  </data>
+  <data name="yapilanmiktar" xml:space="preserve">
+    <value>Termelt mennyiség</value>
+  </data>
+</root>

@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE0005: Using yönergesi gerekli değildir.
+dotnet_diagnostic.IDE0005.severity = none
+
+# CS0437: Type conflicts with imported namespace
+dotnet_diagnostic.CS0437.severity = none

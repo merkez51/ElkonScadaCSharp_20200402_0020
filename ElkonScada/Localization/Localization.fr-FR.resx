@@ -1,0 +1,3972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="arızaKayıtlarıToolStripMenuItem1" xml:space="preserve">
+    <value>Tous Les Dossiers</value>
+  </data>
+  <data name="ES100_1" xml:space="preserve">
+    <value>Ciment</value>
+  </data>
+  <data name="ES1011_1" xml:space="preserve">
+    <value>Rapport de production</value>
+  </data>
+  <data name="ES1012_1" xml:space="preserve">
+    <value>Rapport détaillé de production</value>
+  </data>
+  <data name="ES1014_1" xml:space="preserve">
+    <value>Rapport d'état de livraison de la voiture</value>
+  </data>
+  <data name="ES1015_1" xml:space="preserve">
+    <value>Taux d'occupation, %</value>
+  </data>
+  <data name="ES1017_1" xml:space="preserve">
+    <value>Nom de l'unité</value>
+  </data>
+  <data name="ES1018_1" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="ES1019_1" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="ES101_1" xml:space="preserve">
+    <value>Analyseur</value>
+  </data>
+  <data name="ES1020_1" xml:space="preserve">
+    <value>Moteur du convoyeur intermédiaire</value>
+  </data>
+  <data name="ES1021_1" xml:space="preserve">
+    <value>Moteur de la vis à ciment 1</value>
+  </data>
+  <data name="ES1022_1" xml:space="preserve">
+    <value>Moteur de la vis à ciment 2</value>
+  </data>
+  <data name="ES1023_1" xml:space="preserve">
+    <value>Moteur de la vis à ciment 3</value>
+  </data>
+  <data name="ES1024_1" xml:space="preserve">
+    <value>Moteur de la vis à ciment 4</value>
+  </data>
+  <data name="ES1025_1" xml:space="preserve">
+    <value>Moteur de la pompe à adjuvant 1</value>
+  </data>
+  <data name="ES1026_1" xml:space="preserve">
+    <value>Moteur de la pompe à adjuvant 2</value>
+  </data>
+  <data name="ES1027_1" xml:space="preserve">
+    <value>Moteur de la pompe à adjuvant 3</value>
+  </data>
+  <data name="ES1028_1" xml:space="preserve">
+    <value>Moteur de la pompe à adjuvant 4</value>
+  </data>
+  <data name="ES1029_1" xml:space="preserve">
+    <value>Moteur du compresseur</value>
+  </data>
+  <data name="ES1030_1" xml:space="preserve">
+    <value>Moteur du skip</value>
+  </data>
+  <data name="ES1031_1" xml:space="preserve">
+    <value>Moteur du malaxeur</value>
+  </data>
+  <data name="ES1032_1" xml:space="preserve">
+    <value>T Moteur du convoyeur de pesage</value>
+  </data>
+  <data name="ES1033_1" xml:space="preserve">
+    <value>Moteur du convoyeur de transfert</value>
+  </data>
+  <data name="ES1034_1" xml:space="preserve">
+    <value>Heure de démarrage</value>
+  </data>
+  <data name="ES1035_1" xml:space="preserve">
+    <value>Heure d'achèvement</value>
+  </data>
+  <data name="ES1036_1" xml:space="preserve">
+    <value>Nom du chantier</value>
+  </data>
+  <data name="ES1046_1" xml:space="preserve">
+    <value>Recette</value>
+  </data>
+  <data name="ES1047_1" xml:space="preserve">
+    <value>Nombre de tours au total</value>
+  </data>
+  <data name="ES1048_1" xml:space="preserve">
+    <value>Nombre de tours effectués</value>
+  </data>
+  <data name="ES1049_1" xml:space="preserve">
+    <value>Disponibilité dans les stocks</value>
+  </data>
+  <data name="ES104_1" xml:space="preserve">
+    <value>Recette</value>
+  </data>
+  <data name="ES1052_1" xml:space="preserve">
+    <value>Indiquez la quantité de l'eau supplémentaire</value>
+  </data>
+  <data name="ES1055_1" xml:space="preserve">
+    <value>Tableau de courant du moteur de malaxeur</value>
+  </data>
+  <data name="ES1056_1" xml:space="preserve">
+    <value>Afficher le tableau de courant du moteur de malaxeur</value>
+  </data>
+  <data name="ES1057_1" xml:space="preserve">
+    <value>Tableaud de courant du moteur de malaxeur</value>
+  </data>
+  <data name="ES105_1" xml:space="preserve">
+    <value>Quantité produite</value>
+  </data>
+  <data name="ES1061_1" xml:space="preserve">
+    <value>Mettre à zéro les données sur le matériel utilisé</value>
+  </data>
+  <data name="ES1066_1" xml:space="preserve">
+    <value>Premier cycle de production est terminé.Appuyer sur OUI pour décharger dans le camion-toupie.</value>
+  </data>
+  <data name="ES1069_1" xml:space="preserve">
+    <value>Pour prendre le ciment, veuillez choisir un autre silo(dans le présent silo il n'y a plus de ciment), </value>
+  </data>
+  <data name="ES1071_1" xml:space="preserve">
+    <value>Arrêter la prise du matériel</value>
+  </data>
+  <data name="ES1072_1" xml:space="preserve">
+    <value>Prise du matériel est arrêtée</value>
+  </data>
+  <data name="ES1073_1" xml:space="preserve">
+    <value>Continuer la prise du produit</value>
+  </data>
+  <data name="ES1074_1" xml:space="preserve">
+    <value>Prise du produit est en cours</value>
+  </data>
+  <data name="ES107_1" xml:space="preserve">
+    <value>Agrégat2</value>
+  </data>
+  <data name="ES10_1" xml:space="preserve">
+    <value>Manipulations avec les stocks</value>
+  </data>
+  <data name="ES1126_1" xml:space="preserve">
+    <value>Temps de réinitialisation des boutons manuels</value>
+  </data>
+  <data name="ES1134_1" xml:space="preserve">
+    <value>Temps de travail supplémentaire du convoyeur de pesage d'agrégats , sec.</value>
+  </data>
+  <data name="ES1135_1" xml:space="preserve">
+    <value>imite inférieur de déchargement du convoyeur de pesage d'agrégats , kg</value>
+  </data>
+  <data name="ES1136_1" xml:space="preserve">
+    <value>ATemps d'équilibrage du convoyeur de pesage d’agrégats, sec</value>
+  </data>
+  <data name="ES1137_1" xml:space="preserve">
+    <value>Capacité de pesage maximale du convoyeur de pesage d'agrégats, kg</value>
+  </data>
+  <data name="ES1138_1" xml:space="preserve">
+    <value>Temps de travail supplémentaire du convoyeur intermédiaire</value>
+  </data>
+  <data name="ES1139_1" xml:space="preserve">
+    <value>Taux d'humidité d'agrégats(1), </value>
+  </data>
+  <data name="ES113_1" xml:space="preserve">
+    <value>Plaque d'immatriculation de la voiture</value>
+  </data>
+  <data name="ES1140_1" xml:space="preserve">
+    <value>Taux d'humidité d'agrégat(2)</value>
+  </data>
+  <data name="ES1141_1" xml:space="preserve">
+    <value>Taux d'humidité d'agrégat(3)</value>
+  </data>
+  <data name="ES1142_1" xml:space="preserve">
+    <value>Taux d'humidité d'agrégat(4)</value>
+  </data>
+  <data name="ES1143_1" xml:space="preserve">
+    <value>Taux d'humidité d'agrégat(5)</value>
+  </data>
+  <data name="ES1144_1" xml:space="preserve">
+    <value>Taux d'humidité d'agrégat(6)</value>
+  </data>
+  <data name="ES1145_1" xml:space="preserve">
+    <value>Matériel déchargé sur le convoyeur de dosage après le signal "STOP" (kg) (1)</value>
+  </data>
+  <data name="ES1146_1" xml:space="preserve">
+    <value>Matériel déchargé sur le convoyeur de dosage après le signal "STOP" (kg) (2)</value>
+  </data>
+  <data name="ES1147_1" xml:space="preserve">
+    <value>Matériel déchargé sur le convoyeur de dosage après le signal "STOP" (kg) (3)</value>
+  </data>
+  <data name="ES1148_1" xml:space="preserve">
+    <value>Matériel déchargé sur le convoyeur de dosage après le signal "STOP" (kg) (4)</value>
+  </data>
+  <data name="ES1149_1" xml:space="preserve">
+    <value>Matériel déchargé sur le convoyeur de dosage après le signal "STOP" (kg) (5)</value>
+  </data>
+  <data name="ES114_1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ES1150_1" xml:space="preserve">
+    <value>Matériel déchargé sur le convoyeur de dosage après le signal "STOP" (kg) (6)</value>
+  </data>
+  <data name="ES1151_1" xml:space="preserve">
+    <value>Entrer taux d'humidité d'agrégats à la main(2)</value>
+  </data>
+  <data name="ES1152_1" xml:space="preserve">
+    <value>Contrôle automatique du taux d'humidité d'agrégat à partir de la sonde d'humidité (2)</value>
+  </data>
+  <data name="ES1153_1" xml:space="preserve">
+    <value>Entrer taux d'humidité d'agrégats à la main(3)</value>
+  </data>
+  <data name="ES1154_1" xml:space="preserve">
+    <value>Contrôle automatique du taux d'humidité d'agrégat à partir de la sonde d'humiditér (3)</value>
+  </data>
+  <data name="ES1155_1" xml:space="preserve">
+    <value>Calcul de taux d'humidité en  % </value>
+  </data>
+  <data name="ES1156_1" xml:space="preserve">
+    <value>Temps maximale de travail du convoyeur de pesage(sec)</value>
+  </data>
+  <data name="ES1157_1" xml:space="preserve">
+    <value>Temps maximale de vidange des bascules(sec)</value>
+  </data>
+  <data name="ES1158_1" xml:space="preserve">
+    <value>Temps maximal de travail du piston du couvercle de déchargement du malaxeur(sec)</value>
+  </data>
+  <data name="ES1159_1" xml:space="preserve">
+    <value>Temps de travail maximal du klaxon(sec)</value>
+  </data>
+  <data name="ES1160_1" xml:space="preserve">
+    <value>Surintensité du moteur du malaxeur</value>
+  </data>
+  <data name="ES1161_1" xml:space="preserve">
+    <value>Durée acceptée de surintensité du moteur du malaxeur(sec)</value>
+  </data>
+  <data name="ES1162_1" xml:space="preserve">
+    <value>Temps maximale de travail de la vis à ciment, sec.</value>
+  </data>
+  <data name="ES1163_1" xml:space="preserve">
+    <value>Limite inférieur de déchargement de la bascule à ciment(kg)</value>
+  </data>
+  <data name="ES1164_1" xml:space="preserve">
+    <value>Temps d'équilibrage de la bascule à adjuvants (sec)</value>
+  </data>
+  <data name="ES1165_1" xml:space="preserve">
+    <value>Matériel déchargé sur la bascule après le signal(1)</value>
+  </data>
+  <data name="ES1166_1" xml:space="preserve">
+    <value>Matériel déchargé sur la bascule après le signal(2)</value>
+  </data>
+  <data name="ES1167_1" xml:space="preserve">
+    <value>Matériel déchargé sur la bascule après le signal(3)</value>
+  </data>
+  <data name="ES1168_1" xml:space="preserve">
+    <value>Matériel déchargé sur la bascule après le signal(4)</value>
+  </data>
+  <data name="ES1169_1" xml:space="preserve">
+    <value>Temps supplémentaire de déchargement de la bascule à adjuvants, sec.</value>
+  </data>
+  <data name="ES1170_1" xml:space="preserve">
+    <value>Temps de travail du piston hydraulique du couvercle de déchargement de malaxeur, sec</value>
+  </data>
+  <data name="ES1171_1" xml:space="preserve">
+    <value>Temps maximal de travail du piston du couvercle de déchargement du malaxeur, sec.</value>
+  </data>
+  <data name="ES1173_1" xml:space="preserve">
+    <value>Capacité du malaxeur</value>
+  </data>
+  <data name="ES1174_1" xml:space="preserve">
+    <value>Temps d'attente du vibrateur de la bascule à ciment, sec.</value>
+  </data>
+  <data name="ES1175_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur de la bascule à ciment, sec.</value>
+  </data>
+  <data name="ES1176_1" xml:space="preserve">
+    <value>Vitesse de déchargement du ciment de la bascule pour le démarrage du vibrateur, kg/sec.</value>
+  </data>
+  <data name="ES1177_1" xml:space="preserve">
+    <value>Vitesse de déchargement de la bascule à ciment en temps réel</value>
+  </data>
+  <data name="ES1178_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur de la trémie à agrégats(2)</value>
+  </data>
+  <data name="ES1179_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur de la trémie à agrégats(2)</value>
+  </data>
+  <data name="ES117_1" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ES1180_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur de la trémie à agrégats(3)</value>
+  </data>
+  <data name="ES1181_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur de la trémie à agrégats(3)</value>
+  </data>
+  <data name="ES1182_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur de la bascule à ciment, sec.</value>
+  </data>
+  <data name="ES1194_1" xml:space="preserve">
+    <value>Indiquez la durée de malaxage</value>
+  </data>
+  <data name="ES1195_1" xml:space="preserve">
+    <value>Appliquez l'information actualisée dans la recette</value>
+  </data>
+  <data name="ES1197_1" xml:space="preserve">
+    <value>Indiquez le temps de déchargement du malaxeur</value>
+  </data>
+  <data name="ES11_1" xml:space="preserve">
+    <value>Rapports</value>
+  </data>
+  <data name="ES1201_1" xml:space="preserve">
+    <value>Calibrage</value>
+  </data>
+  <data name="ES1202_1" xml:space="preserve">
+    <value>Réglages de langue</value>
+  </data>
+  <data name="ES1203_1" xml:space="preserve">
+    <value>Paramètres d'ELKON</value>
+  </data>
+  <data name="ES1205_1" xml:space="preserve">
+    <value>Etes-vous sur de vouloir quitter le programme?</value>
+  </data>
+  <data name="ES1208_1" xml:space="preserve">
+    <value>Imprimer le Bon de livraison manuellement après la fin de production</value>
+  </data>
+  <data name="ES1209_1" xml:space="preserve">
+    <value>Après la fin de chaque production, imprimer le bon de livraion automatiquement</value>
+  </data>
+  <data name="ES1210_1" xml:space="preserve">
+    <value>Paramètres du bon de livraison</value>
+  </data>
+  <data name="ES1211_1" xml:space="preserve">
+    <value>Modifier le bon de livraison</value>
+  </data>
+  <data name="ES1213_1" xml:space="preserve">
+    <value>Déplacer en bas</value>
+  </data>
+  <data name="ES1217_1" xml:space="preserve">
+    <value>Limite de surintensité du moteur de malaxeur sur ampèremètre digitale</value>
+  </data>
+  <data name="ES1218_1" xml:space="preserve">
+    <value>Limite de sous-intensité de l'ampèremètre digital du moteur du malaxeur</value>
+  </data>
+  <data name="ES1219_1" xml:space="preserve">
+    <value>Limite de mesure maximum d'intensité du malaxeur sur ampèremètre digitale</value>
+  </data>
+  <data name="ES1220_1" xml:space="preserve">
+    <value>Limite de mesure minimum d'intensité du malaxeur sur ampèremètre digitale</value>
+  </data>
+  <data name="ES1221_1" xml:space="preserve">
+    <value>Indiquez la capacité de la basccule à ciment</value>
+  </data>
+  <data name="ES1224_1" xml:space="preserve">
+    <value>Connexion d'utilisateur</value>
+  </data>
+  <data name="ES1231_1" xml:space="preserve">
+    <value>Une production est en cours.Souhaitez-vous vraiment vous déconnectez? </value>
+  </data>
+  <data name="ES1233_1" xml:space="preserve">
+    <value>Entrer dans le programme</value>
+  </data>
+  <data name="ES1234_1" xml:space="preserve">
+    <value>Qitter le programme</value>
+  </data>
+  <data name="ES1235_1" xml:space="preserve">
+    <value>Se connecter</value>
+  </data>
+  <data name="ES1236_1" xml:space="preserve">
+    <value>Se déconnecter</value>
+  </data>
+  <data name="ES1238_1" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="ES1240_1" xml:space="preserve">
+    <value>Date de verrouillage de la centrale</value>
+  </data>
+  <data name="ES1241_0" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="ES1242_0" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="ES1243_0" xml:space="preserve">
+    <value>m^3</value>
+  </data>
+  <data name="ES1245_0" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="ES1246_1" xml:space="preserve">
+    <value>Vérouiller</value>
+  </data>
+  <data name="ES1247_1" xml:space="preserve">
+    <value>Dévérouiller</value>
+  </data>
+  <data name="ES1249_1" xml:space="preserve">
+    <value>Configuration du système de pesage de l'eau et des adjuvants</value>
+  </data>
+  <data name="ES1250_1" xml:space="preserve">
+    <value>Configuration des bascules à eau et à adjuvants</value>
+  </data>
+  <data name="ES1254_1" xml:space="preserve">
+    <value>Indiquez la capacité maximale de la bascule</value>
+  </data>
+  <data name="ES1257_0" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES1258_0" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES125_1" xml:space="preserve">
+    <value>Nom de l'entreprise</value>
+  </data>
+  <data name="ES1265_0" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ES1266_0" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ES1269_0" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ES126_1" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="ES1270_0" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ES1273_0" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ES1274_0" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ES1277_0" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ES127_1" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="ES1282_1" xml:space="preserve">
+    <value>Entrez le nombre de silo à fumée de silice</value>
+  </data>
+  <data name="ES1285_1" xml:space="preserve">
+    <value>Entrez la capacité de la bascule à fumée de silice</value>
+  </data>
+  <data name="ES1287_1" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="ES1288_1" xml:space="preserve">
+    <value>Avant d'appuyer sur le bouton ''Mettre à zéro'' assurez-vous que la bascule est vide et fixée librement sur les capteurs de poids. Les tiges de sécurité ne sont pas serrées et il n'y a pas d'obstacle pour le fonctionnement normale du capteur de poids. </value>
+  </data>
+  <data name="ES1289_1" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="ES128_1" xml:space="preserve">
+    <value>Responsable</value>
+  </data>
+  <data name="ES1291_1" xml:space="preserve">
+    <value> La mise à zéro de la bascule est effectuée avec succès.Mettez sur la bascule le poids de calibrage(pour le poids de calibrage demandé veuillez vous référez au tableau de poids de calibrage collé au mur de la cabine de commande)</value>
+  </data>
+  <data name="ES1292_1" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="ES1294_1" xml:space="preserve">
+    <value>Pour vérifier si le calibrage est effectué correctement, diminuer le poids e calibrage en quelques étapes et comparer avec la valeur sur l'indicateur </value>
+  </data>
+  <data name="ES1299_1" xml:space="preserve">
+    <value>Choisissez la langue d'interface</value>
+  </data>
+  <data name="ES129_1" xml:space="preserve">
+    <value>Bureau d'immatriculation fiscale</value>
+  </data>
+  <data name="ES12_1" xml:space="preserve">
+    <value>Réglages du compte utilisateur</value>
+  </data>
+  <data name="ES1300_1" xml:space="preserve">
+    <value>Indiquer le nom de l'entreprise différente</value>
+  </data>
+  <data name="ES1301_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1302_1" xml:space="preserve">
+    <value> Veuillez entrer le nom de l'entreprise différent</value>
+  </data>
+  <data name="ES1303_1" xml:space="preserve">
+    <value>Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1304_1" xml:space="preserve">
+    <value>Indiquez la plaque d'immatriculation de voiture différente</value>
+  </data>
+  <data name="ES1305_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1306_1" xml:space="preserve">
+    <value> Indiquez la plaque d'immatriculation de voiture différente</value>
+  </data>
+  <data name="ES1307_1" xml:space="preserve">
+    <value>Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1308_1" xml:space="preserve">
+    <value> Veuillez entrer le nom du chauffeur différent</value>
+  </data>
+  <data name="ES1309_1" xml:space="preserve">
+    <value>Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES130_1" xml:space="preserve">
+    <value>Numéro d'immatriculation fiscale</value>
+  </data>
+  <data name="ES1310_1" xml:space="preserve">
+    <value> Veuillez entrer le nom du chauffeur différent</value>
+  </data>
+  <data name="ES1311_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1312_1" xml:space="preserve">
+    <value> Veuillez entrer le nom du chantier différent</value>
+  </data>
+  <data name="ES1313_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1314_1" xml:space="preserve">
+    <value> Veuillez entrer le nom du chantier différent</value>
+  </data>
+  <data name="ES1315_1" xml:space="preserve">
+    <value> Veuillez entrer le nom du matériel différent</value>
+  </data>
+  <data name="ES1316_1" xml:space="preserve">
+    <value> Veuillez entrer le nom du chantier différent</value>
+  </data>
+  <data name="ES1317_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1318_1" xml:space="preserve">
+    <value> Veuillez entrer le nom  du matériel différent</value>
+  </data>
+  <data name="ES1319_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES131_1" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="ES1320_1" xml:space="preserve">
+    <value> Veuillez attendre la fin de production.Il est impossible de changer la recette avant la fin de production en cours</value>
+  </data>
+  <data name="ES1321_1" xml:space="preserve">
+    <value> Impossible de supprimer cette recette car elle est utilisée dans les autres commandes.</value>
+  </data>
+  <data name="ES1322_1" xml:space="preserve">
+    <value>Impossible de supprimer cette recette car elle est utilisée dans les autres commandes.</value>
+  </data>
+  <data name="ES1323_1" xml:space="preserve">
+    <value>Impossible de supprimer cette recette car elle est déjà envoyée en production.</value>
+  </data>
+  <data name="ES1324_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1325_1" xml:space="preserve">
+    <value>Impossible de supprimer la commande car elle est entrée dans le planning de production</value>
+  </data>
+  <data name="ES1326_1" xml:space="preserve">
+    <value>Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1327_1" xml:space="preserve">
+    <value> Impossible d'entrer la quantité de la commande inférieure à la quantité produite </value>
+  </data>
+  <data name="ES1328_1" xml:space="preserve">
+    <value>La quantité à produire ne doit pas dépasser la capacité de la voiture</value>
+  </data>
+  <data name="ES1329_1" xml:space="preserve">
+    <value> La quantité à produire ne doit pas dépasser la quantité commandée</value>
+  </data>
+  <data name="ES1330_1" xml:space="preserve">
+    <value> La quantité de production ne doit pas dépasser la quantité restante de la commande</value>
+  </data>
+  <data name="ES1331_1" xml:space="preserve">
+    <value> Quantité de production maximale possible</value>
+  </data>
+  <data name="ES1332_1" xml:space="preserve">
+    <value> La production de la commande est complètement achevée.</value>
+  </data>
+  <data name="ES1333_1" xml:space="preserve">
+    <value>Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1334_1" xml:space="preserve">
+    <value>Impossible de supprimer le plan car il est en production</value>
+  </data>
+  <data name="ES1335_1" xml:space="preserve">
+    <value>Impossible de modifier le plan car il est en production</value>
+  </data>
+  <data name="ES1336_1" xml:space="preserve">
+    <value> La quantité à produire ne doit pas dépasser la capacité de la voiture</value>
+  </data>
+  <data name="ES1337_1" xml:space="preserve">
+    <value> La quantité à produire ne doit pas dépasser la quantité commandée</value>
+  </data>
+  <data name="ES1338_1" xml:space="preserve">
+    <value> La quantité de production ne doit pas dépasser la quantité restante de la commande</value>
+  </data>
+  <data name="ES1339_1" xml:space="preserve">
+    <value> Quantité de production maximale possible</value>
+  </data>
+  <data name="ES1340_1" xml:space="preserve">
+    <value> La production de la commande est complètement achevée.</value>
+  </data>
+  <data name="ES1341_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1342_1" xml:space="preserve">
+    <value> Impossible de modifier le plan car il est en production</value>
+  </data>
+  <data name="ES1343_1" xml:space="preserve">
+    <value>  La quantité à produire ne doit pas dépasser la capacité de la voiture</value>
+  </data>
+  <data name="ES1344_1" xml:space="preserve">
+    <value>La quantité à produire ne doit pas dépasser la quantité commandée</value>
+  </data>
+  <data name="ES1345_1" xml:space="preserve">
+    <value>La quantité de production ne doit pas dépasser la quantité restante de la commande</value>
+  </data>
+  <data name="ES1346_1" xml:space="preserve">
+    <value> Quantité de production maximale possible</value>
+  </data>
+  <data name="ES1347_1" xml:space="preserve">
+    <value>La production de la commande est complètement achevée.</value>
+  </data>
+  <data name="ES1348_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1349_1" xml:space="preserve">
+    <value> La quantité à produire ne doit pas dépasser la capacité de la voiture</value>
+  </data>
+  <data name="ES1350_1" xml:space="preserve">
+    <value> La quantité à produire ne doit pas dépasser la quantité commandée</value>
+  </data>
+  <data name="ES1351_1" xml:space="preserve">
+    <value> La quantité de production ne doit pas dépasser la quantité restante de la commande</value>
+  </data>
+  <data name="ES1352_1" xml:space="preserve">
+    <value>Quantité de production maximale possible</value>
+  </data>
+  <data name="ES1353_1" xml:space="preserve">
+    <value>La production de la commande est complètement achevée</value>
+  </data>
+  <data name="ES1354_1" xml:space="preserve">
+    <value>Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1355_1" xml:space="preserve">
+    <value>Plan de production introuvable</value>
+  </data>
+  <data name="ES1356_1" xml:space="preserve">
+    <value>Toutes les productions entrées dans le  plan de production sont achevées.</value>
+  </data>
+  <data name="ES1357_1" xml:space="preserve">
+    <value> Pour une production en automatique veuillez passer en mode automatique.</value>
+  </data>
+  <data name="ES1358_1" xml:space="preserve">
+    <value> Une production arrêtée est reprise</value>
+  </data>
+  <data name="ES1359_1" xml:space="preserve">
+    <value> Veuillez compléter l'information manquante</value>
+  </data>
+  <data name="ES1360_1" xml:space="preserve">
+    <value>Impossible d'entrer dans les valeurs des stocks  la quantité supérieure à la capacité de stocks.</value>
+  </data>
+  <data name="ES1361_1" xml:space="preserve">
+    <value> La production n'est pas achevée.Vous pouvez continuer ou bien la supprimer du plan de production</value>
+  </data>
+  <data name="ES1362_1" xml:space="preserve">
+    <value>Choisir</value>
+  </data>
+  <data name="ES1363_1" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="ES1364_1" xml:space="preserve">
+    <value>Passif</value>
+  </data>
+  <data name="ES1368_1" xml:space="preserve">
+    <value>Résolution en octet des entrées analogiques du PLC(API)</value>
+  </data>
+  <data name="ES1375_1" xml:space="preserve">
+    <value>Numéro de série</value>
+  </data>
+  <data name="ES1376_1" xml:space="preserve">
+    <value>Numéro de série</value>
+  </data>
+  <data name="ES1377_0" xml:space="preserve">
+    <value>ABB</value>
+  </data>
+  <data name="ES1379_1" xml:space="preserve">
+    <value>Adjuvant1</value>
+  </data>
+  <data name="ES1380_1" xml:space="preserve">
+    <value>Adjuvant2</value>
+  </data>
+  <data name="ES1381_1" xml:space="preserve">
+    <value>Adjuvant3</value>
+  </data>
+  <data name="ES1382_1" xml:space="preserve">
+    <value>Adjuvant4</value>
+  </data>
+  <data name="ES1383_1" xml:space="preserve">
+    <value>Adjuvant5</value>
+  </data>
+  <data name="ES1384_1" xml:space="preserve">
+    <value>A100_Erreur du disjoncteur magnéto-thermique du moteur du malaxeur</value>
+  </data>
+  <data name="ES1385_1" xml:space="preserve">
+    <value>A111_Malaxer a été démarré étant remplis de matériel</value>
+  </data>
+  <data name="ES13_1" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="ES1404_1" xml:space="preserve">
+    <value>C503_Erreur de surcharge de la bascule à ciment</value>
+  </data>
+  <data name="ES1405_1" xml:space="preserve">
+    <value>C601_Erreur de surcharge de la bascule à eau</value>
+  </data>
+  <data name="ES1406_1" xml:space="preserve">
+    <value>C701_Erreur de surcharge de la bascule à adjuvant</value>
+  </data>
+  <data name="ES1407_1" xml:space="preserve">
+    <value>D402_Temps de fonctionnement maximum du skip dépassé</value>
+  </data>
+  <data name="ES1408_1" xml:space="preserve">
+    <value>E205_La quantité d'agrégat demandé dans la recette n'a pas été prise sur le tapis peseur, dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1409_1" xml:space="preserve">
+    <value>F506_La bascule à ciment n'a pas atteint la valeur considérée comme vide dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1410_1" xml:space="preserve">
+    <value>F206_Le convoyeur de pesage n'a pas atteint la valeur considérée comme vide dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1411_1" xml:space="preserve">
+    <value>G109_La trappe de vidange du malaxeur n'a pas été ouverte/fermée dans les temps maximum accordés</value>
+  </data>
+  <data name="ES1412_1" xml:space="preserve">
+    <value>G507_La trappe de vidange de la bascule à ciment n'a pas été ouverte/fermée dans les temps maximum accordés</value>
+  </data>
+  <data name="ES1413_1" xml:space="preserve">
+    <value>G604_La trappe de vidange de la bascule à eau n'a pas été ouverte/fermée dans les temps maximum accordés</value>
+  </data>
+  <data name="ES1414_1" xml:space="preserve">
+    <value>G704_La trappe de vidange de la bascule à adjuvant n'a pas été ouverte/fermée dans les temps maximum accordés</value>
+  </data>
+  <data name="ES1415_1" xml:space="preserve">
+    <value>G801_La trappe de vidange de la trémie d'attente n'a pas été ouverte/fermée dans les temps maximum accordés</value>
+  </data>
+  <data name="ES1416_1" xml:space="preserve">
+    <value>H210_Le poids du convoyeur de pesage est supérieur à la valeur considérée comme vide</value>
+  </data>
+  <data name="ES1417_1" xml:space="preserve">
+    <value>H510_Le poids de la bascule à ciment est supérieur à la valeur considérée comme vide</value>
+  </data>
+  <data name="ES1418_1" xml:space="preserve">
+    <value>H607_Le poids de la bascule à eau est supérieur à la valeur considérée comme vide</value>
+  </data>
+  <data name="ES1419_1" xml:space="preserve">
+    <value>H707_Le poids de la bascule à adjuvant est supérieur à la valeur considérée comme vide</value>
+  </data>
+  <data name="ES1420_1" xml:space="preserve">
+    <value>K105_Panne du système de graissage automatique / ou le capteur est en panne</value>
+  </data>
+  <data name="ES1421_1" xml:space="preserve">
+    <value>K106_Le moteur du malaxeur est en surchauffe(70˚C) / ou le condensateur PTC est en panne</value>
+  </data>
+  <data name="ES1422_1" xml:space="preserve">
+    <value>La graisse du réducteur du malaxeur est en surchauffe(70˚C) / ou en panne</value>
+  </data>
+  <data name="ES1423_1" xml:space="preserve">
+    <value>K108_Le couvercle de maintenance du malaxeur est ouvert / ou le capteur est déreglé /ou en panne</value>
+  </data>
+  <data name="ES1424_1" xml:space="preserve">
+    <value>Le disque de frein du skip est usé/ ou est déréglé/ou le capteur de frein est déréglé ou en panne</value>
+  </data>
+  <data name="ES1425_1" xml:space="preserve">
+    <value>Le skip n'est pas en position bas/ ou la capteur de position est déréglé/ ou en panne.</value>
+  </data>
+  <data name="ES1426_1" xml:space="preserve">
+    <value>Le switch du pullcord du convoyeur de pesage a été enclenché</value>
+  </data>
+  <data name="ES1427_1" xml:space="preserve">
+    <value>Le malaxeur ne fonctionne pas</value>
+  </data>
+  <data name="ES1428_1" xml:space="preserve">
+    <value>XB46_Erreur de phase(1)</value>
+  </data>
+  <data name="ES1429_1" xml:space="preserve">
+    <value>XB46_Bouclage du câble de switch du frein de skip /les paramètres du switch du frein sont déréglés/ou bien le switch est endommagé</value>
+  </data>
+  <data name="ES1430_1" xml:space="preserve">
+    <value>Sécurité générale</value>
+  </data>
+  <data name="ES1431_1" xml:space="preserve">
+    <value>XB46_Erreur générale</value>
+  </data>
+  <data name="ES1432_1" xml:space="preserve">
+    <value>XB46_Erreur du disjoncteur magnéto-thermique du moteur de l'unité hydraulique de la trappe de vidange du malaxeur</value>
+  </data>
+  <data name="ES1433_1" xml:space="preserve">
+    <value>Malaxeur est arrêté</value>
+  </data>
+  <data name="ES1434_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique deu moteur du tapis convoyeur(1)</value>
+  </data>
+  <data name="ES1435_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermiquedu vibrateur du tapis convoyeur(1)</value>
+  </data>
+  <data name="ES1437_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du vibrateur de la trémie à agrégat(2)</value>
+  </data>
+  <data name="ES1438_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du vibrateur de la trémie à agrégat(3)</value>
+  </data>
+  <data name="ES1439_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du moteur du tapis de transfert</value>
+  </data>
+  <data name="ES1440_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermiquedu moteur du skip</value>
+  </data>
+  <data name="ES1441_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du moteur de la vis à ciment</value>
+  </data>
+  <data name="ES1442_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du vibrateur bascule à ciment</value>
+  </data>
+  <data name="ES1443_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du vibrateur de la trémie d'attente</value>
+  </data>
+  <data name="ES1444_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du moteur du compresseur</value>
+  </data>
+  <data name="ES1445_1" xml:space="preserve">
+    <value>Limite de surintensité du moteur du malaxeur dépassée</value>
+  </data>
+  <data name="ES1446_1" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(1) dépassée</value>
+  </data>
+  <data name="ES1447_1" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(2) dépassée</value>
+  </data>
+  <data name="ES1448_1" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(3) dépassée</value>
+  </data>
+  <data name="ES1449_1" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(4) dépassée</value>
+  </data>
+  <data name="ES1450_1" xml:space="preserve">
+    <value>Erreur surcharge du convoyeur de pesage</value>
+  </data>
+  <data name="ES1451_1" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="ES1454_1" xml:space="preserve">
+    <value>Page d'enregistrement du courant nominal du moteur de malaxeur</value>
+  </data>
+  <data name="ES1455_1" xml:space="preserve">
+    <value>Description: cette page permet d'étalonner le courant nominal du moteur du malaxeur. Après la détermination de la consommation de courant du moteur du malaxeur au ralenti, le système compare cette valeur avec la valeur réelle du courant pendant la production après le déchargement du béton, déterminant ainsi si le malaxeur est vraiment vide. Si le moteur du malaxeur consomme plus de courant que le moteur spécifié, le matériel du cycle suivant n'est pas pris dans le malaxeur</value>
+  </data>
+  <data name="ES1457_1" xml:space="preserve">
+    <value>  Déterminer et enregistrer la valeur du courant électrique</value>
+  </data>
+  <data name="ES1458_1" xml:space="preserve">
+    <value>Étape 2: Indiquez la valeur de tolérance.Cette valeur de tolérance spécifie la quantité de la valeur enregistrée qui peut être dépassée lorsque le contrôle en cours.La valeur est indiquée en pourcentage</value>
+  </data>
+  <data name="ES1459_1" xml:space="preserve">
+    <value>Étape 1: Mettez le système en mode manuel, assurez-vous que le malaxeur est vide, puis démarrez le malaxeur.Cliquez ensuite sur le bouton "Définir et enregistrer la valeur actuelle". Le processus prendra environ 5 secondes.Veuillez attendre l'affichage de la valeur actuelle  à l'écran</value>
+  </data>
+  <data name="ES1460_1" xml:space="preserve">
+    <value>Étape 3: Vérifiez le tableau au bas de la page: si le processus est terminé avec succès, la valeur enregistrée doit être 0 et le résultat final doit être 1</value>
+  </data>
+  <data name="ES1461_1" xml:space="preserve">
+    <value>Veuillez attendre jusqu'à la fin de cette production</value>
+  </data>
+  <data name="ES1462_1" xml:space="preserve">
+    <value>Passez en mode manuel</value>
+  </data>
+  <data name="ES1463_1" xml:space="preserve">
+    <value>Résultat</value>
+  </data>
+  <data name="ES1464_1" xml:space="preserve">
+    <value>Résultat</value>
+  </data>
+  <data name="ES1467_1" xml:space="preserve">
+    <value>Semi-automatique</value>
+  </data>
+  <data name="ES1468_1" xml:space="preserve">
+    <value>Semi-automatique</value>
+  </data>
+  <data name="ES146_1" xml:space="preserve">
+    <value>Nom de l'entreprise</value>
+  </data>
+  <data name="ES1472_1" xml:space="preserve">
+    <value>Semi-automatique</value>
+  </data>
+  <data name="ES1473_0" xml:space="preserve">
+    <value>Hz</value>
+  </data>
+  <data name="ES1474_1" xml:space="preserve">
+    <value>Configuration des compteurs d'eau et d'adjuvants</value>
+  </data>
+  <data name="ES1475_1" xml:space="preserve">
+    <value>Surintensité du moteur de malaxeur, A</value>
+  </data>
+  <data name="ES1476_0" xml:space="preserve">
+    <value>1350 kg</value>
+  </data>
+  <data name="ES1477_0" xml:space="preserve">
+    <value>2500 kg</value>
+  </data>
+  <data name="ES1478_0" xml:space="preserve">
+    <value>5000 kg</value>
+  </data>
+  <data name="ES1479_0" xml:space="preserve">
+    <value>7500 kg</value>
+  </data>
+  <data name="ES147_1" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="ES1480_0" xml:space="preserve">
+    <value>10000 kg</value>
+  </data>
+  <data name="ES1481_0" xml:space="preserve">
+    <value>1500 kg</value>
+  </data>
+  <data name="ES1485_1" xml:space="preserve">
+    <value>Nom de la recette non valide</value>
+  </data>
+  <data name="ES1486_1" xml:space="preserve">
+    <value>O905_Bouton d'arrêt d'urgence est enfoncé</value>
+  </data>
+  <data name="ES1489_1" xml:space="preserve">
+    <value>Envoyer la recette sur le PLC(API)</value>
+  </data>
+  <data name="ES148_1" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="ES1490_1" xml:space="preserve">
+    <value>Envoyer la recette sur le PLC(API)</value>
+  </data>
+  <data name="ES1491_1" xml:space="preserve">
+    <value>Envoyer la recette sur le PLC(API)</value>
+  </data>
+  <data name="ES1493_1" xml:space="preserve">
+    <value>Durée acceptée de surintensité du moteur de la vis à ciment, sec.</value>
+  </data>
+  <data name="ES1494_1" xml:space="preserve">
+    <value>Quantité d'entée</value>
+  </data>
+  <data name="ES1495_1" xml:space="preserve">
+    <value>Rapport d'enregistrement de stocks</value>
+  </data>
+  <data name="ES1496_1" xml:space="preserve">
+    <value>Résultats de production</value>
+  </data>
+  <data name="ES1497_1" xml:space="preserve">
+    <value>Rapport de matériel utilisé en mode manuel</value>
+  </data>
+  <data name="ES1498_1" xml:space="preserve">
+    <value>Agrégat(1)</value>
+  </data>
+  <data name="ES1499_1" xml:space="preserve">
+    <value>Agrégat(2)</value>
+  </data>
+  <data name="ES149_1" xml:space="preserve">
+    <value>Responsable</value>
+  </data>
+  <data name="ES1500_1" xml:space="preserve">
+    <value>Agrégat(3)</value>
+  </data>
+  <data name="ES1501_1" xml:space="preserve">
+    <value>Agrégat(4)</value>
+  </data>
+  <data name="ES1502_1" xml:space="preserve">
+    <value>Ciment(1)</value>
+  </data>
+  <data name="ES1503_1" xml:space="preserve">
+    <value>Ciment(2)</value>
+  </data>
+  <data name="ES1504_1" xml:space="preserve">
+    <value>Adjuvant(1)</value>
+  </data>
+  <data name="ES1505_1" xml:space="preserve">
+    <value>Adjuvant(1)</value>
+  </data>
+  <data name="ES1506_1" xml:space="preserve">
+    <value>Eau(1)</value>
+  </data>
+  <data name="ES1507_1" xml:space="preserve">
+    <value>Eau(1)</value>
+  </data>
+  <data name="ES1508_1" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="ES1509_1" xml:space="preserve">
+    <value>ELKOMIX-60 Quick Master(avec convoyeur)</value>
+  </data>
+  <data name="ES150_1" xml:space="preserve">
+    <value>Bureau d'immatriculation fiscale</value>
+  </data>
+  <data name="ES1510_1" xml:space="preserve">
+    <value>ELKOMIX-90 Quick Master(avec convoyeur)</value>
+  </data>
+  <data name="ES1511_1" xml:space="preserve">
+    <value>AL_A600 Erreur du disjoncteur magnéto-thermique moteur de la pompe de vidange de la bascule à eau</value>
+  </data>
+  <data name="ES1512_1" xml:space="preserve">
+    <value>AL_A700 Erreur du disjoncteur magnéto-thermique du moteur de la pompe à adjuvant</value>
+  </data>
+  <data name="ES1514_1" xml:space="preserve">
+    <value>L302 Le switch du pullcord du convoyeur de transfert a été enclenché</value>
+  </data>
+  <data name="ES1516_1" xml:space="preserve">
+    <value>Pour initialiser la production en cours appuyer sur le bouton "Arrêter"</value>
+  </data>
+  <data name="ES1517_1" xml:space="preserve">
+    <value>Une production inachevée est disponible.Souhaitez-vous continuer avec l'initialisation?              </value>
+  </data>
+  <data name="ES1518_0" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="ES1519_0" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ES151_1" xml:space="preserve">
+    <value>Bureau d'immatriculation fiscale</value>
+  </data>
+  <data name="ES1520_0" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="ES1521_0" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="ES1522_0" xml:space="preserve">
+    <value>Magyar</value>
+  </data>
+  <data name="ES1524_1" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="ES1525_1" xml:space="preserve">
+    <value>Coordonnés des clients</value>
+  </data>
+  <data name="ES1526_1" xml:space="preserve">
+    <value>Plans de production et rapports</value>
+  </data>
+  <data name="ES1527_1" xml:space="preserve">
+    <value>Résultat de production manuelle instantanée</value>
+  </data>
+  <data name="ES152_1" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="ES1530_0" xml:space="preserve">
+    <value>Silo 2</value>
+  </data>
+  <data name="ES1531_0" xml:space="preserve">
+    <value>Silo 3</value>
+  </data>
+  <data name="ES1532_0" xml:space="preserve">
+    <value>Silo 4</value>
+  </data>
+  <data name="ES1533_0" xml:space="preserve">
+    <value>Silo 1</value>
+  </data>
+  <data name="ES1534_1" xml:space="preserve">
+    <value>Type de voiture</value>
+  </data>
+  <data name="ES1535_1" xml:space="preserve">
+    <value>Camion</value>
+  </data>
+  <data name="ES1536_1" xml:space="preserve">
+    <value>Toupie</value>
+  </data>
+  <data name="ES1537_1" xml:space="preserve">
+    <value>Pompe à béton</value>
+  </data>
+  <data name="ES1538_1" xml:space="preserve">
+    <value>Caractéristiques du béton</value>
+  </data>
+  <data name="ES1539_1" xml:space="preserve">
+    <value>Classe de résistance</value>
+  </data>
+  <data name="ES153_1" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ES1540_1" xml:space="preserve">
+    <value>Classe de consistance</value>
+  </data>
+  <data name="ES1541_1" xml:space="preserve">
+    <value>Classe de résistance contre gel</value>
+  </data>
+  <data name="ES1542_1" xml:space="preserve">
+    <value>Classe de résistance contre eau</value>
+  </data>
+  <data name="ES1543_1" xml:space="preserve">
+    <value>Classe de densité</value>
+  </data>
+  <data name="ES1544_1" xml:space="preserve">
+    <value>Classe de teneur en chlorure</value>
+  </data>
+  <data name="ES1545_1" xml:space="preserve">
+    <value>Valeurs limites de la composition du béton</value>
+  </data>
+  <data name="ES1546_1" xml:space="preserve">
+    <value>Rapport eau-ciment maximum</value>
+  </data>
+  <data name="ES1547_1" xml:space="preserve">
+    <value>Teneur minimale en ciment, kg/m3</value>
+  </data>
+  <data name="ES1548_1" xml:space="preserve">
+    <value>Classe de résistance minimale de béton</value>
+  </data>
+  <data name="ES1549_0" xml:space="preserve">
+    <value>Volume d'air minimum dans le béton,% </value>
+  </data>
+  <data name="ES1558_1" xml:space="preserve">
+    <value>Description 1</value>
+  </data>
+  <data name="ES1559_1" xml:space="preserve">
+    <value>Description 2</value>
+  </data>
+  <data name="ES1560_1" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="ES1561_1" xml:space="preserve">
+    <value>Exporter</value>
+  </data>
+  <data name="ES1575_1" xml:space="preserve">
+    <value> Indiquez la classe de résistance contre gel différente</value>
+  </data>
+  <data name="ES1576_1" xml:space="preserve">
+    <value>Indiquez la classe de résistance à eau différente</value>
+  </data>
+  <data name="ES1577_1" xml:space="preserve">
+    <value>Indiquez la classe de densité différente</value>
+  </data>
+  <data name="ES1578_1" xml:space="preserve">
+    <value>Indiquez la classe de teneure en clorure différente</value>
+  </data>
+  <data name="ES1582_1" xml:space="preserve">
+    <value>Identifiants de la centrale à béton</value>
+  </data>
+  <data name="ES1583_1" xml:space="preserve">
+    <value>Nom-Prénom</value>
+  </data>
+  <data name="ES1584_1" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="ES1585_1" xml:space="preserve">
+    <value>Opérateur</value>
+  </data>
+  <data name="ES1586_1" xml:space="preserve">
+    <value>Bon de livraison numéro:</value>
+  </data>
+  <data name="ES1587_1" xml:space="preserve">
+    <value>Heure de début de production</value>
+  </data>
+  <data name="ES1588_1" xml:space="preserve">
+    <value>Quantité du béton, m3</value>
+  </data>
+  <data name="ES1589_1" xml:space="preserve">
+    <value>Heure de fin de production</value>
+  </data>
+  <data name="ES158_1" xml:space="preserve">
+    <value>Capacité</value>
+  </data>
+  <data name="ES1590_1" xml:space="preserve">
+    <value>Heure d'arrivée du béton sur chantier</value>
+  </data>
+  <data name="ES1591_1" xml:space="preserve">
+    <value>Heure de début de déchargement dur chantier</value>
+  </data>
+  <data name="ES1592_1" xml:space="preserve">
+    <value>Heure de fin de Déchargement du béton sur chantier</value>
+  </data>
+  <data name="ES1593_1" xml:space="preserve">
+    <value>Type de livraison de béton</value>
+  </data>
+  <data name="ES1594_1" xml:space="preserve">
+    <value>Information sur la commande</value>
+  </data>
+  <data name="ES1595_1" xml:space="preserve">
+    <value>Dimensions maximales d'agrégat</value>
+  </data>
+  <data name="ES1596_1" xml:space="preserve">
+    <value>Type du ciment</value>
+  </data>
+  <data name="ES1597_1" xml:space="preserve">
+    <value>Classe de résistance de ciment</value>
+  </data>
+  <data name="ES1598_1" xml:space="preserve">
+    <value>Type d'adjuvant</value>
+  </data>
+  <data name="ES1599_1" xml:space="preserve">
+    <value>Caractéristiques spécifiques</value>
+  </data>
+  <data name="ES15_1" xml:space="preserve">
+    <value>Page de production</value>
+  </data>
+  <data name="ES1600_1" xml:space="preserve">
+    <value>Béton fourni est conforme à la nome EN 206-1</value>
+  </data>
+  <data name="ES1601_1" xml:space="preserve">
+    <value>Interdit d'ajouter de l'eau ou les adjuvants dans le béton frais</value>
+  </data>
+  <data name="ES1602_1" xml:space="preserve">
+    <value>La responsabilité du vendeur est limitée avec l'expédition de béton conforme aux normes</value>
+  </data>
+  <data name="ES1603_1" xml:space="preserve">
+    <value>Le client est responsable  pour les dommages résultant de l'installation, du compactage, du nivellement et de l'entretien du béton, ainsi que du temps de maintien dans les moules et les coffrage, de l'ajout pendant ou après la livraison de matériel  supplémentaire sans accord/ contre la  volonté du vendeur ou d'autres.</value>
+  </data>
+  <data name="ES1604_1" xml:space="preserve">
+    <value>Se conformer strictement à toutes les normes en vigueur dans le pays relatives à la production, coulage et maintenance du béton</value>
+  </data>
+  <data name="ES1605_1" xml:space="preserve">
+    <value>Informations générales</value>
+  </data>
+  <data name="ES1606_1" xml:space="preserve">
+    <value>Informations sur le béton et ses composants</value>
+  </data>
+  <data name="ES1607_1" xml:space="preserve">
+    <value>Remarques</value>
+  </data>
+  <data name="ES1608_1" xml:space="preserve">
+    <value>Expéditeur</value>
+  </data>
+  <data name="ES1609_1" xml:space="preserve">
+    <value>Destinataire</value>
+  </data>
+  <data name="ES1610_1" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="ES1611_1" xml:space="preserve">
+    <value>Adresse du chantier</value>
+  </data>
+  <data name="ES1612_1" xml:space="preserve">
+    <value>Description 1 (type, classe etc.)</value>
+  </data>
+  <data name="ES1613_1" xml:space="preserve">
+    <value>Description 2 (Taille max. de la fraction, mm)</value>
+  </data>
+  <data name="ES1619_0" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ES161_1" xml:space="preserve">
+    <value>Chauffeur</value>
+  </data>
+  <data name="ES1620_0" xml:space="preserve">
+    <value>Temps</value>
+  </data>
+  <data name="ES1621_1" xml:space="preserve">
+    <value>Archive</value>
+  </data>
+  <data name="ES1622_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du vibrateur d'Ag1</value>
+  </data>
+  <data name="ES1623_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du vibrateur d'Ag2</value>
+  </data>
+  <data name="ES1624_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique du vibrateur d'Ag3</value>
+  </data>
+  <data name="ES1625_1" xml:space="preserve">
+    <value>Quantité des agrégats à peser sur le système de pesage précis 1 (kg)</value>
+  </data>
+  <data name="ES1626_1" xml:space="preserve">
+    <value>Quantité des agrégats à peser sur le système de pesage précis 2 (kg)</value>
+  </data>
+  <data name="ES1627_1" xml:space="preserve">
+    <value>Quantité des agrégats à peser sur le système de pesage précis 3 (kg)</value>
+  </data>
+  <data name="ES1628_1" xml:space="preserve">
+    <value>Quantité des agrégats à peser sur le système de pesage précis 4 (kg)</value>
+  </data>
+  <data name="ES1629_1" xml:space="preserve">
+    <value>Assistance à distance</value>
+  </data>
+  <data name="ES162_1" xml:space="preserve">
+    <value>Item1</value>
+  </data>
+  <data name="ES1630_0" xml:space="preserve">
+    <value>AnyDesk</value>
+  </data>
+  <data name="ES1631_0" xml:space="preserve">
+    <value>Alpemix</value>
+  </data>
+  <data name="ES1632_0" xml:space="preserve">
+    <value>Team Viewer</value>
+  </data>
+  <data name="ES1633_1" xml:space="preserve">
+    <value>Initialiser le numéro de bon de livraison</value>
+  </data>
+  <data name="ES163_1" xml:space="preserve">
+    <value>Item2</value>
+  </data>
+  <data name="ES1644_1" xml:space="preserve">
+    <value>Temps de travail maximal de la valve de l'eau</value>
+  </data>
+  <data name="ES1645_1" xml:space="preserve">
+    <value>Durée maximale de travail du moteur de la pompe à adjuvant</value>
+  </data>
+  <data name="ES1652_1" xml:space="preserve">
+    <value>E702_La quantité d'adjuvant demandé dans la recette n'a pas été prise dans la bascule, dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1653_1" xml:space="preserve">
+    <value>E602_La quantité d'eau demandé dans la recette n'a pas été prise dans la bascule, dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1654_1" xml:space="preserve">
+    <value>E505_La quantité de ciment demandé dans la recette n'a pas été prise dans la bascule, dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1655_1" xml:space="preserve">
+    <value>F603_La bascule à eau n'a pas atteint la valeur considérée comme vide dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1656_1" xml:space="preserve">
+    <value>F703_La bascule à adjuvant n'a pas atteint la valeur considérée comme vide dans les temps maximum accordés.</value>
+  </data>
+  <data name="ES1657_1" xml:space="preserve">
+    <value>Temps maximal de déchargement du couvercle de ciment(sn)</value>
+  </data>
+  <data name="ES1658_1" xml:space="preserve">
+    <value>Temps maximal de déchargement d'adjuvant (sn)</value>
+  </data>
+  <data name="ES1659_1" xml:space="preserve">
+    <value>Temps maximal de déchargement de l'eau (sn)</value>
+  </data>
+  <data name="ES1660_1" xml:space="preserve">
+    <value>Temps maximal d'ouverture des couvercles de trémie à agrégats</value>
+  </data>
+  <data name="ES1662_1" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="ES1663_1" xml:space="preserve">
+    <value>Compteur disponible</value>
+  </data>
+  <data name="ES1664_1" xml:space="preserve">
+    <value>Compteur non disponible</value>
+  </data>
+  <data name="ES1665_1" xml:space="preserve">
+    <value>Bascule non disponible</value>
+  </data>
+  <data name="ES1666_1" xml:space="preserve">
+    <value>Bascule disponible</value>
+  </data>
+  <data name="ES1667_1" xml:space="preserve">
+    <value>Bon de livraison</value>
+  </data>
+  <data name="ES1671_1" xml:space="preserve">
+    <value>Couvercle de déchargement d'agrégats avec deux pistons</value>
+  </data>
+  <data name="ES1672_1" xml:space="preserve">
+    <value>Couvercle de déchargement d'agrégats avec un piston </value>
+  </data>
+  <data name="ES1674_1" xml:space="preserve">
+    <value>Test de l'armoire électrique à l'usine</value>
+  </data>
+  <data name="ES1675_1" xml:space="preserve">
+    <value>Graisseur automatique du malaxeur est en marche</value>
+  </data>
+  <data name="ES1676_1" xml:space="preserve">
+    <value>Recette pour mode de simulation</value>
+  </data>
+  <data name="ES1677_0" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="ES1678_0" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="ES1679_0" xml:space="preserve">
+    <value>Kg</value>
+  </data>
+  <data name="ES1680_1" xml:space="preserve">
+    <value>Mode de simulation pour ELKOMIX-35 Quick Master</value>
+  </data>
+  <data name="ES1681_1" xml:space="preserve">
+    <value>Mode de simulation pour ELKOMIX-60 Quick Master</value>
+  </data>
+  <data name="ES1682_0" xml:space="preserve">
+    <value>m^3</value>
+  </data>
+  <data name="ES1683_1" xml:space="preserve">
+    <value>Coefficient de transformateur de courant</value>
+  </data>
+  <data name="ES1684_1" xml:space="preserve">
+    <value>Coefficient de transformateur de courant du moteur électrique du malaxeur</value>
+  </data>
+  <data name="ES1685_1" xml:space="preserve">
+    <value>Coefficient de transformateur de courant du moteur électrique de la vis</value>
+  </data>
+  <data name="ES1686_0" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="ES1691_1" xml:space="preserve">
+    <value>Heure de rmplissage de stocks</value>
+  </data>
+  <data name="ES1693_1" xml:space="preserve">
+    <value>Quantité entrée dans les stocks</value>
+  </data>
+  <data name="ES1694_1" xml:space="preserve">
+    <value>Utilisateur ayant rempli les stocks</value>
+  </data>
+  <data name="ES1696_1" xml:space="preserve">
+    <value>Les donnés sont extraites dans Excel avec succès</value>
+  </data>
+  <data name="ES1697_1" xml:space="preserve">
+    <value>Choisissez le modèle de la centrale</value>
+  </data>
+  <data name="ES1703_1" xml:space="preserve">
+    <value>Quantité totale ne peut pas dépasser 6</value>
+  </data>
+  <data name="ES1704_1" xml:space="preserve">
+    <value>Quantité totale ne peut pas dépasser 6</value>
+  </data>
+  <data name="ES1708_1" xml:space="preserve">
+    <value>Entrez la classe de résistance différente</value>
+  </data>
+  <data name="ES1709_1" xml:space="preserve">
+    <value>Entrez la classe de consistence différente</value>
+  </data>
+  <data name="ES1711_1" xml:space="preserve">
+    <value>Afficher le texte standart sur le Bon de Livraison</value>
+  </data>
+  <data name="ES1712_1" xml:space="preserve">
+    <value>Ne pas afficher le texte standart sur le Bon de Livraison</value>
+  </data>
+  <data name="ES1713_1" xml:space="preserve">
+    <value>Silo</value>
+  </data>
+  <data name="ES1714_1" xml:space="preserve">
+    <value>Trémie</value>
+  </data>
+  <data name="ES1715_1" xml:space="preserve">
+    <value>Temps d'équilibrage de la bascule à ciment (sec)</value>
+  </data>
+  <data name="ES1716_1" xml:space="preserve">
+    <value>Limite inférieur de déchargement de la bascule à adjuvants(kg)</value>
+  </data>
+  <data name="ES1717_1" xml:space="preserve">
+    <value>Temps supplémentaire de déchargement de la bascule à ciment(sec)</value>
+  </data>
+  <data name="ES1719_1" xml:space="preserve">
+    <value>Limite inférieur de déchargement de la bascule à eau(kg)</value>
+  </data>
+  <data name="ES1720_1" xml:space="preserve">
+    <value>Temps supplémentaire de déchargement de la bascule à eau(sn)</value>
+  </data>
+  <data name="ES1721_1" xml:space="preserve">
+    <value>Différence d'agrégat 1, kg</value>
+  </data>
+  <data name="ES1722_1" xml:space="preserve">
+    <value>Différence d'agrégat 2, kg</value>
+  </data>
+  <data name="ES1723_1" xml:space="preserve">
+    <value>Différence d'agrégat 3, kg</value>
+  </data>
+  <data name="ES1724_1" xml:space="preserve">
+    <value>Différence d'agrégat 4, kg</value>
+  </data>
+  <data name="ES1725_1" xml:space="preserve">
+    <value>Différence du ciment 1, kg</value>
+  </data>
+  <data name="ES1726_1" xml:space="preserve">
+    <value>Différence du ciment 2, kg</value>
+  </data>
+  <data name="ES1727_1" xml:space="preserve">
+    <value>Différence d'adjuvant 1, kg</value>
+  </data>
+  <data name="ES1728_1" xml:space="preserve">
+    <value>Différence d'adjuvant 2, kg</value>
+  </data>
+  <data name="ES1729_1" xml:space="preserve">
+    <value>Différence de l'eau 1, kg</value>
+  </data>
+  <data name="ES1730_1" xml:space="preserve">
+    <value>Différence de l'eau 2, kg</value>
+  </data>
+  <data name="ES1733_1" xml:space="preserve">
+    <value>Quantité d'agrégats (3) voulue, kg</value>
+  </data>
+  <data name="ES1734_1" xml:space="preserve">
+    <value>Quantité d'agrégats (2) voulue, kg</value>
+  </data>
+  <data name="ES1735_1" xml:space="preserve">
+    <value>Quantité d'agrégats (1) voulue, kg</value>
+  </data>
+  <data name="ES1736_1" xml:space="preserve">
+    <value>Quantité d'agrégats (4) voulue, kg</value>
+  </data>
+  <data name="ES1737_1" xml:space="preserve">
+    <value>Quantité du ciment(1) demandée, kg</value>
+  </data>
+  <data name="ES1738_1" xml:space="preserve">
+    <value>Quantité du ciment(2) demandée, kg</value>
+  </data>
+  <data name="ES1739_1" xml:space="preserve">
+    <value>Quantité d'adjuvants (1) demandée, kg</value>
+  </data>
+  <data name="ES1740_1" xml:space="preserve">
+    <value>Quantité d'adjuvants(2) demandée, kg</value>
+  </data>
+  <data name="ES1741_1" xml:space="preserve">
+    <value>Quantité de l'eau (1) demandée, kg</value>
+  </data>
+  <data name="ES1742_1" xml:space="preserve">
+    <value>Quantité de l'eau (2)demandée, kg</value>
+  </data>
+  <data name="ES1744_1" xml:space="preserve">
+    <value>Agrégats(1)</value>
+  </data>
+  <data name="ES1745_1" xml:space="preserve">
+    <value>Agrégats(2)</value>
+  </data>
+  <data name="ES1746_1" xml:space="preserve">
+    <value>Agrégats(3)</value>
+  </data>
+  <data name="ES1747_1" xml:space="preserve">
+    <value>Agrégats(4)</value>
+  </data>
+  <data name="ES1748_1" xml:space="preserve">
+    <value>Ciment(1)</value>
+  </data>
+  <data name="ES1749_1" xml:space="preserve">
+    <value>Ciment(2)</value>
+  </data>
+  <data name="ES1750_1" xml:space="preserve">
+    <value>Ciment(3)</value>
+  </data>
+  <data name="ES1751_1" xml:space="preserve">
+    <value>Ciment(4)</value>
+  </data>
+  <data name="ES1752_1" xml:space="preserve">
+    <value>Adjuvant(1)</value>
+  </data>
+  <data name="ES1753_1" xml:space="preserve">
+    <value>Adjuvant(3)</value>
+  </data>
+  <data name="ES1754_1" xml:space="preserve">
+    <value>Adjuvant(2)</value>
+  </data>
+  <data name="ES1755_1" xml:space="preserve">
+    <value>Adjuvant(4)</value>
+  </data>
+  <data name="ES1756_1" xml:space="preserve">
+    <value>Eau(1)</value>
+  </data>
+  <data name="ES1757_1" xml:space="preserve">
+    <value>Eau(2)</value>
+  </data>
+  <data name="ES1759_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique de vibrateurs du système d'alimentation de la trémie à agrégat (1)</value>
+  </data>
+  <data name="ES1760_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique de  vibrateurs du système d'alimentation de la trémie à agrégat (2)</value>
+  </data>
+  <data name="ES1761_1" xml:space="preserve">
+    <value>Erreur du disjoncteur magnéto-thermique de vibrateurs du système d'alimentation de la trémie à agrégat (3)</value>
+  </data>
+  <data name="ES1767_1" xml:space="preserve">
+    <value>Accès aux logs</value>
+  </data>
+  <data name="ES1768_1" xml:space="preserve">
+    <value>Droit de quitter le programme</value>
+  </data>
+  <data name="ES1769_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouvelle entreprise</value>
+  </data>
+  <data name="ES1770_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouvelle voiture</value>
+  </data>
+  <data name="ES1771_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouveau chantier</value>
+  </data>
+  <data name="ES1772_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouveau chaffeur</value>
+  </data>
+  <data name="ES1773_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouveau matériel</value>
+  </data>
+  <data name="ES1774_1" xml:space="preserve">
+    <value> Modification de champs de stock</value>
+  </data>
+  <data name="ES1775_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouvelle recette</value>
+  </data>
+  <data name="ES1776_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouvelle commande</value>
+  </data>
+  <data name="ES1777_1" xml:space="preserve">
+    <value>Ajouter, effacer ou modifier nouveau plan de production</value>
+  </data>
+  <data name="ES1778_1" xml:space="preserve">
+    <value>Accès aux rapports de production</value>
+  </data>
+  <data name="ES1779_1" xml:space="preserve">
+    <value>Accès aux rapports de production détaillés</value>
+  </data>
+  <data name="ES1780_1" xml:space="preserve">
+    <value>Accès aux rapports d'état de livraison</value>
+  </data>
+  <data name="ES1781_1" xml:space="preserve">
+    <value> Accès aux rapports de matériel utilisé</value>
+  </data>
+  <data name="ES1782_1" xml:space="preserve">
+    <value> Accès aux rapports de ventes</value>
+  </data>
+  <data name="ES1783_1" xml:space="preserve">
+    <value>Accès aux résultats de production en mode manuel</value>
+  </data>
+  <data name="ES1784_1" xml:space="preserve">
+    <value>Accès aux durées de travail des moteurs</value>
+  </data>
+  <data name="ES1785_1" xml:space="preserve">
+    <value>Enregistrement des stocks</value>
+  </data>
+  <data name="ES1786_1" xml:space="preserve">
+    <value>Accès aux rapports de quantité de stocks</value>
+  </data>
+  <data name="ES1787_1" xml:space="preserve">
+    <value>Accès aux rapports d'entrées dans les stocks </value>
+  </data>
+  <data name="ES1788_1" xml:space="preserve">
+    <value>Accès aux paramètres d'utilisateur</value>
+  </data>
+  <data name="ES1789_1" xml:space="preserve">
+    <value>Accès aux paramètres de calibrage</value>
+  </data>
+  <data name="ES17_1" xml:space="preserve">
+    <value>Entregistrement des alarmes/logs</value>
+  </data>
+  <data name="ES1801_1" xml:space="preserve">
+    <value>Temps de travail supplémentaire du convoyeur de transfert d'agrégats</value>
+  </data>
+  <data name="ES1805_1" xml:space="preserve">
+    <value>Malaxeur Vide</value>
+  </data>
+  <data name="ES1806_1" xml:space="preserve">
+    <value>Malaxeur Plein</value>
+  </data>
+  <data name="ES1807_1" xml:space="preserve">
+    <value>Production en mode d'attente</value>
+  </data>
+  <data name="ES1808_1" xml:space="preserve">
+    <value>Production continue</value>
+  </data>
+  <data name="ES1811_1" xml:space="preserve">
+    <value>Temps de travail maximum du convoyeur de transfert d'agrégats</value>
+  </data>
+  <data name="ES1812_1" xml:space="preserve">
+    <value>Déchargement du béton</value>
+  </data>
+  <data name="ES1816_1" xml:space="preserve">
+    <value>Attention! Haute tension</value>
+  </data>
+  <data name="ES1817_1" xml:space="preserve">
+    <value>Attention! Basse tension</value>
+  </data>
+  <data name="ES1818_1" xml:space="preserve">
+    <value>D902-1_Erreur de phase- (1)</value>
+  </data>
+  <data name="ES1819_1" xml:space="preserve">
+    <value>D902-2_Erreur de phase - (2)</value>
+  </data>
+  <data name="ES1820_1" xml:space="preserve">
+    <value>D902-3_Erreur de phase - (3)</value>
+  </data>
+  <data name="ES1821_1" xml:space="preserve">
+    <value>Ouvrir couvercle du malaxeur</value>
+  </data>
+  <data name="ES1832_1" xml:space="preserve">
+    <value>Bouton poussoir</value>
+  </data>
+  <data name="ES1833_1" xml:space="preserve">
+    <value>Bouton Fixe</value>
+  </data>
+  <data name="ES1843_1" xml:space="preserve">
+    <value>Nouvelle commande</value>
+  </data>
+  <data name="ES1844_1" xml:space="preserve">
+    <value>Nouveau Plan de Production</value>
+  </data>
+  <data name="ES1845_1" xml:space="preserve">
+    <value>Entregistrements manuels</value>
+  </data>
+  <data name="ES1846_1" xml:space="preserve">
+    <value>Cycle, quantité prise, kg</value>
+  </data>
+  <data name="ES1847_1" xml:space="preserve">
+    <value>Quantité voulue par cycle, kg</value>
+  </data>
+  <data name="ES1849_1" xml:space="preserve">
+    <value>O910_Système en mode automatique</value>
+  </data>
+  <data name="ES1850_1" xml:space="preserve">
+    <value>O911_Système en mode manuel</value>
+  </data>
+  <data name="ES1851_1" xml:space="preserve">
+    <value>O912_Sysème en mode semi-automatique</value>
+  </data>
+  <data name="ES1853_1" xml:space="preserve">
+    <value>Afficher le texte standard sur le Bon de Livraison-2</value>
+  </data>
+  <data name="ES1854_1" xml:space="preserve">
+    <value>Ne pas afficher le texte standard sur le Bon de Livraison-2</value>
+  </data>
+  <data name="ES1855_1" xml:space="preserve">
+    <value>Afficher le texte standard sur le Bon de Livraison-3</value>
+  </data>
+  <data name="ES1856_1" xml:space="preserve">
+    <value>Ne pas afficher le texte standard sur le Bon de Livraison-3</value>
+  </data>
+  <data name="ES1857_1" xml:space="preserve">
+    <value>Afficher le texte standard sur le Bon de Livraison-4</value>
+  </data>
+  <data name="ES1858_1" xml:space="preserve">
+    <value>Ne pas afficher le texte standard sur le Bon de Livraison-4</value>
+  </data>
+  <data name="ES1859_1" xml:space="preserve">
+    <value>Afficher le texte standard sur le Bon de Livraison-5</value>
+  </data>
+  <data name="ES1860_1" xml:space="preserve">
+    <value>Afficher le texte standard sur le Bon de Livraison-5 </value>
+  </data>
+  <data name="ES1862_1" xml:space="preserve">
+    <value> Numéro de production</value>
+  </data>
+  <data name="ES191_1" xml:space="preserve">
+    <value>Nom de la recette</value>
+  </data>
+  <data name="ES192_1" xml:space="preserve">
+    <value>sec.</value>
+  </data>
+  <data name="ES193_1" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="ES1941_1" xml:space="preserve">
+    <value>Code de production de réinitialise</value>
+  </data>
+  <data name="ES1946_1" xml:space="preserve">
+    <value>Production en continue</value>
+  </data>
+  <data name="ES1947_1" xml:space="preserve">
+    <value>Type de béton</value>
+  </data>
+  <data name="ES1948_1" xml:space="preserve">
+    <value>Entrez un autre type de béton</value>
+  </data>
+  <data name="ES194_1" xml:space="preserve">
+    <value>Agrégat1</value>
+  </data>
+  <data name="ES1959_1" xml:space="preserve">
+    <value>Information véhicule</value>
+  </data>
+  <data name="ES1960_1" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ES1961_1" xml:space="preserve">
+    <value>Chantier/Organisme</value>
+  </data>
+  <data name="ES1962_1" xml:space="preserve">
+    <value>Heure d’arrivée</value>
+  </data>
+  <data name="ES1963_1" xml:space="preserve">
+    <value>Heure de sortie</value>
+  </data>
+  <data name="ES1965_0" xml:space="preserve">
+    <value>Polskie</value>
+  </data>
+  <data name="ES1966_1" xml:space="preserve">
+    <value>La production a été arrêté</value>
+  </data>
+  <data name="ES1967_1" xml:space="preserve">
+    <value>La production a été réinitialisée</value>
+  </data>
+  <data name="ES1968_1" xml:space="preserve">
+    <value>La production est terminée</value>
+  </data>
+  <data name="ES1969_1" xml:space="preserve">
+    <value>Une nouvelle production a démarré</value>
+  </data>
+  <data name="ES1970_1" xml:space="preserve">
+    <value>La production continue</value>
+  </data>
+  <data name="ES1971_1" xml:space="preserve">
+    <value>La production n’est pas terminée</value>
+  </data>
+  <data name="ES197_1" xml:space="preserve">
+    <value>Agrégat2</value>
+  </data>
+  <data name="ES198_1" xml:space="preserve">
+    <value>Agrégat3</value>
+  </data>
+  <data name="ES1996_1" xml:space="preserve">
+    <value>Quantité de commande total, m3</value>
+  </data>
+  <data name="ES1997_1" xml:space="preserve">
+    <value>Quantité de production restante, m3</value>
+  </data>
+  <data name="ES199_1" xml:space="preserve">
+    <value>Agrégat4</value>
+  </data>
+  <data name="ES19_1" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="ES1_1" xml:space="preserve">
+    <value>Alarme</value>
+  </data>
+  <data name="ES2001_0" xml:space="preserve">
+    <value>Choisissez un autre adjuvant pour continuer la prise d'adjuvant (il n'y a plus d'adjuvant dans celui selectionné)</value>
+  </data>
+  <data name="ES2003_0" xml:space="preserve">
+    <value>Choisissez une autre trémie pour continuer la prise d'agrégat (il n'y a plus d'agrégat dans la trémie à agrégat selectionnée)</value>
+  </data>
+  <data name="ES2009_0" xml:space="preserve">
+    <value>Temps d'ouverture de la trappe du malaxeur</value>
+  </data>
+  <data name="ES2014_0" xml:space="preserve">
+    <value>Veuillez sélectionner le matériel que vous souhaitez changer</value>
+  </data>
+  <data name="ES2022_0" xml:space="preserve">
+    <value>Les matériaux que vous souhaitez changer doivent être du même type</value>
+  </data>
+  <data name="ES2023_1" xml:space="preserve">
+    <value>Changer</value>
+  </data>
+  <data name="ES2025_0" xml:space="preserve">
+    <value>Selectionner un nouveau matériel pour modifier le matériel dans la zone de stockage</value>
+  </data>
+  <data name="ES2030_0" xml:space="preserve">
+    <value>Matériel fibre</value>
+  </data>
+  <data name="ES2031_0" xml:space="preserve">
+    <value>Valeur de la prise de fibre(1), kg</value>
+  </data>
+  <data name="ES2032_0" xml:space="preserve">
+    <value>Valeur de la prise de fibre(2), kg</value>
+  </data>
+  <data name="ES2033_0" xml:space="preserve">
+    <value>Valeur de la prise de fibre(3), kg</value>
+  </data>
+  <data name="ES2061_0" xml:space="preserve">
+    <value>Marque du véhicule</value>
+  </data>
+  <data name="ES2064_0" xml:space="preserve">
+    <value>Quantité de béton repris</value>
+  </data>
+  <data name="ES2065_0" xml:space="preserve">
+    <value>Classe de béton repris</value>
+  </data>
+  <data name="ES2066_0" xml:space="preserve">
+    <value>Description béton repris</value>
+  </data>
+  <data name="ES2067_0" xml:space="preserve">
+    <value>No de production béton repris</value>
+  </data>
+  <data name="ES206_1" xml:space="preserve">
+    <value>Malaxage</value>
+  </data>
+  <data name="ES2073_0" xml:space="preserve">
+    <value>Page de traitement</value>
+  </data>
+  <data name="ES2074_0" xml:space="preserve">
+    <value>Page de traitement-Panneau de controle</value>
+  </data>
+  <data name="ES2075_0" xml:space="preserve">
+    <value>Page de traitement-Panneau de controle-Traitements de production</value>
+  </data>
+  <data name="ES2076_0" xml:space="preserve">
+    <value>Page de traitement-Paramètres</value>
+  </data>
+  <data name="ES2077_0" xml:space="preserve">
+    <value>Page de traitement-Paramètres-Sauvegarder</value>
+  </data>
+  <data name="ES2078_0" xml:space="preserve">
+    <value>Page de traitement-Paramètres-Lire du PLC</value>
+  </data>
+  <data name="ES2079_0" xml:space="preserve">
+    <value>Page de traitement-Paramètres-Envoyer vers le PLC</value>
+  </data>
+  <data name="ES207_1" xml:space="preserve">
+    <value>Déchargement</value>
+  </data>
+  <data name="ES2080_0" xml:space="preserve">
+    <value>Définition traitement</value>
+  </data>
+  <data name="ES2081_0" xml:space="preserve">
+    <value>Définition traitement-Entreprises</value>
+  </data>
+  <data name="ES2082_0" xml:space="preserve">
+    <value>Définition traitement-Entreprises-Nouvelle entrée</value>
+  </data>
+  <data name="ES2083_0" xml:space="preserve">
+    <value>Définition traitement-Entreprises-Mise à jour entrée</value>
+  </data>
+  <data name="ES2084_0" xml:space="preserve">
+    <value>Définition traitement-Entreprises-Supprimer entrée</value>
+  </data>
+  <data name="ES2085_0" xml:space="preserve">
+    <value>Définition traitement-Véhicules</value>
+  </data>
+  <data name="ES2086_0" xml:space="preserve">
+    <value>Définition traitement-Véhicules-Nouvelle entrée</value>
+  </data>
+  <data name="ES2087_0" xml:space="preserve">
+    <value>Définition traitement-Véhicules-Mise à jour entrée</value>
+  </data>
+  <data name="ES2088_0" xml:space="preserve">
+    <value>Définition traitement-Véhicules-Supprimer entrée</value>
+  </data>
+  <data name="ES2089_0" xml:space="preserve">
+    <value>Définition traitement-Chantiers</value>
+  </data>
+  <data name="ES208_1" xml:space="preserve">
+    <value>Ciment</value>
+  </data>
+  <data name="ES2090_0" xml:space="preserve">
+    <value>Définition traitement-Chantiers-Nouvelle entrée</value>
+  </data>
+  <data name="ES2091_0" xml:space="preserve">
+    <value>Définition traitement-Chantiers-Mise à jour entrée</value>
+  </data>
+  <data name="ES2092_0" xml:space="preserve">
+    <value>Définition traitement-Chantiers-Supprimer entrée</value>
+  </data>
+  <data name="ES2093_0" xml:space="preserve">
+    <value>Définition traitement-Chauffeur-Nouvelle entrée</value>
+  </data>
+  <data name="ES2094_0" xml:space="preserve">
+    <value>Définition traitement-Sürücüler-Mise à jour entrée</value>
+  </data>
+  <data name="ES2095_0" xml:space="preserve">
+    <value>Définition traitement-Sürücüler-Supprimer entrée</value>
+  </data>
+  <data name="ES2096_0" xml:space="preserve">
+    <value>Définition traitement-Matériaux</value>
+  </data>
+  <data name="ES2097_0" xml:space="preserve">
+    <value>Définition traitement-Matériaux-Nouvelle entrée</value>
+  </data>
+  <data name="ES2098_0" xml:space="preserve">
+    <value>Définition traitement-Matériaux-Mise à jour entrée</value>
+  </data>
+  <data name="ES2099_0" xml:space="preserve">
+    <value>Définition traitement-Matériaux-Supprimer entrée</value>
+  </data>
+  <data name="ES209_1" xml:space="preserve">
+    <value>Adjuvant</value>
+  </data>
+  <data name="ES20_1" xml:space="preserve">
+    <value>Window1</value>
+  </data>
+  <data name="ES2100_0" xml:space="preserve">
+    <value>Définition traitement-Zones de stockage</value>
+  </data>
+  <data name="ES2101_0" xml:space="preserve">
+    <value>Définition traitement-Zones de stockage-Nouvelle entrée</value>
+  </data>
+  <data name="ES2102_0" xml:space="preserve">
+    <value>Définition traitement-Zones de stockage-Mise à jour entrée</value>
+  </data>
+  <data name="ES2103_0" xml:space="preserve">
+    <value>Définition traitement-Zones de stockage-Supprimer entrée</value>
+  </data>
+  <data name="ES2104_0" xml:space="preserve">
+    <value>Définition traitement-Solutions alarme</value>
+  </data>
+  <data name="ES2105_0" xml:space="preserve">
+    <value>Définition traitement-Solutions alarme-Nouvelle entrée</value>
+  </data>
+  <data name="ES2106_0" xml:space="preserve">
+    <value>Définition traitement-Solutions alarme-Mise à jour entrée</value>
+  </data>
+  <data name="ES2107_0" xml:space="preserve">
+    <value>Définition traitement-Solutions alarme-Supprimer entrée</value>
+  </data>
+  <data name="ES2108_0" xml:space="preserve">
+    <value>Recette-Définition recette</value>
+  </data>
+  <data name="ES2109_0" xml:space="preserve">
+    <value>Recette-Définition recette-Nouvelle entrée</value>
+  </data>
+  <data name="ES210_1" xml:space="preserve">
+    <value>Temps de retard de déchargement des matériaux dans le malaxeur</value>
+  </data>
+  <data name="ES2110_0" xml:space="preserve">
+    <value>Recette-Définition recette-Mise à jour entrée</value>
+  </data>
+  <data name="ES2111_0" xml:space="preserve">
+    <value>Recette-Définition recette-Supprimer entrée</value>
+  </data>
+  <data name="ES2112_0" xml:space="preserve">
+    <value>Recette-Définition recette-Envoyer vers le PLC</value>
+  </data>
+  <data name="ES2113_0" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="ES2114_0" xml:space="preserve">
+    <value>Production-Plan de production</value>
+  </data>
+  <data name="ES2115_0" xml:space="preserve">
+    <value>Production-Plan de production-Nouvelle entrée</value>
+  </data>
+  <data name="ES2116_0" xml:space="preserve">
+    <value>Production-Plan de production-Mise à jour entrée</value>
+  </data>
+  <data name="ES2117_0" xml:space="preserve">
+    <value>Production-Plan de production-Supprimer entrée</value>
+  </data>
+  <data name="ES2118_0" xml:space="preserve">
+    <value>Production-Commande plan de production</value>
+  </data>
+  <data name="ES2119_0" xml:space="preserve">
+    <value>Production-Commande plan de production-Nouvelle entrée</value>
+  </data>
+  <data name="ES211_1" xml:space="preserve">
+    <value>Composition du béton</value>
+  </data>
+  <data name="ES2120_0" xml:space="preserve">
+    <value>Production-Commande plan de production-Mise à jour entrée</value>
+  </data>
+  <data name="ES2121_0" xml:space="preserve">
+    <value>Production-Résultats de production</value>
+  </data>
+  <data name="ES2122_0" xml:space="preserve">
+    <value>Production-Résultats production manuel</value>
+  </data>
+  <data name="ES2123_0" xml:space="preserve">
+    <value>Production-Durée de focntionnement de moteur</value>
+  </data>
+  <data name="ES2124_0" xml:space="preserve">
+    <value>Traitements de stock</value>
+  </data>
+  <data name="ES2125_0" xml:space="preserve">
+    <value>Traitements de stock-Nouvelle entrée</value>
+  </data>
+  <data name="ES2126_0" xml:space="preserve">
+    <value>Rapports</value>
+  </data>
+  <data name="ES2127_0" xml:space="preserve">
+    <value>Rapports-Rapports de production</value>
+  </data>
+  <data name="ES2128_0" xml:space="preserve">
+    <value>Rapports-Rapports de stock</value>
+  </data>
+  <data name="ES2129_0" xml:space="preserve">
+    <value>Rapports-Rapports de stock-Rapports de stock quantité</value>
+  </data>
+  <data name="ES212_1" xml:space="preserve">
+    <value>Paramètres du malaxeur</value>
+  </data>
+  <data name="ES2130_0" xml:space="preserve">
+    <value>Rapports-Rapports de stock-Rapports entrée de stock</value>
+  </data>
+  <data name="ES2131_0" xml:space="preserve">
+    <value>Rapports-Rapports de stock-Rapports total utilisation de materiaux</value>
+  </data>
+  <data name="ES2132_0" xml:space="preserve">
+    <value>Traitements utilisateur</value>
+  </data>
+  <data name="ES2133_0" xml:space="preserve">
+    <value>Traitements utilisateur-Utilisateurs et groupes</value>
+  </data>
+  <data name="ES2134_0" xml:space="preserve">
+    <value>Traitements utilisateur-Utilisateurs et groupes-Nouvelle entrée</value>
+  </data>
+  <data name="ES2135_0" xml:space="preserve">
+    <value>Traitements utilisateur-Utilisateurs et groupes-Mise à jour entrée</value>
+  </data>
+  <data name="ES2136_0" xml:space="preserve">
+    <value>Effet environnemental</value>
+  </data>
+  <data name="ES213_1" xml:space="preserve">
+    <value>Calibrer</value>
+  </data>
+  <data name="ES21_1" xml:space="preserve">
+    <value>Entreprises</value>
+  </data>
+  <data name="ES220_1" xml:space="preserve">
+    <value>Ciment1</value>
+  </data>
+  <data name="ES225_1" xml:space="preserve">
+    <value>Aération</value>
+  </data>
+  <data name="ES22_1" xml:space="preserve">
+    <value>Voitures</value>
+  </data>
+  <data name="ES239_1" xml:space="preserve">
+    <value>Page de calibrage</value>
+  </data>
+  <data name="ES23_1" xml:space="preserve">
+    <value>Chantiers</value>
+  </data>
+  <data name="ES240_1" xml:space="preserve">
+    <value>Mettre à zéro</value>
+  </data>
+  <data name="ES241_1" xml:space="preserve">
+    <value>Terminer</value>
+  </data>
+  <data name="ES246_1" xml:space="preserve">
+    <value>Temps d'équilibrage de la bascule à agrégats</value>
+  </data>
+  <data name="ES24_1" xml:space="preserve">
+    <value>Chauffeurs</value>
+  </data>
+  <data name="ES2512_1" xml:space="preserve">
+    <value>Taux d'humidité est calculé en kg</value>
+  </data>
+  <data name="ES25_1" xml:space="preserve">
+    <value>Matériaux</value>
+  </data>
+  <data name="ES264_1" xml:space="preserve">
+    <value>Quantité voulue du couvercle du système de dosage précis d'agrégat  1</value>
+  </data>
+  <data name="ES265_1" xml:space="preserve">
+    <value>Quantité voulue du couvercle du système de dosage précis d'agrégat  2</value>
+  </data>
+  <data name="ES266_1" xml:space="preserve">
+    <value>Quantité voulue du couvercle du système de dosage précis d'agrégat 3</value>
+  </data>
+  <data name="ES267_1" xml:space="preserve">
+    <value>Quantité voulue du couvercle du système de dosage précis d'agrégat 4</value>
+  </data>
+  <data name="ES268_1" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="ES269_1" xml:space="preserve">
+    <value>Automatique</value>
+  </data>
+  <data name="ES26_1" xml:space="preserve">
+    <value>Lieux de stockage</value>
+  </data>
+  <data name="ES2714_1" xml:space="preserve">
+    <value>Différence du ciment 3, kg</value>
+  </data>
+  <data name="ES2715_1" xml:space="preserve">
+    <value>Différence du ciment 4, kg</value>
+  </data>
+  <data name="ES2716_1" xml:space="preserve">
+    <value>Quantité du ciment(3) demandée, kg</value>
+  </data>
+  <data name="ES2717_1" xml:space="preserve">
+    <value>Quantité du ciment(4) demandée, kg</value>
+  </data>
+  <data name="ES2718_1" xml:space="preserve">
+    <value>Quantité prise de ciment 3, kg</value>
+  </data>
+  <data name="ES2719_1" xml:space="preserve">
+    <value>Quantité prise de ciment 4, kg</value>
+  </data>
+  <data name="ES2725_1" xml:space="preserve">
+    <value>Mikser Akım Raporu</value>
+  </data>
+  <data name="ES2735_1" xml:space="preserve">
+    <value>Rapport actuel du mélangeur</value>
+  </data>
+  <data name="ES2742_0" xml:space="preserve">
+    <value>D-Class</value>
+  </data>
+  <data name="ES2743_0" xml:space="preserve">
+    <value>C-Class</value>
+  </data>
+  <data name="ES2744_0" xml:space="preserve">
+    <value>B-Class</value>
+  </data>
+  <data name="ES2745_0" xml:space="preserve">
+    <value>A-Class</value>
+  </data>
+  <data name="ES2746_0" xml:space="preserve">
+    <value>E-Class</value>
+  </data>
+  <data name="ES2747_0" xml:space="preserve">
+    <value>F-Class</value>
+  </data>
+  <data name="ES2748_0" xml:space="preserve">
+    <value>G-Class</value>
+  </data>
+  <data name="ES2749_0" xml:space="preserve">
+    <value>H-Class</value>
+  </data>
+  <data name="ES2750_0" xml:space="preserve">
+    <value>K-Class</value>
+  </data>
+  <data name="ES2751_0" xml:space="preserve">
+    <value>L-Class</value>
+  </data>
+  <data name="ES2752_0" xml:space="preserve">
+    <value>M-Class</value>
+  </data>
+  <data name="ES2753_0" xml:space="preserve">
+    <value>N-Class</value>
+  </data>
+  <data name="ES2754_0" xml:space="preserve">
+    <value>O-Class</value>
+  </data>
+  <data name="ES2756_0" xml:space="preserve">
+    <value>A100</value>
+  </data>
+  <data name="ES2757_0" xml:space="preserve">
+    <value>A111</value>
+  </data>
+  <data name="ES2758_0" xml:space="preserve">
+    <value>A112</value>
+  </data>
+  <data name="ES2759_0" xml:space="preserve">
+    <value>A200</value>
+  </data>
+  <data name="ES2761_0" xml:space="preserve">
+    <value>A201</value>
+  </data>
+  <data name="ES2762_0" xml:space="preserve">
+    <value>A202</value>
+  </data>
+  <data name="ES2763_0" xml:space="preserve">
+    <value>A203</value>
+  </data>
+  <data name="ES2764_0" xml:space="preserve">
+    <value>A300</value>
+  </data>
+  <data name="ES2765_0" xml:space="preserve">
+    <value>A400</value>
+  </data>
+  <data name="ES2766_0" xml:space="preserve">
+    <value>A500</value>
+  </data>
+  <data name="ES2767_0" xml:space="preserve">
+    <value>A501</value>
+  </data>
+  <data name="ES2768_0" xml:space="preserve">
+    <value>A800</value>
+  </data>
+  <data name="ES2769_0" xml:space="preserve">
+    <value>A900</value>
+  </data>
+  <data name="ES276_1" xml:space="preserve">
+    <value>Temps maximale de travail du convoyeur de pesage</value>
+  </data>
+  <data name="ES2770_0" xml:space="preserve">
+    <value>A600</value>
+  </data>
+  <data name="ES2771_0" xml:space="preserve">
+    <value>A700</value>
+  </data>
+  <data name="ES2773_0" xml:space="preserve">
+    <value>B103</value>
+  </data>
+  <data name="ES2774_0" xml:space="preserve">
+    <value>B504</value>
+  </data>
+  <data name="ES2775_0" xml:space="preserve">
+    <value>D902</value>
+  </data>
+  <data name="ES2776_0" xml:space="preserve">
+    <value>C204</value>
+  </data>
+  <data name="ES2777_0" xml:space="preserve">
+    <value>C503</value>
+  </data>
+  <data name="ES2778_0" xml:space="preserve">
+    <value>C601</value>
+  </data>
+  <data name="ES2779_0" xml:space="preserve">
+    <value>C701</value>
+  </data>
+  <data name="ES2780_0" xml:space="preserve">
+    <value>E205</value>
+  </data>
+  <data name="ES2781_0" xml:space="preserve">
+    <value>E505</value>
+  </data>
+  <data name="ES2782_0" xml:space="preserve">
+    <value>E602</value>
+  </data>
+  <data name="ES2783_0" xml:space="preserve">
+    <value>E702</value>
+  </data>
+  <data name="ES2784_0" xml:space="preserve">
+    <value>F206</value>
+  </data>
+  <data name="ES2785_0" xml:space="preserve">
+    <value>F506</value>
+  </data>
+  <data name="ES2786_0" xml:space="preserve">
+    <value>F603</value>
+  </data>
+  <data name="ES2787_0" xml:space="preserve">
+    <value>F703</value>
+  </data>
+  <data name="ES2788_0" xml:space="preserve">
+    <value>G109</value>
+  </data>
+  <data name="ES2789_0" xml:space="preserve">
+    <value>G507</value>
+  </data>
+  <data name="ES2790_0" xml:space="preserve">
+    <value>G604</value>
+  </data>
+  <data name="ES2791_0" xml:space="preserve">
+    <value>G704</value>
+  </data>
+  <data name="ES2792_0" xml:space="preserve">
+    <value>G801</value>
+  </data>
+  <data name="ES2793_0" xml:space="preserve">
+    <value>H210</value>
+  </data>
+  <data name="ES2794_0" xml:space="preserve">
+    <value>H510</value>
+  </data>
+  <data name="ES2795_0" xml:space="preserve">
+    <value>H607</value>
+  </data>
+  <data name="ES2796_0" xml:space="preserve">
+    <value>H707</value>
+  </data>
+  <data name="ES2797_0" xml:space="preserve">
+    <value>K105</value>
+  </data>
+  <data name="ES2798_0" xml:space="preserve">
+    <value>K106</value>
+  </data>
+  <data name="ES2799_0" xml:space="preserve">
+    <value>K107</value>
+  </data>
+  <data name="ES27_1" xml:space="preserve">
+    <value> Rapport de production détaillé</value>
+  </data>
+  <data name="ES2800_0" xml:space="preserve">
+    <value>K108</value>
+  </data>
+  <data name="ES2801_0" xml:space="preserve">
+    <value>K404</value>
+  </data>
+  <data name="ES2802_0" xml:space="preserve">
+    <value>K406</value>
+  </data>
+  <data name="ES2803_0" xml:space="preserve">
+    <value>L208</value>
+  </data>
+  <data name="ES2804_0" xml:space="preserve">
+    <value>L302</value>
+  </data>
+  <data name="ES2805_0" xml:space="preserve">
+    <value>O110</value>
+  </data>
+  <data name="ES2807_1" xml:space="preserve">
+    <value>Filtre des enregistrements / journaux filtration</value>
+  </data>
+  <data name="ES2808_0" xml:space="preserve">
+    <value>O905</value>
+  </data>
+  <data name="ES2809_0" xml:space="preserve">
+    <value>O910</value>
+  </data>
+  <data name="ES2810_0" xml:space="preserve">
+    <value>O911</value>
+  </data>
+  <data name="ES2811_0" xml:space="preserve">
+    <value>O907</value>
+  </data>
+  <data name="ES2813_1" xml:space="preserve">
+    <value>ALARME</value>
+  </data>
+  <data name="ES2822_1" xml:space="preserve">
+    <value>Annulation du filtre</value>
+  </data>
+  <data name="ES2823_1" xml:space="preserve">
+    <value>Graphique De mélangeur de production Akm</value>
+  </data>
+  <data name="ES2824_1" xml:space="preserve">
+    <value>Alarmes de production</value>
+  </data>
+  <data name="ES2825_1" xml:space="preserve">
+    <value>Ordre de travail</value>
+  </data>
+  <data name="ES2826_1" xml:space="preserve">
+    <value>Power Board Code</value>
+  </data>
+  <data name="ES2827_1" xml:space="preserve">
+    <value>Code de la Commission de contrôle</value>
+  </data>
+  <data name="ES2828_1" xml:space="preserve">
+    <value>Dongle Code</value>
+  </data>
+  <data name="ES2829_1" xml:space="preserve">
+    <value>Informations sur les machines</value>
+  </data>
+  <data name="ES2830_1" xml:space="preserve">
+    <value>Ville/Pays</value>
+  </data>
+  <data name="ES2831_1" xml:space="preserve">
+    <value>Expédition détaillée</value>
+  </data>
+  <data name="ES2832_1" xml:space="preserve">
+    <value>Expédition standard</value>
+  </data>
+  <data name="ES2833_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2838_1" xml:space="preserve">
+    <value>Pauses de production semi-automatiques</value>
+  </data>
+  <data name="ES2845_1" xml:space="preserve">
+    <value>Quantité d'adjuvants (3) demandée, kg</value>
+  </data>
+  <data name="ES2846_1" xml:space="preserve">
+    <value>Quantité d'adjuvants (4) demandée, kg</value>
+  </data>
+  <data name="ES2847_1" xml:space="preserve">
+    <value>Quantité prise d'adjuvant 3, kg</value>
+  </data>
+  <data name="ES2848_1" xml:space="preserve">
+    <value>Quantité prise d'adjuvant 4, kg</value>
+  </data>
+  <data name="ES2849_1" xml:space="preserve">
+    <value>Différence d'adjuvant 3, kg</value>
+  </data>
+  <data name="ES2850_1" xml:space="preserve">
+    <value>Différence d'adjuvant 4, kg</value>
+  </data>
+  <data name="ES2853_1" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="ES2854_0" xml:space="preserve">
+    <value>Temps d’équilibrage de la cantine d’eau (sec)</value>
+  </data>
+  <data name="ES2858_1" xml:space="preserve">
+    <value>Courant moteur de mélangeur</value>
+  </data>
+  <data name="ES285_1" xml:space="preserve">
+    <value>Temps d'attente d'air choc du silo, sec.</value>
+  </data>
+  <data name="ES2866_0" xml:space="preserve">
+    <value>Volume de mélangeur réduit</value>
+  </data>
+  <data name="ES286_1" xml:space="preserve">
+    <value>Temps de travail d'air choc dans le silo, sec.</value>
+  </data>
+  <data name="ES2900_1" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(5) dépassée</value>
+  </data>
+  <data name="ES2901_1" xml:space="preserve">
+    <value>Quantité prise d'agrégat (5), kg</value>
+  </data>
+  <data name="ES2902_1" xml:space="preserve">
+    <value>Quantité prise d'agrégat (6), kg</value>
+  </data>
+  <data name="ES2903_1" xml:space="preserve">
+    <value>Quantité prise de ciment 5, kg</value>
+  </data>
+  <data name="ES2904_1" xml:space="preserve">
+    <value>Quantité prise de ciment 6, kg</value>
+  </data>
+  <data name="ES2905_1" xml:space="preserve">
+    <value>Quantité prise d'adjuvant 5, kg</value>
+  </data>
+  <data name="ES2906_1" xml:space="preserve">
+    <value>Quantité prise d'adjuvant 6, kg</value>
+  </data>
+  <data name="ES2907_1" xml:space="preserve">
+    <value>Quantité prise d'eau 3,kg</value>
+  </data>
+  <data name="ES2908_1" xml:space="preserve">
+    <value>Quantité prise d'eau 4,kg</value>
+  </data>
+  <data name="ES2909_1" xml:space="preserve">
+    <value>Quantité d'agrégats (5) voulue, kg</value>
+  </data>
+  <data name="ES2910_1" xml:space="preserve">
+    <value>Quantité d'agrégats (6) voulue, kg</value>
+  </data>
+  <data name="ES2911_1" xml:space="preserve">
+    <value>Quantité du ciment(5) demandée, kg</value>
+  </data>
+  <data name="ES2912_1" xml:space="preserve">
+    <value>Quantité du ciment(6) demandée, kg</value>
+  </data>
+  <data name="ES2913_1" xml:space="preserve">
+    <value>Quantité d'adjuvants (5) demandée, kg</value>
+  </data>
+  <data name="ES2914_1" xml:space="preserve">
+    <value>Quantité d'adjuvants (6) demandée, kg</value>
+  </data>
+  <data name="ES2915_1" xml:space="preserve">
+    <value>Quantité de l'eau (3) demandée, kg</value>
+  </data>
+  <data name="ES2916_1" xml:space="preserve">
+    <value>Quantité de l'eau (4) demandée, kg</value>
+  </data>
+  <data name="ES2917_1" xml:space="preserve">
+    <value>Différence d'adjuvant 5, kg</value>
+  </data>
+  <data name="ES2918_1" xml:space="preserve">
+    <value>Différence d'adjuvant 6, kg</value>
+  </data>
+  <data name="ES2919_1" xml:space="preserve">
+    <value>Différence de l'eau 3, kg</value>
+  </data>
+  <data name="ES2920_1" xml:space="preserve">
+    <value>Différence de l'eau 4, kg</value>
+  </data>
+  <data name="ES2921_1" xml:space="preserve">
+    <value>Différence du ciment 5, kg</value>
+  </data>
+  <data name="ES2922_1" xml:space="preserve">
+    <value>Différence du ciment 6, kg</value>
+  </data>
+  <data name="ES2923_1" xml:space="preserve">
+    <value>Différence d'agrégat 5, kg</value>
+  </data>
+  <data name="ES2924_1" xml:space="preserve">
+    <value>Différence d'agrégat 6, kg</value>
+  </data>
+  <data name="ES2925_0" xml:space="preserve">
+    <value>Agrégat(5)</value>
+  </data>
+  <data name="ES2926_0" xml:space="preserve">
+    <value>Agrégat(6)</value>
+  </data>
+  <data name="ES2927_0" xml:space="preserve">
+    <value>Ciment (5)</value>
+  </data>
+  <data name="ES2928_0" xml:space="preserve">
+    <value>Ciment (6)</value>
+  </data>
+  <data name="ES2929_0" xml:space="preserve">
+    <value>Contribution (5)</value>
+  </data>
+  <data name="ES2930_0" xml:space="preserve">
+    <value>Contribution (6)</value>
+  </data>
+  <data name="ES2931_0" xml:space="preserve">
+    <value>Eau(3)</value>
+  </data>
+  <data name="ES2932_0" xml:space="preserve">
+    <value>Eau(4)</value>
+  </data>
+  <data name="ES2933_1" xml:space="preserve">
+    <value>Quantité voulue du couvercle du système de dosage précis d'agrégat 5</value>
+  </data>
+  <data name="ES2960_0" xml:space="preserve">
+    <value>Calibration de la cantine de pesage agrégée effectuée</value>
+  </data>
+  <data name="ES2961_0" xml:space="preserve">
+    <value>Calibrage de la cantine de pesage de ciment effectué</value>
+  </data>
+  <data name="ES2962_0" xml:space="preserve">
+    <value>Contribution Weighing Canteen Calibration a été effectuée</value>
+  </data>
+  <data name="ES2963_0" xml:space="preserve">
+    <value>Calibration de cantine de pesage d’eau exécutée</value>
+  </data>
+  <data name="ES2965_0" xml:space="preserve">
+    <value>Capacité maximale de pesage à la cantine de ciment</value>
+  </data>
+  <data name="ES2966_0" xml:space="preserve">
+    <value>Contribution Canteen Capacité maximale de pesage</value>
+  </data>
+  <data name="ES2967_0" xml:space="preserve">
+    <value>Capacité maximale de pesage à la cantine d’eau</value>
+  </data>
+  <data name="ES2968_0" xml:space="preserve">
+    <value>Limite de courant extrême Helezon5</value>
+  </data>
+  <data name="ES2969_0" xml:space="preserve">
+    <value>sec.</value>
+  </data>
+  <data name="ES2970_0" xml:space="preserve">
+    <value>Montant total de prescriptionExceeded</value>
+  </data>
+  <data name="ES2971_1" xml:space="preserve">
+    <value>. Tour Différence, kg</value>
+  </data>
+  <data name="ES2972_1" xml:space="preserve">
+    <value>. Pourcentage de tour</value>
+  </data>
+  <data name="ES2974_1" xml:space="preserve">
+    <value>Tur Tur Malzeme Analiz Raporu</value>
+  </data>
+  <data name="ES2981_1" xml:space="preserve">
+    <value>Rapport d’analyse matérielle</value>
+  </data>
+  <data name="ES2982_1" xml:space="preserve">
+    <value>Pourcentage total de vaccination sur ordonnance</value>
+  </data>
+  <data name="ES2984_1" xml:space="preserve">
+    <value>Matériel déchargé sur la bascule après le signal(5)</value>
+  </data>
+  <data name="ES2985_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2986_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2987_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES2988_0" xml:space="preserve">
+    <value>sec.</value>
+  </data>
+  <data name="ES298_1" xml:space="preserve">
+    <value>Temps de déchargement des agrégats du skip dans le malaxeur, sec.</value>
+  </data>
+  <data name="ES2990_0" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(1) dépassée</value>
+  </data>
+  <data name="ES2991_0" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(2) dépassée</value>
+  </data>
+  <data name="ES2992_0" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(3) dépassée</value>
+  </data>
+  <data name="ES2993_0" xml:space="preserve">
+    <value>Limite de surintensité du moteur de la vis à ciment(4) dépassée</value>
+  </data>
+  <data name="ES2994_0" xml:space="preserve">
+    <value>D902-1_Erreur de phase- (1)</value>
+  </data>
+  <data name="ES2995_0" xml:space="preserve">
+    <value>D902-2_Erreur de phase - (2)</value>
+  </data>
+  <data name="ES2996_0" xml:space="preserve">
+    <value>D902-3_Erreur de phase - (3)</value>
+  </data>
+  <data name="ES2997_0" xml:space="preserve">
+    <value>Attention! Basse tension</value>
+  </data>
+  <data name="ES2998_0" xml:space="preserve">
+    <value>Attention! Basse tension</value>
+  </data>
+  <data name="ES2999_0" xml:space="preserve">
+    <value>Attention! Basse tension</value>
+  </data>
+  <data name="ES299_1" xml:space="preserve">
+    <value>Temps de marche avant du skip jusqu'au point intermédiaire, sec.</value>
+  </data>
+  <data name="ES29_1" xml:space="preserve">
+    <value>Etat de livraison des voitures</value>
+  </data>
+  <data name="ES2_1" xml:space="preserve">
+    <value>Avertissment</value>
+  </data>
+  <data name="ES3000_0" xml:space="preserve">
+    <value>Volume de mélangeur réduit</value>
+  </data>
+  <data name="ES3001_0" xml:space="preserve">
+    <value>O907_Aucune connexion</value>
+  </data>
+  <data name="ES3002_0" xml:space="preserve">
+    <value>O906_Contacté</value>
+  </data>
+  <data name="ES3003_0" xml:space="preserve">
+    <value>La production a été arrêté</value>
+  </data>
+  <data name="ES3004_0" xml:space="preserve">
+    <value>La production continue</value>
+  </data>
+  <data name="ES3005_0" xml:space="preserve">
+    <value>La production a été réinitialisée</value>
+  </data>
+  <data name="ES3006_0" xml:space="preserve">
+    <value>La production n’est pas terminée</value>
+  </data>
+  <data name="ES3007_0" xml:space="preserve">
+    <value>La production est terminée</value>
+  </data>
+  <data name="ES3008_0" xml:space="preserve">
+    <value>Une nouvelle production a démarré</value>
+  </data>
+  <data name="ES3009_0" xml:space="preserve">
+    <value>Attention! Haute tension</value>
+  </data>
+  <data name="ES300_1" xml:space="preserve">
+    <value>Temps maximal de marche avant du skip, sec.</value>
+  </data>
+  <data name="ES3010_0" xml:space="preserve">
+    <value>Attention! Haute tension</value>
+  </data>
+  <data name="ES3011_0" xml:space="preserve">
+    <value>Attention! Haute tension</value>
+  </data>
+  <data name="ES3012_0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES3013_0" xml:space="preserve">
+    <value>Silo(5)</value>
+  </data>
+  <data name="ES3014_1" xml:space="preserve">
+    <value>Limite inférieure de tension</value>
+  </data>
+  <data name="ES3015_1" xml:space="preserve">
+    <value>Limite supérieure de tension</value>
+  </data>
+  <data name="ES3017_1" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="ES3019_1" xml:space="preserve">
+    <value>Chemin de fichier</value>
+  </data>
+  <data name="ES3020_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ES3021_0" xml:space="preserve">
+    <value>SQL BackUp</value>
+  </data>
+  <data name="ES3022_0" xml:space="preserve">
+    <value>Restauration SQL</value>
+  </data>
+  <data name="ES3023_1" xml:space="preserve">
+    <value>Do you approve closing the program for restore?</value>
+  </data>
+  <data name="ES3029_0" xml:space="preserve">
+    <value>Obtenir de l’aide</value>
+  </data>
+  <data name="ES3030_1" xml:space="preserve">
+    <value>Enregistrements d'échec / Obtenir de l'aide</value>
+  </data>
+  <data name="ES3031_0" xml:space="preserve">
+    <value>Codes d’alarme</value>
+  </data>
+  <data name="ES3032_0" xml:space="preserve">
+    <value>Sauvegarder SQL</value>
+  </data>
+  <data name="ES3033_0" xml:space="preserve">
+    <value>Approuvez-vous l’arrêt du programme pour le processus de restauration?</value>
+  </data>
+  <data name="ES3034_0" xml:space="preserve">
+    <value>Mixmaster 2x5</value>
+  </data>
+  <data name="ES3035_0" xml:space="preserve">
+    <value>Mixmaster 4x5</value>
+  </data>
+  <data name="ES3036_0" xml:space="preserve">
+    <value>Centrales Mixmaster</value>
+  </data>
+  <data name="ES3037_0" xml:space="preserve">
+    <value>Pas de convoyeur de béton</value>
+  </data>
+  <data name="ES3038_0" xml:space="preserve">
+    <value>Cantine de transport en béton</value>
+  </data>
+  <data name="ES303_1" xml:space="preserve">
+    <value>YTemps de travail du graisseur automatique, sec</value>
+  </data>
+  <data name="ES3043_0" xml:space="preserve">
+    <value>Réduction de la décharge du mélangeur</value>
+  </data>
+  <data name="ES3044_0" xml:space="preserve">
+    <value>Temps de travail supplémentaire de convoyeur de béton</value>
+  </data>
+  <data name="ES3045_0" xml:space="preserve">
+    <value>A202-1-agrégé bunker(1)  échec du vibrateur TMS</value>
+  </data>
+  <data name="ES3046_0" xml:space="preserve">
+    <value>A202-4-agrégé bunker(4) échec du vibrateur TMS</value>
+  </data>
+  <data name="ES3047_0" xml:space="preserve">
+    <value>L201-agrégé Bunker 1 PullChord Choisi</value>
+  </data>
+  <data name="ES3048_0" xml:space="preserve">
+    <value>L201-2-agrégé Bunker 2 PullCord Choisi</value>
+  </data>
+  <data name="ES3049_0" xml:space="preserve">
+    <value>L201-3-agrégé Bunker 3 PullCord Choisi</value>
+  </data>
+  <data name="ES3050_0" xml:space="preserve">
+    <value>L201-4-agrégé Bunker 4 PullCord Choisi</value>
+  </data>
+  <data name="ES3051_0" xml:space="preserve">
+    <value>A901_Déchets thermiques de convoyeur de transport en béton</value>
+  </data>
+  <data name="ES3052_0" xml:space="preserve">
+    <value>H101_Limite de décharge du mélangeur dépassée</value>
+  </data>
+  <data name="ES3053_1" xml:space="preserve">
+    <value>Moteur de la vis à ciment 5</value>
+  </data>
+  <data name="ES3054_1" xml:space="preserve">
+    <value>Moteur de la pompe à adjuvant 5</value>
+  </data>
+  <data name="ES3055_0" xml:space="preserve">
+    <value>Active Text1</value>
+  </data>
+  <data name="ES3056_0" xml:space="preserve">
+    <value>Active Text2</value>
+  </data>
+  <data name="ES3057_0" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ES3058_0" xml:space="preserve">
+    <value>Active Text3</value>
+  </data>
+  <data name="ES305_1" xml:space="preserve">
+    <value>Temps d'attente du graisseur automatique, sec.</value>
+  </data>
+  <data name="ES306_1" xml:space="preserve">
+    <value>Convoyeur intermédiaire disponible/non disponible</value>
+  </data>
+  <data name="ES30_1" xml:space="preserve">
+    <value>Rapport du le matériel utilisé</value>
+  </data>
+  <data name="ES310_1" xml:space="preserve">
+    <value>Disponible</value>
+  </data>
+  <data name="ES311_1" xml:space="preserve">
+    <value>Non disponible</value>
+  </data>
+  <data name="ES316_1" xml:space="preserve">
+    <value>Vitesse de déchargement des agrégats du convoyeur de pesage pour le démarrage du vibrateur</value>
+  </data>
+  <data name="ES318_1" xml:space="preserve">
+    <value>Temps d'attente du vibrateur du convoyeur de pesage d'agrégats</value>
+  </data>
+  <data name="ES319_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur du convoyeur de pesage d'agrégats, sec</value>
+  </data>
+  <data name="ES322_1" xml:space="preserve">
+    <value>Vitesse de déchargement des agrégats du convoyeur de pesage en temps réel, kg/sec.</value>
+  </data>
+  <data name="ES324_1" xml:space="preserve">
+    <value>Vitesse de déchargement du ciment de la bascule pour le démarrage du vibrateur</value>
+  </data>
+  <data name="ES325_1" xml:space="preserve">
+    <value>Temps d'attente du vibrateur de la bascule à ciment.</value>
+  </data>
+  <data name="ES326_1" xml:space="preserve">
+    <value>Temps de travail du vibrateur de la bascule à ciment.</value>
+  </data>
+  <data name="ES32_1" xml:space="preserve">
+    <value>Etat de stoks</value>
+  </data>
+  <data name="ES331_1" xml:space="preserve">
+    <value>Paramètres d'agrégats</value>
+  </data>
+  <data name="ES332_1" xml:space="preserve">
+    <value>Paramètres d'alarmes</value>
+  </data>
+  <data name="ES333_1" xml:space="preserve">
+    <value>Paramètres du ciment</value>
+  </data>
+  <data name="ES334_1" xml:space="preserve">
+    <value>Paramètres d'adjuvants</value>
+  </data>
+  <data name="ES335_1" xml:space="preserve">
+    <value>Paramètres du skip</value>
+  </data>
+  <data name="ES336_1" xml:space="preserve">
+    <value>Paramètres du malaxeur</value>
+  </data>
+  <data name="ES337_1" xml:space="preserve">
+    <value>Paramètres du système</value>
+  </data>
+  <data name="ES338_1" xml:space="preserve">
+    <value>Paramètres de l'eau</value>
+  </data>
+  <data name="ES339_1" xml:space="preserve">
+    <value>Paramètres des vibrateurs</value>
+  </data>
+  <data name="ES33_1" xml:space="preserve">
+    <value>Raport de ventes</value>
+  </data>
+  <data name="ES341_1" xml:space="preserve">
+    <value> Manuel</value>
+  </data>
+  <data name="ES342_1" xml:space="preserve">
+    <value>Automatique</value>
+  </data>
+  <data name="ES345_1" xml:space="preserve">
+    <value>Démarrer</value>
+  </data>
+  <data name="ES346_1" xml:space="preserve">
+    <value>Arrêter</value>
+  </data>
+  <data name="ES349_1" xml:space="preserve">
+    <value>Redémarrer</value>
+  </data>
+  <data name="ES34_1" xml:space="preserve">
+    <value>Rapprot de production en mode manuel</value>
+  </data>
+  <data name="ES351_1" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="ES353_1" xml:space="preserve">
+    <value>Compresseur</value>
+  </data>
+  <data name="ES354_1" xml:space="preserve">
+    <value>Sirène</value>
+  </data>
+  <data name="ES355_1" xml:space="preserve">
+    <value>Mode de travail</value>
+  </data>
+  <data name="ES356_1" xml:space="preserve">
+    <value>Démarrer</value>
+  </data>
+  <data name="ES357_1" xml:space="preserve">
+    <value>Arrêter</value>
+  </data>
+  <data name="ES35_1" xml:space="preserve">
+    <value>Temps de travail des moteurs</value>
+  </data>
+  <data name="ES360_1" xml:space="preserve">
+    <value>Filtre du bloc malaxeur</value>
+  </data>
+  <data name="ES36_1" xml:space="preserve">
+    <value>Enregistrement d'approvisionnement en stock</value>
+  </data>
+  <data name="ES376_1" xml:space="preserve">
+    <value>Filtre1</value>
+  </data>
+  <data name="ES377_1" xml:space="preserve">
+    <value>Filtre2</value>
+  </data>
+  <data name="ES378_1" xml:space="preserve">
+    <value>Filtre3</value>
+  </data>
+  <data name="ES379_1" xml:space="preserve">
+    <value>Filtre4</value>
+  </data>
+  <data name="ES382_1" xml:space="preserve">
+    <value>Numéro</value>
+  </data>
+  <data name="ES385_1" xml:space="preserve">
+    <value>Numéro d'immatriculation fiscale</value>
+  </data>
+  <data name="ES386_1" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ES389_1" xml:space="preserve">
+    <value>Nom du fichier</value>
+  </data>
+  <data name="ES391_1" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="ES394_1" xml:space="preserve">
+    <value>Nom de l'entreprise </value>
+  </data>
+  <data name="ES395_1" xml:space="preserve">
+    <value>Numéro de plaque d'immatriculation de la voiture </value>
+  </data>
+  <data name="ES396_1" xml:space="preserve">
+    <value>Capasité</value>
+  </data>
+  <data name="ES3_1" xml:space="preserve">
+    <value>Message du système</value>
+  </data>
+  <data name="ES401_1" xml:space="preserve">
+    <value>Adresse</value>
+  </data>
+  <data name="ES402_1" xml:space="preserve">
+    <value>Telephone, fax</value>
+  </data>
+  <data name="ES403_1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ES404_1" xml:space="preserve">
+    <value>Nom du chauffeur</value>
+  </data>
+  <data name="ES405_1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ES409_1" xml:space="preserve">
+    <value>Nom du chantier</value>
+  </data>
+  <data name="ES410_1" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="ES411_1" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="ES412_1" xml:space="preserve">
+    <value>Nom du chantier</value>
+  </data>
+  <data name="ES413_1" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="ES414_1" xml:space="preserve">
+    <value>Entreprise</value>
+  </data>
+  <data name="ES415_1" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="ES419_1" xml:space="preserve">
+    <value>Nom du matériel</value>
+  </data>
+  <data name="ES425_1" xml:space="preserve">
+    <value>Nom du stock</value>
+  </data>
+  <data name="ES426_1" xml:space="preserve">
+    <value>Description-1 (type, classe etc.</value>
+  </data>
+  <data name="ES42_1" xml:space="preserve">
+    <value>Rapport de stoccks</value>
+  </data>
+  <data name="ES432_1" xml:space="preserve">
+    <value>Matériel</value>
+  </data>
+  <data name="ES433_1" xml:space="preserve">
+    <value>Niveau critique</value>
+  </data>
+  <data name="ES436_1" xml:space="preserve">
+    <value>Nom du matériel</value>
+  </data>
+  <data name="ES437_1" xml:space="preserve">
+    <value>Capacité</value>
+  </data>
+  <data name="ES438_1" xml:space="preserve">
+    <value>Niveau critique</value>
+  </data>
+  <data name="ES441_1" xml:space="preserve">
+    <value>Information sur la recette</value>
+  </data>
+  <data name="ES442_1" xml:space="preserve">
+    <value>Nom de la recette</value>
+  </data>
+  <data name="ES443_1" xml:space="preserve">
+    <value>Etat</value>
+  </data>
+  <data name="ES444_1" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ES448_1" xml:space="preserve">
+    <value>Nom de la recette</value>
+  </data>
+  <data name="ES44_1" xml:space="preserve">
+    <value>Rapport de production mensuel</value>
+  </data>
+  <data name="ES45_1" xml:space="preserve">
+    <value>Rapport de chiffres d'affaires mensuel</value>
+  </data>
+  <data name="ES46_1" xml:space="preserve">
+    <value>Rapport de quantité de stocks</value>
+  </data>
+  <data name="ES47_1" xml:space="preserve">
+    <value>Rapport de provisionnement de stocks</value>
+  </data>
+  <data name="ES493_1" xml:space="preserve">
+    <value>Agrégat5</value>
+  </data>
+  <data name="ES494_1" xml:space="preserve">
+    <value>AAgrégat6</value>
+  </data>
+  <data name="ES495_1" xml:space="preserve">
+    <value>Agrégat7</value>
+  </data>
+  <data name="ES496_1" xml:space="preserve">
+    <value>Agrégat8</value>
+  </data>
+  <data name="ES497_1" xml:space="preserve">
+    <value>Agrégat9</value>
+  </data>
+  <data name="ES498_1" xml:space="preserve">
+    <value>Agrégat10</value>
+  </data>
+  <data name="ES499_1" xml:space="preserve">
+    <value>Ciment2</value>
+  </data>
+  <data name="ES500_1" xml:space="preserve">
+    <value>Ciment3</value>
+  </data>
+  <data name="ES501_1" xml:space="preserve">
+    <value>Ciment4</value>
+  </data>
+  <data name="ES502_1" xml:space="preserve">
+    <value>Ciment5</value>
+  </data>
+  <data name="ES503_1" xml:space="preserve">
+    <value>Ciment6</value>
+  </data>
+  <data name="ES504_1" xml:space="preserve">
+    <value>Ciment7</value>
+  </data>
+  <data name="ES505_1" xml:space="preserve">
+    <value>Ciment8</value>
+  </data>
+  <data name="ES506_1" xml:space="preserve">
+    <value>Ciment9</value>
+  </data>
+  <data name="ES507_1" xml:space="preserve">
+    <value>Ciment10</value>
+  </data>
+  <data name="ES509_1" xml:space="preserve">
+    <value>Eau3</value>
+  </data>
+  <data name="ES510_1" xml:space="preserve">
+    <value>Eau4</value>
+  </data>
+  <data name="ES511_1" xml:space="preserve">
+    <value>Eau5</value>
+  </data>
+  <data name="ES512_1" xml:space="preserve">
+    <value>Eau6</value>
+  </data>
+  <data name="ES513_1" xml:space="preserve">
+    <value>Eau7</value>
+  </data>
+  <data name="ES514_1" xml:space="preserve">
+    <value>Eau8</value>
+  </data>
+  <data name="ES515_1" xml:space="preserve">
+    <value>Eau9</value>
+  </data>
+  <data name="ES516_1" xml:space="preserve">
+    <value>Eau10</value>
+  </data>
+  <data name="ES517_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES518_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES519_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES520_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES521_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES522_1" xml:space="preserve">
+    <value>Adjuvant6</value>
+  </data>
+  <data name="ES523_1" xml:space="preserve">
+    <value>Adjuvant7</value>
+  </data>
+  <data name="ES524_1" xml:space="preserve">
+    <value>Adjuvant8</value>
+  </data>
+  <data name="ES525_1" xml:space="preserve">
+    <value>Adjuvant9</value>
+  </data>
+  <data name="ES526_1" xml:space="preserve">
+    <value>Adjuvant10</value>
+  </data>
+  <data name="ES528_1" xml:space="preserve">
+    <value>Temps d'attente du ciment</value>
+  </data>
+  <data name="ES529_1" xml:space="preserve">
+    <value>Temps d'attente d'adjuvant</value>
+  </data>
+  <data name="ES530_1" xml:space="preserve">
+    <value>Temps d'attente d'eau</value>
+  </data>
+  <data name="ES554_1" xml:space="preserve">
+    <value>Choisissez le type du malaxeur</value>
+  </data>
+  <data name="ES555_1" xml:space="preserve">
+    <value>Choisissez ke type de la trémie à agrégats</value>
+  </data>
+  <data name="ES559_1" xml:space="preserve">
+    <value>Sonde d'humidité n'est pas installée</value>
+  </data>
+  <data name="ES560_1" xml:space="preserve">
+    <value>Sonde d'humidité est installée</value>
+  </data>
+  <data name="ES561_1" xml:space="preserve">
+    <value> Système vibrant de pesage précis n'est pas disponible</value>
+  </data>
+  <data name="ES562_1" xml:space="preserve">
+    <value>Système vibrant de pesage précis est  disponible</value>
+  </data>
+  <data name="ES563_1" xml:space="preserve">
+    <value>Vibrateur n'est pas installé</value>
+  </data>
+  <data name="ES564_1" xml:space="preserve">
+    <value>Vibrateur est  installé</value>
+  </data>
+  <data name="ES572_1" xml:space="preserve">
+    <value>Indiquez le nombre de silos</value>
+  </data>
+  <data name="ES573_1" xml:space="preserve">
+    <value>Indiquer le nombre de pompes à adjuvants</value>
+  </data>
+  <data name="ES574_1" xml:space="preserve">
+    <value> Indiquer le nombre de pompes à eau</value>
+  </data>
+  <data name="ES576_1" xml:space="preserve">
+    <value>Indiquez le nombre de trémies à agrégats</value>
+  </data>
+  <data name="ES57_1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="ES581_1" xml:space="preserve">
+    <value>Type des malaxeurs et des trémies à agrégats</value>
+  </data>
+  <data name="ES582_1" xml:space="preserve">
+    <value>Configuration des trémies à agrégats</value>
+  </data>
+  <data name="ES583_1" xml:space="preserve">
+    <value>Choix de lieux de stockage de l'eau des adjuvants et du ciment</value>
+  </data>
+  <data name="ES585_1" xml:space="preserve">
+    <value>Le paramètre de configuration  de la centrale a été complété avec succès</value>
+  </data>
+  <data name="ES587_1" xml:space="preserve">
+    <value>Modèle de la centrale à béton de la configuration donnée</value>
+  </data>
+  <data name="ES588_1" xml:space="preserve">
+    <value>Trémie en poches</value>
+  </data>
+  <data name="ES589_1" xml:space="preserve">
+    <value>Trémie linéaire</value>
+  </data>
+  <data name="ES590_1" xml:space="preserve">
+    <value>Planétaire</value>
+  </data>
+  <data name="ES591_1" xml:space="preserve">
+    <value>Turbo</value>
+  </data>
+  <data name="ES592_1" xml:space="preserve">
+    <value>A double arbre</value>
+  </data>
+  <data name="ES593_1" xml:space="preserve">
+    <value>ELKOMIX-35 Quick Master(avec skip)</value>
+  </data>
+  <data name="ES595_1" xml:space="preserve">
+    <value>ELKOMIX-120 Quick Master(avec skip)</value>
+  </data>
+  <data name="ES596_1" xml:space="preserve">
+    <value>ELKOMIX-135 Quick Master(avec skip)</value>
+  </data>
+  <data name="ES597_1" xml:space="preserve">
+    <value>Centrales à béton compactes(avec skip)</value>
+  </data>
+  <data name="ES598_1" xml:space="preserve">
+    <value>Centrales à béton compactes(avec convoyeur)</value>
+  </data>
+  <data name="ES599_1" xml:space="preserve">
+    <value>Centrales à béton mobiles</value>
+  </data>
+  <data name="ES5_1" xml:space="preserve">
+    <value>Bouton</value>
+  </data>
+  <data name="ES600_1" xml:space="preserve">
+    <value>Centrales à béton fixes</value>
+  </data>
+  <data name="ES602_1" xml:space="preserve">
+    <value>ELKOMIX-120 Quick Master(avec convoyeur)</value>
+  </data>
+  <data name="ES605_1" xml:space="preserve">
+    <value>ELKOMIX-135 Quick Master(avec convoyeur)</value>
+  </data>
+  <data name="ES606_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-30 Eagle</value>
+  </data>
+  <data name="ES607_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 Pegasus</value>
+  </data>
+  <data name="ES608_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 Panthera</value>
+  </data>
+  <data name="ES609_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 BEAR</value>
+  </data>
+  <data name="ES610_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-100 Lion</value>
+  </data>
+  <data name="ES611_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-135 Jaguar</value>
+  </data>
+  <data name="ES612_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-150 Elephant</value>
+  </data>
+  <data name="ES613_1" xml:space="preserve">
+    <value>Elkomix 35 </value>
+  </data>
+  <data name="ES614_1" xml:space="preserve">
+    <value>Elkomix 60</value>
+  </data>
+  <data name="ES615_1" xml:space="preserve">
+    <value>Elkomix 120</value>
+  </data>
+  <data name="ES616_1" xml:space="preserve">
+    <value>Elkomix 135 </value>
+  </data>
+  <data name="ES617_1" xml:space="preserve">
+    <value>Elkomix 180</value>
+  </data>
+  <data name="ES618_1" xml:space="preserve">
+    <value>Elkomix 160</value>
+  </data>
+  <data name="ES621_1" xml:space="preserve">
+    <value>ELKOMIX-60 Quick Master(avec skip)</value>
+  </data>
+  <data name="ES622_1" xml:space="preserve">
+    <value>Type et modèle de la centrale</value>
+  </data>
+  <data name="ES623_1" xml:space="preserve">
+    <value>Choisissez le type de la centrale</value>
+  </data>
+  <data name="ES625_1" xml:space="preserve">
+    <value>Choisissez le modèle de la centrale</value>
+  </data>
+  <data name="ES626_1" xml:space="preserve">
+    <value>Type choisi</value>
+  </data>
+  <data name="ES627_1" xml:space="preserve">
+    <value>Modèle choisi</value>
+  </data>
+  <data name="ES637_1" xml:space="preserve">
+    <value>Paramètres d'analyseur d'énergie</value>
+  </data>
+  <data name="ES638_1" xml:space="preserve">
+    <value>Taux des coefficients des transformateurs(transformateur du moteur du malaxeur/du réseau)</value>
+  </data>
+  <data name="ES639_1" xml:space="preserve">
+    <value>Coéfficient du courant de transformateur de moteur de la vis</value>
+  </data>
+  <data name="ES640_1" xml:space="preserve">
+    <value>Taux du transformateur du courant du réseau(/5)</value>
+  </data>
+  <data name="ES641_1" xml:space="preserve">
+    <value>Taux des coefficients des transformateurs(transformateur du moteur du malaxeur/du réseau)</value>
+  </data>
+  <data name="ES642_1" xml:space="preserve">
+    <value>Taux des coefficients des transformateurs</value>
+  </data>
+  <data name="ES643_1" xml:space="preserve">
+    <value>Calculer le taux des coefficients des transformateurs</value>
+  </data>
+  <data name="ES645_1" xml:space="preserve">
+    <value>Courant du moteur du malaxeur en temps réel, A</value>
+  </data>
+  <data name="ES646_1" xml:space="preserve">
+    <value>Courant du moteur de la vis en temps réel, A</value>
+  </data>
+  <data name="ES647_1" xml:space="preserve">
+    <value>Tension</value>
+  </data>
+  <data name="ES648_1" xml:space="preserve">
+    <value>Surintensité du moteur de la vis(1)</value>
+  </data>
+  <data name="ES649_1" xml:space="preserve">
+    <value>Surintensité du moteur de la vis(2)</value>
+  </data>
+  <data name="ES650_1" xml:space="preserve">
+    <value>Surintensité du moteur de la vis(3)</value>
+  </data>
+  <data name="ES651_1" xml:space="preserve">
+    <value>Surintensité du moteur de la vis(4)</value>
+  </data>
+  <data name="ES653_1" xml:space="preserve">
+    <value>Valeurs actuelles d'analyseur </value>
+  </data>
+  <data name="ES654_1" xml:space="preserve">
+    <value>Indiquer la capacité de la bascule à agrégats</value>
+  </data>
+  <data name="ES656_1" xml:space="preserve">
+    <value>Indiquer la capacité de la bascule à adjuvants</value>
+  </data>
+  <data name="ES658_1" xml:space="preserve">
+    <value>Limites de courant pour les vis</value>
+  </data>
+  <data name="ES661_1" xml:space="preserve">
+    <value>Boutons de l'indicateur verrouillé</value>
+  </data>
+  <data name="ES662_1" xml:space="preserve">
+    <value>Boutons de l'indicateur déverrouillé </value>
+  </data>
+  <data name="ES665_1" xml:space="preserve">
+    <value>Contrôle du bouton de verrouillage de l'indicateur </value>
+  </data>
+  <data name="ES672_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES673_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES674_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES675_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES676_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES677_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES679_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES680_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES681_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES682_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES683_1" xml:space="preserve">
+    <value>Filtre5</value>
+  </data>
+  <data name="ES684_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES685_1" xml:space="preserve">
+    <value>Filtre6</value>
+  </data>
+  <data name="ES686_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES687_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES688_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES689_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES690_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES691_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES693_1" xml:space="preserve">
+    <value>Rinçage de la bascule à adjuvant</value>
+  </data>
+  <data name="ES697_1" xml:space="preserve">
+    <value>Avec skip</value>
+  </data>
+  <data name="ES698_1" xml:space="preserve">
+    <value>Avec convoyeur type T</value>
+  </data>
+  <data name="ES6_1" xml:space="preserve">
+    <value>Pages de production</value>
+  </data>
+  <data name="ES700_1" xml:space="preserve">
+    <value>Convoyeur de transfert</value>
+  </data>
+  <data name="ES701_1" xml:space="preserve">
+    <value>Avec convoyeur de pesage de type linéaire</value>
+  </data>
+  <data name="ES714_1" xml:space="preserve">
+    <value>En bas</value>
+  </data>
+  <data name="ES715_1" xml:space="preserve">
+    <value>En haut</value>
+  </data>
+  <data name="ES729_1" xml:space="preserve">
+    <value>Nom de la recette à continuer:</value>
+  </data>
+  <data name="ES735_1" xml:space="preserve">
+    <value>Enregistrer</value>
+  </data>
+  <data name="ES740_1" xml:space="preserve">
+    <value>Envoyer la recette</value>
+  </data>
+  <data name="ES747_1" xml:space="preserve">
+    <value>Nouveau</value>
+  </data>
+  <data name="ES753_1" xml:space="preserve">
+    <value>Modifier la recette</value>
+  </data>
+  <data name="ES757_1" xml:space="preserve">
+    <value>Supprimer la recette</value>
+  </data>
+  <data name="ES75_1" xml:space="preserve">
+    <value>Eau1</value>
+  </data>
+  <data name="ES762_1" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="ES764_1" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="ES76_1" xml:space="preserve">
+    <value>Eau2</value>
+  </data>
+  <data name="ES772_1" xml:space="preserve">
+    <value>modifier</value>
+  </data>
+  <data name="ES773_1" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="ES776_1" xml:space="preserve">
+    <value>Extraire dans Excel</value>
+  </data>
+  <data name="ES780_1" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="ES781_1" xml:space="preserve">
+    <value>effacer</value>
+  </data>
+  <data name="ES786_1" xml:space="preserve">
+    <value>modifier</value>
+  </data>
+  <data name="ES789_1" xml:space="preserve">
+    <value>Installation</value>
+  </data>
+  <data name="ES791_1" xml:space="preserve">
+    <value>Terminer installation</value>
+  </data>
+  <data name="ES795_1" xml:space="preserve">
+    <value>Frein libéré</value>
+  </data>
+  <data name="ES798_1" xml:space="preserve">
+    <value>OUI</value>
+  </data>
+  <data name="ES799_1" xml:space="preserve">
+    <value>NON</value>
+  </data>
+  <data name="ES7_1" xml:space="preserve">
+    <value>Coordonnés des clients</value>
+  </data>
+  <data name="ES806_1" xml:space="preserve">
+    <value>Nom du matériel</value>
+  </data>
+  <data name="ES807_1" xml:space="preserve">
+    <value>Nom du matériel</value>
+  </data>
+  <data name="ES808_1" xml:space="preserve">
+    <value>Nom, prénom du chauffeur</value>
+  </data>
+  <data name="ES809_1" xml:space="preserve">
+    <value>Nom, prénom du chauffeur</value>
+  </data>
+  <data name="ES810_1" xml:space="preserve">
+    <value>Nom du chantier </value>
+  </data>
+  <data name="ES812_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES813_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES819_1" xml:space="preserve">
+    <value>300 kg</value>
+  </data>
+  <data name="ES820_1" xml:space="preserve">
+    <value>600 kg</value>
+  </data>
+  <data name="ES821_1" xml:space="preserve">
+    <value>1200 kg</value>
+  </data>
+  <data name="ES822_1" xml:space="preserve">
+    <value>1800 kg</value>
+  </data>
+  <data name="ES823_1" xml:space="preserve">
+    <value>2400 kg</value>
+  </data>
+  <data name="ES824_1" xml:space="preserve">
+    <value>30 kg</value>
+  </data>
+  <data name="ES825_1" xml:space="preserve">
+    <value>50 kg</value>
+  </data>
+  <data name="ES826_1" xml:space="preserve">
+    <value>100 kg</value>
+  </data>
+  <data name="ES827_1" xml:space="preserve">
+    <value>200 kg</value>
+  </data>
+  <data name="ES828_1" xml:space="preserve">
+    <value>900 kg</value>
+  </data>
+  <data name="ES834_1" xml:space="preserve">
+    <value>Nom de l'entreprise </value>
+  </data>
+  <data name="ES838_1" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir supprimer?</value>
+  </data>
+  <data name="ES839_1" xml:space="preserve">
+    <value>Entrer le nom du dossier</value>
+  </data>
+  <data name="ES83_1" xml:space="preserve">
+    <value>Quantité voulue</value>
+  </data>
+  <data name="ES841_1" xml:space="preserve">
+    <value>Commande Numéro</value>
+  </data>
+  <data name="ES842_1" xml:space="preserve">
+    <value>Plaque de la voiture</value>
+  </data>
+  <data name="ES843_1" xml:space="preserve">
+    <value>commandes</value>
+  </data>
+  <data name="ES844_1" xml:space="preserve">
+    <value>Séquence numéro</value>
+  </data>
+  <data name="ES845_1" xml:space="preserve">
+    <value>Commande numéro</value>
+  </data>
+  <data name="ES846_1" xml:space="preserve">
+    <value> Chantier</value>
+  </data>
+  <data name="ES848_1" xml:space="preserve">
+    <value>Quantité à produire,m3</value>
+  </data>
+  <data name="ES849_1" xml:space="preserve">
+    <value>Quantité totale de la commande, m3</value>
+  </data>
+  <data name="ES84_1" xml:space="preserve">
+    <value>Quantité prise</value>
+  </data>
+  <data name="ES850_1" xml:space="preserve">
+    <value>Quantité restante</value>
+  </data>
+  <data name="ES853_1" xml:space="preserve">
+    <value>Indiquer le nom de fichier</value>
+  </data>
+  <data name="ES856_1" xml:space="preserve">
+    <value>Quantté de la commande</value>
+  </data>
+  <data name="ES85_1" xml:space="preserve">
+    <value>Humidité,%</value>
+  </data>
+  <data name="ES864_1" xml:space="preserve">
+    <value>Réinitialiser le code de la commande</value>
+  </data>
+  <data name="ES866_1" xml:space="preserve">
+    <value>Déplacer en haut</value>
+  </data>
+  <data name="ES867_1" xml:space="preserve">
+    <value>Page de confirmation de  la production suivante</value>
+  </data>
+  <data name="ES86_1" xml:space="preserve">
+    <value>Différence</value>
+  </data>
+  <data name="ES872_1" xml:space="preserve">
+    <value>Heure de démarrage</value>
+  </data>
+  <data name="ES873_1" xml:space="preserve">
+    <value>Heure d'achèvement </value>
+  </data>
+  <data name="ES875_1" xml:space="preserve">
+    <value>Plaque d'immatriculation de la voiture</value>
+  </data>
+  <data name="ES876_1" xml:space="preserve">
+    <value>Nom, prénom du chauffeur</value>
+  </data>
+  <data name="ES885_1" xml:space="preserve">
+    <value>Eau supplémentaire 1</value>
+  </data>
+  <data name="ES886_1" xml:space="preserve">
+    <value>Eau supplémentaire 2</value>
+  </data>
+  <data name="ES891_1" xml:space="preserve">
+    <value>Quantité prise d'agrégat (1), kg</value>
+  </data>
+  <data name="ES892_1" xml:space="preserve">
+    <value>Quantité prise d'agrégat (2), kg</value>
+  </data>
+  <data name="ES893_1" xml:space="preserve">
+    <value>Quantité prise d'agrégat (3), kg</value>
+  </data>
+  <data name="ES894_1" xml:space="preserve">
+    <value>Quantité prise d'agrégat (4), kg</value>
+  </data>
+  <data name="ES895_1" xml:space="preserve">
+    <value>Quantité prise de ciment 1, kg</value>
+  </data>
+  <data name="ES896_1" xml:space="preserve">
+    <value>Quantité prise de ciment 2, kg</value>
+  </data>
+  <data name="ES897_1" xml:space="preserve">
+    <value>Quantité prise d'adjuvant 1, kg</value>
+  </data>
+  <data name="ES898_1" xml:space="preserve">
+    <value>Quantité prise d'adjuvant 2, kg</value>
+  </data>
+  <data name="ES899_1" xml:space="preserve">
+    <value>Quantité prise d'eau 1, kg</value>
+  </data>
+  <data name="ES89_1" xml:space="preserve">
+    <value>Nom de l'entreprise</value>
+  </data>
+  <data name="ES8_1" xml:space="preserve">
+    <value>Recettes</value>
+  </data>
+  <data name="ES900_1" xml:space="preserve">
+    <value>Quantité prise d'eau 2,kg</value>
+  </data>
+  <data name="ES901_1" xml:space="preserve">
+    <value>Entrée nouvelle dans les stocks</value>
+  </data>
+  <data name="ES902_1" xml:space="preserve">
+    <value>Modifier les informations sur les stocks</value>
+  </data>
+  <data name="ES904_1" xml:space="preserve">
+    <value>Confirmer la suppression des enregistrements des stocks</value>
+  </data>
+  <data name="ES907_1" xml:space="preserve">
+    <value>Nom du stock</value>
+  </data>
+  <data name="ES908_1" xml:space="preserve">
+    <value>Matériel</value>
+  </data>
+  <data name="ES909_1" xml:space="preserve">
+    <value>Quantité</value>
+  </data>
+  <data name="ES910_1" xml:space="preserve">
+    <value>Numéro de stock</value>
+  </data>
+  <data name="ES912_1" xml:space="preserve">
+    <value>Date d'entrée dans les stocks S</value>
+  </data>
+  <data name="ES917_1" xml:space="preserve">
+    <value>Mettre à zéro les stocks </value>
+  </data>
+  <data name="ES918_1" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ES91_1" xml:space="preserve">
+    <value>Plaque d'immatriculation de la voiture</value>
+  </data>
+  <data name="ES923_1" xml:space="preserve">
+    <value>Choisissez la bascule à calibrer</value>
+  </data>
+  <data name="ES929_1" xml:space="preserve">
+    <value>Appuyer sur le bouton'' Terminer''</value>
+  </data>
+  <data name="ES931_1" xml:space="preserve">
+    <value> 1ère étape</value>
+  </data>
+  <data name="ES932_1" xml:space="preserve">
+    <value>2ème étape</value>
+  </data>
+  <data name="ES933_1" xml:space="preserve">
+    <value>3ème étape</value>
+  </data>
+  <data name="ES936_1" xml:space="preserve">
+    <value>Quantité produite</value>
+  </data>
+  <data name="ES939_1" xml:space="preserve">
+    <value>Quantité produite</value>
+  </data>
+  <data name="ES93_1" xml:space="preserve">
+    <value>Nom, prénom du chauffeur</value>
+  </data>
+  <data name="ES942_1" xml:space="preserve">
+    <value>Initialiser le code de stock</value>
+  </data>
+  <data name="ES946_1" xml:space="preserve">
+    <value>Nom de chantier</value>
+  </data>
+  <data name="ES949_1" xml:space="preserve">
+    <value>Quantité d'entrée </value>
+  </data>
+  <data name="ES950_1" xml:space="preserve">
+    <value>Recette</value>
+  </data>
+  <data name="ES952_1" xml:space="preserve">
+    <value>Commande numéro</value>
+  </data>
+  <data name="ES953_1" xml:space="preserve">
+    <value>Plaque d'immatriculation de la voiture </value>
+  </data>
+  <data name="ES954_1" xml:space="preserve">
+    <value>Chauffeur</value>
+  </data>
+  <data name="ES955_1" xml:space="preserve">
+    <value>Quantité restante</value>
+  </data>
+  <data name="ES956_1" xml:space="preserve">
+    <value>Quantité produite</value>
+  </data>
+  <data name="ES958_1" xml:space="preserve">
+    <value>Aperçu du bon de livraison</value>
+  </data>
+  <data name="ES95_1" xml:space="preserve">
+    <value>Quantité</value>
+  </data>
+  <data name="ES961_1" xml:space="preserve">
+    <value>Appuyer le bouton et maintenez-le pendant 3 secondes</value>
+  </data>
+  <data name="ES962_1" xml:space="preserve">
+    <value>Indiquez le poids installé sur la bascule</value>
+  </data>
+  <data name="ES965_1" xml:space="preserve">
+    <value>Plans de production</value>
+  </data>
+  <data name="ES966_1" xml:space="preserve">
+    <value>Commandes</value>
+  </data>
+  <data name="ES96_1" xml:space="preserve">
+    <value>Agrégat</value>
+  </data>
+  <data name="ES97_1" xml:space="preserve">
+    <value>Agrégat 1</value>
+  </data>
+  <data name="ES98_1" xml:space="preserve">
+    <value>Eau</value>
+  </data>
+  <data name="ES99_1" xml:space="preserve">
+    <value>Adjuvant</value>
+  </data>
+  <data name="ES9_1" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="firmaadi" xml:space="preserve">
+    <value>Nom de l'entreprise</value>
+  </data>
+  <data name="hatamsg" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgarac" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgbetontipi" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgdayanim" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgdon" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgfirma" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgkivam" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgklorursinifi" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgmalzeme" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgstok" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgsurucu" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="hatamsgyogunluk" xml:space="preserve">
+    <value>Ce champ ne peut pas être vide</value>
+  </data>
+  <data name="kalanmiktar" xml:space="preserve">
+    <value>Montant restant</value>
+  </data>
+  <data name="MalzemeTipi" xml:space="preserve">
+    <value>Type de matériau</value>
+  </data>
+  <data name="receteadi" xml:space="preserve">
+    <value>Nom de la recette</value>
+  </data>
+  <data name="reçetelerToolStripMenuItem1" xml:space="preserve">
+    <value>Recettes</value>
+  </data>
+  <data name="santiyeadi" xml:space="preserve">
+    <value>Nom du site</value>
+  </data>
+  <data name="siparismiktari" xml:space="preserve">
+    <value>Quantité de commande</value>
+  </data>
+  <data name="siparisno" xml:space="preserve">
+    <value>Numéro de commande</value>
+  </data>
+  <data name="sirano" xml:space="preserve">
+    <value>Nnuméro de séquence</value>
+  </data>
+  <data name="yapilanmiktar" xml:space="preserve">
+    <value>Quantité produite</value>
+  </data>
+</root>

@@ -1,0 +1,3981 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Agrega1" xml:space="preserve">
+    <value>Agrega1</value>
+  </data>
+  <data name="Agrega2" xml:space="preserve">
+    <value>Agrega2</value>
+  </data>
+  <data name="arızaKayıtlarıToolStripMenuItem1" xml:space="preserve">
+    <value>Tum  Kayıtları</value>
+  </data>
+  <data name="ES100_1" xml:space="preserve">
+    <value>Çimento</value>
+  </data>
+  <data name="ES1011_1" xml:space="preserve">
+    <value>Üretim Sonuçları</value>
+  </data>
+  <data name="ES1012_1" xml:space="preserve">
+    <value>Detaylı Üretim Sonuçları</value>
+  </data>
+  <data name="ES1014_1" xml:space="preserve">
+    <value>Araç Sevk Durum Raporu</value>
+  </data>
+  <data name="ES1015_1" xml:space="preserve">
+    <value>Doluluk oranı, %</value>
+  </data>
+  <data name="ES1017_1" xml:space="preserve">
+    <value>Ünite adı</value>
+  </data>
+  <data name="ES1018_1" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="ES1019_1" xml:space="preserve">
+    <value>Dakika</value>
+  </data>
+  <data name="ES101_1" xml:space="preserve">
+    <value>Analizör</value>
+  </data>
+  <data name="ES1020_1" xml:space="preserve">
+    <value>Ara konveyör motoru</value>
+  </data>
+  <data name="ES1021_1" xml:space="preserve">
+    <value>Çimento Helezon1 Motoru</value>
+  </data>
+  <data name="ES1022_1" xml:space="preserve">
+    <value>Çimento Helezon2 Motoru</value>
+  </data>
+  <data name="ES1023_1" xml:space="preserve">
+    <value>Çimento Helezon3 Motoru</value>
+  </data>
+  <data name="ES1024_1" xml:space="preserve">
+    <value>Çimento Helezon4 Motoru</value>
+  </data>
+  <data name="ES1025_1" xml:space="preserve">
+    <value>Katkı(1) pompası motoru</value>
+  </data>
+  <data name="ES1026_1" xml:space="preserve">
+    <value>Katkı(2) pompası motoru</value>
+  </data>
+  <data name="ES1027_1" xml:space="preserve">
+    <value>Katkı(3) pompası motoru</value>
+  </data>
+  <data name="ES1028_1" xml:space="preserve">
+    <value>Katkı(4) pompası motoru</value>
+  </data>
+  <data name="ES1029_1" xml:space="preserve">
+    <value>Kompresör motoru</value>
+  </data>
+  <data name="ES1030_1" xml:space="preserve">
+    <value>Skip motoru</value>
+  </data>
+  <data name="ES1031_1" xml:space="preserve">
+    <value>Mikser Motoru</value>
+  </data>
+  <data name="ES1032_1" xml:space="preserve">
+    <value>Tartı konveyör motoru</value>
+  </data>
+  <data name="ES1033_1" xml:space="preserve">
+    <value>Transfer konveyör motoru</value>
+  </data>
+  <data name="ES1034_1" xml:space="preserve">
+    <value>Baslama Zamani</value>
+  </data>
+  <data name="ES1035_1" xml:space="preserve">
+    <value>Bitis Zamani</value>
+  </data>
+  <data name="ES1036_1" xml:space="preserve">
+    <value>Şantiye Adı</value>
+  </data>
+  <data name="ES1046_1" xml:space="preserve">
+    <value>Reçete adı</value>
+  </data>
+  <data name="ES1047_1" xml:space="preserve">
+    <value>Toplam Tur</value>
+  </data>
+  <data name="ES1048_1" xml:space="preserve">
+    <value>Yapılan Tur</value>
+  </data>
+  <data name="ES1049_1" xml:space="preserve">
+    <value>Stokta Olan</value>
+  </data>
+  <data name="ES104_1" xml:space="preserve">
+    <value>Reçete</value>
+  </data>
+  <data name="ES1052_1" xml:space="preserve">
+    <value>İlave Su Miktarı Giriniz</value>
+  </data>
+  <data name="ES1055_1" xml:space="preserve">
+    <value>Mikser motor akım grafiği</value>
+  </data>
+  <data name="ES1056_1" xml:space="preserve">
+    <value>Mikser motor akım grafiğini göster</value>
+  </data>
+  <data name="ES1057_1" xml:space="preserve">
+    <value>Mikser motor akım grafiği</value>
+  </data>
+  <data name="ES105_1" xml:space="preserve">
+    <value>Yapılan Miktar</value>
+  </data>
+  <data name="ES1061_1" xml:space="preserve">
+    <value>Harcanan Malzemeleri Sıfırla</value>
+  </data>
+  <data name="ES1066_1" xml:space="preserve">
+    <value>Üretimde İlk Tur Tamamlanmıştır.Ürünü Transmiksere Boşaltmak İçin EVET Butonuna Basınız</value>
+  </data>
+  <data name="ES1069_1" xml:space="preserve">
+    <value>Çimento alımına devam etmek için başk bir silo seçiniz(geçerli siloda çimento kalmadı).</value>
+  </data>
+  <data name="ES1071_1" xml:space="preserve">
+    <value>Ürün Almayı Durdur</value>
+  </data>
+  <data name="ES1072_1" xml:space="preserve">
+    <value>Ürün Alma Durduruldu</value>
+  </data>
+  <data name="ES1073_1" xml:space="preserve">
+    <value>Ürün Almaya Devam Et</value>
+  </data>
+  <data name="ES1074_1" xml:space="preserve">
+    <value>Ürün Almaya Devam Ediliyor</value>
+  </data>
+  <data name="ES107_1" xml:space="preserve">
+    <value>Agrega 2</value>
+  </data>
+  <data name="ES10_1" xml:space="preserve">
+    <value>Stok İşlemleri</value>
+  </data>
+  <data name="ES1126_1" xml:space="preserve">
+    <value>Manuel Butonlar İçin Resetlenme Süresi</value>
+  </data>
+  <data name="ES1134_1" xml:space="preserve">
+    <value>Agrega tartı konveyör ek çalışma süresi(sn)</value>
+  </data>
+  <data name="ES1135_1" xml:space="preserve">
+    <value>Agrega tartı konveyörü boş kabul edilen miktar(kg)</value>
+  </data>
+  <data name="ES1136_1" xml:space="preserve">
+    <value>Agrega tartı konveyör dengeleme süresi(sn)</value>
+  </data>
+  <data name="ES1137_1" xml:space="preserve">
+    <value>Agrega tartı konveyörü maksimum tartma kapasitesi limiti</value>
+  </data>
+  <data name="ES1138_1" xml:space="preserve">
+    <value>Ara Bant Ek Calisma Suresi</value>
+  </data>
+  <data name="ES1139_1" xml:space="preserve">
+    <value>Agrega Nem Oranı(1)$(crlf)</value>
+  </data>
+  <data name="ES113_1" xml:space="preserve">
+    <value>Araç plaka no</value>
+  </data>
+  <data name="ES1140_1" xml:space="preserve">
+    <value>Agrega Nem Oranı(2)</value>
+  </data>
+  <data name="ES1141_1" xml:space="preserve">
+    <value>Agrega Nem Oranı(3)</value>
+  </data>
+  <data name="ES1142_1" xml:space="preserve">
+    <value>Agrega Nem Oranı(4)</value>
+  </data>
+  <data name="ES1143_1" xml:space="preserve">
+    <value>Agrega Nem Oranı(5)</value>
+  </data>
+  <data name="ES1144_1" xml:space="preserve">
+    <value>Agrega Nem Oranı(6)</value>
+  </data>
+  <data name="ES1145_1" xml:space="preserve">
+    <value>Sinyal verildikten sonra tartı konveyörüne boşalan miktar(kg) (1)$(crlf)</value>
+  </data>
+  <data name="ES1146_1" xml:space="preserve">
+    <value>Sinyal verildikten sonra tartı konveyörüne boşalan miktar(kg) (2)$(crlf)</value>
+  </data>
+  <data name="ES1147_1" xml:space="preserve">
+    <value>Sinyal verildikten sonra tartı konveyörüne boşalan miktar(kg) (3)$(crlf)</value>
+  </data>
+  <data name="ES1148_1" xml:space="preserve">
+    <value>Sinyal verildikten sonra tartı konveyörüne boşalan miktar(kg) (4)$(crlf)</value>
+  </data>
+  <data name="ES1149_1" xml:space="preserve">
+    <value>Sinyal verildikten sonra tartı konveyörüne boşalan miktar(kg)  (5)$(crlf)</value>
+  </data>
+  <data name="ES114_1" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="ES1150_1" xml:space="preserve">
+    <value>Sinyal verildikten sonra tartı konveyörüne boşalan miktar(kg) (6)$(crlf)</value>
+  </data>
+  <data name="ES1151_1" xml:space="preserve">
+    <value>Agrega Nem Oranı Manüel Girilir(2)</value>
+  </data>
+  <data name="ES1152_1" xml:space="preserve">
+    <value>Agrega Nem Oranı Nemölçerden Otomatik Okunur(2)</value>
+  </data>
+  <data name="ES1153_1" xml:space="preserve">
+    <value>Agrega Nem Oranı Manüel Girilir(3)</value>
+  </data>
+  <data name="ES1154_1" xml:space="preserve">
+    <value>Agrega Nem Oranı Nemölçerden Otomatik Okunur(3)</value>
+  </data>
+  <data name="ES1155_1" xml:space="preserve">
+    <value>Agrega Nem Oranını % Olarak Hesaplanır</value>
+  </data>
+  <data name="ES1156_1" xml:space="preserve">
+    <value>Agrega tartı-konveyörü maksimum çalışma süresi(sn)</value>
+  </data>
+  <data name="ES1157_1" xml:space="preserve">
+    <value>Kantarların maksimum boşaltma süresi(sn)</value>
+  </data>
+  <data name="ES1158_1" xml:space="preserve">
+    <value>Mikser boşaltma kapak pistonunun maksimum çalışma süresi(sn)</value>
+  </data>
+  <data name="ES1159_1" xml:space="preserve">
+    <value>Korna maksimum çalışma süresi(sn)</value>
+  </data>
+  <data name="ES1160_1" xml:space="preserve">
+    <value>Mikser Motor Aşırı Akım Limiti$(crlf)</value>
+  </data>
+  <data name="ES1161_1" xml:space="preserve">
+    <value>Mikser motor aşırı akım kabul süresi</value>
+  </data>
+  <data name="ES1162_1" xml:space="preserve">
+    <value>Çimento helezon motoru maksimum çalışma süresi</value>
+  </data>
+  <data name="ES1163_1" xml:space="preserve">
+    <value>Çimento kantarı boş kabul edilen miktar(kg)</value>
+  </data>
+  <data name="ES1164_1" xml:space="preserve">
+    <value>Katkı kantarı dengeleme süresi(sn)</value>
+  </data>
+  <data name="ES1165_1" xml:space="preserve">
+    <value>Sinyal Verildikten Sonra Kantar İçine Boşalan Miktar(1)$(crlf)</value>
+  </data>
+  <data name="ES1166_1" xml:space="preserve">
+    <value>Sinyal Verildikten Sonra Kantar İçine Boşalan Miktar(2)$(crlf)</value>
+  </data>
+  <data name="ES1167_1" xml:space="preserve">
+    <value>Sinyal Verildikten Sonra Kantar İçine Boşalan Miktar(3)$(crlf)</value>
+  </data>
+  <data name="ES1168_1" xml:space="preserve">
+    <value>Sinyal Verildikten Sonra Kantar İçine Boşalan Miktar(4)$(crlf)</value>
+  </data>
+  <data name="ES1169_1" xml:space="preserve">
+    <value>Katkı kantarı ek boşaltma süresi(sn)</value>
+  </data>
+  <data name="ES1170_1" xml:space="preserve">
+    <value>Mikser boşaltma kapak hidrolik pistonunun çalışma süresi(sn)$(crlf)</value>
+  </data>
+  <data name="ES1171_1" xml:space="preserve">
+    <value>Mikser boşaltma kapak pistonunun maksimum bekleme süresi(sn)$(crlf)</value>
+  </data>
+  <data name="ES1173_1" xml:space="preserve">
+    <value>Mikser Hacmi$(crlf)</value>
+  </data>
+  <data name="ES1174_1" xml:space="preserve">
+    <value>Çimento Kantar Vibratörü Bekleme Süresi$(crlf) (sn)</value>
+  </data>
+  <data name="ES1175_1" xml:space="preserve">
+    <value>Çimento Kantar Vibratörü Çalışma Süresi$(crlf) (sn)</value>
+  </data>
+  <data name="ES1176_1" xml:space="preserve">
+    <value>Çimento kantar vibratörü çalışmaya başlayacağı boşaltma hızı(kg/sn)</value>
+  </data>
+  <data name="ES1177_1" xml:space="preserve">
+    <value>Çimento Kantarı Anlık Boşaltma Hızı$(crlf)</value>
+  </data>
+  <data name="ES1178_1" xml:space="preserve">
+    <value>Agrega Bunker Vibratörü Bekleme Süresi(2)$(crlf)</value>
+  </data>
+  <data name="ES1179_1" xml:space="preserve">
+    <value>Agrega Bunker Vibratörü Çalışma Süresi(2)$(crlf)</value>
+  </data>
+  <data name="ES117_1" xml:space="preserve">
+    <value>Tarih</value>
+  </data>
+  <data name="ES1180_1" xml:space="preserve">
+    <value>Agrega Bunker Vibratörü Bekleme Süresi(3)$(crlf)</value>
+  </data>
+  <data name="ES1181_1" xml:space="preserve">
+    <value>Agrega Bunker Vibratörü Çalışma Süresi(3)$(crlf)</value>
+  </data>
+  <data name="ES1182_1" xml:space="preserve">
+    <value>Çimento Kantar Vibratörü Çalışma Süresi(sn)</value>
+  </data>
+  <data name="ES1194_1" xml:space="preserve">
+    <value>Mikser Karıştırma Süresini Giriniz</value>
+  </data>
+  <data name="ES1195_1" xml:space="preserve">
+    <value>Girilen Değer Reçetede Güncellensin</value>
+  </data>
+  <data name="ES1197_1" xml:space="preserve">
+    <value>Mikser Bosaltma Süresini Giriniz</value>
+  </data>
+  <data name="ES11_1" xml:space="preserve">
+    <value>Raporlar</value>
+  </data>
+  <data name="ES1201_1" xml:space="preserve">
+    <value>Kalibrasyon  </value>
+  </data>
+  <data name="ES1202_1" xml:space="preserve">
+    <value>Dil ayarları</value>
+  </data>
+  <data name="ES1203_1" xml:space="preserve">
+    <value>ELKON ayarları</value>
+  </data>
+  <data name="ES1205_1" xml:space="preserve">
+    <value>Programı sonlandırmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ES1208_1" xml:space="preserve">
+    <value>İrsaliye Manuel Olarak Yazdırılır</value>
+  </data>
+  <data name="ES1209_1" xml:space="preserve">
+    <value>Her Üretim Sonunda İrsaliye Otomatik Yazdırılır</value>
+  </data>
+  <data name="ES1210_1" xml:space="preserve">
+    <value>İrsaliye Ayarları</value>
+  </data>
+  <data name="ES1211_1" xml:space="preserve">
+    <value>İrsaliye Düzenle</value>
+  </data>
+  <data name="ES1213_1" xml:space="preserve">
+    <value>Aşağı Taşı</value>
+  </data>
+  <data name="ES1217_1" xml:space="preserve">
+    <value>Mikser Akım Göstergesi Yüksek Akım Sınırı</value>
+  </data>
+  <data name="ES1218_1" xml:space="preserve">
+    <value>Mikser Akım Göstergesi Düşük Akım Sınırı</value>
+  </data>
+  <data name="ES1219_1" xml:space="preserve">
+    <value>Mikser Akım Göstergesi Maksimum İbre</value>
+  </data>
+  <data name="ES1220_1" xml:space="preserve">
+    <value>Mikser Akım Göstergesi Minimum İbre</value>
+  </data>
+  <data name="ES1221_1" xml:space="preserve">
+    <value>Çimento Kantar $(crlf) Kapasitesini Belirtiniz </value>
+  </data>
+  <data name="ES1224_1" xml:space="preserve">
+    <value>Kullanici Girisi</value>
+  </data>
+  <data name="ES1231_1" xml:space="preserve">
+    <value>Devam Eden  Uretim Bulunmaktadır$(crlf) Oturumu Kapatmak İstiyor Musun</value>
+  </data>
+  <data name="ES1233_1" xml:space="preserve">
+    <value>Programa Giriş Yap</value>
+  </data>
+  <data name="ES1234_1" xml:space="preserve">
+    <value>Programdan Çıkış Yap</value>
+  </data>
+  <data name="ES1235_1" xml:space="preserve">
+    <value>Oturum Aç</value>
+  </data>
+  <data name="ES1236_1" xml:space="preserve">
+    <value>Oturumu Kapat</value>
+  </data>
+  <data name="ES1238_1" xml:space="preserve">
+    <value>Saat</value>
+  </data>
+  <data name="ES1240_1" xml:space="preserve">
+    <value>Makineyi Kilitleme Tarihi</value>
+  </data>
+  <data name="ES1241_0" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="ES1242_0" xml:space="preserve">
+    <value>km</value>
+  </data>
+  <data name="ES1243_0" xml:space="preserve">
+    <value>m3</value>
+  </data>
+  <data name="ES1245_0" xml:space="preserve">
+    <value>°C</value>
+  </data>
+  <data name="ES1246_1" xml:space="preserve">
+    <value>Kilitle</value>
+  </data>
+  <data name="ES1247_1" xml:space="preserve">
+    <value>Kilidi Çöz</value>
+  </data>
+  <data name="ES1249_1" xml:space="preserve">
+    <value>Su ve katkı ölçüm/tartım sistemlerinin konfigürasyonu</value>
+  </data>
+  <data name="ES1250_1" xml:space="preserve">
+    <value>Su ve katkı kantarlarının konfigürasyonu</value>
+  </data>
+  <data name="ES1254_1" xml:space="preserve">
+    <value>Su Kantarı Kapasitesini Belirtiniz</value>
+  </data>
+  <data name="ES1257_0" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES1258_0" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES125_1" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="ES1265_0" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ES1266_0" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ES1269_0" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ES126_1" xml:space="preserve">
+    <value>Telefon, faks</value>
+  </data>
+  <data name="ES1270_0" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ES1273_0" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="ES1274_0" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="ES1277_0" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="ES127_1" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="ES1282_1" xml:space="preserve">
+    <value>Mikro Slika Sayisini Belirtiniz</value>
+  </data>
+  <data name="ES1285_1" xml:space="preserve">
+    <value>Mikro Slika $(crlf) Kantar Kapasitesini Belirtiniz</value>
+  </data>
+  <data name="ES1287_1" xml:space="preserve">
+    <value>Dikkat!</value>
+  </data>
+  <data name="ES1288_1" xml:space="preserve">
+    <value>Sıfırla butonuna basmadan önce, kantarın tamamen boş ve load cell saplamaları üzerinde serbestçe salınım yaptığından emin olunuz(load cell emniyet saplamaları veya herhangi bir başka cisim kantara baskı yapmamalı)</value>
+  </data>
+  <data name="ES1289_1" xml:space="preserve">
+    <value>Dikkat!</value>
+  </data>
+  <data name="ES128_1" xml:space="preserve">
+    <value>İlgili Kişi</value>
+  </data>
+  <data name="ES1291_1" xml:space="preserve">
+    <value>Sıfırlama işlemi tamamlanmıştır.Kantar üzerine kalibrasyon yükünü yerleştiriniz(uygun kalibrasyon ağırlığı için operatör $(crlf) kabin duvarına yapıştırılmış tabloya bakınız)</value>
+  </data>
+  <data name="ES1292_1" xml:space="preserve">
+    <value>Dikkat!</value>
+  </data>
+  <data name="ES1294_1" xml:space="preserve">
+    <value>Kalibrasyon işleminin doğruluğunu kontrol etmek için, $(crlf) kalibrasyon yükünü birkaç adımda indirerek, indikatör$(crlf) üzerindeki değer ile kıyaslayınız</value>
+  </data>
+  <data name="ES1299_1" xml:space="preserve">
+    <value>Arayüz dilini seçiniz</value>
+  </data>
+  <data name="ES129_1" xml:space="preserve">
+    <value>Vergi Dairesi</value>
+  </data>
+  <data name="ES12_1" xml:space="preserve">
+    <value>Kullanıcı İşlemleri</value>
+  </data>
+  <data name="ES1300_1" xml:space="preserve">
+    <value>Farklı Bir Firma Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1301_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1302_1" xml:space="preserve">
+    <value>Farklı Bir Firma Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1303_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1304_1" xml:space="preserve">
+    <value>Farklı Bir Plaka Belirleyiniz</value>
+  </data>
+  <data name="ES1305_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1306_1" xml:space="preserve">
+    <value>Farklı Bir Plaka Belirleyiniz</value>
+  </data>
+  <data name="ES1307_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1308_1" xml:space="preserve">
+    <value>Farklı Bir Sürücü Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1309_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES130_1" xml:space="preserve">
+    <value>Vergi Numarası</value>
+  </data>
+  <data name="ES1310_1" xml:space="preserve">
+    <value>Farklı Bir Sürücü Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1311_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1312_1" xml:space="preserve">
+    <value>Farklı Bir Şantiye Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1313_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1314_1" xml:space="preserve">
+    <value>Farklı Bir Şantiye Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1315_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1316_1" xml:space="preserve">
+    <value>Farklı Bir Malzeme Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1317_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1318_1" xml:space="preserve">
+    <value>Farklı Bir Malzeme Adı Belirleyiniz</value>
+  </data>
+  <data name="ES1319_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES131_1" xml:space="preserve">
+    <value>Durumu</value>
+  </data>
+  <data name="ES1320_1" xml:space="preserve">
+    <value>Uretim Bitmeden Recete Degistiremezsiniz</value>
+  </data>
+  <data name="ES1321_1" xml:space="preserve">
+    <value>Silmek İstediğiniz Recete Siparişlerde Kullanılıyor</value>
+  </data>
+  <data name="ES1322_1" xml:space="preserve">
+    <value>Silmek İstediğiniz Recete Siparişlerde Kullanılıyor</value>
+  </data>
+  <data name="ES1323_1" xml:space="preserve">
+    <value>Silmek İstediğiniz Recete PLC'de Yüklü Olan Reçete Olduğu İçin Silinemez</value>
+  </data>
+  <data name="ES1324_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1325_1" xml:space="preserve">
+    <value>Silmek İstediğiniz Sipariş Üretim Planında Kullanılıyor</value>
+  </data>
+  <data name="ES1326_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1327_1" xml:space="preserve">
+    <value>Yeni Sipariş Miktarı Yapilan Miktardan Küçük Olamaz</value>
+  </data>
+  <data name="ES1328_1" xml:space="preserve">
+    <value>Üretilecek Miktar Araç Kapasitesini Geçmemelidir</value>
+  </data>
+  <data name="ES1329_1" xml:space="preserve">
+    <value>Üretilecek Miktar Sipariş Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1330_1" xml:space="preserve">
+    <value>Üretilecek Miktar Siparişin Kalan Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1331_1" xml:space="preserve">
+    <value>Üretim Yapabileceğiniz Maksimum Miktar</value>
+  </data>
+  <data name="ES1332_1" xml:space="preserve">
+    <value>Sipariş Miktarının Tamamı Üretilmiştir</value>
+  </data>
+  <data name="ES1333_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1334_1" xml:space="preserve">
+    <value>Uretimde Olan Plan Silinemez</value>
+  </data>
+  <data name="ES1335_1" xml:space="preserve">
+    <value>Uretimde Olan Plan Düzenlenemez</value>
+  </data>
+  <data name="ES1336_1" xml:space="preserve">
+    <value>Üretilecek Miktar Araç Kapasitesini Geçmemelidir</value>
+  </data>
+  <data name="ES1337_1" xml:space="preserve">
+    <value>Üretilecek Miktar Sipariş Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1338_1" xml:space="preserve">
+    <value>Üretilecek Miktar Siparişin Kalan Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1339_1" xml:space="preserve">
+    <value>Üretim Yapabileceğiniz Maksimum Miktar</value>
+  </data>
+  <data name="ES1340_1" xml:space="preserve">
+    <value>Sipariş Miktarının Tamamı Üretilmiştir</value>
+  </data>
+  <data name="ES1341_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1342_1" xml:space="preserve">
+    <value>Uretimde Olan Plan Silinemez</value>
+  </data>
+  <data name="ES1343_1" xml:space="preserve">
+    <value>Üretilecek Miktar Araç Kapasitesini Geçmemelidir</value>
+  </data>
+  <data name="ES1344_1" xml:space="preserve">
+    <value>Üretilecek Miktar Sipariş Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1345_1" xml:space="preserve">
+    <value>Üretilecek Miktar Siparişin Kalan Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1346_1" xml:space="preserve">
+    <value>Üretim Yapabileceğiniz Maksimum Miktar</value>
+  </data>
+  <data name="ES1347_1" xml:space="preserve">
+    <value>Sipariş Miktarının Tamamı Üretilmiştir</value>
+  </data>
+  <data name="ES1348_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1349_1" xml:space="preserve">
+    <value>Üretilecek Miktar Araç Kapasitesini Geçmemelidir</value>
+  </data>
+  <data name="ES1350_1" xml:space="preserve">
+    <value>Üretilecek Miktar Sipariş Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1351_1" xml:space="preserve">
+    <value>Üretilecek Miktar Siparişin Kalan Miktarını Geçmemelidir</value>
+  </data>
+  <data name="ES1352_1" xml:space="preserve">
+    <value>Üretim Yapabileceğiniz Maksimum Miktar</value>
+  </data>
+  <data name="ES1353_1" xml:space="preserve">
+    <value>Sipariş Miktarının Tamamı Üretilmiştir</value>
+  </data>
+  <data name="ES1354_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1355_1" xml:space="preserve">
+    <value>Planlanmış Üretim Bulunmamaktadır</value>
+  </data>
+  <data name="ES1356_1" xml:space="preserve">
+    <value>Planlanan Uretimler Tamamlandi Yapilan Başka Bir Plan Görünmüyor</value>
+  </data>
+  <data name="ES1357_1" xml:space="preserve">
+    <value>Otomatik Üretim Yapmak İçin Önce Sistemi Otomatiğe Alınız</value>
+  </data>
+  <data name="ES1358_1" xml:space="preserve">
+    <value>Durdurulan Üretime Devam Ediliyor</value>
+  </data>
+  <data name="ES1359_1" xml:space="preserve">
+    <value>Lütfen Bilgileri Eksiksiz Giriniz</value>
+  </data>
+  <data name="ES1360_1" xml:space="preserve">
+    <value>Stok Alanı Kapasitesinden Daha Fazla Giriş Yapamazsınız</value>
+  </data>
+  <data name="ES1361_1" xml:space="preserve">
+    <value>Üretim tamamlanamamıştır, üretime baştan başlayabilir veya onu üretim planından silebilirsiniz.</value>
+  </data>
+  <data name="ES1362_1" xml:space="preserve">
+    <value>Seçiniz</value>
+  </data>
+  <data name="ES1363_1" xml:space="preserve">
+    <value>Aktif</value>
+  </data>
+  <data name="ES1364_1" xml:space="preserve">
+    <value>Pasif</value>
+  </data>
+  <data name="ES1368_1" xml:space="preserve">
+    <value>PLC Analog Girişlerinin Bit Çözünürlüğü</value>
+  </data>
+  <data name="ES1375_1" xml:space="preserve">
+    <value>Seri no:</value>
+  </data>
+  <data name="ES1376_1" xml:space="preserve">
+    <value>Seri no:</value>
+  </data>
+  <data name="ES1377_0" xml:space="preserve">
+    <value>ABB</value>
+  </data>
+  <data name="ES1379_1" xml:space="preserve">
+    <value>Katkı1</value>
+  </data>
+  <data name="ES1380_1" xml:space="preserve">
+    <value>Katkı2</value>
+  </data>
+  <data name="ES1381_1" xml:space="preserve">
+    <value>Katkı3</value>
+  </data>
+  <data name="ES1382_1" xml:space="preserve">
+    <value>Katkı4</value>
+  </data>
+  <data name="ES1383_1" xml:space="preserve">
+    <value>Katkı5</value>
+  </data>
+  <data name="ES1384_1" xml:space="preserve">
+    <value>A100-Mikser motor TMS arızası</value>
+  </data>
+  <data name="ES1385_1" xml:space="preserve">
+    <value>A111-Mikser doluyken çalıştırıldı </value>
+  </data>
+  <data name="ES13_1" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="ES1404_1" xml:space="preserve">
+    <value>C503-Çimento kantarı aşırı yük hatası </value>
+  </data>
+  <data name="ES1405_1" xml:space="preserve">
+    <value>C601-Su kantarı aşırı yük hatası </value>
+  </data>
+  <data name="ES1406_1" xml:space="preserve">
+    <value>C701-Katkı kantarı aşırı yük hatası </value>
+  </data>
+  <data name="ES1407_1" xml:space="preserve">
+    <value>D402_Skip Maksimun Yurume Suresi Asildi</value>
+  </data>
+  <data name="ES1408_1" xml:space="preserve">
+    <value>E205-Reçetedeki agrega değeri, girilen maksimum süre içinde tartı konveyörüne alınamadı </value>
+  </data>
+  <data name="ES1409_1" xml:space="preserve">
+    <value>F506-Çimento kantarı, girilen maksimum süre içinde boş kabul edilen miktara ulaşamadı</value>
+  </data>
+  <data name="ES1410_1" xml:space="preserve">
+    <value>F206-Tartı konveyörü, girilen maksimum süre içinde boş kabul edilen miktara ulaşamadı</value>
+  </data>
+  <data name="ES1411_1" xml:space="preserve">
+    <value>G109-Mikser boşaltma kapağı, girilen maksimum süre içinde açılamadı/kapanamadı </value>
+  </data>
+  <data name="ES1412_1" xml:space="preserve">
+    <value>G507-Çimento kantarı boşaltma kapağı, girilen maksimum süre içinde açılamadı/kapanamadı </value>
+  </data>
+  <data name="ES1413_1" xml:space="preserve">
+    <value>G604-Su kantarı boşaltma kapağı, girilen maksimum süre içinde açılamadı/kapanamadı </value>
+  </data>
+  <data name="ES1414_1" xml:space="preserve">
+    <value>G704-Katkı kantarı boşaltma kapağı, girilen maksimum süre içinde açılamadı/kapanamadı </value>
+  </data>
+  <data name="ES1415_1" xml:space="preserve">
+    <value>G801-Biriktirme bunker boşaltma kapağı, girilen maksimum süre içinde açılamadı/kapanamadı </value>
+  </data>
+  <data name="ES1416_1" xml:space="preserve">
+    <value>H210-Tartı konveyörünün ağırlığı, boş kabul edilen miktardan daha fazla</value>
+  </data>
+  <data name="ES1417_1" xml:space="preserve">
+    <value>H510-Çimento kantarının ağırlığı, boş kabul edilen miktardan daha fazla</value>
+  </data>
+  <data name="ES1418_1" xml:space="preserve">
+    <value>H607-Su kantarının ağırlığı, boş kabul edilen miktardan daha fazla</value>
+  </data>
+  <data name="ES1419_1" xml:space="preserve">
+    <value>H707-Katkı kantarının ağırlığı, boş kabul edilen miktardan daha fazla</value>
+  </data>
+  <data name="ES1420_1" xml:space="preserve">
+    <value>K105-Mikser otomatik yağlama/switch arızası </value>
+  </data>
+  <data name="ES1421_1" xml:space="preserve">
+    <value>K106-Mikser motoru aşırı ısındı(70° C)/veya PTC termistörü arızalı</value>
+  </data>
+  <data name="ES1422_1" xml:space="preserve">
+    <value>K107-Mikser redüktör yağı aşırı ısındı(70° C)/veya sensör arızalı </value>
+  </data>
+  <data name="ES1423_1" xml:space="preserve">
+    <value>K108-Mikser bakım kapağı açıldı/veya switchi ayarı bozuldu/veya arızalı</value>
+  </data>
+  <data name="ES1424_1" xml:space="preserve">
+    <value>K404-Skip fren balatası aşındı/veya ayarı bozuldu/veya fren switchi ayarı bozuldu/veya arızalı</value>
+  </data>
+  <data name="ES1425_1" xml:space="preserve">
+    <value>K406-Skip alt pozisyonunda değil/veya pozisyon switchinin ayarı bozuldu/veya arızalı</value>
+  </data>
+  <data name="ES1426_1" xml:space="preserve">
+    <value>L208-Tartı konveyör pull cord switchi çekildi</value>
+  </data>
+  <data name="ES1427_1" xml:space="preserve">
+    <value>O110_Mikser Çalışmıyor</value>
+  </data>
+  <data name="ES1428_1" xml:space="preserve">
+    <value>XB46_Faz Hata</value>
+  </data>
+  <data name="ES1429_1" xml:space="preserve">
+    <value>K407-Skip fren switchi köprülendi/veya fren switchi ayarı bozuldu/veya arızalı</value>
+  </data>
+  <data name="ES1430_1" xml:space="preserve">
+    <value>K405-Skip bakım alan kapısı açıldı/veya switchi ayarı bozuldu/veya arızalı</value>
+  </data>
+  <data name="ES1431_1" xml:space="preserve">
+    <value>XB46_Genel Hata</value>
+  </data>
+  <data name="ES1432_1" xml:space="preserve">
+    <value>A101-Mikser boşaltma kapak hidrolik merkez motor TMS arızası</value>
+  </data>
+  <data name="ES1433_1" xml:space="preserve">
+    <value>A112-Mikser Durdu</value>
+  </data>
+  <data name="ES1434_1" xml:space="preserve">
+    <value>A200-Tartı konveyör motor TMS arızası </value>
+  </data>
+  <data name="ES1435_1" xml:space="preserve">
+    <value>A201-Tartı konveyör vibratör TMS arızası </value>
+  </data>
+  <data name="ES1437_1" xml:space="preserve">
+    <value>A202-2-Agrega bunker(2) vibratör TMS arızası </value>
+  </data>
+  <data name="ES1438_1" xml:space="preserve">
+    <value>A202-3-Agrega bunker(3) vibratör TMS arızası </value>
+  </data>
+  <data name="ES1439_1" xml:space="preserve">
+    <value>A300-Transfer konveyör motor TMS arızası </value>
+  </data>
+  <data name="ES1440_1" xml:space="preserve">
+    <value>A400-Skip motor TMS arızası</value>
+  </data>
+  <data name="ES1441_1" xml:space="preserve">
+    <value>A500-Çimento helezon motor TMS arızası </value>
+  </data>
+  <data name="ES1442_1" xml:space="preserve">
+    <value>A501-Çimento kantar vibratör TMS arızası </value>
+  </data>
+  <data name="ES1443_1" xml:space="preserve">
+    <value>A800-Biriktirme bunkeri vibratör TMS arızası </value>
+  </data>
+  <data name="ES1444_1" xml:space="preserve">
+    <value>A900-Kompresör motor TMS arızası</value>
+  </data>
+  <data name="ES1445_1" xml:space="preserve">
+    <value>B103-Mikser motor aşırı akım limiti aşıldı</value>
+  </data>
+  <data name="ES1446_1" xml:space="preserve">
+    <value>B504_1-Çimento helezon(1) motor aşırı akım limiti aşıldı </value>
+  </data>
+  <data name="ES1447_1" xml:space="preserve">
+    <value>B504_2-Çimento helezon(2) motor aşırı akım limiti aşıldı </value>
+  </data>
+  <data name="ES1448_1" xml:space="preserve">
+    <value>B504_3-Çimento helezon(3) motor aşırı akım limiti aşıldı </value>
+  </data>
+  <data name="ES1449_1" xml:space="preserve">
+    <value>B504_4-Çimento helezon(4) motor aşırı akım limiti aşıldı </value>
+  </data>
+  <data name="ES1450_1" xml:space="preserve">
+    <value>C204-Tartı konveyör aşırı yük hatası </value>
+  </data>
+  <data name="ES1451_1" xml:space="preserve">
+    <value>Destek</value>
+  </data>
+  <data name="ES1454_1" xml:space="preserve">
+    <value>Mikser Nominal Akım Kaydetme Arayaüzü</value>
+  </data>
+  <data name="ES1455_1" xml:space="preserve">
+    <value>Açıklama : Mikser boşta çalışırken ne kadar akım çektiği tespit ediliyor, bu değer otomatik üretimde mikserin boş olarak değerlendirildiği durumlarda çektiği akım ile karşılaştırılarak mikserin gerçekten boş olup olmadığı anlaşılıyor.Mikser eğer fazla akım çekiyorsa bir sonraki tur için miksere malzeme alınmıyor.</value>
+  </data>
+  <data name="ES1457_1" xml:space="preserve">
+    <value>Akım Değerini Yakala ve Kaydet</value>
+  </data>
+  <data name="ES1458_1" xml:space="preserve">
+    <value>Adım 2 : Tolerans değerini belirtiniz.Bu tolerans değeri akım kontrolü yapılırken kaydedilen değerin ne kadar üzerine çıkabileceğini belirler ve yüzde olarak belirtilir.</value>
+  </data>
+  <data name="ES1459_1" xml:space="preserve">
+    <value>Adım 1 : Santrali manuele alınız ve mikserin boş olduğundan emin olup, mikseri çalıştırınız.Daha sonra aşağıda ki butona basarak, mikserin boşta çektiği akımın kaydedilmesini sağlayınız. Bu işlem 5 sn sürmektedir. Akım değeri aşağıda ki göstergeye yazılana kadar bekleyiniz.</value>
+  </data>
+  <data name="ES1460_1" xml:space="preserve">
+    <value>Adım 3 : Aşağıda ki tabloyu kontrol ediniz, işlemler başarılı bir şekilde tamamlanmış ise, akım kaydetme bitinin 0 ve işlem sonucu bitinin de 1 olması gerekmektedir.</value>
+  </data>
+  <data name="ES1461_1" xml:space="preserve">
+    <value>Lütfen bu işlem tamamlanana kadar bekleyiniz(5 sn)...</value>
+  </data>
+  <data name="ES1462_1" xml:space="preserve">
+    <value>Lütfen santrali manuel moda alıp mikseri calıştırdaktan sonra deneyiniz!</value>
+  </data>
+  <data name="ES1463_1" xml:space="preserve">
+    <value>Akım kaydetme</value>
+  </data>
+  <data name="ES1464_1" xml:space="preserve">
+    <value>İşlem sonucu</value>
+  </data>
+  <data name="ES1467_1" xml:space="preserve">
+    <value>Yarı otomatik</value>
+  </data>
+  <data name="ES1468_1" xml:space="preserve">
+    <value>Yarı Otomatik</value>
+  </data>
+  <data name="ES146_1" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="ES1472_1" xml:space="preserve">
+    <value>Yarı otomatik</value>
+  </data>
+  <data name="ES1473_0" xml:space="preserve">
+    <value>Hz </value>
+  </data>
+  <data name="ES1474_1" xml:space="preserve">
+    <value>Su ve katkı sayaçlarının konfigürasyonu</value>
+  </data>
+  <data name="ES1475_1" xml:space="preserve">
+    <value>Mikser motor aşırı akım limiti(A)</value>
+  </data>
+  <data name="ES1476_0" xml:space="preserve">
+    <value>1350 kg</value>
+  </data>
+  <data name="ES1477_0" xml:space="preserve">
+    <value>2500 kg</value>
+  </data>
+  <data name="ES1478_0" xml:space="preserve">
+    <value>5000 kg</value>
+  </data>
+  <data name="ES1479_0" xml:space="preserve">
+    <value>7500 kg</value>
+  </data>
+  <data name="ES147_1" xml:space="preserve">
+    <value>Telefon, faks</value>
+  </data>
+  <data name="ES1480_0" xml:space="preserve">
+    <value>10000 kg</value>
+  </data>
+  <data name="ES1481_0" xml:space="preserve">
+    <value>1500 kg</value>
+  </data>
+  <data name="ES1485_1" xml:space="preserve">
+    <value>Geçersiz Reçete adı</value>
+  </data>
+  <data name="ES1486_1" xml:space="preserve">
+    <value>O905-Acil Stop Butonu Basıldı</value>
+  </data>
+  <data name="ES1489_1" xml:space="preserve">
+    <value>Reçeteyi PLC' ye Gönder</value>
+  </data>
+  <data name="ES148_1" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="ES1490_1" xml:space="preserve">
+    <value>Reçeteyi PLC' ye Gönder</value>
+  </data>
+  <data name="ES1491_1" xml:space="preserve">
+    <value>Reçeteyi PLC' ye Gönder</value>
+  </data>
+  <data name="ES1493_1" xml:space="preserve">
+    <value>Çimento helezon motor aşırı akım kabul süresi</value>
+  </data>
+  <data name="ES1494_1" xml:space="preserve">
+    <value>Giriş miktarı</value>
+  </data>
+  <data name="ES1495_1" xml:space="preserve">
+    <value>Stok Kayıt Raporu</value>
+  </data>
+  <data name="ES1496_1" xml:space="preserve">
+    <value>Üretim Sonuçları</value>
+  </data>
+  <data name="ES1497_1" xml:space="preserve">
+    <value>Manuel modda harcanan malzeme raporu</value>
+  </data>
+  <data name="ES1498_1" xml:space="preserve">
+    <value>Agrega(1)</value>
+  </data>
+  <data name="ES1499_1" xml:space="preserve">
+    <value>Agrega(2)</value>
+  </data>
+  <data name="ES149_1" xml:space="preserve">
+    <value>İlgili Kişi</value>
+  </data>
+  <data name="ES1500_1" xml:space="preserve">
+    <value>Agrega(3)</value>
+  </data>
+  <data name="ES1501_1" xml:space="preserve">
+    <value>Agrega(4)</value>
+  </data>
+  <data name="ES1502_1" xml:space="preserve">
+    <value>Çimento(1)</value>
+  </data>
+  <data name="ES1503_1" xml:space="preserve">
+    <value>Çimento(2)</value>
+  </data>
+  <data name="ES1504_1" xml:space="preserve">
+    <value>Katkı(1)</value>
+  </data>
+  <data name="ES1505_1" xml:space="preserve">
+    <value>Katkı(2)</value>
+  </data>
+  <data name="ES1506_1" xml:space="preserve">
+    <value>Su(1)</value>
+  </data>
+  <data name="ES1507_1" xml:space="preserve">
+    <value>Su(2)</value>
+  </data>
+  <data name="ES1508_1" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="ES1509_1" xml:space="preserve">
+    <value>ELKOMIX-60 Quick Master(Konveyörlü)</value>
+  </data>
+  <data name="ES150_1" xml:space="preserve">
+    <value>Vergi Dairesi</value>
+  </data>
+  <data name="ES1510_1" xml:space="preserve">
+    <value>ELKOMIX-90 Quick Master(Konveyörlü)</value>
+  </data>
+  <data name="ES1511_1" xml:space="preserve">
+    <value>A600-Su kantarı boşalt pompa motor TMS arızası </value>
+  </data>
+  <data name="ES1512_1" xml:space="preserve">
+    <value>A700-Katkı pompa motor TMS arızası </value>
+  </data>
+  <data name="ES1514_1" xml:space="preserve">
+    <value>L302-Transfer konveyör pull cord switchi çekildi</value>
+  </data>
+  <data name="ES1516_1" xml:space="preserve">
+    <value>Devam etmekte olan üretimi resetlemek için önce "Durdur" butonuna basınız.</value>
+  </data>
+  <data name="ES1517_1" xml:space="preserve">
+    <value>Tamamlanmamış üretim bulunmaktadır.Resetleme işlemine devam etmek istediğinize emin misiniz?</value>
+  </data>
+  <data name="ES1518_0" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
+  <data name="ES1519_0" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ES151_1" xml:space="preserve">
+    <value>Vergi Numarası</value>
+  </data>
+  <data name="ES1520_0" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="ES1521_0" xml:space="preserve">
+    <value>Русский</value>
+  </data>
+  <data name="ES1522_0" xml:space="preserve">
+    <value>Magyar</value>
+  </data>
+  <data name="ES1524_1" xml:space="preserve">
+    <value>Kullanıcı ayarları</value>
+  </data>
+  <data name="ES1525_1" xml:space="preserve">
+    <value>Müşteri Bilgileri</value>
+  </data>
+  <data name="ES1526_1" xml:space="preserve">
+    <value>Üretim Planlama ve Raporları</value>
+  </data>
+  <data name="ES1527_1" xml:space="preserve">
+    <value>Anlık Manuel Üretim Sonuçları</value>
+  </data>
+  <data name="ES152_1" xml:space="preserve">
+    <value>Durumu</value>
+  </data>
+  <data name="ES1530_0" xml:space="preserve">
+    <value>Silo(2)</value>
+  </data>
+  <data name="ES1531_0" xml:space="preserve">
+    <value>Silo(3)</value>
+  </data>
+  <data name="ES1532_0" xml:space="preserve">
+    <value>Silo(4)</value>
+  </data>
+  <data name="ES1533_0" xml:space="preserve">
+    <value>Silo(1)</value>
+  </data>
+  <data name="ES1534_1" xml:space="preserve">
+    <value>Araç Tipi</value>
+  </data>
+  <data name="ES1535_1" xml:space="preserve">
+    <value>Kamyon</value>
+  </data>
+  <data name="ES1536_1" xml:space="preserve">
+    <value>Transmikser</value>
+  </data>
+  <data name="ES1537_1" xml:space="preserve">
+    <value>Beton basma pompası</value>
+  </data>
+  <data name="ES1538_1" xml:space="preserve">
+    <value>Beton Özellikleri</value>
+  </data>
+  <data name="ES1539_1" xml:space="preserve">
+    <value>Dayanım Sınıfı</value>
+  </data>
+  <data name="ES153_1" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ES1540_1" xml:space="preserve">
+    <value>Kıvam Sınıfı</value>
+  </data>
+  <data name="ES1541_1" xml:space="preserve">
+    <value>Dona Karşı Dayanıklık Sınıfı</value>
+  </data>
+  <data name="ES1542_1" xml:space="preserve">
+    <value>Suya Karşı Direnç Sınıfı</value>
+  </data>
+  <data name="ES1543_1" xml:space="preserve">
+    <value>Yoğunluk Sınıfı</value>
+  </data>
+  <data name="ES1544_1" xml:space="preserve">
+    <value>Klorür İçeriği Sınıfı</value>
+  </data>
+  <data name="ES1545_1" xml:space="preserve">
+    <value>Beton Karışım Oranlarıyla İlgili Sınır Değerler</value>
+  </data>
+  <data name="ES1546_1" xml:space="preserve">
+    <value>Maksimum Su/Çimento Oranı</value>
+  </data>
+  <data name="ES1547_1" xml:space="preserve">
+    <value>Minimum Çimento İçeriği,kg/m3</value>
+  </data>
+  <data name="ES1548_1" xml:space="preserve">
+    <value>Minimum Beton Dayanım Sınıfı</value>
+  </data>
+  <data name="ES1549_0" xml:space="preserve">
+    <value>Betonun Minimum Hava İçeriği,%</value>
+  </data>
+  <data name="ES1558_1" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="ES1559_1" xml:space="preserve">
+    <value>Açıklama 2</value>
+  </data>
+  <data name="ES1560_1" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="ES1561_1" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="ES1575_1" xml:space="preserve">
+    <value>Farklı Bir Dona Karşı Dayanıklık Sınıfı Giriniz</value>
+  </data>
+  <data name="ES1576_1" xml:space="preserve">
+    <value>Farklı Bir Suya Karşı Direnç Sınıfı Giriniz</value>
+  </data>
+  <data name="ES1577_1" xml:space="preserve">
+    <value>Farklı Bir Yoğunluk Sınıfı Giriniz</value>
+  </data>
+  <data name="ES1578_1" xml:space="preserve">
+    <value>Farklı Bir Klorür İçeriği Sınıfı Giriniz</value>
+  </data>
+  <data name="ES1582_1" xml:space="preserve">
+    <value>Hazır Beton Santral Bilgileri</value>
+  </data>
+  <data name="ES1583_1" xml:space="preserve">
+    <value>Adı - Soyadı</value>
+  </data>
+  <data name="ES1584_1" xml:space="preserve">
+    <value>Faks</value>
+  </data>
+  <data name="ES1585_1" xml:space="preserve">
+    <value>Operatör</value>
+  </data>
+  <data name="ES1586_1" xml:space="preserve">
+    <value>İrsaliye No</value>
+  </data>
+  <data name="ES1587_1" xml:space="preserve">
+    <value>Üretim Başlama Zamanı</value>
+  </data>
+  <data name="ES1588_1" xml:space="preserve">
+    <value>Beton Miktarı, m3</value>
+  </data>
+  <data name="ES1589_1" xml:space="preserve">
+    <value>Üretim Bitme Zamanı</value>
+  </data>
+  <data name="ES158_1" xml:space="preserve">
+    <value>Kapasite</value>
+  </data>
+  <data name="ES1590_1" xml:space="preserve">
+    <value>Betonun Şantiyeye Ulaşma Zamanı</value>
+  </data>
+  <data name="ES1591_1" xml:space="preserve">
+    <value>Boşaltmanın başlama zamanı(şantiyede)</value>
+  </data>
+  <data name="ES1592_1" xml:space="preserve">
+    <value>Boşaltmanın bitme zamanı(şantiyede)</value>
+  </data>
+  <data name="ES1593_1" xml:space="preserve">
+    <value>Betonun Teslim Şekli</value>
+  </data>
+  <data name="ES1594_1" xml:space="preserve">
+    <value>Sipariş Bilgileri</value>
+  </data>
+  <data name="ES1595_1" xml:space="preserve">
+    <value>Agrega En Büyük Anma Tane Büyüklüğü</value>
+  </data>
+  <data name="ES1596_1" xml:space="preserve">
+    <value>Çimento Tipi</value>
+  </data>
+  <data name="ES1597_1" xml:space="preserve">
+    <value>Çimento Dayanım Sınıfı</value>
+  </data>
+  <data name="ES1598_1" xml:space="preserve">
+    <value>Katkı Tipi</value>
+  </data>
+  <data name="ES1599_1" xml:space="preserve">
+    <value>Özel Nitelikler</value>
+  </data>
+  <data name="ES15_1" xml:space="preserve">
+    <value>Kontrol Paneli</value>
+  </data>
+  <data name="ES1600_1" xml:space="preserve">
+    <value>Teslim edilen beton uluslararası EN 206-1 normuna uygundur.  </value>
+  </data>
+  <data name="ES1601_1" xml:space="preserve">
+    <value>Taze betona su ve katkı ilavesi yapılamaz!  </value>
+  </data>
+  <data name="ES1602_1" xml:space="preserve">
+    <value>Satıcının sorumluluğu standarda uygun betonun teslimi ile sınırlıdır.</value>
+  </data>
+  <data name="ES1603_1" xml:space="preserve">
+    <value>Betonun yerleştirilmesi, sıkıştırılması, tesviyesi, kürü (bakımı), kalıp ve iskelesinin sağlamlığı ile alınma zamanı, teslimde veya sonrasında satıcının arzusu dışında ilave bir bileşen kullanılması, betonun standart dışı bekletilmesi ve olumsuz doğa koşulları v.b.durum veya işlemlerde dolayı doğacak her türlü zararın tüm sorumluluğu alıcıya aittir. </value>
+  </data>
+  <data name="ES1604_1" xml:space="preserve">
+    <value>Ülkede geçerli olan beton yapım, döküm ve bakım kuralları tam olarak titizlikle uygulanmalıdır. </value>
+  </data>
+  <data name="ES1605_1" xml:space="preserve">
+    <value>Genel Bilgiler</value>
+  </data>
+  <data name="ES1606_1" xml:space="preserve">
+    <value>Beton Ve Bileşenleri İle İlgili Bilgiler</value>
+  </data>
+  <data name="ES1607_1" xml:space="preserve">
+    <value>Notlar</value>
+  </data>
+  <data name="ES1608_1" xml:space="preserve">
+    <value>Teslim Eden</value>
+  </data>
+  <data name="ES1609_1" xml:space="preserve">
+    <value>Teslim Alan</value>
+  </data>
+  <data name="ES1610_1" xml:space="preserve">
+    <value>İmza</value>
+  </data>
+  <data name="ES1611_1" xml:space="preserve">
+    <value>Şantiye Adresi</value>
+  </data>
+  <data name="ES1612_1" xml:space="preserve">
+    <value>Açıklama - 1 (tipi, sınıfı vb.)</value>
+  </data>
+  <data name="ES1613_1" xml:space="preserve">
+    <value>Açıklama - 2 (maks.Tane büyüklüğü, mm)</value>
+  </data>
+  <data name="ES1619_0" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ES161_1" xml:space="preserve">
+    <value>Sürücü adı, soyadı</value>
+  </data>
+  <data name="ES1620_0" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="ES1621_1" xml:space="preserve">
+    <value>Arşiv</value>
+  </data>
+  <data name="ES1622_1" xml:space="preserve">
+    <value>VibratorluBeslemeTMSArizasiAg1</value>
+  </data>
+  <data name="ES1623_1" xml:space="preserve">
+    <value>VibratorluBeslemeTMSArizasiAg2</value>
+  </data>
+  <data name="ES1624_1" xml:space="preserve">
+    <value>VibratorluBeslemeTMSArizasiAg3</value>
+  </data>
+  <data name="ES1625_1" xml:space="preserve">
+    <value>Vibrasyonlu hassas tartım sisteminde tartılacak agrega miktarı 1 (kg)</value>
+  </data>
+  <data name="ES1626_1" xml:space="preserve">
+    <value>Vibrasyonlu hassas tartım sisteminde tartılacak agrega miktarı 2 (kg)</value>
+  </data>
+  <data name="ES1627_1" xml:space="preserve">
+    <value>Vibrasyonlu hassas tartım sisteminde tartılacak agrega miktar 3 (kg)</value>
+  </data>
+  <data name="ES1628_1" xml:space="preserve">
+    <value>Vibrasyonlu hassas tartım sisteminde tartılacak agrega miktarı 4 (kg)</value>
+  </data>
+  <data name="ES1629_1" xml:space="preserve">
+    <value>Uzaktan yardım</value>
+  </data>
+  <data name="ES162_1" xml:space="preserve">
+    <value>Item1</value>
+  </data>
+  <data name="ES1630_0" xml:space="preserve">
+    <value>AnyDesk</value>
+  </data>
+  <data name="ES1631_0" xml:space="preserve">
+    <value>Alpemix</value>
+  </data>
+  <data name="ES1632_0" xml:space="preserve">
+    <value>Team Viewer</value>
+  </data>
+  <data name="ES1633_1" xml:space="preserve">
+    <value>İrsaliye No Sıfırla</value>
+  </data>
+  <data name="ES163_1" xml:space="preserve">
+    <value>Item2</value>
+  </data>
+  <data name="ES1644_1" xml:space="preserve">
+    <value>Su valfı maksimum çalışma süresi(sn)</value>
+  </data>
+  <data name="ES1645_1" xml:space="preserve">
+    <value>Katkı pompa motoru maksimum çalışma süresi(sn)</value>
+  </data>
+  <data name="ES1652_1" xml:space="preserve">
+    <value>E702_Reçetedeki katkı değeri, girilen maksimum süre içinde kantara alınamadı</value>
+  </data>
+  <data name="ES1653_1" xml:space="preserve">
+    <value>E602-Reçetedeki su değeri, girilen maksimum süre içinde kantara alınamadı</value>
+  </data>
+  <data name="ES1654_1" xml:space="preserve">
+    <value>E505-Reçetedeki çimento değeri, girilen maksimum süre içinde kantara alınamadı</value>
+  </data>
+  <data name="ES1655_1" xml:space="preserve">
+    <value>F603-Su kantarı, girilen maksimum süre içinde boş kabul edilen miktara ulaşamadı</value>
+  </data>
+  <data name="ES1656_1" xml:space="preserve">
+    <value>F703-Katkı kantarı, girilen maksimum süre içinde boş kabul edilen miktara ulaşamadı</value>
+  </data>
+  <data name="ES1657_1" xml:space="preserve">
+    <value>Çimento kantarının maksimum boşaltma süresi(sn)$(crlf)</value>
+  </data>
+  <data name="ES1658_1" xml:space="preserve">
+    <value>Katkı kantarının maksimum boşaltma süresi(sn)$(crlf)</value>
+  </data>
+  <data name="ES1659_1" xml:space="preserve">
+    <value>Su kantarının maksimum boşaltma süresi(sn)$(crlf)</value>
+  </data>
+  <data name="ES1660_1" xml:space="preserve">
+    <value>Agrega bunkerinin maksimum boşaltma süresi(sn)</value>
+  </data>
+  <data name="ES1662_1" xml:space="preserve">
+    <value>Adı</value>
+  </data>
+  <data name="ES1663_1" xml:space="preserve">
+    <value>Sayaç Var</value>
+  </data>
+  <data name="ES1664_1" xml:space="preserve">
+    <value>Sayaç Yok</value>
+  </data>
+  <data name="ES1665_1" xml:space="preserve">
+    <value>Kantar Yok</value>
+  </data>
+  <data name="ES1666_1" xml:space="preserve">
+    <value>Kantar Var</value>
+  </data>
+  <data name="ES1667_1" xml:space="preserve">
+    <value>Sevk İrsaliyesi</value>
+  </data>
+  <data name="ES1671_1" xml:space="preserve">
+    <value>Agrega bunker boşaltma kapağı çift pistonlu</value>
+  </data>
+  <data name="ES1672_1" xml:space="preserve">
+    <value>Agrega bunker boşaltma kapağı tek pistonlu</value>
+  </data>
+  <data name="ES1674_1" xml:space="preserve">
+    <value>Fabrikada güç panosu testi</value>
+  </data>
+  <data name="ES1675_1" xml:space="preserve">
+    <value>Mikser otomatik yağlaması devrede</value>
+  </data>
+  <data name="ES1676_1" xml:space="preserve">
+    <value>Simülasyon modu için reçete</value>
+  </data>
+  <data name="ES1677_0" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="ES1678_0" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="ES1679_0" xml:space="preserve">
+    <value>Kg</value>
+  </data>
+  <data name="ES1680_1" xml:space="preserve">
+    <value>ELKOMIX-35 Quick Master için simulasyon modu</value>
+  </data>
+  <data name="ES1681_1" xml:space="preserve">
+    <value>ELKOMIX-60 Quick Master için simulasyon modu</value>
+  </data>
+  <data name="ES1682_0" xml:space="preserve">
+    <value>m^3</value>
+  </data>
+  <data name="ES1683_1" xml:space="preserve">
+    <value>Şebeke akım trafo katsayısı(/5)</value>
+  </data>
+  <data name="ES1684_1" xml:space="preserve">
+    <value>Mikser motor akım trafo katsayısı(/5)</value>
+  </data>
+  <data name="ES1685_1" xml:space="preserve">
+    <value>Helezon motor akım trafo katsayısı(/5)$(crlf)</value>
+  </data>
+  <data name="ES1686_0" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="ES1691_1" xml:space="preserve">
+    <value>Stok Giriş Saati</value>
+  </data>
+  <data name="ES1693_1" xml:space="preserve">
+    <value>Giriş Yapilan Miktar</value>
+  </data>
+  <data name="ES1694_1" xml:space="preserve">
+    <value>Stok Girişi Yapan Kullanıcı</value>
+  </data>
+  <data name="ES1696_1" xml:space="preserve">
+    <value>Veriler Excel'e başarıyla aktarılmıştır.</value>
+  </data>
+  <data name="ES1697_1" xml:space="preserve">
+    <value>Santral modeli seçiniz</value>
+  </data>
+  <data name="ES1703_1" xml:space="preserve">
+    <value>Toplamda 5'ten fazla seçemezsiniz</value>
+  </data>
+  <data name="ES1704_1" xml:space="preserve">
+    <value>Toplamda 6'dan fazla seçemezsiniz</value>
+  </data>
+  <data name="ES1708_1" xml:space="preserve">
+    <value>Farklı Bir Dayanım Sınıfı Giriniz</value>
+  </data>
+  <data name="ES1709_1" xml:space="preserve">
+    <value>Farklı Bir Kıvam Sınıfı Giriniz</value>
+  </data>
+  <data name="ES1711_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri göster$(crlf) - 1</value>
+  </data>
+  <data name="ES1712_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri gösterme$(crlf) - 1</value>
+  </data>
+  <data name="ES1713_1" xml:space="preserve">
+    <value>Silo</value>
+  </data>
+  <data name="ES1714_1" xml:space="preserve">
+    <value>Bunker</value>
+  </data>
+  <data name="ES1715_1" xml:space="preserve">
+    <value>Çimento kantarı dengeleme süresi(sn)</value>
+  </data>
+  <data name="ES1716_1" xml:space="preserve">
+    <value>Katkı kantarı boş kabul edilen miktar(kg)</value>
+  </data>
+  <data name="ES1717_1" xml:space="preserve">
+    <value>Çimento kantarı ek boşaltma süresi(sn)</value>
+  </data>
+  <data name="ES1719_1" xml:space="preserve">
+    <value>Su kantarı boş kabul edilen miktar(kg)</value>
+  </data>
+  <data name="ES1720_1" xml:space="preserve">
+    <value>Su kantarı ek boşaltma süresi(sn)</value>
+  </data>
+  <data name="ES1721_1" xml:space="preserve">
+    <value>Agrega(1) farkı, kg</value>
+  </data>
+  <data name="ES1722_1" xml:space="preserve">
+    <value>Agrega(2) farkı, kg</value>
+  </data>
+  <data name="ES1723_1" xml:space="preserve">
+    <value>Agrega(3) farkı, kg</value>
+  </data>
+  <data name="ES1724_1" xml:space="preserve">
+    <value>Agrega(4) farkı, kg</value>
+  </data>
+  <data name="ES1725_1" xml:space="preserve">
+    <value>Çimento(1) farkı, kg</value>
+  </data>
+  <data name="ES1726_1" xml:space="preserve">
+    <value>Çimento(2) farkı, kg</value>
+  </data>
+  <data name="ES1727_1" xml:space="preserve">
+    <value>Katkı(1) farkı, kg</value>
+  </data>
+  <data name="ES1728_1" xml:space="preserve">
+    <value>Katkı(2) farkı, kg</value>
+  </data>
+  <data name="ES1729_1" xml:space="preserve">
+    <value>Su(1) farkı, kg</value>
+  </data>
+  <data name="ES1730_1" xml:space="preserve">
+    <value>Su(2) farkı, kg</value>
+  </data>
+  <data name="ES1733_1" xml:space="preserve">
+    <value>İstenen agrega(3) değeri, kg</value>
+  </data>
+  <data name="ES1734_1" xml:space="preserve">
+    <value>İstenen agrega(2) değeri, kg</value>
+  </data>
+  <data name="ES1735_1" xml:space="preserve">
+    <value>İstenen agrega(1) değeri, kg</value>
+  </data>
+  <data name="ES1736_1" xml:space="preserve">
+    <value>İstenen agrega(4) değeri, kg</value>
+  </data>
+  <data name="ES1737_1" xml:space="preserve">
+    <value>İstenen Çimento(1) değeri, kg</value>
+  </data>
+  <data name="ES1738_1" xml:space="preserve">
+    <value>İstenen Çimento(2) değeri, kg</value>
+  </data>
+  <data name="ES1739_1" xml:space="preserve">
+    <value>İstenen Katkı(1) değeri, kg</value>
+  </data>
+  <data name="ES1740_1" xml:space="preserve">
+    <value>İstenen Katkı(2) değeri, kg</value>
+  </data>
+  <data name="ES1741_1" xml:space="preserve">
+    <value>İstenen Su(1) değeri, kg</value>
+  </data>
+  <data name="ES1742_1" xml:space="preserve">
+    <value>İstenen Su(2) değeri, kg</value>
+  </data>
+  <data name="ES1744_1" xml:space="preserve">
+    <value>Agrega(1)</value>
+  </data>
+  <data name="ES1745_1" xml:space="preserve">
+    <value>Agrega(2)</value>
+  </data>
+  <data name="ES1746_1" xml:space="preserve">
+    <value>Agrega(3)</value>
+  </data>
+  <data name="ES1747_1" xml:space="preserve">
+    <value>Agrega(4)</value>
+  </data>
+  <data name="ES1748_1" xml:space="preserve">
+    <value>Çimento(1)</value>
+  </data>
+  <data name="ES1749_1" xml:space="preserve">
+    <value>Çimento(2)</value>
+  </data>
+  <data name="ES1750_1" xml:space="preserve">
+    <value>Çimento(3)</value>
+  </data>
+  <data name="ES1751_1" xml:space="preserve">
+    <value>Çimento(4)</value>
+  </data>
+  <data name="ES1752_1" xml:space="preserve">
+    <value>Katkı(1)</value>
+  </data>
+  <data name="ES1753_1" xml:space="preserve">
+    <value>Katkı(3)</value>
+  </data>
+  <data name="ES1754_1" xml:space="preserve">
+    <value>Katkı(2)</value>
+  </data>
+  <data name="ES1755_1" xml:space="preserve">
+    <value>Katkı(4)</value>
+  </data>
+  <data name="ES1756_1" xml:space="preserve">
+    <value>Su(1)</value>
+  </data>
+  <data name="ES1757_1" xml:space="preserve">
+    <value>Su(2)</value>
+  </data>
+  <data name="ES1759_1" xml:space="preserve">
+    <value>A203-1-Agrega bunker(1) vibrasyonlu besleyici vibratörlerinin TMS arızası </value>
+  </data>
+  <data name="ES1760_1" xml:space="preserve">
+    <value>A203-2-Agrega bunker(2) vibrasyonlu besleyici vibratörlerinin TMS arızası </value>
+  </data>
+  <data name="ES1761_1" xml:space="preserve">
+    <value>A203-3-Agrega bunker(3) vibrasyonlu besleyici vibratörlerinin TMS arızası </value>
+  </data>
+  <data name="ES1767_1" xml:space="preserve">
+    <value>Loglara Erişim</value>
+  </data>
+  <data name="ES1768_1" xml:space="preserve">
+    <value>Programı Kapatabilme Yetkisi</value>
+  </data>
+  <data name="ES1769_1" xml:space="preserve">
+    <value>Yeni Firma Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1770_1" xml:space="preserve">
+    <value>Yeni Araç Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1771_1" xml:space="preserve">
+    <value>Yeni Şantiye Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1772_1" xml:space="preserve">
+    <value>Yeni Sürücü Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1773_1" xml:space="preserve">
+    <value>Yeni Malzeme Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1774_1" xml:space="preserve">
+    <value>Stok Alanları Düzenleme</value>
+  </data>
+  <data name="ES1775_1" xml:space="preserve">
+    <value>Yeni Reçete Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1776_1" xml:space="preserve">
+    <value>Yeni Sipariş Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1777_1" xml:space="preserve">
+    <value>Yeni Üretim Planı Ekleme Silme veya Düzeltme</value>
+  </data>
+  <data name="ES1778_1" xml:space="preserve">
+    <value>Üretim Sonuçları Raporuna Erişim</value>
+  </data>
+  <data name="ES1779_1" xml:space="preserve">
+    <value>Detaylı Üretim Sonuçları Raporuna Erişim</value>
+  </data>
+  <data name="ES1780_1" xml:space="preserve">
+    <value>Araç Sevk Durumu Raporuna Erişim</value>
+  </data>
+  <data name="ES1781_1" xml:space="preserve">
+    <value>Toplam Harcanan Malzeme Raporuna Erişim</value>
+  </data>
+  <data name="ES1782_1" xml:space="preserve">
+    <value>Satış Raporuna Erişim</value>
+  </data>
+  <data name="ES1783_1" xml:space="preserve">
+    <value>Manuel Üretim Sonuçlarına Erişim</value>
+  </data>
+  <data name="ES1784_1" xml:space="preserve">
+    <value>Motor Çalışma Sürelerine Erişim</value>
+  </data>
+  <data name="ES1785_1" xml:space="preserve">
+    <value>Stok Kayıtı Yapmak</value>
+  </data>
+  <data name="ES1786_1" xml:space="preserve">
+    <value>Miktar Stok Raporuna Erişim</value>
+  </data>
+  <data name="ES1787_1" xml:space="preserve">
+    <value>Stok Giriş Raporuna Erişim</value>
+  </data>
+  <data name="ES1788_1" xml:space="preserve">
+    <value>Kullanıcı Ayarlarına Erişim</value>
+  </data>
+  <data name="ES1789_1" xml:space="preserve">
+    <value>Kalibrasyon Ayarlarına Erişim</value>
+  </data>
+  <data name="ES17_1" xml:space="preserve">
+    <value>Arıza kayıtları/loglar</value>
+  </data>
+  <data name="ES1801_1" xml:space="preserve">
+    <value>Transfer konveyörü ek çalışma süresi(sn)</value>
+  </data>
+  <data name="ES1805_1" xml:space="preserve">
+    <value>Mikser Boş</value>
+  </data>
+  <data name="ES1806_1" xml:space="preserve">
+    <value>Mikser Dolu</value>
+  </data>
+  <data name="ES1807_1" xml:space="preserve">
+    <value>Üretim beklemede</value>
+  </data>
+  <data name="ES1808_1" xml:space="preserve">
+    <value>Üretim devam ediyor</value>
+  </data>
+  <data name="ES1811_1" xml:space="preserve">
+    <value>Transfer konveyörü maksimum çalışma süresi(sn)$(crlf)</value>
+  </data>
+  <data name="ES1812_1" xml:space="preserve">
+    <value>Beton Boşaltılıyor</value>
+  </data>
+  <data name="ES1816_1" xml:space="preserve">
+    <value>Dikkat! Yüksek Voltaj</value>
+  </data>
+  <data name="ES1817_1" xml:space="preserve">
+    <value>Dikkat! Düşük Voltaj</value>
+  </data>
+  <data name="ES1818_1" xml:space="preserve">
+    <value>D902_1-Faz Hatasi - (1)</value>
+  </data>
+  <data name="ES1819_1" xml:space="preserve">
+    <value>D902_2-Faz Hatasi - (2)</value>
+  </data>
+  <data name="ES1820_1" xml:space="preserve">
+    <value>D902_3-Faz Hatasi - (3)</value>
+  </data>
+  <data name="ES1821_1" xml:space="preserve">
+    <value>Mikser Kapak Aç</value>
+  </data>
+  <data name="ES1832_1" xml:space="preserve">
+    <value>Bas-Çek</value>
+  </data>
+  <data name="ES1833_1" xml:space="preserve">
+    <value>Kalıcı</value>
+  </data>
+  <data name="ES1843_1" xml:space="preserve">
+    <value>Yeni Sipariş</value>
+  </data>
+  <data name="ES1844_1" xml:space="preserve">
+    <value>Yeni Üretim Planı</value>
+  </data>
+  <data name="ES1845_1" xml:space="preserve">
+    <value>Manuel Giriş</value>
+  </data>
+  <data name="ES1846_1" xml:space="preserve">
+    <value>.Tur Alınan Değer, kg</value>
+  </data>
+  <data name="ES1847_1" xml:space="preserve">
+    <value>1 Turluk İstenen Değer, kg</value>
+  </data>
+  <data name="ES1849_1" xml:space="preserve">
+    <value>O910-Sistem Otomatikte</value>
+  </data>
+  <data name="ES1850_1" xml:space="preserve">
+    <value>O911-Sistem Manuelde</value>
+  </data>
+  <data name="ES1851_1" xml:space="preserve">
+    <value>O912-Sistem Yarı Otomatikte</value>
+  </data>
+  <data name="ES1853_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri göster$(crlf) - 2</value>
+  </data>
+  <data name="ES1854_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri gösterme$(crlf) - 2</value>
+  </data>
+  <data name="ES1855_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri göster$(crlf) - 3</value>
+  </data>
+  <data name="ES1856_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri gösterme$(crlf) - 3</value>
+  </data>
+  <data name="ES1857_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri göster$(crlf) - 4</value>
+  </data>
+  <data name="ES1858_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri gösterme$(crlf) - 4</value>
+  </data>
+  <data name="ES1859_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri göster$(crlf) - 5</value>
+  </data>
+  <data name="ES1860_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri gösterme$(crlf) - 5</value>
+  </data>
+  <data name="ES1862_1" xml:space="preserve">
+    <value>Üretim No</value>
+  </data>
+  <data name="ES191_1" xml:space="preserve">
+    <value>Reçete adı</value>
+  </data>
+  <data name="ES192_1" xml:space="preserve">
+    <value>sn</value>
+  </data>
+  <data name="ES193_1" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="ES1941_1" xml:space="preserve">
+    <value>Üretim Kodunu Sıfırla</value>
+  </data>
+  <data name="ES1946_1" xml:space="preserve">
+    <value>Seri Üretim</value>
+  </data>
+  <data name="ES1947_1" xml:space="preserve">
+    <value>Beton Tipi</value>
+  </data>
+  <data name="ES1948_1" xml:space="preserve">
+    <value>Farklı Bir Beton Tipi Giriniz</value>
+  </data>
+  <data name="ES194_1" xml:space="preserve">
+    <value>Agrega1</value>
+  </data>
+  <data name="ES1959_1" xml:space="preserve">
+    <value>Araç Bilgisi</value>
+  </data>
+  <data name="ES1960_1" xml:space="preserve">
+    <value>Tip</value>
+  </data>
+  <data name="ES1961_1" xml:space="preserve">
+    <value>Şantiye/Kurum</value>
+  </data>
+  <data name="ES1962_1" xml:space="preserve">
+    <value>Geliş Saati</value>
+  </data>
+  <data name="ES1963_1" xml:space="preserve">
+    <value>Çıkış Saati</value>
+  </data>
+  <data name="ES1965_0" xml:space="preserve">
+    <value>Polskie</value>
+  </data>
+  <data name="ES1966_1" xml:space="preserve">
+    <value>Üretim Durduruldu</value>
+  </data>
+  <data name="ES1967_1" xml:space="preserve">
+    <value>Üretim Resetlendi</value>
+  </data>
+  <data name="ES1968_1" xml:space="preserve">
+    <value>Üretim Tamamlandı</value>
+  </data>
+  <data name="ES1969_1" xml:space="preserve">
+    <value>Yeni Üretim Başladı</value>
+  </data>
+  <data name="ES1970_1" xml:space="preserve">
+    <value>Üretime Kaldığı Yerden Devam Ediyor</value>
+  </data>
+  <data name="ES1971_1" xml:space="preserve">
+    <value>Üretim Tamamlanamadı</value>
+  </data>
+  <data name="ES197_1" xml:space="preserve">
+    <value>Agrega2</value>
+  </data>
+  <data name="ES198_1" xml:space="preserve">
+    <value>Agrega3</value>
+  </data>
+  <data name="ES1996_1" xml:space="preserve">
+    <value>Toplam sipariş miktarı, m3</value>
+  </data>
+  <data name="ES1997_1" xml:space="preserve">
+    <value>Kalan sipariş miktarı, m3</value>
+  </data>
+  <data name="ES199_1" xml:space="preserve">
+    <value>Agrega4</value>
+  </data>
+  <data name="ES19_1" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="ES1_1" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="ES2001_0" xml:space="preserve">
+    <value>Katkı alımına devam etmek için başka bir katkı seçiniz(geçerli katkı alanında katkı kalmadı).</value>
+  </data>
+  <data name="ES2003_0" xml:space="preserve">
+    <value>Agrega alımına devam etmek için başka bir bunker seçiniz(geçerli bunkerde agrega kalmadı).</value>
+  </data>
+  <data name="ES2009_0" xml:space="preserve">
+    <value>Mikser Kapak Açma Süresi</value>
+  </data>
+  <data name="ES2014_0" xml:space="preserve">
+    <value>Lütfen Değiştirmek istediğiniz malzemeyi seçiniz</value>
+  </data>
+  <data name="ES2022_0" xml:space="preserve">
+    <value>Değiştirmek istediğiniz malzemeler aynı tipte olmalıdır. </value>
+  </data>
+  <data name="ES2023_1" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="ES2025_0" xml:space="preserve">
+    <value>Stok Alanındaki Malzemeyi Değiştirmek için yeni malzeme seçiniz</value>
+  </data>
+  <data name="ES2030_0" xml:space="preserve">
+    <value>Fiber Malzeme</value>
+  </data>
+  <data name="ES2031_0" xml:space="preserve">
+    <value>Alınan fiber(1) değeri, kg</value>
+  </data>
+  <data name="ES2032_0" xml:space="preserve">
+    <value>Alınan fiber(2) değeri, kg</value>
+  </data>
+  <data name="ES2033_0" xml:space="preserve">
+    <value>Alınan fiber(3) değeri, kg</value>
+  </data>
+  <data name="ES2061_0" xml:space="preserve">
+    <value>Araç Markası</value>
+  </data>
+  <data name="ES2064_0" xml:space="preserve">
+    <value>İade Beton Miktarı</value>
+  </data>
+  <data name="ES2065_0" xml:space="preserve">
+    <value>İade Beton Sınıfı</value>
+  </data>
+  <data name="ES2066_0" xml:space="preserve">
+    <value>İade Beton Açıklaması</value>
+  </data>
+  <data name="ES2067_0" xml:space="preserve">
+    <value>İade Üretim No</value>
+  </data>
+  <data name="ES206_1" xml:space="preserve">
+    <value>Karıştırma</value>
+  </data>
+  <data name="ES2073_0" xml:space="preserve">
+    <value>İşlem Sayfası</value>
+  </data>
+  <data name="ES2074_0" xml:space="preserve">
+    <value>İşlem Sayfası-Kontrol Paneli</value>
+  </data>
+  <data name="ES2075_0" xml:space="preserve">
+    <value>İşlem Sayfası-Kontrol Paneli-Üretim İşlemleri</value>
+  </data>
+  <data name="ES2076_0" xml:space="preserve">
+    <value>İşlem Sayfası-Parametreler</value>
+  </data>
+  <data name="ES2077_0" xml:space="preserve">
+    <value>İşlem Sayfası-Parametreler-Kaydet</value>
+  </data>
+  <data name="ES2078_0" xml:space="preserve">
+    <value>İşlem Sayfası-Parametreler-PLC'den Oku</value>
+  </data>
+  <data name="ES2079_0" xml:space="preserve">
+    <value>İşlem Sayfası-Parametreler-PLC'ye Gönder</value>
+  </data>
+  <data name="ES207_1" xml:space="preserve">
+    <value>Boşaltma</value>
+  </data>
+  <data name="ES2080_0" xml:space="preserve">
+    <value>İşlem Tanımı</value>
+  </data>
+  <data name="ES2081_0" xml:space="preserve">
+    <value>İşlem Tanımı-Firmalar</value>
+  </data>
+  <data name="ES2082_0" xml:space="preserve">
+    <value>İşlem Tanımı-Firmalar-Yeni Kayıt</value>
+  </data>
+  <data name="ES2083_0" xml:space="preserve">
+    <value>İşlem Tanımı-Firmalar-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2084_0" xml:space="preserve">
+    <value>İşlem Tanımı-Firmalar-Kayıt Silme</value>
+  </data>
+  <data name="ES2085_0" xml:space="preserve">
+    <value>İşlem Tanımı-Araçlar</value>
+  </data>
+  <data name="ES2086_0" xml:space="preserve">
+    <value>İşlem Tanımı-Araçlar-Yeni Kayıt</value>
+  </data>
+  <data name="ES2087_0" xml:space="preserve">
+    <value>İşlem Tanımı-Araçlar-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2088_0" xml:space="preserve">
+    <value>İşlem Tanımı-Araçlar-Kayıt Silme</value>
+  </data>
+  <data name="ES2089_0" xml:space="preserve">
+    <value>İşlem Tanımı-Şantiyeler</value>
+  </data>
+  <data name="ES208_1" xml:space="preserve">
+    <value>Çimento</value>
+  </data>
+  <data name="ES2090_0" xml:space="preserve">
+    <value>İşlem Tanımı-Şantiyeler-Yeni Kayıt</value>
+  </data>
+  <data name="ES2091_0" xml:space="preserve">
+    <value>İşlem Tanımı-Şantiyeler-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2092_0" xml:space="preserve">
+    <value>İşlem Tanımı-Şantiyeler-Kayıt Silme</value>
+  </data>
+  <data name="ES2093_0" xml:space="preserve">
+    <value>İşlem Tanımı-Sürücüler-Yeni Kayıt</value>
+  </data>
+  <data name="ES2094_0" xml:space="preserve">
+    <value>İşlem Tanımı-Sürücüler-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2095_0" xml:space="preserve">
+    <value>İşlem Tanımı-Sürücüler-Kayıt Silme</value>
+  </data>
+  <data name="ES2096_0" xml:space="preserve">
+    <value>İşlem Tanımı-Malzemeler</value>
+  </data>
+  <data name="ES2097_0" xml:space="preserve">
+    <value>İşlem Tanımı-Malzemeler-Yeni Kayıt</value>
+  </data>
+  <data name="ES2098_0" xml:space="preserve">
+    <value>İşlem Tanımı-Malzemeler-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2099_0" xml:space="preserve">
+    <value>İşlem Tanımı-Malzemeler-Kayıt Silme</value>
+  </data>
+  <data name="ES209_1" xml:space="preserve">
+    <value>Katkı</value>
+  </data>
+  <data name="ES20_1" xml:space="preserve">
+    <value>Window1</value>
+  </data>
+  <data name="ES2100_0" xml:space="preserve">
+    <value>İşlem Tanımı-Stok Alanları</value>
+  </data>
+  <data name="ES2101_0" xml:space="preserve">
+    <value>İşlem Tanımı-Stok Alanları-Yeni Kayıt</value>
+  </data>
+  <data name="ES2102_0" xml:space="preserve">
+    <value>İşlem Tanımı-Stok Alanları-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2103_0" xml:space="preserve">
+    <value>İşlem Tanımı-Stok Alanları-Kayıt Silme</value>
+  </data>
+  <data name="ES2104_0" xml:space="preserve">
+    <value>İşlem Tanımı-Alarm Çözümleri</value>
+  </data>
+  <data name="ES2105_0" xml:space="preserve">
+    <value>İşlem Tanımı-Alarm Çözümleri-Yeni Kayıt</value>
+  </data>
+  <data name="ES2106_0" xml:space="preserve">
+    <value>İşlem Tanımı-Alarm Çözümleri-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2107_0" xml:space="preserve">
+    <value>İşlem Tanımı-Alarm Çözümleri-Kayıt Silme</value>
+  </data>
+  <data name="ES2108_0" xml:space="preserve">
+    <value>Reçetler-Reçete Tanım</value>
+  </data>
+  <data name="ES2109_0" xml:space="preserve">
+    <value>Reçetler-Reçete Tanım-Yeni Kayıt</value>
+  </data>
+  <data name="ES210_1" xml:space="preserve">
+    <value>Miksere malzeme boşaltma gecikme süreleri</value>
+  </data>
+  <data name="ES2110_0" xml:space="preserve">
+    <value>Reçetler-Reçete Tanım-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2111_0" xml:space="preserve">
+    <value>Reçetler-Reçete Tanım-Kayıt Sil</value>
+  </data>
+  <data name="ES2112_0" xml:space="preserve">
+    <value>Reçetler-Reçete Tanım-PLC'ye Gönder</value>
+  </data>
+  <data name="ES2113_0" xml:space="preserve">
+    <value>Üretim</value>
+  </data>
+  <data name="ES2114_0" xml:space="preserve">
+    <value>Üretim-Üretim Planı</value>
+  </data>
+  <data name="ES2115_0" xml:space="preserve">
+    <value>Üretim-Üretim Planı-Yeni Kayıt</value>
+  </data>
+  <data name="ES2116_0" xml:space="preserve">
+    <value>Üretim-Üretim Planı-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2117_0" xml:space="preserve">
+    <value>Üretim-Üretim Planı-Kayıt Silme</value>
+  </data>
+  <data name="ES2118_0" xml:space="preserve">
+    <value>Üretim-Sipariş Üretim Planı</value>
+  </data>
+  <data name="ES2119_0" xml:space="preserve">
+    <value>Üretim-Sipariş Üretim Planı-Yeni Kayıt</value>
+  </data>
+  <data name="ES211_1" xml:space="preserve">
+    <value>Beton bileşenleri</value>
+  </data>
+  <data name="ES2120_0" xml:space="preserve">
+    <value>Üretim-Sipariş Üretim Planı-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2121_0" xml:space="preserve">
+    <value>Üretim-Üretim Sonuçları</value>
+  </data>
+  <data name="ES2122_0" xml:space="preserve">
+    <value>Üretim-Manuel Üretim Sonuçları</value>
+  </data>
+  <data name="ES2123_0" xml:space="preserve">
+    <value>Üretim-Motor Çalışma Süresi</value>
+  </data>
+  <data name="ES2124_0" xml:space="preserve">
+    <value>Stok İşlemleri</value>
+  </data>
+  <data name="ES2125_0" xml:space="preserve">
+    <value>Stok İşlemleri-Yeni Kayıt</value>
+  </data>
+  <data name="ES2126_0" xml:space="preserve">
+    <value>Raporlar</value>
+  </data>
+  <data name="ES2127_0" xml:space="preserve">
+    <value>Raporla-Üretim Raporları</value>
+  </data>
+  <data name="ES2128_0" xml:space="preserve">
+    <value>Raporla-Stok Raporları</value>
+  </data>
+  <data name="ES2129_0" xml:space="preserve">
+    <value>Raporla-Stok Raporları-Miktar Stok Raporu</value>
+  </data>
+  <data name="ES212_1" xml:space="preserve">
+    <value>Mikser Parametreleri</value>
+  </data>
+  <data name="ES2130_0" xml:space="preserve">
+    <value>Raporla-Stok Raporları-Stok Giriş Raporu</value>
+  </data>
+  <data name="ES2131_0" xml:space="preserve">
+    <value>Raporla-Stok Raporları-Toplam Malzeme Harcama Raporu</value>
+  </data>
+  <data name="ES2132_0" xml:space="preserve">
+    <value>Kullanıcı İşlemleri</value>
+  </data>
+  <data name="ES2133_0" xml:space="preserve">
+    <value>Kullanıcı İşlemleri-Kullancılar ve Gruplar</value>
+  </data>
+  <data name="ES2134_0" xml:space="preserve">
+    <value>Kullanıcı İşlemleri-Kullancılar ve Gruplar-Yeni Kayıt</value>
+  </data>
+  <data name="ES2135_0" xml:space="preserve">
+    <value>Kullanıcı İşlemleri-Kullancılar ve Gruplar-Kayıt Güncelleme</value>
+  </data>
+  <data name="ES2136_0" xml:space="preserve">
+    <value>Çevresel Etki</value>
+  </data>
+  <data name="ES213_1" xml:space="preserve">
+    <value>Kalibre et</value>
+  </data>
+  <data name="ES21_1" xml:space="preserve">
+    <value>Firmalar</value>
+  </data>
+  <data name="ES220_1" xml:space="preserve">
+    <value>Çimento1</value>
+  </data>
+  <data name="ES225_1" xml:space="preserve">
+    <value>Şoklama</value>
+  </data>
+  <data name="ES22_1" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="ES239_1" xml:space="preserve">
+    <value>KalibrasyonSayfasi</value>
+  </data>
+  <data name="ES23_1" xml:space="preserve">
+    <value>Şantiyeler</value>
+  </data>
+  <data name="ES240_1" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="ES241_1" xml:space="preserve">
+    <value>Bitir</value>
+  </data>
+  <data name="ES246_1" xml:space="preserve">
+    <value>Agrega Kantarı Dengeleme Süresi</value>
+  </data>
+  <data name="ES24_1" xml:space="preserve">
+    <value>Sürücüler</value>
+  </data>
+  <data name="ES2512_1" xml:space="preserve">
+    <value>Agrega Nem Oranını Kg Olarak Hesaplanır</value>
+  </data>
+  <data name="ES25_1" xml:space="preserve">
+    <value>Malzemeler</value>
+  </data>
+  <data name="ES264_1" xml:space="preserve">
+    <value>Hassas tartım sisteminde tartılacak agrega miktarı(kg) 1</value>
+  </data>
+  <data name="ES265_1" xml:space="preserve">
+    <value>Hassas tartım sisteminde tartılacak agrega miktarı(kg) 2</value>
+  </data>
+  <data name="ES266_1" xml:space="preserve">
+    <value>Hassas tartım sisteminde tartılacak agrega miktarı(kg) 3</value>
+  </data>
+  <data name="ES267_1" xml:space="preserve">
+    <value>Hassas tartım sisteminde tartılacak agrega miktarı(kg) 4</value>
+  </data>
+  <data name="ES268_1" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="ES269_1" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ES26_1" xml:space="preserve">
+    <value>Stok Alanları</value>
+  </data>
+  <data name="ES2714_1" xml:space="preserve">
+    <value>Çimento(3) farkı, kg</value>
+  </data>
+  <data name="ES2715_1" xml:space="preserve">
+    <value>Çimento(4) farkı, kg</value>
+  </data>
+  <data name="ES2716_1" xml:space="preserve">
+    <value>İstenen Çimento(3) değeri, kg</value>
+  </data>
+  <data name="ES2717_1" xml:space="preserve">
+    <value>İstenen Çimento(4) değeri, kg</value>
+  </data>
+  <data name="ES2718_1" xml:space="preserve">
+    <value>Alınan çimento(3) değeri, kg</value>
+  </data>
+  <data name="ES2719_1" xml:space="preserve">
+    <value>Alınan çimento(4) değeri, kg</value>
+  </data>
+  <data name="ES2725_1" xml:space="preserve">
+    <value>Mikser Akım Raporu</value>
+  </data>
+  <data name="ES2735_1" xml:space="preserve">
+    <value>Parametre Yazdır</value>
+  </data>
+  <data name="ES2742_0" xml:space="preserve">
+    <value>D-Class</value>
+  </data>
+  <data name="ES2743_0" xml:space="preserve">
+    <value>C-Class</value>
+  </data>
+  <data name="ES2744_0" xml:space="preserve">
+    <value>B-Class</value>
+  </data>
+  <data name="ES2745_0" xml:space="preserve">
+    <value>A-Class</value>
+  </data>
+  <data name="ES2746_0" xml:space="preserve">
+    <value>E-Class</value>
+  </data>
+  <data name="ES2747_0" xml:space="preserve">
+    <value>F-Class</value>
+  </data>
+  <data name="ES2748_0" xml:space="preserve">
+    <value>G-Class</value>
+  </data>
+  <data name="ES2749_0" xml:space="preserve">
+    <value>H-Class</value>
+  </data>
+  <data name="ES2750_0" xml:space="preserve">
+    <value>K-Class</value>
+  </data>
+  <data name="ES2751_0" xml:space="preserve">
+    <value>L-Class</value>
+  </data>
+  <data name="ES2752_0" xml:space="preserve">
+    <value>M-Class</value>
+  </data>
+  <data name="ES2753_0" xml:space="preserve">
+    <value>N-Class</value>
+  </data>
+  <data name="ES2754_0" xml:space="preserve">
+    <value>O-Class</value>
+  </data>
+  <data name="ES2756_0" xml:space="preserve">
+    <value>A100</value>
+  </data>
+  <data name="ES2757_0" xml:space="preserve">
+    <value>A111</value>
+  </data>
+  <data name="ES2758_0" xml:space="preserve">
+    <value>A112</value>
+  </data>
+  <data name="ES2759_0" xml:space="preserve">
+    <value>A200</value>
+  </data>
+  <data name="ES2761_0" xml:space="preserve">
+    <value>A201</value>
+  </data>
+  <data name="ES2762_0" xml:space="preserve">
+    <value>A202</value>
+  </data>
+  <data name="ES2763_0" xml:space="preserve">
+    <value>A203</value>
+  </data>
+  <data name="ES2764_0" xml:space="preserve">
+    <value>A300</value>
+  </data>
+  <data name="ES2765_0" xml:space="preserve">
+    <value>A400</value>
+  </data>
+  <data name="ES2766_0" xml:space="preserve">
+    <value>A500</value>
+  </data>
+  <data name="ES2767_0" xml:space="preserve">
+    <value>A501</value>
+  </data>
+  <data name="ES2768_0" xml:space="preserve">
+    <value>A800</value>
+  </data>
+  <data name="ES2769_0" xml:space="preserve">
+    <value>A900</value>
+  </data>
+  <data name="ES276_1" xml:space="preserve">
+    <value>Agrega tartı-konveyörü Azami Calisma Suresi</value>
+  </data>
+  <data name="ES2770_0" xml:space="preserve">
+    <value>A600</value>
+  </data>
+  <data name="ES2771_0" xml:space="preserve">
+    <value>A700</value>
+  </data>
+  <data name="ES2773_0" xml:space="preserve">
+    <value>B103</value>
+  </data>
+  <data name="ES2774_0" xml:space="preserve">
+    <value>B504</value>
+  </data>
+  <data name="ES2775_0" xml:space="preserve">
+    <value>D902</value>
+  </data>
+  <data name="ES2776_0" xml:space="preserve">
+    <value>C204</value>
+  </data>
+  <data name="ES2777_0" xml:space="preserve">
+    <value>C503</value>
+  </data>
+  <data name="ES2778_0" xml:space="preserve">
+    <value>C601</value>
+  </data>
+  <data name="ES2779_0" xml:space="preserve">
+    <value>C701</value>
+  </data>
+  <data name="ES2780_0" xml:space="preserve">
+    <value>E205</value>
+  </data>
+  <data name="ES2781_0" xml:space="preserve">
+    <value>E505</value>
+  </data>
+  <data name="ES2782_0" xml:space="preserve">
+    <value>E602</value>
+  </data>
+  <data name="ES2783_0" xml:space="preserve">
+    <value>E702</value>
+  </data>
+  <data name="ES2784_0" xml:space="preserve">
+    <value>F206</value>
+  </data>
+  <data name="ES2785_0" xml:space="preserve">
+    <value>F506</value>
+  </data>
+  <data name="ES2786_0" xml:space="preserve">
+    <value>F603</value>
+  </data>
+  <data name="ES2787_0" xml:space="preserve">
+    <value>F703</value>
+  </data>
+  <data name="ES2788_0" xml:space="preserve">
+    <value>G109</value>
+  </data>
+  <data name="ES2789_0" xml:space="preserve">
+    <value>G507</value>
+  </data>
+  <data name="ES2790_0" xml:space="preserve">
+    <value>G604</value>
+  </data>
+  <data name="ES2791_0" xml:space="preserve">
+    <value>G704</value>
+  </data>
+  <data name="ES2792_0" xml:space="preserve">
+    <value>G801</value>
+  </data>
+  <data name="ES2793_0" xml:space="preserve">
+    <value>H210</value>
+  </data>
+  <data name="ES2794_0" xml:space="preserve">
+    <value>H510</value>
+  </data>
+  <data name="ES2795_0" xml:space="preserve">
+    <value>H607</value>
+  </data>
+  <data name="ES2796_0" xml:space="preserve">
+    <value>H707</value>
+  </data>
+  <data name="ES2797_0" xml:space="preserve">
+    <value>K105</value>
+  </data>
+  <data name="ES2798_0" xml:space="preserve">
+    <value>K106</value>
+  </data>
+  <data name="ES2799_0" xml:space="preserve">
+    <value>K107</value>
+  </data>
+  <data name="ES27_1" xml:space="preserve">
+    <value>Üretim Sonuçları Detaylı</value>
+  </data>
+  <data name="ES2800_0" xml:space="preserve">
+    <value>K108</value>
+  </data>
+  <data name="ES2801_0" xml:space="preserve">
+    <value>K404</value>
+  </data>
+  <data name="ES2802_0" xml:space="preserve">
+    <value>K406</value>
+  </data>
+  <data name="ES2803_0" xml:space="preserve">
+    <value>L208</value>
+  </data>
+  <data name="ES2804_0" xml:space="preserve">
+    <value>L302</value>
+  </data>
+  <data name="ES2805_0" xml:space="preserve">
+    <value>O110</value>
+  </data>
+  <data name="ES2807_1" xml:space="preserve">
+    <value>Arıza Kayıtları/Loglar Filtreleme</value>
+  </data>
+  <data name="ES2808_0" xml:space="preserve">
+    <value>O905</value>
+  </data>
+  <data name="ES2809_0" xml:space="preserve">
+    <value>O910</value>
+  </data>
+  <data name="ES2810_0" xml:space="preserve">
+    <value>O911</value>
+  </data>
+  <data name="ES2811_0" xml:space="preserve">
+    <value>O907</value>
+  </data>
+  <data name="ES2813_1" xml:space="preserve">
+    <value>Alarm Listesi</value>
+  </data>
+  <data name="ES2822_1" xml:space="preserve">
+    <value>Filtrelemeyi İptal Et</value>
+  </data>
+  <data name="ES2823_1" xml:space="preserve">
+    <value>Üretime ait mikser motor akım grafiği</value>
+  </data>
+  <data name="ES2824_1" xml:space="preserve">
+    <value>Üretime Ait Alarmları Göster</value>
+  </data>
+  <data name="ES2825_1" xml:space="preserve">
+    <value>İş Emri</value>
+  </data>
+  <data name="ES2826_1" xml:space="preserve">
+    <value>Güç Panosu Kodu</value>
+  </data>
+  <data name="ES2827_1" xml:space="preserve">
+    <value>Kumanda Panosu Kodu</value>
+  </data>
+  <data name="ES2828_1" xml:space="preserve">
+    <value>Dongle Kodu</value>
+  </data>
+  <data name="ES2829_1" xml:space="preserve">
+    <value>Makine Bilgileri</value>
+  </data>
+  <data name="ES2830_1" xml:space="preserve">
+    <value>Şehir/Ülke</value>
+  </data>
+  <data name="ES2831_1" xml:space="preserve">
+    <value>Detaylı İrsaliyeyi Göster</value>
+  </data>
+  <data name="ES2832_1" xml:space="preserve">
+    <value>Standart İrsaliyeyi Göster</value>
+  </data>
+  <data name="ES2833_1" xml:space="preserve">
+    <value>Lütfen Kullanıcı Adı ve Şifre Girerek Tekrar Deneyiniz</value>
+  </data>
+  <data name="ES2838_1" xml:space="preserve">
+    <value>Yarı Otomatik Üretim Sonuçları</value>
+  </data>
+  <data name="ES2845_1" xml:space="preserve">
+    <value>İstenen Katkı(3) değeri, kg</value>
+  </data>
+  <data name="ES2846_1" xml:space="preserve">
+    <value>İstenen Katkı(4) değeri, kg</value>
+  </data>
+  <data name="ES2847_1" xml:space="preserve">
+    <value>Alınan katkı(3) değeri, kg</value>
+  </data>
+  <data name="ES2848_1" xml:space="preserve">
+    <value>Alınan katkı(4) değeri, kg</value>
+  </data>
+  <data name="ES2849_1" xml:space="preserve">
+    <value>Katkı(3) farkı, kg</value>
+  </data>
+  <data name="ES2850_1" xml:space="preserve">
+    <value>Katkı(4) farkı, kg</value>
+  </data>
+  <data name="ES2853_1" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="ES2854_0" xml:space="preserve">
+    <value>Su kantarı dengeleme süresi(sn)</value>
+  </data>
+  <data name="ES2858_1" xml:space="preserve">
+    <value>Mikser Motor Akımı</value>
+  </data>
+  <data name="ES285_1" xml:space="preserve">
+    <value>Çimento silo şoklama bekleme süresi(sn)</value>
+  </data>
+  <data name="ES2866_0" xml:space="preserve">
+    <value>Mikser Hacmi Düşürüldü</value>
+  </data>
+  <data name="ES286_1" xml:space="preserve">
+    <value>Çimento silo şoklama çalışma süresi(sn)</value>
+  </data>
+  <data name="ES2900_1" xml:space="preserve">
+    <value>B504_5-Çimento helezon(5) motor aşırı akım limiti aşıldı </value>
+  </data>
+  <data name="ES2901_1" xml:space="preserve">
+    <value>Alınan agrega(5) değeri, kg</value>
+  </data>
+  <data name="ES2902_1" xml:space="preserve">
+    <value>Alınan agrega(6) değeri, kg</value>
+  </data>
+  <data name="ES2903_1" xml:space="preserve">
+    <value>Alınan çimento(5) değeri, kg</value>
+  </data>
+  <data name="ES2904_1" xml:space="preserve">
+    <value>Alınan çimento(6) değeri, kg</value>
+  </data>
+  <data name="ES2905_1" xml:space="preserve">
+    <value>Alınan katkı(5) değeri, kg</value>
+  </data>
+  <data name="ES2906_1" xml:space="preserve">
+    <value>Alınan katkı(6) değeri, kg</value>
+  </data>
+  <data name="ES2907_1" xml:space="preserve">
+    <value>Alınan su(3) değeri, kg</value>
+  </data>
+  <data name="ES2908_1" xml:space="preserve">
+    <value>Alınan su(4) değeri, kg</value>
+  </data>
+  <data name="ES2909_1" xml:space="preserve">
+    <value>İstenen agrega(5) değeri, kg</value>
+  </data>
+  <data name="ES2910_1" xml:space="preserve">
+    <value>İstenen agrega(6) değeri, kg</value>
+  </data>
+  <data name="ES2911_1" xml:space="preserve">
+    <value>İstenen Çimento(5) değeri, kg</value>
+  </data>
+  <data name="ES2912_1" xml:space="preserve">
+    <value>İstenen Çimento(6) değeri, kg</value>
+  </data>
+  <data name="ES2913_1" xml:space="preserve">
+    <value>İstenen Katkı(5) değeri, kg</value>
+  </data>
+  <data name="ES2914_1" xml:space="preserve">
+    <value>İstenen Katkı(6) değeri, kg</value>
+  </data>
+  <data name="ES2915_1" xml:space="preserve">
+    <value>İstenen Su(3) değeri, kg</value>
+  </data>
+  <data name="ES2916_1" xml:space="preserve">
+    <value>İstenen Su(4) değeri, kg</value>
+  </data>
+  <data name="ES2917_1" xml:space="preserve">
+    <value>Katkı(5) farkı, kg</value>
+  </data>
+  <data name="ES2918_1" xml:space="preserve">
+    <value>Katkı(6) farkı, kg</value>
+  </data>
+  <data name="ES2919_1" xml:space="preserve">
+    <value>Su(3) farkı, kg</value>
+  </data>
+  <data name="ES2920_1" xml:space="preserve">
+    <value>Su(4) farkı, kg</value>
+  </data>
+  <data name="ES2921_1" xml:space="preserve">
+    <value>Çimento(5) farkı, kg</value>
+  </data>
+  <data name="ES2922_1" xml:space="preserve">
+    <value>Çimento(6) farkı, kg</value>
+  </data>
+  <data name="ES2923_1" xml:space="preserve">
+    <value>Agrega(5) farkı, kg</value>
+  </data>
+  <data name="ES2924_1" xml:space="preserve">
+    <value>Agrega(6) farkı, kg</value>
+  </data>
+  <data name="ES2925_0" xml:space="preserve">
+    <value>Agrega(5)</value>
+  </data>
+  <data name="ES2926_0" xml:space="preserve">
+    <value>Agrega(6)</value>
+  </data>
+  <data name="ES2927_0" xml:space="preserve">
+    <value>Çimento(5)</value>
+  </data>
+  <data name="ES2928_0" xml:space="preserve">
+    <value>Çimento(6)</value>
+  </data>
+  <data name="ES2929_0" xml:space="preserve">
+    <value>Katkı(5)</value>
+  </data>
+  <data name="ES2930_0" xml:space="preserve">
+    <value>Katkı(6)</value>
+  </data>
+  <data name="ES2931_0" xml:space="preserve">
+    <value>Su(3)</value>
+  </data>
+  <data name="ES2932_0" xml:space="preserve">
+    <value>Su(4)</value>
+  </data>
+  <data name="ES2933_1" xml:space="preserve">
+    <value>Hassas tartım sisteminde tartılacak agrega miktarı(kg) 5</value>
+  </data>
+  <data name="ES2960_0" xml:space="preserve">
+    <value>Agrega Tartım Kantarı Kalibrasyonu Yapıldı</value>
+  </data>
+  <data name="ES2961_0" xml:space="preserve">
+    <value>Çimento Tartım Kantarı Kalibrasyonu Yapıldı</value>
+  </data>
+  <data name="ES2962_0" xml:space="preserve">
+    <value>Katkı Tartım Kantarı Kalibrasyonu Yapıldı</value>
+  </data>
+  <data name="ES2963_0" xml:space="preserve">
+    <value>Su Tartım Kantarı Kalibrasyonu Yapıldı</value>
+  </data>
+  <data name="ES2965_0" xml:space="preserve">
+    <value>Çimento Kantarı Maksimum Tartma Kapasitesi</value>
+  </data>
+  <data name="ES2966_0" xml:space="preserve">
+    <value>Katkı Kantarı Maksimum Tartma Kapasitesi</value>
+  </data>
+  <data name="ES2967_0" xml:space="preserve">
+    <value>Su Kantarı Maksimum Tartma Kapasitesi</value>
+  </data>
+  <data name="ES2968_0" xml:space="preserve">
+    <value>Helezon5 Aşırı Akım Limiti</value>
+  </data>
+  <data name="ES2969_0" xml:space="preserve">
+    <value>sn</value>
+  </data>
+  <data name="ES2970_0" xml:space="preserve">
+    <value>Üretimde Kullanılan Malzeme Miktarı Reçete Değerinin Üzerinde</value>
+  </data>
+  <data name="ES2971_1" xml:space="preserve">
+    <value>.Tur Fark, kg</value>
+  </data>
+  <data name="ES2972_1" xml:space="preserve">
+    <value>.Tur %</value>
+  </data>
+  <data name="ES2974_1" xml:space="preserve">
+    <value>Malzeme Analiz Raporunu göster</value>
+  </data>
+  <data name="ES2981_1" xml:space="preserve">
+    <value>Malzeme Analiz Raporu</value>
+  </data>
+  <data name="ES2982_1" xml:space="preserve">
+    <value>Toplam alınan malzeme tolerans değeri</value>
+  </data>
+  <data name="ES2984_1" xml:space="preserve">
+    <value>Sinyal Verildikten Sonra Kantar İçine Boşalan Miktar(5)</value>
+  </data>
+  <data name="ES2985_1" xml:space="preserve">
+    <value>kg/sn</value>
+  </data>
+  <data name="ES2986_1" xml:space="preserve">
+    <value>İrsaliyede standart not metinleri göster/gösterme</value>
+  </data>
+  <data name="ES2987_1" xml:space="preserve">
+    <value>İrsaliye yazdırma seçimi otomatik/manuel</value>
+  </data>
+  <data name="ES2988_0" xml:space="preserve">
+    <value>sn</value>
+  </data>
+  <data name="ES298_1" xml:space="preserve">
+    <value>Skip yukarıda bekleme süresi(sn)</value>
+  </data>
+  <data name="ES2990_0" xml:space="preserve">
+    <value>B504_1_Cimento Helezon 1 Motor Asiri Akim Limiti Asildi</value>
+  </data>
+  <data name="ES2991_0" xml:space="preserve">
+    <value>B504_2_Cimento Helezon 2 Motor Asiri Akim Limiti Asildi</value>
+  </data>
+  <data name="ES2992_0" xml:space="preserve">
+    <value>B504_3_Cimento Helezon 3 Motor Asiri Akim Limiti Asildi</value>
+  </data>
+  <data name="ES2993_0" xml:space="preserve">
+    <value>B504_4_Cimento Helezon 4 Motor Asiri Akim Limiti Asildi</value>
+  </data>
+  <data name="ES2994_0" xml:space="preserve">
+    <value>D902-1_Faz Hatasi - (1)</value>
+  </data>
+  <data name="ES2995_0" xml:space="preserve">
+    <value>D902-2_Faz Hatasi - (2)</value>
+  </data>
+  <data name="ES2996_0" xml:space="preserve">
+    <value>D902-3_Faz Hatasi - (3)</value>
+  </data>
+  <data name="ES2997_0" xml:space="preserve">
+    <value>Dikkat! Düşük Voltaj</value>
+  </data>
+  <data name="ES2998_0" xml:space="preserve">
+    <value>Dikkat! Düşük Voltaj</value>
+  </data>
+  <data name="ES2999_0" xml:space="preserve">
+    <value>Dikkat! Düşük Voltaj</value>
+  </data>
+  <data name="ES299_1" xml:space="preserve">
+    <value>Skip ara bekleme noktasına kadar yürüme süresi(sn)</value>
+  </data>
+  <data name="ES29_1" xml:space="preserve">
+    <value>Araç Sevk Durumu</value>
+  </data>
+  <data name="ES2_1" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="ES3000_0" xml:space="preserve">
+    <value>D104-Özel ağır beton(2500 kg/m³) reçetesi seçildi.Mikser kapasitesi %25 düşürüldü.</value>
+  </data>
+  <data name="ES3001_0" xml:space="preserve">
+    <value>O907-PLC ile Bağlantı kesildi</value>
+  </data>
+  <data name="ES3002_0" xml:space="preserve">
+    <value>O906-PLC ile Bağlantı kuruldu</value>
+  </data>
+  <data name="ES3003_0" xml:space="preserve">
+    <value>Üretim Durduruldu</value>
+  </data>
+  <data name="ES3004_0" xml:space="preserve">
+    <value>Üretime Kaldığı Yerden Devam Ediyor</value>
+  </data>
+  <data name="ES3005_0" xml:space="preserve">
+    <value>Üretim Resetlendi</value>
+  </data>
+  <data name="ES3006_0" xml:space="preserve">
+    <value>Üretim Tamamlanamadı</value>
+  </data>
+  <data name="ES3007_0" xml:space="preserve">
+    <value>Üretim Tamamlandı</value>
+  </data>
+  <data name="ES3008_0" xml:space="preserve">
+    <value>Yeni Üretim Başladı</value>
+  </data>
+  <data name="ES3009_0" xml:space="preserve">
+    <value>Dikkat! Yüksek Voltaj</value>
+  </data>
+  <data name="ES300_1" xml:space="preserve">
+    <value>Skip maksimum yürüme süresi(sn)</value>
+  </data>
+  <data name="ES3010_0" xml:space="preserve">
+    <value>Dikkat! Yüksek Voltaj</value>
+  </data>
+  <data name="ES3011_0" xml:space="preserve">
+    <value>Dikkat! Yüksek Voltaj</value>
+  </data>
+  <data name="ES3012_0" xml:space="preserve">
+    <value>Üretimde Kullanılan Malzeme Miktarı Reçete Değerinin Altında</value>
+  </data>
+  <data name="ES3013_0" xml:space="preserve">
+    <value>Silo(5)</value>
+  </data>
+  <data name="ES3014_1" xml:space="preserve">
+    <value>Voltaj Alt Limit</value>
+  </data>
+  <data name="ES3015_1" xml:space="preserve">
+    <value>Voltaj Üst Limit</value>
+  </data>
+  <data name="ES3017_1" xml:space="preserve">
+    <value>İçe Aktar</value>
+  </data>
+  <data name="ES3019_1" xml:space="preserve">
+    <value>Dosya Yolu</value>
+  </data>
+  <data name="ES3020_1" xml:space="preserve">
+    <value>Veriler Excel'den başarıyla alınmıştır</value>
+  </data>
+  <data name="ES3021_0" xml:space="preserve">
+    <value>SQL Yedek Al</value>
+  </data>
+  <data name="ES3022_0" xml:space="preserve">
+    <value>SQL Geri Yükle</value>
+  </data>
+  <data name="ES3023_1" xml:space="preserve">
+    <value>Geri yükleme işlemini için programın kapatılmasını onaylıyormusunuz?</value>
+  </data>
+  <data name="ES3029_0" xml:space="preserve">
+    <value>Yardım Al</value>
+  </data>
+  <data name="ES3030_1" xml:space="preserve">
+    <value>Arıza Kayıtları/Yardım Al</value>
+  </data>
+  <data name="ES3031_0" xml:space="preserve">
+    <value>Alarm Kodları</value>
+  </data>
+  <data name="ES3032_0" xml:space="preserve">
+    <value>SQL Yedekle</value>
+  </data>
+  <data name="ES3033_0" xml:space="preserve">
+    <value>Geri yükleme işlemini için programın kapatılmasını onaylıyor musunuz?</value>
+  </data>
+  <data name="ES3034_0" xml:space="preserve">
+    <value>Mixmaster 2x5</value>
+  </data>
+  <data name="ES3035_0" xml:space="preserve">
+    <value>Mixmaster 4x5</value>
+  </data>
+  <data name="ES3036_0" xml:space="preserve">
+    <value>Mixmaster santralleri</value>
+  </data>
+  <data name="ES3037_0" xml:space="preserve">
+    <value>Beton Taşıma Konveyorü Yok</value>
+  </data>
+  <data name="ES3038_0" xml:space="preserve">
+    <value>Beton Taşıma Konveyorü Var</value>
+  </data>
+  <data name="ES303_1" xml:space="preserve">
+    <value>Otomatik yağlamanın çalışma süresi(sn)</value>
+  </data>
+  <data name="ES3043_0" xml:space="preserve">
+    <value>Mikser Boşaltma Alt Limiti</value>
+  </data>
+  <data name="ES3044_0" xml:space="preserve">
+    <value>Beton Taşıma Konveyörü Ek Çalışma Süresi</value>
+  </data>
+  <data name="ES3045_0" xml:space="preserve">
+    <value>A202-1-Agrega bunker(1) vibratör TMS arızası </value>
+  </data>
+  <data name="ES3046_0" xml:space="preserve">
+    <value>A202-4-Agrega bunker(4) vibratör TMS arızası </value>
+  </data>
+  <data name="ES3047_0" xml:space="preserve">
+    <value>L201-1-Agrega Bunker 1 PullCord Çekildi</value>
+  </data>
+  <data name="ES3048_0" xml:space="preserve">
+    <value>L201-2-Agrega Bunker 2 PullCord Çekildi</value>
+  </data>
+  <data name="ES3049_0" xml:space="preserve">
+    <value>L201-3-Agrega Bunker 3 PullCord Çekildi</value>
+  </data>
+  <data name="ES3050_0" xml:space="preserve">
+    <value>L201-4-Agrega Bunker 4 PullCord Çekildi</value>
+  </data>
+  <data name="ES3051_0" xml:space="preserve">
+    <value>A901_Beton Taşıma Konveyorü TMS arızası</value>
+  </data>
+  <data name="ES3052_0" xml:space="preserve">
+    <value>H101_Mikserin ağırlığı, boş kabul edilen miktardan daha fazla</value>
+  </data>
+  <data name="ES3053_1" xml:space="preserve">
+    <value>Çimento Helezon5 Motoru</value>
+  </data>
+  <data name="ES3054_1" xml:space="preserve">
+    <value>Katkı(5) pompası motoru</value>
+  </data>
+  <data name="ES3055_0" xml:space="preserve">
+    <value>Active Text1</value>
+  </data>
+  <data name="ES3056_0" xml:space="preserve">
+    <value>Active Text2</value>
+  </data>
+  <data name="ES3057_0" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ES3058_0" xml:space="preserve">
+    <value>Active Text3</value>
+  </data>
+  <data name="ES305_1" xml:space="preserve">
+    <value>Otomatik yağlamanın bekleme süresi(sn)</value>
+  </data>
+  <data name="ES306_1" xml:space="preserve">
+    <value>Ara Bant Var/Yok</value>
+  </data>
+  <data name="ES30_1" xml:space="preserve">
+    <value>Toplam Harcanan Malzeme Raporu</value>
+  </data>
+  <data name="ES310_1" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="ES311_1" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="ES316_1" xml:space="preserve">
+    <value>Agrega tartı-konveyörü Vibrasyon Calisma Limiti</value>
+  </data>
+  <data name="ES318_1" xml:space="preserve">
+    <value>Agrega tartı-konveyör vibratörü bekleme süresi(sn)</value>
+  </data>
+  <data name="ES319_1" xml:space="preserve">
+    <value>Agrega tartı-konveyör vibratörü çalışma süresi(sn)</value>
+  </data>
+  <data name="ES322_1" xml:space="preserve">
+    <value>Agrega tartı-konveyör anlık boşaltma hızı(kg/sn)</value>
+  </data>
+  <data name="ES324_1" xml:space="preserve">
+    <value>Çimento Vibratörü Calisma Limiti</value>
+  </data>
+  <data name="ES325_1" xml:space="preserve">
+    <value>Çimento Vibratörü Bekleme Süresi</value>
+  </data>
+  <data name="ES326_1" xml:space="preserve">
+    <value>Çimento Vibratörü Çalışma Süresi</value>
+  </data>
+  <data name="ES32_1" xml:space="preserve">
+    <value>Stok durumu</value>
+  </data>
+  <data name="ES331_1" xml:space="preserve">
+    <value>Agrega Ayarları</value>
+  </data>
+  <data name="ES332_1" xml:space="preserve">
+    <value>Alarm Ayarları</value>
+  </data>
+  <data name="ES333_1" xml:space="preserve">
+    <value>Çimento Ayarları</value>
+  </data>
+  <data name="ES334_1" xml:space="preserve">
+    <value>Katkı Ayarları</value>
+  </data>
+  <data name="ES335_1" xml:space="preserve">
+    <value>Kova Ayarları</value>
+  </data>
+  <data name="ES336_1" xml:space="preserve">
+    <value>Mikser Ayarları</value>
+  </data>
+  <data name="ES337_1" xml:space="preserve">
+    <value>Özel Ayarlar</value>
+  </data>
+  <data name="ES338_1" xml:space="preserve">
+    <value>Su Ayarları</value>
+  </data>
+  <data name="ES339_1" xml:space="preserve">
+    <value>Vibrasyon Ayarları</value>
+  </data>
+  <data name="ES33_1" xml:space="preserve">
+    <value>Satış Raporu</value>
+  </data>
+  <data name="ES341_1" xml:space="preserve">
+    <value>Manuel</value>
+  </data>
+  <data name="ES342_1" xml:space="preserve">
+    <value>Otomatik</value>
+  </data>
+  <data name="ES345_1" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ES346_1" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ES349_1" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ES34_1" xml:space="preserve">
+    <value>Manuel Üretim Sonuçları</value>
+  </data>
+  <data name="ES351_1" xml:space="preserve">
+    <value>Agrega </value>
+  </data>
+  <data name="ES353_1" xml:space="preserve">
+    <value>Kompresör</value>
+  </data>
+  <data name="ES354_1" xml:space="preserve">
+    <value>Korna</value>
+  </data>
+  <data name="ES355_1" xml:space="preserve">
+    <value>Çalışma modu</value>
+  </data>
+  <data name="ES356_1" xml:space="preserve">
+    <value>Başlat</value>
+  </data>
+  <data name="ES357_1" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="ES35_1" xml:space="preserve">
+    <value>Motor Çalışma Süreleri</value>
+  </data>
+  <data name="ES360_1" xml:space="preserve">
+    <value>Mikser Blok Filtre</value>
+  </data>
+  <data name="ES36_1" xml:space="preserve">
+    <value>Stok Giriş Kayıtları</value>
+  </data>
+  <data name="ES376_1" xml:space="preserve">
+    <value>Filtre1</value>
+  </data>
+  <data name="ES377_1" xml:space="preserve">
+    <value>Filtre2</value>
+  </data>
+  <data name="ES378_1" xml:space="preserve">
+    <value>Filtre3</value>
+  </data>
+  <data name="ES379_1" xml:space="preserve">
+    <value>Filtre4</value>
+  </data>
+  <data name="ES382_1" xml:space="preserve">
+    <value>Sıra No</value>
+  </data>
+  <data name="ES385_1" xml:space="preserve">
+    <value>Vergi Numarası</value>
+  </data>
+  <data name="ES386_1" xml:space="preserve">
+    <value>TAMAM</value>
+  </data>
+  <data name="ES389_1" xml:space="preserve">
+    <value>Dosya Adı</value>
+  </data>
+  <data name="ES391_1" xml:space="preserve">
+    <value>Durumu</value>
+  </data>
+  <data name="ES394_1" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="ES395_1" xml:space="preserve">
+    <value>Araç plaka no</value>
+  </data>
+  <data name="ES396_1" xml:space="preserve">
+    <value>Kapasite  </value>
+  </data>
+  <data name="ES3_1" xml:space="preserve">
+    <value>Sistem mesajı</value>
+  </data>
+  <data name="ES401_1" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="ES402_1" xml:space="preserve">
+    <value>Telefon, faks</value>
+  </data>
+  <data name="ES403_1" xml:space="preserve">
+    <value>Açıklama </value>
+  </data>
+  <data name="ES404_1" xml:space="preserve">
+    <value>Sürücü adı, soyadı</value>
+  </data>
+  <data name="ES405_1" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="ES409_1" xml:space="preserve">
+    <value>Şantiye Adı</value>
+  </data>
+  <data name="ES410_1" xml:space="preserve">
+    <value>Mesafe</value>
+  </data>
+  <data name="ES411_1" xml:space="preserve">
+    <value>Durum</value>
+  </data>
+  <data name="ES412_1" xml:space="preserve">
+    <value>Şantiye Adı</value>
+  </data>
+  <data name="ES413_1" xml:space="preserve">
+    <value>Mesafe </value>
+  </data>
+  <data name="ES414_1" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="ES415_1" xml:space="preserve">
+    <value>Durumu </value>
+  </data>
+  <data name="ES419_1" xml:space="preserve">
+    <value>Malzeme Adı</value>
+  </data>
+  <data name="ES425_1" xml:space="preserve">
+    <value>Stok Alanı Adı</value>
+  </data>
+  <data name="ES426_1" xml:space="preserve">
+    <value>Açıklama - 1 (tipi, sınıfı vb.)</value>
+  </data>
+  <data name="ES42_1" xml:space="preserve">
+    <value>Stok Raporlarıı</value>
+  </data>
+  <data name="ES432_1" xml:space="preserve">
+    <value>Malzeme Adı</value>
+  </data>
+  <data name="ES433_1" xml:space="preserve">
+    <value>Kritik Seviye</value>
+  </data>
+  <data name="ES436_1" xml:space="preserve">
+    <value>Malzeme Adı</value>
+  </data>
+  <data name="ES437_1" xml:space="preserve">
+    <value>Kapasite </value>
+  </data>
+  <data name="ES438_1" xml:space="preserve">
+    <value>Kritik Seviye</value>
+  </data>
+  <data name="ES441_1" xml:space="preserve">
+    <value>Reçete Bilgileri</value>
+  </data>
+  <data name="ES442_1" xml:space="preserve">
+    <value>Reçete Adı</value>
+  </data>
+  <data name="ES443_1" xml:space="preserve">
+    <value>Durum  </value>
+  </data>
+  <data name="ES444_1" xml:space="preserve">
+    <value>Açıklama  </value>
+  </data>
+  <data name="ES448_1" xml:space="preserve">
+    <value>Reçete adı</value>
+  </data>
+  <data name="ES44_1" xml:space="preserve">
+    <value>Aylık Üretim Raporu</value>
+  </data>
+  <data name="ES45_1" xml:space="preserve">
+    <value>Aylık Ciro Raporu</value>
+  </data>
+  <data name="ES46_1" xml:space="preserve">
+    <value>Miktar Stok Raporu</value>
+  </data>
+  <data name="ES47_1" xml:space="preserve">
+    <value>Stok Giriş Raporu</value>
+  </data>
+  <data name="ES493_1" xml:space="preserve">
+    <value>Agrega5</value>
+  </data>
+  <data name="ES494_1" xml:space="preserve">
+    <value>Agrega6</value>
+  </data>
+  <data name="ES495_1" xml:space="preserve">
+    <value>Agrega7</value>
+  </data>
+  <data name="ES496_1" xml:space="preserve">
+    <value>Agrega8</value>
+  </data>
+  <data name="ES497_1" xml:space="preserve">
+    <value>Agrega9</value>
+  </data>
+  <data name="ES498_1" xml:space="preserve">
+    <value>Agrega10</value>
+  </data>
+  <data name="ES499_1" xml:space="preserve">
+    <value>Çimento2</value>
+  </data>
+  <data name="ES500_1" xml:space="preserve">
+    <value>Çimento3</value>
+  </data>
+  <data name="ES501_1" xml:space="preserve">
+    <value>Çimento4</value>
+  </data>
+  <data name="ES502_1" xml:space="preserve">
+    <value>Çimento5</value>
+  </data>
+  <data name="ES503_1" xml:space="preserve">
+    <value>Çimento6</value>
+  </data>
+  <data name="ES504_1" xml:space="preserve">
+    <value>Çimento7</value>
+  </data>
+  <data name="ES505_1" xml:space="preserve">
+    <value>Çimento8</value>
+  </data>
+  <data name="ES506_1" xml:space="preserve">
+    <value>Çimento9</value>
+  </data>
+  <data name="ES507_1" xml:space="preserve">
+    <value>Çimento10</value>
+  </data>
+  <data name="ES509_1" xml:space="preserve">
+    <value>Su3</value>
+  </data>
+  <data name="ES510_1" xml:space="preserve">
+    <value>Su4</value>
+  </data>
+  <data name="ES511_1" xml:space="preserve">
+    <value>Su5</value>
+  </data>
+  <data name="ES512_1" xml:space="preserve">
+    <value>Su6</value>
+  </data>
+  <data name="ES513_1" xml:space="preserve">
+    <value>Su7</value>
+  </data>
+  <data name="ES514_1" xml:space="preserve">
+    <value>Su8</value>
+  </data>
+  <data name="ES515_1" xml:space="preserve">
+    <value>Su9</value>
+  </data>
+  <data name="ES516_1" xml:space="preserve">
+    <value>Su10</value>
+  </data>
+  <data name="ES517_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES518_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES519_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES520_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES521_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES522_1" xml:space="preserve">
+    <value>Katkı6</value>
+  </data>
+  <data name="ES523_1" xml:space="preserve">
+    <value>Katkı7</value>
+  </data>
+  <data name="ES524_1" xml:space="preserve">
+    <value>Katkı8</value>
+  </data>
+  <data name="ES525_1" xml:space="preserve">
+    <value>Katkı9</value>
+  </data>
+  <data name="ES526_1" xml:space="preserve">
+    <value>Katkı10</value>
+  </data>
+  <data name="ES528_1" xml:space="preserve">
+    <value>Çimento Gecikme Süresi</value>
+  </data>
+  <data name="ES529_1" xml:space="preserve">
+    <value>Katkı Gecikme Süresi</value>
+  </data>
+  <data name="ES530_1" xml:space="preserve">
+    <value>SuGecikme Süresi</value>
+  </data>
+  <data name="ES554_1" xml:space="preserve">
+    <value>Mikser Tipini Seçiniz</value>
+  </data>
+  <data name="ES555_1" xml:space="preserve">
+    <value>Agrega bunker tipini seçiniz</value>
+  </data>
+  <data name="ES559_1" xml:space="preserve">
+    <value>Nem Ölçer Yok</value>
+  </data>
+  <data name="ES560_1" xml:space="preserve">
+    <value>Nem Ölçer Var</value>
+  </data>
+  <data name="ES561_1" xml:space="preserve">
+    <value>Vibrasyonlu hassas tartım sistemi yok</value>
+  </data>
+  <data name="ES562_1" xml:space="preserve">
+    <value>Vibrasyonlu hassas tartım sistemi var</value>
+  </data>
+  <data name="ES563_1" xml:space="preserve">
+    <value>Vibratör Yok</value>
+  </data>
+  <data name="ES564_1" xml:space="preserve">
+    <value>Vibratör Var</value>
+  </data>
+  <data name="ES572_1" xml:space="preserve">
+    <value>Çimento silo sayısını belirtiniz</value>
+  </data>
+  <data name="ES573_1" xml:space="preserve">
+    <value>Katkı pompa sayısını belirtiniz</value>
+  </data>
+  <data name="ES574_1" xml:space="preserve">
+    <value>Su pompa sayısını belirtiniz</value>
+  </data>
+  <data name="ES576_1" xml:space="preserve">
+    <value>Bunker sayısını belirtiniz</value>
+  </data>
+  <data name="ES57_1" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="ES581_1" xml:space="preserve">
+    <value>Mikser ve agrega bunker tipleri</value>
+  </data>
+  <data name="ES582_1" xml:space="preserve">
+    <value>Agrega bunker konfigürasyonu</value>
+  </data>
+  <data name="ES583_1" xml:space="preserve">
+    <value>Çimento Katkı ve Su Stok Alanları Belirleme Sayfası</value>
+  </data>
+  <data name="ES585_1" xml:space="preserve">
+    <value>Santral konfigürasyon ayarı başarıyla tamamlanmıştır</value>
+  </data>
+  <data name="ES587_1" xml:space="preserve">
+    <value>Konfigürasyonu tanımlanmış olan beton santrali modeli</value>
+  </data>
+  <data name="ES588_1" xml:space="preserve">
+    <value>Kare tip</value>
+  </data>
+  <data name="ES589_1" xml:space="preserve">
+    <value>Lineer tip</value>
+  </data>
+  <data name="ES590_1" xml:space="preserve">
+    <value>Planet</value>
+  </data>
+  <data name="ES591_1" xml:space="preserve">
+    <value>Pan</value>
+  </data>
+  <data name="ES592_1" xml:space="preserve">
+    <value>Twin Shaft</value>
+  </data>
+  <data name="ES593_1" xml:space="preserve">
+    <value>ELKOMIX-35 Quick Master(Skipli)</value>
+  </data>
+  <data name="ES595_1" xml:space="preserve">
+    <value>ELKOMIX-120 Quick Master(Skipli)</value>
+  </data>
+  <data name="ES596_1" xml:space="preserve">
+    <value>ELKOMIX-135 Quick Master(Skipli)</value>
+  </data>
+  <data name="ES597_1" xml:space="preserve">
+    <value>Kompakt tip beton santralleri(Skipli)</value>
+  </data>
+  <data name="ES598_1" xml:space="preserve">
+    <value>Kompakt tip beton santralleri(Konveyörlü)</value>
+  </data>
+  <data name="ES599_1" xml:space="preserve">
+    <value>Mobil tip beton santralleri</value>
+  </data>
+  <data name="ES5_1" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="ES600_1" xml:space="preserve">
+    <value>Sabit tip beton santralleri</value>
+  </data>
+  <data name="ES602_1" xml:space="preserve">
+    <value>ELKOMIX-120 Quick Master(Konveyörlü)</value>
+  </data>
+  <data name="ES605_1" xml:space="preserve">
+    <value>ELKOMIX-135 Quick Master(Konveyörlü)</value>
+  </data>
+  <data name="ES606_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-30 Eagle</value>
+  </data>
+  <data name="ES607_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 Pegasus</value>
+  </data>
+  <data name="ES608_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 Panthera</value>
+  </data>
+  <data name="ES609_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-60 BEAR</value>
+  </data>
+  <data name="ES610_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-100 Lion</value>
+  </data>
+  <data name="ES611_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-135 Jaguar</value>
+  </data>
+  <data name="ES612_1" xml:space="preserve">
+    <value>ELKON MOBILE MASTER-150 Elephant</value>
+  </data>
+  <data name="ES613_1" xml:space="preserve">
+    <value>Elkomix 35 </value>
+  </data>
+  <data name="ES614_1" xml:space="preserve">
+    <value>Elkomix 60</value>
+  </data>
+  <data name="ES615_1" xml:space="preserve">
+    <value>Elkomix 120</value>
+  </data>
+  <data name="ES616_1" xml:space="preserve">
+    <value>Elkomix 135 </value>
+  </data>
+  <data name="ES617_1" xml:space="preserve">
+    <value>Elkomix 180</value>
+  </data>
+  <data name="ES618_1" xml:space="preserve">
+    <value>Elkomix 160</value>
+  </data>
+  <data name="ES621_1" xml:space="preserve">
+    <value>ELKOMIX-60 Quick Master(Skipli)</value>
+  </data>
+  <data name="ES622_1" xml:space="preserve">
+    <value>Santral tip ve modeli</value>
+  </data>
+  <data name="ES623_1" xml:space="preserve">
+    <value>Santral tipini seçiniz</value>
+  </data>
+  <data name="ES625_1" xml:space="preserve">
+    <value>Santral modelini seçiniz</value>
+  </data>
+  <data name="ES626_1" xml:space="preserve">
+    <value>Seçilen Tip</value>
+  </data>
+  <data name="ES627_1" xml:space="preserve">
+    <value>Seçilen Model</value>
+  </data>
+  <data name="ES637_1" xml:space="preserve">
+    <value>Enerji Analizör Parametreleri</value>
+  </data>
+  <data name="ES638_1" xml:space="preserve">
+    <value>Trafo katsayılarının birbirine olan oranı(mikser motor trafosu/şebeke trafosu)$(crlf)</value>
+  </data>
+  <data name="ES639_1" xml:space="preserve">
+    <value>Çimento Helezon Motor Akım Oranı</value>
+  </data>
+  <data name="ES640_1" xml:space="preserve">
+    <value>Şebeke akım trafo katsayısı(/5)</value>
+  </data>
+  <data name="ES641_1" xml:space="preserve">
+    <value>Trafo katsayılarının birbirine olan oranı(mikser motor trafosu/şebeke trafosu)</value>
+  </data>
+  <data name="ES642_1" xml:space="preserve">
+    <value>Trafo katsayılarının birbirine olan oranı(çimento helezon motor trafosu/şebeke trafosu)</value>
+  </data>
+  <data name="ES643_1" xml:space="preserve">
+    <value>Trafo Katsayılarının Birbirine Oranını Otomatik Hesapla</value>
+  </data>
+  <data name="ES645_1" xml:space="preserve">
+    <value>Mikser motor anlık akım değeri</value>
+  </data>
+  <data name="ES646_1" xml:space="preserve">
+    <value>Çimento helezon motor anlık akım değeri</value>
+  </data>
+  <data name="ES647_1" xml:space="preserve">
+    <value>Voltaj</value>
+  </data>
+  <data name="ES648_1" xml:space="preserve">
+    <value>Helezon1 Aşırı Akım Limiti</value>
+  </data>
+  <data name="ES649_1" xml:space="preserve">
+    <value>Helezon2 Aşırı Akım Limiti</value>
+  </data>
+  <data name="ES650_1" xml:space="preserve">
+    <value>Helezon3 Aşırı Akım Limiti</value>
+  </data>
+  <data name="ES651_1" xml:space="preserve">
+    <value>Helezon4 Aşırı Akım Limiti</value>
+  </data>
+  <data name="ES653_1" xml:space="preserve">
+    <value>Aktüel Analizör Değerleri</value>
+  </data>
+  <data name="ES654_1" xml:space="preserve">
+    <value>Tartı konveyör kapasitesini belirtiniz</value>
+  </data>
+  <data name="ES656_1" xml:space="preserve">
+    <value>Katkı Kantar Kapasitesini Belirtiniz</value>
+  </data>
+  <data name="ES658_1" xml:space="preserve">
+    <value>Helezonlar İçin Akım Limitleri</value>
+  </data>
+  <data name="ES661_1" xml:space="preserve">
+    <value>Tuş Takımı Kilitli</value>
+  </data>
+  <data name="ES662_1" xml:space="preserve">
+    <value>Tuş Takımı Açık</value>
+  </data>
+  <data name="ES665_1" xml:space="preserve">
+    <value>İndikatör Tuş Kilidi Kontrolü</value>
+  </data>
+  <data name="ES672_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES673_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES674_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES675_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES676_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES677_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES679_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES680_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES681_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES682_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES683_1" xml:space="preserve">
+    <value>Filtre5</value>
+  </data>
+  <data name="ES684_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES685_1" xml:space="preserve">
+    <value>Filtre6</value>
+  </data>
+  <data name="ES686_1" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ES687_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES688_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES689_1" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ES690_1" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ES691_1" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ES693_1" xml:space="preserve">
+    <value>Katkı kantarı yıkama</value>
+  </data>
+  <data name="ES697_1" xml:space="preserve">
+    <value>Skipli</value>
+  </data>
+  <data name="ES698_1" xml:space="preserve">
+    <value>T- tipli tartı konveyörlü</value>
+  </data>
+  <data name="ES6_1" xml:space="preserve">
+    <value>İşlem Sayfaları</value>
+  </data>
+  <data name="ES700_1" xml:space="preserve">
+    <value>Transfer konveyörlü</value>
+  </data>
+  <data name="ES701_1" xml:space="preserve">
+    <value>Düz tip tartı konveyörlü</value>
+  </data>
+  <data name="ES714_1" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="ES715_1" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="ES729_1" xml:space="preserve">
+    <value>Devam Eden Reçete Adı</value>
+  </data>
+  <data name="ES735_1" xml:space="preserve">
+    <value>Kaydet       </value>
+  </data>
+  <data name="ES740_1" xml:space="preserve">
+    <value>Reçete Gönder</value>
+  </data>
+  <data name="ES747_1" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="ES753_1" xml:space="preserve">
+    <value>Reçete Düzenle</value>
+  </data>
+  <data name="ES757_1" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ES75_1" xml:space="preserve">
+    <value>Su1</value>
+  </data>
+  <data name="ES762_1" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="ES764_1" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ES76_1" xml:space="preserve">
+    <value>Su2</value>
+  </data>
+  <data name="ES772_1" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="ES773_1" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ES776_1" xml:space="preserve">
+    <value>Excel' e Çıkart</value>
+  </data>
+  <data name="ES780_1" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="ES781_1" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="ES786_1" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="ES789_1" xml:space="preserve">
+    <value>Konfigüratör</value>
+  </data>
+  <data name="ES791_1" xml:space="preserve">
+    <value>Konfigüratörü sonuçlandır</value>
+  </data>
+  <data name="ES795_1" xml:space="preserve">
+    <value>Fren Açık</value>
+  </data>
+  <data name="ES798_1" xml:space="preserve">
+    <value>EVET</value>
+  </data>
+  <data name="ES799_1" xml:space="preserve">
+    <value>HAYIR</value>
+  </data>
+  <data name="ES7_1" xml:space="preserve">
+    <value>İşletme Tanımları</value>
+  </data>
+  <data name="ES806_1" xml:space="preserve">
+    <value>Malzeme Adı</value>
+  </data>
+  <data name="ES807_1" xml:space="preserve">
+    <value>Malzeme Adı</value>
+  </data>
+  <data name="ES808_1" xml:space="preserve">
+    <value>Sürücü adı, soyadı</value>
+  </data>
+  <data name="ES809_1" xml:space="preserve">
+    <value>Sürücü adı, soyadı</value>
+  </data>
+  <data name="ES810_1" xml:space="preserve">
+    <value>Şantiye Adı</value>
+  </data>
+  <data name="ES812_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ES813_1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ES819_1" xml:space="preserve">
+    <value>300 kg</value>
+  </data>
+  <data name="ES820_1" xml:space="preserve">
+    <value>600 kg</value>
+  </data>
+  <data name="ES821_1" xml:space="preserve">
+    <value>1200 kg</value>
+  </data>
+  <data name="ES822_1" xml:space="preserve">
+    <value>1800 kg</value>
+  </data>
+  <data name="ES823_1" xml:space="preserve">
+    <value>2400 kg</value>
+  </data>
+  <data name="ES824_1" xml:space="preserve">
+    <value>30 kg</value>
+  </data>
+  <data name="ES825_1" xml:space="preserve">
+    <value>50 kg</value>
+  </data>
+  <data name="ES826_1" xml:space="preserve">
+    <value>100 kg</value>
+  </data>
+  <data name="ES827_1" xml:space="preserve">
+    <value>200 kg</value>
+  </data>
+  <data name="ES828_1" xml:space="preserve">
+    <value>900 kg</value>
+  </data>
+  <data name="ES834_1" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="ES838_1" xml:space="preserve">
+    <value>Silme işlemi yapmak istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ES839_1" xml:space="preserve">
+    <value>Dosya Adı Giriniz</value>
+  </data>
+  <data name="ES83_1" xml:space="preserve">
+    <value>İstenen değer</value>
+  </data>
+  <data name="ES841_1" xml:space="preserve">
+    <value>Sipariş No</value>
+  </data>
+  <data name="ES842_1" xml:space="preserve">
+    <value>Araç plaka no</value>
+  </data>
+  <data name="ES843_1" xml:space="preserve">
+    <value>Siparişler</value>
+  </data>
+  <data name="ES844_1" xml:space="preserve">
+    <value>Sıra No</value>
+  </data>
+  <data name="ES845_1" xml:space="preserve">
+    <value>Siparis No</value>
+  </data>
+  <data name="ES846_1" xml:space="preserve">
+    <value>Şantiye Adı</value>
+  </data>
+  <data name="ES848_1" xml:space="preserve">
+    <value>Üretilecek miktar, m3</value>
+  </data>
+  <data name="ES849_1" xml:space="preserve">
+    <value>Toplam sipariş miktarı, m3$(crlf)</value>
+  </data>
+  <data name="ES84_1" xml:space="preserve">
+    <value>Alınan değer</value>
+  </data>
+  <data name="ES850_1" xml:space="preserve">
+    <value>Kalan Miktar</value>
+  </data>
+  <data name="ES853_1" xml:space="preserve">
+    <value>Dosya Adi Giriniz</value>
+  </data>
+  <data name="ES856_1" xml:space="preserve">
+    <value>Sipariş Miktarı</value>
+  </data>
+  <data name="ES85_1" xml:space="preserve">
+    <value>Nem, %</value>
+  </data>
+  <data name="ES864_1" xml:space="preserve">
+    <value>Sipariş Kodunu Sıfırla</value>
+  </data>
+  <data name="ES866_1" xml:space="preserve">
+    <value>Yukarı Taşı</value>
+  </data>
+  <data name="ES867_1" xml:space="preserve">
+    <value>Siradaki Planlanan Üretim Onay Penceresi</value>
+  </data>
+  <data name="ES86_1" xml:space="preserve">
+    <value>Fark</value>
+  </data>
+  <data name="ES872_1" xml:space="preserve">
+    <value>Baslama Zamanı</value>
+  </data>
+  <data name="ES873_1" xml:space="preserve">
+    <value>Bitiş Zamanı</value>
+  </data>
+  <data name="ES875_1" xml:space="preserve">
+    <value>Araç plaka no</value>
+  </data>
+  <data name="ES876_1" xml:space="preserve">
+    <value>Sürücü adı, soyadı</value>
+  </data>
+  <data name="ES885_1" xml:space="preserve">
+    <value>İlave su(1)</value>
+  </data>
+  <data name="ES886_1" xml:space="preserve">
+    <value>İlave su(2)</value>
+  </data>
+  <data name="ES891_1" xml:space="preserve">
+    <value>Alınan agrega(1) değeri, kg</value>
+  </data>
+  <data name="ES892_1" xml:space="preserve">
+    <value>Alınan agrega(2) değeri, kg</value>
+  </data>
+  <data name="ES893_1" xml:space="preserve">
+    <value>Alınan agrega(3) değeri, kg</value>
+  </data>
+  <data name="ES894_1" xml:space="preserve">
+    <value>Alınan agrega(4) değeri, kg</value>
+  </data>
+  <data name="ES895_1" xml:space="preserve">
+    <value>Alınan çimento(1) değeri, kg</value>
+  </data>
+  <data name="ES896_1" xml:space="preserve">
+    <value>Alınan çimento(2) değeri, kg</value>
+  </data>
+  <data name="ES897_1" xml:space="preserve">
+    <value>Alınan katkı(1) değeri, kg</value>
+  </data>
+  <data name="ES898_1" xml:space="preserve">
+    <value>Alınan katkı(2) değeri, kg</value>
+  </data>
+  <data name="ES899_1" xml:space="preserve">
+    <value>Alınan su(1) değeri, kg</value>
+  </data>
+  <data name="ES89_1" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="ES8_1" xml:space="preserve">
+    <value>Reçeteler</value>
+  </data>
+  <data name="ES900_1" xml:space="preserve">
+    <value>Alınan su(2) değeri, kg</value>
+  </data>
+  <data name="ES901_1" xml:space="preserve">
+    <value>Yeni Stok Girisi</value>
+  </data>
+  <data name="ES902_1" xml:space="preserve">
+    <value>Stok Bilgisi Duzenle</value>
+  </data>
+  <data name="ES904_1" xml:space="preserve">
+    <value>Stok Kaydi Silme Islemini Onayla</value>
+  </data>
+  <data name="ES907_1" xml:space="preserve">
+    <value>Stok Alanı Adı</value>
+  </data>
+  <data name="ES908_1" xml:space="preserve">
+    <value>Malzeme Adı</value>
+  </data>
+  <data name="ES909_1" xml:space="preserve">
+    <value>Giriş Miktarı</value>
+  </data>
+  <data name="ES910_1" xml:space="preserve">
+    <value>Stok No</value>
+  </data>
+  <data name="ES912_1" xml:space="preserve">
+    <value>Stok Giriş Tarihi</value>
+  </data>
+  <data name="ES917_1" xml:space="preserve">
+    <value>Stokları Sıfırla</value>
+  </data>
+  <data name="ES918_1" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ES91_1" xml:space="preserve">
+    <value>Araç plaka no</value>
+  </data>
+  <data name="ES923_1" xml:space="preserve">
+    <value>Kalibre Edilecek $(crlf) Kantarı Seçiniz</value>
+  </data>
+  <data name="ES929_1" xml:space="preserve">
+    <value>Bitir Butonuna Basınız</value>
+  </data>
+  <data name="ES931_1" xml:space="preserve">
+    <value>1. Adım</value>
+  </data>
+  <data name="ES932_1" xml:space="preserve">
+    <value>2. Adım</value>
+  </data>
+  <data name="ES933_1" xml:space="preserve">
+    <value>3. Adım</value>
+  </data>
+  <data name="ES936_1" xml:space="preserve">
+    <value>Yapılan miktar</value>
+  </data>
+  <data name="ES939_1" xml:space="preserve">
+    <value>Yapilan Miktar</value>
+  </data>
+  <data name="ES93_1" xml:space="preserve">
+    <value>Sürücü adı, soyadı</value>
+  </data>
+  <data name="ES942_1" xml:space="preserve">
+    <value>Stok Kodunu Sıfırla</value>
+  </data>
+  <data name="ES946_1" xml:space="preserve">
+    <value>Şantiye Adı</value>
+  </data>
+  <data name="ES949_1" xml:space="preserve">
+    <value>Giriş miktarı</value>
+  </data>
+  <data name="ES950_1" xml:space="preserve">
+    <value>Reçete  </value>
+  </data>
+  <data name="ES952_1" xml:space="preserve">
+    <value>Sipariş No</value>
+  </data>
+  <data name="ES953_1" xml:space="preserve">
+    <value>Araç plaka no</value>
+  </data>
+  <data name="ES954_1" xml:space="preserve">
+    <value>Sürücü adı, soyadı</value>
+  </data>
+  <data name="ES955_1" xml:space="preserve">
+    <value>Kalan  </value>
+  </data>
+  <data name="ES956_1" xml:space="preserve">
+    <value>Yapılan  </value>
+  </data>
+  <data name="ES958_1" xml:space="preserve">
+    <value>İrsaliye Önizleme</value>
+  </data>
+  <data name="ES95_1" xml:space="preserve">
+    <value>Giriş Miktarı</value>
+  </data>
+  <data name="ES961_1" xml:space="preserve">
+    <value>3 Saniye Boyunca$(crlf) Butona Basınız</value>
+  </data>
+  <data name="ES962_1" xml:space="preserve">
+    <value>Kantar Üzerinde Bulunan$(crlf) Ağırlığı Giriniz</value>
+  </data>
+  <data name="ES965_1" xml:space="preserve">
+    <value>Üretim Planları</value>
+  </data>
+  <data name="ES966_1" xml:space="preserve">
+    <value>Siparişler</value>
+  </data>
+  <data name="ES96_1" xml:space="preserve">
+    <value>Agrega</value>
+  </data>
+  <data name="ES97_1" xml:space="preserve">
+    <value>Agrega 1</value>
+  </data>
+  <data name="ES98_1" xml:space="preserve">
+    <value>Su</value>
+  </data>
+  <data name="ES99_1" xml:space="preserve">
+    <value>Katkı</value>
+  </data>
+  <data name="ES9_1" xml:space="preserve">
+    <value>Üretim</value>
+  </data>
+  <data name="firmaadi" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="hatamsg" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgarac" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgbetontipi" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgcevreseletki" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgdayanim" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgdon" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgfirma" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgkivam" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgklorursinifi" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgmalzeme" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgstok" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgsurucu" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="hatamsgyogunluk" xml:space="preserve">
+    <value>Bu alan boş bırakılamaz.</value>
+  </data>
+  <data name="kalanmiktar" xml:space="preserve">
+    <value>Kalan Miktar</value>
+  </data>
+  <data name="MalzemeTipi" xml:space="preserve">
+    <value>Malzeme Tipi</value>
+  </data>
+  <data name="receteadi" xml:space="preserve">
+    <value>Reçete Adı</value>
+  </data>
+  <data name="reçetelerToolStripMenuItem1" xml:space="preserve">
+    <value>Reçeteler</value>
+  </data>
+  <data name="santiyeadi" xml:space="preserve">
+    <value>Şantiye Adı</value>
+  </data>
+  <data name="siparismiktari" xml:space="preserve">
+    <value>Sipariş Miktarı</value>
+  </data>
+  <data name="siparisno" xml:space="preserve">
+    <value>Sipariş No</value>
+  </data>
+  <data name="sirano" xml:space="preserve">
+    <value>Sıra No</value>
+  </data>
+  <data name="yapilanmiktar" xml:space="preserve">
+    <value>Yapılan Miktar</value>
+  </data>
+</root>
